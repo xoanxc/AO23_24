@@ -20,13 +20,13 @@ namespace _15Septiembre_01
             b = 3;
             //Calcular la suma
             suma = a + b;
-
+            
             //Escribir el resultado
-            Console.WriteLine("La suma es :" + suma );
+            Console.WriteLine("La suma es :"  + suma);
             Console.ReadLine();
 
 
         }
-
+       
     }
 }
