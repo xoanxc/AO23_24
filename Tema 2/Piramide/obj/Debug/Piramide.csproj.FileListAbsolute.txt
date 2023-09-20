@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Piramide\obj\Debug\Piramide.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Piramide\obj\Debug\Piramide.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Piramide\bin\Debug\Piramide.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Piramide\bin\Debug\Piramide.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Piramide\bin\Debug\Piramide.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Piramide\obj\Debug\Piramide.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Piramide\obj\Debug\Piramide.pdb
