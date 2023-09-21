@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\_01_TiposVariables\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\_01_TiposVariables\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\_01_TiposVariables\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\_01_TiposVariables\bin\Debug\ConsoleApp1.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\_01_TiposVariables\bin\Debug\ConsoleApp1.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\_01_TiposVariables\obj\Debug\ConsoleApp1.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\_01_TiposVariables\obj\Debug\ConsoleApp1.pdb
