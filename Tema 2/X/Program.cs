@@ -10,6 +10,8 @@ namespace X
     {
         static void Main(string[] args)
         {
+            Console.Title = "Xoán Alonso";
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("XXXX      XXXX    OOOOOOOOOOOO           AA           NNNN     NNN");
             Console.WriteLine(" XXXX    XXXX    OOOOO    OOOOO         AAAA          NNNNN    NNN");
             Console.WriteLine("  XXXX  XXXX     OOOO      OOOO        AA  AA         NNN N    NNN");
