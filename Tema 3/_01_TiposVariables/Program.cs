@@ -61,16 +61,16 @@ namespace _01_TiposVariables
 
 
             //Programa que a partir de la base y la altura, calcula el area de un triangulo
-            int Base, Altura, Area;
-            Base = 10;
-            Altura = 15;
-            //Area = (a la espera de un valor)
+            int baset, altura, area;
+            baset = 10;
+            altura = 15;
+            //area = (a la espera de un valor)
 
             //Calculamos el Area que es Base x Altura dividido entre 2 y lo guardamos en la variable Area
-            Area = Base * Altura / 2;
+            area = (baset * altura) / 2;
 
             //Escribimos el resultado en consola
-            Console.WriteLine("El area del Triangulo es: " + Area);
+            Console.WriteLine("El area del Triangulo es: " + area);
 
             //Evitar que se cierre la consola
             Console.ReadLine();
