@@ -5,3 +5,10 @@ C:\Users\Alumno\Documents\GitHub\AO23_24\X\bin\Debug\X.exe
 C:\Users\Alumno\Documents\GitHub\AO23_24\X\bin\Debug\X.pdb
 C:\Users\Alumno\Documents\GitHub\AO23_24\X\obj\Debug\X.exe
 C:\Users\Alumno\Documents\GitHub\AO23_24\X\obj\Debug\X.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 2\X\bin\Debug\X.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 2\X\bin\Debug\X.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 2\X\bin\Debug\X.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 2\X\obj\Debug\X.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 2\X\obj\Debug\X.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 2\X\obj\Debug\X.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 2\X\obj\Debug\X.pdb
