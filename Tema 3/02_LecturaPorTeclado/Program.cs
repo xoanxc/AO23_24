@@ -14,6 +14,7 @@ namespace _02_LecturaPorTeclado
             //Programa que solicita al usuario DNI y Edad
             string dni;
             byte edad;
+            float salario;
 
 
 
@@ -21,13 +22,17 @@ namespace _02_LecturaPorTeclado
             dni = Console.ReadLine();
 
             Console.WriteLine("Introduce su edad: ");
-            edad = byte.Parse (Console.ReadLine());
+            edad = byte.Parse(Console.ReadLine());
+
+            Console.WriteLine("Introduzca su salario ");
+            salario = float.Parse(Console.ReadLine());
 
             //Espacio entre datos y respuesta
             Console.WriteLine();
 
             Console.WriteLine("DNI: " + dni);
             Console.WriteLine("Edad: " + edad);
+            Console.WriteLine("Salario: " + salario);
             
 
             Console.ReadLine();
