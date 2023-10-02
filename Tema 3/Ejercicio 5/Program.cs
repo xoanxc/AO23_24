@@ -21,13 +21,18 @@ namespace Ejercicio_5
             Console.WriteLine("Introduzca el Precio: ");
             precio = double.Parse(Console.ReadLine());
 
+            //Añadiendo Espacio
+            Console.WriteLine();
 
             Console.WriteLine("Introduzca la Cantidad: ");
             cantidad = float.Parse(Console.ReadLine());
 
             total = (precio * cantidad).ToString();
 
-            Console.WriteLine(("El precio del producto es" + precio) ("euros y la cantidad que compra es" + cantidad) ("por lo tanto debe pagar" + total) ("euros.Vuelva pronto."));
+            //Añadiendo Espacio
+            Console.WriteLine();
+
+            Console.WriteLine("El precio del producto es " + precio+ " euros y la cantidad que compra es " + cantidad + " por lo tanto debe pagar " + total + " euros. Vuelva pronto.");
 
             Console.WriteLine();
             Console.ReadLine();
