@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejercicio 10\bin\Debug\Ejercicio 10.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejercicio 10\bin\Debug\Ejercicio 10.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejercicio 10\bin\Debug\Ejercicio 10.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejercicio 10\obj\Debug\Ejercicio 10.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejercicio 10\obj\Debug\Ejercicio 10.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejercicio 10\obj\Debug\Ejercicio 10.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejercicio 10\obj\Debug\Ejercicio 10.pdb

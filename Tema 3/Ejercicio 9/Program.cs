@@ -10,6 +10,9 @@ namespace Ejercicio_9
     {
         static void Main(string[] args)
         {
+
+            //Programa para cambiar dos tipos de variables entre si
+
         }
     }
 }
