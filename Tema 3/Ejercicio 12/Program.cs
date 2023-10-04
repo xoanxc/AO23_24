@@ -15,8 +15,19 @@ namespace Ejercicio_12
             Console.WriteLine("Indroduzca el Lado: ");
             float lado = float.Parse(Console.ReadLine());
 
+            //Calculos necesarios
             float perimetro = (4 * lado);
-            float diagonal = (lado*(Math.Sqrt 2)
+            float diagonal = (float)(lado * (Math.Sqrt(2)));
+            float area = (float)(Math.Pow(lado, 2));
+
+
+            //Mostrar resultados
+            Console.WriteLine("El perimetro es " + perimetro);
+            Console.WriteLine("El diagonal es " + diagonal);
+            Console.WriteLine("El arena es " + area);
+
+            //Evitar que se cierre la consola
+            Console.ReadLine();
 
 
 
