@@ -10,6 +10,19 @@ namespace Ejercicio_12
     {
         static void Main(string[] args)
         {
+
+            //Recogida de Datos
+            Console.WriteLine("Indroduzca el Lado: ");
+            float lado = float.Parse(Console.ReadLine());
+
+            float perimetro = (4 * lado);
+            float diagonal = (lado*(Math.Sqrt 2)
+
+
+
+
+
+
         }
     }
 }
