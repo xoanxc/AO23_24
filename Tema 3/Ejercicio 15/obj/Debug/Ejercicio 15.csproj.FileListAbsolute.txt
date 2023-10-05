@@ -1,0 +1,2 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejercicio 15\obj\Debug\Ejercicio 15.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejercicio 15\obj\Debug\Ejercicio 15.csproj.CoreCompileInputs.cache
