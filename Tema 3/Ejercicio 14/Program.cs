@@ -10,6 +10,10 @@ namespace Ejercicio_14
     {
         static void Main(string[] args)
         {
+
+            //Nombre de la consola
+            Console.Title = "Calcular Media";
+
             //Recogida de Datos 1
             Console.WriteLine("Precio del producto: ");
             float precio = float.Parse(Console.ReadLine());
@@ -21,8 +25,16 @@ namespace Ejercicio_14
             Console.WriteLine("Rebaja del producto: ");
             float descuento = float.Parse(Console.ReadLine());
 
-            float resultado = ((precio/100) * descuento);
+            //Calcular el descuento
+            float resultado = ((precio / 100) * descuento);
+            float resultado2 = (precio - resultado);
 
+            //Mostrar resultado
+            Console.WriteLine("Al aplicar un " + descuento + " por ciento de descuento el precio final del producto es de " + resultado2 + " euros y por lo tanto se ahorra " + resultado + " euros.");
+
+            //Evitar que se cierre la consola
+            Console.ReadLine();
+;
 
         }
     }
