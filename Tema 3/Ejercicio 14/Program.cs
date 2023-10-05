@@ -10,16 +10,18 @@ namespace Ejercicio_14
     {
         static void Main(string[] args)
         {
-
+            //Recogida de Datos 1
             Console.WriteLine("Precio del producto: ");
             float precio = float.Parse(Console.ReadLine());
 
+            //Espacio
             Console.WriteLine();
 
+            //Recogida de Datos 2
             Console.WriteLine("Rebaja del producto: ");
             float descuento = float.Parse(Console.ReadLine());
 
-            resultado = 
+            float resultado = ((precio/100) * descuento);
 
 
         }
