@@ -1,0 +1,7 @@
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 3\Ejercicio 13\bin\Debug\Ejercicio 13.exe.config
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 3\Ejercicio 13\bin\Debug\Ejercicio 13.exe
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 3\Ejercicio 13\bin\Debug\Ejercicio 13.pdb
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 3\Ejercicio 13\obj\Debug\Ejercicio 13.csproj.AssemblyReference.cache
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 3\Ejercicio 13\obj\Debug\Ejercicio 13.csproj.CoreCompileInputs.cache
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 3\Ejercicio 13\obj\Debug\Ejercicio 13.exe
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 3\Ejercicio 13\obj\Debug\Ejercicio 13.pdb
