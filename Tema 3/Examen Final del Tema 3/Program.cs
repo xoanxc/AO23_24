@@ -74,10 +74,10 @@ namespace alonsofernandez_xoan
             short variableShort = (short)valor1;
 
             //Calculo del 20% del numero guardado en float
-            float valornum20 = ((valor1/100) * 20);
+            float valornum20 = (float) (valor1 * 0.20);
 
             //Aumentar su valor en un 35%
-            float valornum35 = ((valor1/100) * 135);
+            double valornum35 = (valor1 * 1.35);
 
             //Mostrar por pantalla el resultado
             Console.WriteLine("La raíz del numero es " + raiz + " el valor almacenado en short es " + variableShort + ", el 20% del numero es " + valornum20 + " y su valor aumentado en un 35% es " + valornum35);
