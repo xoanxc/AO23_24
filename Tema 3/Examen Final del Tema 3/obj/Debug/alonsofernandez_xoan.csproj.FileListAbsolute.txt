@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\alonsofernandez_xoan\bin\Debug\alonsofernandez_xoan.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\alonsofernandez_xoan\bin\Debug\alonsofernandez_xoan.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\alonsofernandez_xoan\bin\Debug\alonsofernandez_xoan.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\alonsofernandez_xoan\obj\Debug\alonsofernandez_xoan.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\alonsofernandez_xoan\obj\Debug\alonsofernandez_xoan.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\alonsofernandez_xoan\obj\Debug\alonsofernandez_xoan.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\alonsofernandez_xoan\obj\Debug\alonsofernandez_xoan.pdb
