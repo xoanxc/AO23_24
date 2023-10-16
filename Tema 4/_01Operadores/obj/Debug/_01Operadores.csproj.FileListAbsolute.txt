@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\_01Operadores\bin\Debug\_01Operadores.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\_01Operadores\bin\Debug\_01Operadores.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\_01Operadores\bin\Debug\_01Operadores.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\_01Operadores\obj\Debug\_01Operadores.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\_01Operadores\obj\Debug\_01Operadores.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\_01Operadores\obj\Debug\_01Operadores.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\_01Operadores\obj\Debug\_01Operadores.pdb
