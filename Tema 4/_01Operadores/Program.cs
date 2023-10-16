@@ -49,7 +49,12 @@ namespace _01Operadores
             //O Logico --> || B --> Devuelve True  si A o B son true
             bool condicion5 = (9 < 5) || (9 == 9);
             bool condicion6 = (9 < 5) || (9 % 2 == 9);
-            bool condicion6 = (9 < 5) || (9 % 2 == 9);
+            bool condicion7 = (9 < 5) || (9 % 2 == 9);
+
+            //No logico ! --> Niega lo que va después
+            // !true = false, !false = true,
+
+
 
             Console.ReadLine();
         }

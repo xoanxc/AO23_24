@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Sentencia\obj\Debug\Sentencia.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Sentencia\obj\Debug\Sentencia.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Sentencia\bin\Debug\Sentencia.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Sentencia\bin\Debug\Sentencia.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Sentencia\bin\Debug\Sentencia.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Sentencia\obj\Debug\Sentencia.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Sentencia\obj\Debug\Sentencia.pdb
