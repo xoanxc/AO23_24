@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Programa multiplo 3 y 5\bin\Debug\Programa multiplo 3 y 5.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Programa multiplo 3 y 5\bin\Debug\Programa multiplo 3 y 5.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Programa multiplo 3 y 5\bin\Debug\Programa multiplo 3 y 5.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Programa multiplo 3 y 5\obj\Debug\Programa multiplo 3 y 5.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Programa multiplo 3 y 5\obj\Debug\Programa multiplo 3 y 5.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Programa multiplo 3 y 5\obj\Debug\Programa multiplo 3 y 5.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Programa multiplo 3 y 5\obj\Debug\Programa multiplo 3 y 5.pdb
