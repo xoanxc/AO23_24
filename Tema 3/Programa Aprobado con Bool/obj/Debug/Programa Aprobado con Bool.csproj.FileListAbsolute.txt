@@ -1,7 +1,0 @@
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Programa Aprobado con Bool\bin\Debug\Programa Aprobado con Bool.exe.config
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Programa Aprobado con Bool\bin\Debug\Programa Aprobado con Bool.exe
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Programa Aprobado con Bool\bin\Debug\Programa Aprobado con Bool.pdb
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Programa Aprobado con Bool\obj\Debug\Programa Aprobado con Bool.csproj.AssemblyReference.cache
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Programa Aprobado con Bool\obj\Debug\Programa Aprobado con Bool.csproj.CoreCompileInputs.cache
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Programa Aprobado con Bool\obj\Debug\Programa Aprobado con Bool.exe
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Programa Aprobado con Bool\obj\Debug\Programa Aprobado con Bool.pdb
