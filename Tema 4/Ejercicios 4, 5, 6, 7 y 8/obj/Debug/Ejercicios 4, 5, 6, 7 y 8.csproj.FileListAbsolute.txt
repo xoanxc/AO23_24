@@ -5,3 +5,10 @@ C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejercicios 4, 5, 6, 7 y 8\obj\De
 C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejercicios 4, 5, 6, 7 y 8\obj\Debug\Ejercicios 4, 5, 6, 7 y 8.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejercicios 4, 5, 6, 7 y 8\obj\Debug\Ejercicios 4, 5, 6, 7 y 8.exe
 C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejercicios 4, 5, 6, 7 y 8\obj\Debug\Ejercicios 4, 5, 6, 7 y 8.pdb
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 4\Ejercicios 4, 5, 6, 7 y 8\bin\Debug\Ejercicios 4, 5, 6, 7 y 8.exe.config
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 4\Ejercicios 4, 5, 6, 7 y 8\bin\Debug\Ejercicios 4, 5, 6, 7 y 8.exe
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 4\Ejercicios 4, 5, 6, 7 y 8\bin\Debug\Ejercicios 4, 5, 6, 7 y 8.pdb
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 4\Ejercicios 4, 5, 6, 7 y 8\obj\Debug\Ejercicios 4, 5, 6, 7 y 8.csproj.AssemblyReference.cache
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 4\Ejercicios 4, 5, 6, 7 y 8\obj\Debug\Ejercicios 4, 5, 6, 7 y 8.csproj.CoreCompileInputs.cache
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 4\Ejercicios 4, 5, 6, 7 y 8\obj\Debug\Ejercicios 4, 5, 6, 7 y 8.exe
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 4\Ejercicios 4, 5, 6, 7 y 8\obj\Debug\Ejercicios 4, 5, 6, 7 y 8.pdb
