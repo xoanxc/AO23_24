@@ -13,7 +13,7 @@ namespace Ejercicios_4__5__6__7_y_8
         static void Main(string[] args)
         {
 
-            Console.Title = "Ejercicios 4-8";
+            Console.Title = "Ejercicios 4-8 by Xoán Alonso Fernández";
 
             int ejercicio = 0;
 
@@ -21,7 +21,7 @@ namespace Ejercicios_4__5__6__7_y_8
             ejercicio = int.Parse(Console.ReadLine());
 
             if (ejercicio == 4)
-            { //Ejercicio 4
+            { //Ejercicio 4 - Xoán Alonso Fernández
 
                 Console.WriteLine("Introduce el primer número: "); //Solicitud de datos 1
                 double numero1 = double.Parse(Console.ReadLine());
@@ -46,7 +46,7 @@ namespace Ejercicios_4__5__6__7_y_8
 
             }
             else if (ejercicio == 5)
-            { //Ejercicio 5
+            { //Ejercicio 5 - Xoán Alonso Fernández
 
                 Console.Write("Introduce el primer número: "); //Recogida de datos 1
                 double numero1 = Convert.ToDouble(Console.ReadLine());
@@ -69,7 +69,7 @@ namespace Ejercicios_4__5__6__7_y_8
             }
 
             else if (ejercicio == 6)
-            { //Ejercicio 6
+            { //Ejercicio 6 - Xoán Alonso Fernández
 
                 //Contraseña predefinida
                 string contraseñaPredefinida = "1234";
@@ -89,7 +89,7 @@ namespace Ejercicios_4__5__6__7_y_8
                 }
             }
             else if (ejercicio == 7)
-            { //Ejercicio 7
+            { //Ejercicio 7 - Xoán Alonso Fernández
 
                 Console.Write("Ingrese el primer número: "); //Recogida de datos 1
                 double numero1 = double.Parse(Console.ReadLine());
@@ -112,7 +112,7 @@ namespace Ejercicios_4__5__6__7_y_8
 
             }
             else if (ejercicio == 8)
-            { //Ejercicio 8
+            { //Ejercicio 8 - Xoán Alonso Fernández
 
                 Console.Write("Ingrese la presión (en atmósferas): "); //Recogida de datos 1
                 double presion = double.Parse(Console.ReadLine());
@@ -155,6 +155,7 @@ namespace Ejercicios_4__5__6__7_y_8
 
             Console.ReadLine(); //Evitar que se cierre la consola
 
+            //By Xoán Alonso Fernández
         }
     }
 }
