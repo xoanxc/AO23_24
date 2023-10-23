@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\Boletin_Completo\bin\Debug\Boletin_Completo.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\Boletin_Completo\bin\Debug\Boletin_Completo.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\Boletin_Completo\bin\Debug\Boletin_Completo.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\Boletin_Completo\obj\Debug\Boletin_Completo.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\Boletin_Completo\obj\Debug\Boletin_Completo.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\Boletin_Completo\obj\Debug\Boletin_Completo.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\Boletin_Completo\obj\Debug\Boletin_Completo.pdb
