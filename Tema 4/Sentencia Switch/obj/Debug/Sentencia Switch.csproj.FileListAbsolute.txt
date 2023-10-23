@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\Sentencia Switch\bin\Debug\Sentencia Switch.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\Sentencia Switch\bin\Debug\Sentencia Switch.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\Sentencia Switch\bin\Debug\Sentencia Switch.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\Sentencia Switch\obj\Debug\Sentencia Switch.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\Sentencia Switch\obj\Debug\Sentencia Switch.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\Sentencia Switch\obj\Debug\Sentencia Switch.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 4\Sentencia Switch\obj\Debug\Sentencia Switch.pdb
