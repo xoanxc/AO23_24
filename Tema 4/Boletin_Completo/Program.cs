@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,7 +24,7 @@ namespace Boletin_Completo
                 int ejercicio = 0;
 
                 //Selección de ejercicio
-                Console.WriteLine("Escoja un ejercicio del 4 al 11");
+                Console.WriteLine("Escoja un ejercicio del 4 al 23");
                 ejercicio = int.Parse(Console.ReadLine());
 
                 if (ejercicio == 4) //Ejercicio 4
@@ -234,18 +235,103 @@ namespace Boletin_Completo
                     Console.WriteLine("Introduce el valor de la variable temp: ");
                     double temp = double.Parse(Console.ReadLine());
 
-                    if (temp < 0)
+                    if (temp < 0) //Si temp es menor que 0
                     {
                         Console.WriteLine("Sólido");
                     }
-                    
+                    else if (temp <= 0 && temp >= 100) //Si temp esta entre 0 y 100
+                    {
+                        Console.WriteLine("Líquido");
+                    }
+                    else if (temp > 100) //Si temp es mayor que 100
+                    {
+                        Console.WriteLine("Vapor");
+                    }
+                    else if (temp > 1000000) //Si temp es mayor que 1000000
+                    {
+                        Console.WriteLine("Plasma");
+                    }
+                }
+                else if (ejercicio == 14) //Ejercicio 14
+                {
+                    //Declaración de variables
+                    char letra;
+                    double num1, num2, resultado1;
+
+                    //Lectura por teclado de las opciones
+                    Console.WriteLine("a) Sumar");
+                    Console.WriteLine("b) Restar");
+                    Console.WriteLine("c) Multiplicar");
+                    Console.WriteLine("d) Dividir");
+                    Console.WriteLine("e) Raíz de la suma");
+                    letra = char.Parse(Console.ReadLine());
+
+                    if (letra == 'a')//a) Suma
+                    {
+                        Console.WriteLine("Introduce el primero numero: ");
+                        num1 = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Introduce el segundo numero: ");
+                        num2 = double.Parse(Console.ReadLine());
+                        resultado1 = (num1 + num2);
+                        Console.WriteLine("El resultado de la suma es " + resultado1);
+                    }
+                    else if (letra == 'b')//b) Resta
+                    {
+                        Console.WriteLine("Introduce el primero numero: ");
+                        num1 = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Introduce el segundo numero: ");
+                        num2 = double.Parse(Console.ReadLine());
+                        resultado1 = (num1 - num2);
+                        Console.WriteLine("El resultado de la resta es " + resultado1);
+
+                    }
+                    else if (letra == 'c')//c) Multiplicación
+                    {
+                        Console.WriteLine("Introduce el primero numero: ");
+                        num1 = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Introduce el segundo numero: ");
+                        num2 = double.Parse(Console.ReadLine());
+                        resultado1 = (num1 * num2);
+                        Console.WriteLine("El resultado de la multiplicación es " + resultado1);
+                    }
+                    else if (letra == 'd')//d) División
+                    {
+                        Console.WriteLine("Introduce el primero numero: ");
+                        num1 = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Introduce el segundo numero: ");
+                        num2 = double.Parse(Console.ReadLine());
+                        resultado1 = (num1 / num2);
+                        Console.WriteLine("El resultado de la división es " + resultado1);
+                    }
+                    else if (letra == 'e')//e) Raíz
+                    {
+                        Console.WriteLine("Introduce el primero numero: ");
+                        num1 = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Introduce el segundo numero: ");
+                        num2 = double.Parse(Console.ReadLine());
+                        resultado1 = Math.Sqrt(num1 + num2);
+                        Console.WriteLine("El resultado de la raíz de la suma es " + resultado1);
+                    }
+                    else //Si no introduce una letra validad da error
+                    {
+                        Console.WriteLine("Error, vuelve a intentarlo.");
+                    }
+                }
+                else if (ejercicio == 15)
+                {
+
+
+
+
 
 
 
                 }
-
-
-
+                
+                
+                
+                
+                //Pregunta para continuar el bucle
                 Console.WriteLine("¿Quiere volver al menú? (s/n)");
                 continuar = Char.Parse(Console.ReadLine());
 
