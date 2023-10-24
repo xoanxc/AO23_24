@@ -16,55 +16,48 @@ namespace Boletin_Completo
 
             do
             {
-
-
                 Console.Title = "Boletín Completo by Xoán Alonso Fernández";
 
                 int ejercicio = 0;
 
-                Console.WriteLine("Escoja un ejercicio de 4 al 23");
+                Console.WriteLine("Escoja un ejercicio del 4 al 11");
                 ejercicio = int.Parse(Console.ReadLine());
 
                 if (ejercicio == 4)
-                { //Ejercicio 4 - Xoán Alonso Fernández
-
-                    Console.WriteLine("Introduce el primer número: "); //Solicitud de datos 1
+                {
+                    Console.WriteLine("Introduce el primer número: ");
                     double numero1 = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("Introduce el segundo número: "); //Solicitud de datos 2
+                    Console.WriteLine("Introduce el segundo número: ");
                     double numero2 = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("Introduce el tercer número: "); //Solicitud de datos 3
+                    Console.WriteLine("Introduce el tercer número: ");
                     double numero3 = double.Parse(Console.ReadLine());
 
-                    double resultado = (numero1 + numero2 + numero3) / 3; //Calculo
+                    double resultado = (numero1 + numero2 + numero3) / 3;
 
-                    if (resultado >= 5) //Si es mayor a 5
+                    if (resultado >= 5)
                     {
                         Console.WriteLine("Enhorabuena, has aprobado (que no se te suba a la cabeza)");
                     }
                     else
                     {
-                        Console.WriteLine("Suspendiste y eso que regale puntos (patético)");
+                        Console.WriteLine("Suspendiste y eso que regalé puntos (patético)");
                     }
-
-
                 }
                 else if (ejercicio == 5)
-                { //Ejercicio 5 - Xoán Alonso Fernández
-
-                    Console.Write("Introduce el primer número: "); //Recogida de datos 1
+                {
+                    Console.Write("Introduce el primer número: ");
                     double numero1 = Convert.ToDouble(Console.ReadLine());
 
-                    Console.Write("Introduce el segundo número: "); //Recogida de datos 2
+                    Console.Write("Introduce el segundo número: ");
                     double numero2 = Convert.ToDouble(Console.ReadLine());
 
-                    double suma = numero1 + numero2; //Suma de los números
+                    double suma = numero1 + numero2;
 
-                    double raizCuadrada = Math.Sqrt(suma); //Raíz Cuadrada
-
-                    if (raizCuadrada >= 0) //Verificar si la raíz es positiva
+                    if (suma >= 0)
                     {
+                        double raizCuadrada = Math.Sqrt(suma);
                         Console.WriteLine("La raíz cuadrada de la suma es: " + raizCuadrada);
                     }
                     else
@@ -73,16 +66,12 @@ namespace Boletin_Completo
                     }
                 }
                 else if (ejercicio == 6)
-                { //Ejercicio 6 - Xoán Alonso Fernández
-
-                    //Contraseña predefinida
+                {
                     string contraseñaPredefinida = "1234";
 
-                    //Solicitar una contraseña al usuario
                     Console.Write("Ingrese la contraseña: ");
                     string contraseñaUsuario = Console.ReadLine();
 
-                    //Comprobar la contraseña
                     if (contraseñaUsuario == contraseñaPredefinida)
                     {
                         Console.WriteLine("Contraseña correcta");
@@ -93,17 +82,16 @@ namespace Boletin_Completo
                     }
                 }
                 else if (ejercicio == 7)
-                { //Ejercicio 7 - Xoán Alonso Fernández
-
-                    Console.Write("Ingrese el primer número: "); //Recogida de datos 1
+                {
+                    Console.Write("Ingrese el primer número: ");
                     double numero1 = double.Parse(Console.ReadLine());
 
-                    Console.Write("Ingrese el segundo número: "); //Recogida de datos 2
+                    Console.Write("Ingrese el segundo número: ");
                     double numero2 = double.Parse(Console.ReadLine());
 
-                    double resultado; //Declaración de variable
+                    double resultado;
 
-                    if (numero1 > numero2) //Elevar el mas grande al mas pequeño
+                    if (numero1 > numero2)
                     {
                         resultado = Math.Pow(numero1, numero2);
                     }
@@ -113,15 +101,17 @@ namespace Boletin_Completo
                     }
 
                     Console.WriteLine("El resultado de elevar el mayor número al más pequeño es: " + resultado);
-
                 }
                 else if (ejercicio == 8)
-                { //Ejercicio 8 - Xoán Alonso Fernández
+                {
+                    Console.WriteLine("Medición de la seguridad del núcleo");
 
-                    Console.Write("Ingrese la presión (en atmósferas): "); //Recogida de datos 1
+                    //Solicitar la presión en atmósferas al usuario
+                    Console.Write("Ingrese la presión (en atmósferas): ");
                     double presion = double.Parse(Console.ReadLine());
 
-                    Console.Write("Ingrese la temperatura (en Kelvin): "); //Recogida de datos 2
+                    //Solicitar la temperatura en Kelvin al usuario
+                    Console.Write("Ingrese la temperatura (en Kelvin): ");
                     double temperatura = double.Parse(Console.ReadLine());
 
                     bool abrirValvula = false;
@@ -154,73 +144,73 @@ namespace Boletin_Completo
                     {
                         Console.WriteLine("Todo en orden");
                     }
-                    if (ejercicio == 9)
+                }
+                else if (ejercicio == 9)
+                {
+                    Console.WriteLine("Introduce un Numero: ");
+                    double numero = double.Parse(Console.ReadLine());
+
+                    if (numero % 2 == 0)
                     {
-
-                        Console.WriteLine("Introduce un Numero: "); //Recogida de datos
-                        double numero = double.Parse(Console.ReadLine());
-
-                        if (numero % 2 == 0)
-                        {
-                            Console.WriteLine("Es múltiplo de 2");
-                        }
-
-                        if (numero % 3 == 0)
-                        {
-                            Console.WriteLine("Es múltiplo de 3");
-                        }
+                        Console.WriteLine("Es múltiplo de 2");
                     }
 
-                    else if (ejercicio == 10)
+                    if (numero % 3 == 0)
                     {
-                        Console.WriteLine("Introduce una cantidad de Dinero: "); //Recogida de datos
-                        double numero2 = double.Parse(Console.ReadLine());
-
-                        if (numero2 <= 100)
-                        {
-                            double calculo1 = (numero2 * 0.90); //Calculo del 10%
-                            Console.WriteLine("El descuento es del 10% y el precio queda en " + calculo1);
-                        }
-
-                        if (numero2 >= 100)
-                        {
-                            double calculo2 = (numero2 * 0.85); //Calculo del 15&%
-                            Console.WriteLine("El descuento es del 15% y el precio queda en " + calculo2);
-                        }
+                        Console.WriteLine("Es múltiplo de 3");
                     }
-                    else if (ejercicio == 11)
+                }
+                else if (ejercicio == 10)
+                {
+                    Console.WriteLine("Introduce una cantidad de Dinero: ");
+                    double numero2 = double.Parse(Console.ReadLine());
+
+                    if (numero2 <= 100)
                     {
-                        Console.WriteLine("Introduce un numero de 0 a 10: "); //Recogida de Datos
-                        double numero3 = double.Parse(Console.ReadLine());
-
-                        if (numero3 <= 0.0 || numero3 >= 10.0)
-                        {
-                            Console.WriteLine("Error en nota (tan difícil es poner un numero?)");
-                        }
-                        else
-
-                        {
-                            Console.WriteLine("Te equivocaste, esperemos que no se repita");
-                        }
-
+                        double calculo1 = (numero2 * 0.90);
+                        Console.WriteLine("El descuento es del 10% y el precio queda en " + calculo1);
                     }
 
+                    if (numero2 > 100)
+                    {
+                        double calculo2 = (numero2 * 0.85);
+                        Console.WriteLine("El descuento es del 15% y el precio queda en " + calculo2);
+                    }
+                }
+                else if (ejercicio == 11)
+                {
+                    Console.WriteLine("Introduce un número de 0 a 10: ");
+                    double numero3 = double.Parse(Console.ReadLine());
 
+                    if (numero3 < 5.0)
+                    {
+                        Console.WriteLine("Suspenso");
+                    }
+                    else if (numero3 >= 5.0 && numero3 < 6.5)
+                    {
+                        Console.WriteLine("Aprobado");
+                    }
+                    else if (numero3 >= 6.5 && numero3 < 8.5)
+                    {
+                        Console.WriteLine("Notable");
+                    }
+                    else if (numero3 >= 8.5 && numero3 <= 10.0)
+                    {
+                        Console.WriteLine("Sobresaliente");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error en nota");
+                    }
+                }
+                else if (ejercicio == 12)
+                {
 
                 }
-
-                Console.WriteLine();
-                Console.WriteLine("Quiere volver al menú: s/n");
+                Console.WriteLine("¿Quiere volver al menú? (s/n)");
                 continuar = Char.Parse(Console.ReadLine());
 
-
-            }
-
-            while (continuar == 's');
-
-
-
-
+            } while (continuar == 's');
         }
     }
 }
