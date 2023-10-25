@@ -24,10 +24,46 @@ namespace Boletin_Completo
                 int ejercicio = 0;
 
                 //Selección de ejercicio
-                Console.WriteLine("Escoja un ejercicio del 4 al 23");
+                Console.WriteLine("Escoja un ejercicio del 3 al 23");
                 ejercicio = int.Parse(Console.ReadLine());
 
-                if (ejercicio == 4) //Ejercicio 4
+
+                if (ejercicio == 3) //Ejercicio 3
+                { //Encuentra el numero menor entre 4
+                    Console.WriteLine("Introduce el primer numero: ");
+                    double a = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Introduce el segundo numero: ");
+                    double b = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Introduce el tercer numero: ");
+                    double c = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Introduce el cuarto numero: ");
+                    double d = double.Parse(Console.ReadLine());
+                    double minimo;
+
+                    if (a < b)
+                    {
+                        minimo = a;
+                    }
+                    else
+                    {
+                        minimo = b;
+                    }
+                    if (minimo > c)
+                    {
+                        minimo = c;
+                    }
+                    if (minimo > d)
+                    {
+                        Console.WriteLine("Es menor de estos números es: " + d);
+                    }
+                    else
+                    {
+                        Console.WriteLine("El menor de estos números es " + minimo);
+                    }
+
+
+                }
+                else if (ejercicio == 4) //Ejercicio 4
                 {
                     Console.WriteLine("Introduce el primer número: ");
                     double numero1 = double.Parse(Console.ReadLine());
@@ -190,15 +226,15 @@ namespace Boletin_Completo
                     {
                         Console.WriteLine("Suspenso");
                     }
-                    else if (numero3 >= 5.0 && numero3 < 6.5)
+                    else if (numero3 < 6.5)
                     {
                         Console.WriteLine("Aprobado");
                     }
-                    else if (numero3 >= 6.5 && numero3 < 8.5)
+                    else if (numero3 < 8.5)
                     {
                         Console.WriteLine("Notable");
                     }
-                    else if (numero3 >= 8.5 && numero3 <= 10.0)
+                    else if (numero3 <= 10.0)
                     {
                         Console.WriteLine("Sobresaliente");
                     }
@@ -317,20 +353,38 @@ namespace Boletin_Completo
                         Console.WriteLine("Error, vuelve a intentarlo.");
                     }
                 }
-                else if (ejercicio == 15)
+                else if (ejercicio == 15) //Ejercicio 15
+                {
+                    //Solicitud de litros gastados
+                    Console.WriteLine("Cantidad de litros utilizados: ");
+                    double litros = double.Parse(Console.ReadLine());
+
+                    if (litros <= 50)
+                    {
+                        Console.WriteLine("El importe a pagar es de 45€");
+                    }
+                    else if (litros >= 20)
+                    {
+                        double resultado = (litros - 50) * 4.75;
+                        Console.WriteLine("El importe a pagar es de " + resultado);
+                    }
+                    else
+                    {
+                        double resultado = (litros - 50) * 20;
+                        Console.WriteLine("El importe a pagar es de " + resultado);
+                    }
+                }
+                else if (ejercicio == 16) //Ejercicio 16
                 {
 
 
 
 
 
-
-
                 }
-                
-                
-                
-                
+
+
+
                 //Pregunta para continuar el bucle
                 Console.WriteLine("¿Quiere volver al menú? (s/n)");
                 continuar = Char.Parse(Console.ReadLine());
