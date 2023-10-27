@@ -376,17 +376,83 @@ namespace Boletin_Completo
                 }
                 else if (ejercicio == 16) //Ejercicio 16
                 {
+                    //Obtención de los 3 precios
+                    Console.WriteLine("Introduce el primer precio");
+                    double pre1 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Introduce el segundo precio");
+                    double pre2 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Introduce el tercer precio");
+                    double pre3 = double.Parse(Console.ReadLine());
 
+                    double tot = pre1 + pre2 + pre3;
 
+                    if (tot < 500.00 && tot > 0.00)
+                    {
+                        Console.WriteLine("El precio final sin ningún descuento aplicado es de " + tot + " euros");
+                    }
+                    else if (tot < 1000.00 && tot > 500.00)
+                    {
+                        double calc = tot * 0.97;
+                        Console.WriteLine("El precio final con un 3% de descuento aplicado es de " + calc + " euros (" + tot + " euros sin descuento)");
+                    }
+                    else if (tot >= 2000.00 && tot <= 3000.00)
+                    {
+                        double calc = tot * 0.95;
+                        Console.WriteLine("El precio final con un 5% de descuento aplicado es de " + calc + " euros (" + tot + " euros sin descuento)");
+                    }
+                    else if (tot > 3000.00)
+                    {
+                        double calc = tot * 0.90;
+                        Console.WriteLine("El precio final con un 10% de descuento aplicado es de " + calc + " euros (" + tot + " euros sin descuento)");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error, vuelve a intentarlo");
+                    }
+                }
+                else if (ejercicio == 17) //Ejercicio 17
+                {
+                    //Registro de datos salario y horas
+                    Console.WriteLine("Horas trabajadas este mes: ");
+                    double horas = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Tasa por hora: ");
+                    double tasa = double.Parse(Console.ReadLine());
 
+                    if (horas <= 38)
+                    {
+                        double salarioB = horas * tasa;
 
+                        if (salarioB > 300)
+                        {
+                            double salarioN = salarioB * 1.10;
+                            Console.WriteLine("El salario bruto son " + salarioB + " euros y el neto " + salarioN + " euros");
+                        }
+                        else
+                        {
+                            Console.WriteLine("El salario bruto son " + salarioB + " euros y el neto " + salarioB + " euros");
+                        }
+                    }
+                    else
+                    {
+                        double salarioB = (horas * tasa) * 1.50;
 
+                        if (salarioB > 300)
+                        {
+                            double salarioN = salarioB * 1.10;
+                            Console.WriteLine("El salario bruto son " + salarioB + " euros y el neto " + salarioN + " euros");
+                        }
+                        else
+                        {
+                            Console.WriteLine("El salario bruto son " + salarioB + " euros y el neto " + salarioB + " euros");
+                        }
+                    }
                 }
 
 
 
                 //Pregunta para continuar el bucle
                 Console.WriteLine("¿Quiere volver al menú? (s/n)");
+                
                 continuar = Char.Parse(Console.ReadLine());
 
             } while (continuar == 's');
