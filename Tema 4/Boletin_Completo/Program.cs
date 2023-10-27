@@ -455,12 +455,30 @@ namespace Boletin_Completo
 
 
                 }
+                else if (ejercicio == 23)//Ejercicio 23
+                {
+                    //Recogida de datos
+                    Console.WriteLine("Introduzca los datos");
+                    Console.WriteLine();//Espacio
+                    Console.WriteLine("Primer numero");
+                    double num1 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Segundo numero");
+                    double num2 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Tercer numero");
+                    double num3 = double.Parse(Console.ReadLine());
+
+
+
+
+
+                }
 
 
 
 
                 //Pregunta para continuar el bucle
                 Console.WriteLine("¿Quiere volver al menú? (s/n)");
+                
                 
                 
                 continuar = Char.Parse(Console.ReadLine());
