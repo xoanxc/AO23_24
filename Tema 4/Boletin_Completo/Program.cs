@@ -424,7 +424,7 @@ namespace Boletin_Completo
 
                         if (salarioB > 300)
                         {
-                            double salarioN = salarioB * 1.10;
+                            double salarioN = salarioB * 0.90;
                             Console.WriteLine("El salario bruto son " + salarioB + " euros y el neto " + salarioN + " euros");
                         }
                         else
@@ -438,7 +438,7 @@ namespace Boletin_Completo
 
                         if (salarioB > 300)
                         {
-                            double salarioN = salarioB * 1.10;
+                            double salarioN = salarioB * 0.90;
                             Console.WriteLine("El salario bruto son " + salarioB + " euros y el neto " + salarioN + " euros");
                         }
                         else
@@ -447,11 +447,21 @@ namespace Boletin_Completo
                         }
                     }
                 }
+                else if (ejercicio == 18)//Ejercicio 18
+                {
+
+
+
+
+
+                }
+
 
 
 
                 //Pregunta para continuar el bucle
                 Console.WriteLine("¿Quiere volver al menú? (s/n)");
+                
                 
                 continuar = Char.Parse(Console.ReadLine());
 
