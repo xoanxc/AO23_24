@@ -449,29 +449,101 @@ namespace Boletin_Completo
                 }
                 else if (ejercicio == 18)//Ejercicio 18
                 {
+                    //Recoleción de datos
+                    Console.WriteLine("Introduce un valor del 1 al 4");
+                    int indicador = int.Parse(Console.ReadLine());
 
+                    switch (indicador)
+                    {
+                        case 1:
+                            Console.WriteLine("CALOR");
+                            break;
+                        case 2:
+                            Console.WriteLine("TEMPLADO");
+                            break;
+                        case 3:
+                            Console.WriteLine("FRIO");
+                            break;
+                        case 4:
+                            Console.WriteLine("FUERA DE RANGO");
+                            break;
+                        default:
+                            Console.WriteLine("Error, valor no reconocido");
+                            break;
+                    }
+                }
+                else if (ejercicio == 19)
+                {
+                    //Recpgida de datos
+                    Console.WriteLine("Introduce un número de hasta 6 cifras");
+                    double num1 = double.Parse(Console.ReadLine());
 
+                    if (num1 <= 9)
+                    {
+                        Console.WriteLine("El numero tiene 1 cifra");
+                    }
+                    else if (num1 <= 99)
+                    {
+                        Console.WriteLine("El numero tiene 2 cifra");
+                    }
+                    else if (num1 <= 999)
+                    {
+                        Console.WriteLine("El numero tiene 3 cifra");
+                    }
+                    else if (num1 <= 9999)
+                    {
+                        Console.WriteLine("El numero tiene 4 cifra");
+                    }
+                    else if (num1 <= 99999)
+                    {
+                        Console.WriteLine("El numero tiene 5 cifra");
+                    }
+                    else if (num1 <= 999999)
+                    {
+                        Console.WriteLine("El numero tiene 6 cifra");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error, numero mayor a 6 cifras");
+                    }
+                }
+                else if (ejercicio == 20)
+                {
 
+                }
+                else if (ejercicio == 22)
+                {
+                    //Recpgida de datos
+                    Console.WriteLine("Introduce un año");
+                    int año = int.Parse(Console.ReadLine());
 
-
+                    if ((año % 4 == 0 && año % 100 != 0) || (año % 400 == 0))
+                    {
+                        Console.WriteLine(año + "es un año bisiesto.");
+                    }
+                    else
+                    {
+                        Console.WriteLine(año + "no es un año bisiesto.");
+                    }
                 }
                 else if (ejercicio == 23)//Ejercicio 23
                 {
-                    //Recogida de datos
-                    Console.WriteLine("Introduzca los datos");
-                    Console.WriteLine();//Espacio
-                    Console.WriteLine("Primer numero");
-                    double num1 = double.Parse(Console.ReadLine());
-                    Console.WriteLine("Segundo numero");
-                    double num2 = double.Parse(Console.ReadLine());
-                    Console.WriteLine("Tercer numero");
-                    double num3 = double.Parse(Console.ReadLine());
+                        //Recogida de datos
+                        Console.WriteLine("Introduzca los datos");
+                        Console.WriteLine();//Espacio
+                        Console.WriteLine("Primer numero");
+                        double num1 = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Segundo numero");
+                        double num2 = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Tercer numero");
+                        double num3 = double.Parse(Console.ReadLine());
 
 
 
 
 
                 }
+                
 
 
 
