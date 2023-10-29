@@ -472,7 +472,7 @@ namespace Boletin_Completo
                             break;
                     }
                 }
-                else if (ejercicio == 19)
+                else if (ejercicio == 20)
                 {
                     //Recpgida de datos
                     Console.WriteLine("Introduce un número de hasta 6 cifras");
@@ -507,7 +507,7 @@ namespace Boletin_Completo
                         Console.WriteLine("Error, numero mayor a 6 cifras");
                     }
                 }
-                else if (ejercicio == 20)
+                else if (ejercicio == 21)
                 {
 
                 }
