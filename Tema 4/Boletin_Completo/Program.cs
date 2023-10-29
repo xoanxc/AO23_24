@@ -449,7 +449,7 @@ namespace Boletin_Completo
                 }
                 else if (ejercicio == 18)//Ejercicio 18
                 {
-                    //Recoleción de datos
+                    //Recogida de datos
                     Console.WriteLine("Introduce un valor del 1 al 4");
                     int indicador = int.Parse(Console.ReadLine());
 
@@ -472,9 +472,30 @@ namespace Boletin_Completo
                             break;
                     }
                 }
-                else if (ejercicio == 20)
+                else if (ejercicio == 19)
                 {
-                    //Recpgida de datos
+                    Console.WriteLine("Introduce una letra del abecedario");
+                    Char color = Char.Parse(Console.ReadLine());
+
+                    switch (Char.ToLower(color))
+                    {
+                        case 'r':
+                            Console.WriteLine("ROJO");
+                            break;
+                        case 'v':
+                            Console.WriteLine("VERDE");
+                            break;
+                        case 'a':
+                            Console.WriteLine("AZUL");
+                            break;
+                        default:
+                            Console.WriteLine("NEGRO");
+                            break;
+                    }
+                }
+                else if (ejercicio == 20) //Ejercicio 20
+                {
+                    //Recogida de datos
                     Console.WriteLine("Introduce un número de hasta 6 cifras");
                     double num1 = double.Parse(Console.ReadLine());
 
@@ -484,36 +505,67 @@ namespace Boletin_Completo
                     }
                     else if (num1 <= 99)
                     {
-                        Console.WriteLine("El numero tiene 2 cifra");
+                        Console.WriteLine("El numero tiene 2 cifras");
                     }
                     else if (num1 <= 999)
                     {
-                        Console.WriteLine("El numero tiene 3 cifra");
+                        Console.WriteLine("El numero tiene 3 cifras");
                     }
                     else if (num1 <= 9999)
                     {
-                        Console.WriteLine("El numero tiene 4 cifra");
+                        Console.WriteLine("El numero tiene 4 cifras");
                     }
                     else if (num1 <= 99999)
                     {
-                        Console.WriteLine("El numero tiene 5 cifra");
+                        Console.WriteLine("El numero tiene 5 cifras");
                     }
                     else if (num1 <= 999999)
                     {
-                        Console.WriteLine("El numero tiene 6 cifra");
+                        Console.WriteLine("El numero tiene 6 cifras");
                     }
-                    else
+                    else //Ninguna de las anteriores, entonces:
                     {
                         Console.WriteLine("Error, numero mayor a 6 cifras");
                     }
                 }
-                else if (ejercicio == 21)
+                else if (ejercicio == 21) //Ejercicio 21
                 {
+                    Console.WriteLine("Ingrese los coeficientes de la ecuación de segundo grado (ax^2 + bx + c = 0):");
+                    Console.WriteLine(); //Espacio
+                    Console.Write("Coeficiente a: ");
+                    double a = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine(); //Espacio
+                    Console.Write("Coeficiente b: ");
+                    double b = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine(); //Espacio
+                    Console.Write("Coeficiente c: ");
+                    double c = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine(); //Espacio
 
+                    //Ecuación
+                    double ecuacion = b * b - 4 * a * c;
+
+                    if (ecuacion > 0)
+                    {
+                        double raiz1 = (-b + Math.Sqrt(ecuacion)) / (2 * a);
+                        double raiz2 = (-b - Math.Sqrt(ecuacion)) / (2 * a);
+                        Console.WriteLine("Las raíces reales son: " + raiz1 + " y " + raiz2);
+                    }
+                    else if (ecuacion == 0)
+                    {
+                        double raiz = -b / (2 * a);
+                        Console.WriteLine("La ecuación tiene una raíz doble: " + raiz);
+                    }
+                    else
+                    {
+                        double parte1 = -b / (2 * a);
+                        double parte2 = Math.Sqrt(-ecuacion) / (2 * a);
+                        Console.WriteLine("Las raíces son complejas: " + parte1 + " + " + parte2 + "i y " + parte1 + " - " + parte2 + "i");
+                    }
                 }
-                else if (ejercicio == 22)
+                else if (ejercicio == 22) //Ejercicio 22
                 {
-                    //Recpgida de datos
+                    //Recogida de datos
                     Console.WriteLine("Introduce un año");
                     int año = int.Parse(Console.ReadLine());
 
@@ -528,34 +580,54 @@ namespace Boletin_Completo
                 }
                 else if (ejercicio == 23)//Ejercicio 23
                 {
-                        //Recogida de datos
-                        Console.WriteLine("Introduzca los datos");
-                        Console.WriteLine();//Espacio
-                        Console.WriteLine("Primer numero");
-                        double num1 = double.Parse(Console.ReadLine());
-                        Console.WriteLine("Segundo numero");
-                        double num2 = double.Parse(Console.ReadLine());
-                        Console.WriteLine("Tercer numero");
-                        double num3 = double.Parse(Console.ReadLine());
+                    //Recogida de datos
+                    Console.WriteLine("Introduzca los datos");
+                    Console.WriteLine(); // Espacio
+                    Console.WriteLine("Primer numero");
+                    double num1 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Segundo numero");
+                    double num2 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Tercer numero");
+                    double num3 = double.Parse(Console.ReadLine());
 
+                    //Ordenar los números
+                    if (num1 > num2)
+                    {
+                        double temp = num1;
+                        num1 = num2;
+                        num2 = temp;
+                    }
 
+                    if (num2 > num3)
+                    {
+                        double temp = num2;
+                        num2 = num3;
+                        num3 = temp;
 
+                        if (num1 > num2)
+                        {
+                            temp = num1;
+                            num1 = num2;
+                            num2 = temp;
+                        }
+                    }
 
-
+                    //Mostrar los números ordenados de menor a mayor
+                    Console.WriteLine("Números ordenados de menor a mayor: {0}, {1}, {2}", num1, num2, num3);
                 }
-                
-
 
 
 
                 //Pregunta para continuar el bucle
                 Console.WriteLine("¿Quiere volver al menú? (s/n)");
-                
-                
-                
+
+
+
                 continuar = Char.Parse(Console.ReadLine());
 
             } while (continuar == 's');
+
+            //Boletin Completo By Xoán Alonso Fernández
         }
     }
 }
