@@ -54,7 +54,7 @@ namespace Boletin_Completo
                     }
                     if (minimo > d)
                     {
-                        Console.WriteLine("Es menor de estos números es: " + d);
+                        Console.WriteLine("El menor de estos números es: " + d);
                     }
                     else
                     {
@@ -560,7 +560,7 @@ namespace Boletin_Completo
                     {
                         double parte1 = -b / (2 * a);
                         double parte2 = Math.Sqrt(-ecuacion) / (2 * a);
-                        Console.WriteLine("Las raíces son complejas: " + parte1 + " + " + parte2 + "i y " + parte1 + " - " + parte2 + "i");
+                        Console.WriteLine("Las raíces son: " + parte1 + " + " + parte2 + " y " + parte1 + " - " + parte2);
                     }
                 }
                 else if (ejercicio == 22) //Ejercicio 22
