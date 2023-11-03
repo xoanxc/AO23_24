@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\01BucleWhile\bin\Debug\01BucleWhile.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\01BucleWhile\bin\Debug\01BucleWhile.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\01BucleWhile\bin\Debug\01BucleWhile.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\01BucleWhile\obj\Debug\01BucleWhile.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\01BucleWhile\obj\Debug\01BucleWhile.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\01BucleWhile\obj\Debug\01BucleWhile.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\01BucleWhile\obj\Debug\01BucleWhile.pdb
