@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\02BlucleFor\bin\Debug\02BlucleFor.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\02BlucleFor\bin\Debug\02BlucleFor.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\02BlucleFor\bin\Debug\02BlucleFor.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\02BlucleFor\obj\Debug\02BlucleFor.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\02BlucleFor\obj\Debug\02BlucleFor.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\02BlucleFor\obj\Debug\02BlucleFor.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\02BlucleFor\obj\Debug\02BlucleFor.pdb
