@@ -21,16 +21,32 @@ namespace _02BlucleFor
             //Calcular la suma de todos los números entre n y m
             int n = 15;
             int m = 30;
-            int suma; //n + n +1 + n+2 + n+3+ n+4 . . . .
+            int suma = 0; //n + n +1 + n+2 + n+3+ n+4 . . . .
+
+            //Espacio
+            Console.WriteLine();
 
             //Intento 1
-            for (int suma = m + 1)
+            for (int i = n; i <= m; i++)
             {
-                Console.WriteLine();
+                suma = suma + i;
             }
+            Console.WriteLine("La suma es: " + suma);
 
 
 
+
+
+
+
+
+
+
+            //Calcular la suma de los números impares entre n y m
+            for (n + 1)
+            {
+
+            }
 
             Console.ReadLine();
         }
