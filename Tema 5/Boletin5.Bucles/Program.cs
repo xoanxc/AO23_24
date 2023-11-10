@@ -57,6 +57,7 @@ namespace Boletin5.Bucles
 
                         break;
                     case 10: //Para el Lunes
+                        Console.WriteLine("Introduce un numero no negativo: ");
 
                         break;
                     case 11: //Para el Lunes
