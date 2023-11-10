@@ -54,6 +54,21 @@ namespace Boletin5.Bucles
                     default:
                         Console.WriteLine("Error, ejercicio inexistente.");
                         break;
+                    case 8:
+                        break;
+                    case 9:
+
+                        break;
+                    case 10: //Para el Lunes
+
+                        break;
+                    case 11: //Para el Lunes
+
+                        break;
+                    case 12: //Para el Lunes
+
+                        break;
+
                 }
 
                 Console.WriteLine("Desea volver al menú inicial: s/n");
