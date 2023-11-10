@@ -51,9 +51,6 @@ namespace Boletin5.Bucles
                     case 7:
                         
                         break;
-                    default:
-                        Console.WriteLine("Error, ejercicio inexistente.");
-                        break;
                     case 8:
                         break;
                     case 9:
@@ -67,6 +64,9 @@ namespace Boletin5.Bucles
                         break;
                     case 12: //Para el Lunes
 
+                        break;
+                    default:
+                        Console.WriteLine("Error, ejercicio inexistente.");
                         break;
 
                 }
