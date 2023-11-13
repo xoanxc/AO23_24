@@ -84,7 +84,7 @@ namespace Boletin5.Bucles
                         } while (m < 0);
                 }
 
-                static int CalcularSuma(int m)
+                int CalcularSuma(int m)
                 {
                     int suma = 0;
                     for (int i = 1; i <= m; i++)
@@ -115,7 +115,6 @@ namespace Boletin5.Bucles
                         {
                             suma += 1.0 / Math.Pow(i * 10 + 3, 3);
                         }
-
                         return suma;
                         break;
                     case 12: //Para el Lunes
@@ -132,7 +131,7 @@ namespace Boletin5.Bucles
                             }
                         }
 
-                        static int CalcularSumaDivisores(int n)
+                        int CalcularSumaDivisores(int n)
                         {
                             int suma = 0;
 
