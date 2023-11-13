@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boletin5.Bucles", "Boletin5.Bucles.csproj", "{CC1F8C2D-0746-4711-987E-FD97591BCBAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03BoletinBucles", "03BoletinBucles.csproj", "{4C73A7C7-27C5-4F8D-83E3-43A236F321C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CC1F8C2D-0746-4711-987E-FD97591BCBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC1F8C2D-0746-4711-987E-FD97591BCBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC1F8C2D-0746-4711-987E-FD97591BCBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC1F8C2D-0746-4711-987E-FD97591BCBAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C73A7C7-27C5-4F8D-83E3-43A236F321C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C73A7C7-27C5-4F8D-83E3-43A236F321C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C73A7C7-27C5-4F8D-83E3-43A236F321C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C73A7C7-27C5-4F8D-83E3-43A236F321C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {30D1B7AB-96B7-4AFD-8DB4-F7A545CCA9C5}
+		SolutionGuid = {0D200651-646F-45B0-8069-20295EE89B1B}
 	EndGlobalSection
 EndGlobal

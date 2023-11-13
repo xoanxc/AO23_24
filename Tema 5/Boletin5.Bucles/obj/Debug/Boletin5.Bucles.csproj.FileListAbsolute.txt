@@ -1,7 +1,0 @@
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\Boletin5.Bucles\obj\Debug\Boletin5.Bucles.csproj.AssemblyReference.cache
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\Boletin5.Bucles\obj\Debug\Boletin5.Bucles.csproj.CoreCompileInputs.cache
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\Boletin5.Bucles\bin\Debug\Boletin5.Bucles.exe.config
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\Boletin5.Bucles\bin\Debug\Boletin5.Bucles.exe
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\Boletin5.Bucles\bin\Debug\Boletin5.Bucles.pdb
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\Boletin5.Bucles\obj\Debug\Boletin5.Bucles.exe
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\Boletin5.Bucles\obj\Debug\Boletin5.Bucles.pdb
