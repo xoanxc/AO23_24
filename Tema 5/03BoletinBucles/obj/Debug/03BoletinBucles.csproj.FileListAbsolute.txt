@@ -1,0 +1,7 @@
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 5\03BoletinBucles\bin\Debug\03BoletinBucles.exe.config
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 5\03BoletinBucles\bin\Debug\03BoletinBucles.exe
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 5\03BoletinBucles\bin\Debug\03BoletinBucles.pdb
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 5\03BoletinBucles\obj\Debug\03BoletinBucles.csproj.AssemblyReference.cache
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 5\03BoletinBucles\obj\Debug\03BoletinBucles.csproj.CoreCompileInputs.cache
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 5\03BoletinBucles\obj\Debug\03BoletinBucles.exe
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 5\03BoletinBucles\obj\Debug\03BoletinBucles.pdb

@@ -25,7 +25,7 @@ namespace _03BoletinBucles
             {
                 writeGreen("Escoja un ejercicio entre 5 y 25");
                 int ejercicio = int.Parse(Console.ReadLine());
-
+                
                 switch (ejercicio)
                 {
                     case 5:
@@ -68,8 +68,6 @@ namespace _03BoletinBucles
                         }
                         Console.WriteLine();
                         break;
-
-
                     case 10:
                         writeGreen("Ejercicio 10 : Sumar los m primeros números.");
 
@@ -135,6 +133,13 @@ namespace _03BoletinBucles
                             }
                         }
                         Console.WriteLine("La suma de los divisores es: " + sumaDivisores);
+                        break;
+                    case 13:
+                        writeGreen("Ejercicio 13. Numero Perfecto.");
+                        Console.WriteLine("Introduce un Numero");
+                        int num1 = int.Parse(Console.ReadLine());
+
+
                         break;
                     default:
                         Console.WriteLine("Ejercicio no existe.");
