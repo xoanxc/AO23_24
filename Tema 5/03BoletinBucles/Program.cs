@@ -200,13 +200,13 @@ namespace _03BoletinBucles
                     case 22:
                         writeGreen("Explicación Bucles Anidados: 10 filas de 10 asteriscos");
 
-                        ////for (i = 0; i < 10; i++)
-                        ////     {
-                        ////         for (int j = 0; j < 10; j++)
-                        ////         {
-                        ////             Console.Write("* ");
-                        ////         }
-                        ////         Console.WriteLine();
+                        //  for (i = 0; i < 10; i++)
+                        //       {
+                        //           for (int j = 0; j < 10; j++)
+                        //           {
+                        //               Console.Write("* ");
+                        //           }
+                        //           Console.WriteLine();
                         //     }
 
                         i = 0;
