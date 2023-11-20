@@ -136,6 +136,89 @@ namespace _03BoletinBucles
                         }
                         Console.WriteLine("La suma de los divisores es: " + sumaDivisores);
                         break;
+                    case 15:
+                        writeGreen("Ejercicio 15: Factorial.");
+                        int numero15;
+                        long factorial = 1;
+                        Console.WriteLine("Introduzca un número");
+                        numero15 = int.Parse(Console.ReadLine());
+
+
+                        for (i = numero15; i >= 1; i--)
+                        {
+                            factorial = factorial * i;
+                        }
+
+
+                        break;
+                    case 17:
+                        writeGreen("Ejercicio 17: Contar divisores.");
+                        int numero17;
+                        int contadorDivisores = 2;
+                        Console.WriteLine("Intro número: ");
+                        numero17 = int.Parse(Console.ReadLine());
+
+                        for (i = 2; i <= numero17 / 2; i++)
+                        {
+                            if (numero17 % i == 0)
+                            {
+                                contadorDivisores++;
+                                Console.Write(i + " ");
+                            }
+
+                        }
+                        Console.WriteLine(numero17);
+                        Console.WriteLine();
+                        Console.WriteLine(numero17 + " tiene " + contadorDivisores + " divisores");
+
+                        break;
+                    case 18:
+                        writeGreen("Ejercicio 18: Detectar número primo");
+                        int numero18;
+                        bool primo = true;
+                        Console.WriteLine("Introduzca un número: ");
+                        numero18 = int.Parse(Console.ReadLine());
+
+                        for (i = 2; i <= numero18 / 2; i++)
+                        {
+                            if (numero18 % i == 0)
+                            {
+                                primo = false;
+                                break;
+                            }
+                        }
+                        if (primo == true)
+                        {
+                            Console.WriteLine(numero18 + " es primo.");
+
+                        }
+                        else
+                        {
+                            Console.WriteLine(numero18 + " no es primo.");
+                        }
+                        break;
+                    case 22:
+                        writeGreen("Explicación Bucles Anidados: 10 filas de 10 asteriscos");
+
+                        ////for (i = 0; i < 10; i++)
+                        ////     {
+                        ////         for (int j = 0; j < 10; j++)
+                        ////         {
+                        ////             Console.Write("* ");
+                        ////         }
+                        ////         Console.WriteLine();
+                        //     }
+
+                        i = 0;
+                        int j = 0;
+                        while (i < 0)
+                        {
+                            i = 0;
+                            while (j < 10) 
+                                Console.Write("* ");
+                              j++;
+                        }
+                        break;
                     default:
                         Console.WriteLine("Ejercicio no existe.");
                         break;
