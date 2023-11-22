@@ -219,6 +219,24 @@ namespace _03BoletinBucles
                               j++;
                         }
                         break;
+                    case 21:
+                        writeGreen("Ejercicio 21: Tablas de Multiplicar. ");
+
+                        i = 1;
+                        while (i <= 10)
+                        {
+                            Console.WriteLine("Tabla de multiplicar del " + i);
+                          for (j = 1; j < 10; j++)
+                          {
+                            Console.WriteLine("1 * " + j + " = " + 1 * j);
+                            }
+                            Console.WriteLine();
+                            i++;
+                        }
+                        break;
+                    case 23:
+
+                        break;
                     default:
                         Console.WriteLine("Ejercicio no existe.");
                         break;
