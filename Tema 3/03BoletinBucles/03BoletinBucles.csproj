@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4C73A7C7-27C5-4F8D-83E3-43A236F321C7}</ProjectGuid>
+    <ProjectGuid>{65C26BCD-B07E-4F02-9F8D-61C3C5222E63}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_03BoletinBucles</RootNamespace>
     <AssemblyName>03BoletinBucles</AssemblyName>
