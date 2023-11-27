@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\01ExplicacionArrays\bin\Debug\01ExplicacionArrays.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\01ExplicacionArrays\bin\Debug\01ExplicacionArrays.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\01ExplicacionArrays\bin\Debug\01ExplicacionArrays.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\01ExplicacionArrays\obj\Debug\01ExplicacionArrays.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\01ExplicacionArrays\obj\Debug\01ExplicacionArrays.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\01ExplicacionArrays\obj\Debug\01ExplicacionArrays.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\01ExplicacionArrays\obj\Debug\01ExplicacionArrays.pdb
