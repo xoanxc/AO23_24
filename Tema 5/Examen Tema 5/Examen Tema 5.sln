@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 19 y 24", "Ejercicio 19 y 24.csproj", "{F2B94499-0403-484C-B6B1-78D9300D8A51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen Tema 5", "Examen Tema 5.csproj", "{A65490F5-2460-4E1B-92A1-AC4C2DF55FEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F2B94499-0403-484C-B6B1-78D9300D8A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F2B94499-0403-484C-B6B1-78D9300D8A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F2B94499-0403-484C-B6B1-78D9300D8A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F2B94499-0403-484C-B6B1-78D9300D8A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A65490F5-2460-4E1B-92A1-AC4C2DF55FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65490F5-2460-4E1B-92A1-AC4C2DF55FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65490F5-2460-4E1B-92A1-AC4C2DF55FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65490F5-2460-4E1B-92A1-AC4C2DF55FEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F36F3509-89B3-4ABA-AFAE-DAAFDAA38DFE}
+		SolutionGuid = {F56AA9B7-A030-4FA7-83E2-95B71C743752}
 	EndGlobalSection
 EndGlobal
