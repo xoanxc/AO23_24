@@ -4,10 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4C73A7C7-27C5-4F8D-83E3-43A236F321C7}</ProjectGuid>
+<<<<<<<< HEAD:Tema 5/Examen Tema 5/Examen Tema 5.csproj
+    <ProjectGuid>{A65490F5-2460-4E1B-92A1-AC4C2DF55FEA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Examen_Tema_5</RootNamespace>
+    <AssemblyName>Examen Tema 5</AssemblyName>
+========
+    <ProjectGuid>{65C26BCD-B07E-4F02-9F8D-61C3C5222E63}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_03BoletinBucles</RootNamespace>
     <AssemblyName>03BoletinBucles</AssemblyName>
+>>>>>>>> 3ec248c5a2cd07e9e6b2acbb533c2e662e50152a:Tema 3/03BoletinBucles/03BoletinBucles.csproj
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

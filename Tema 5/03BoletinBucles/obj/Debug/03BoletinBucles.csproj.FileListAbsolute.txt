@@ -1,7 +1,0 @@
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\03BoletinBucles\bin\Debug\03BoletinBucles.exe.config
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\03BoletinBucles\bin\Debug\03BoletinBucles.exe
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\03BoletinBucles\bin\Debug\03BoletinBucles.pdb
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\03BoletinBucles\obj\Debug\03BoletinBucles.csproj.AssemblyReference.cache
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\03BoletinBucles\obj\Debug\03BoletinBucles.csproj.CoreCompileInputs.cache
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\03BoletinBucles\obj\Debug\03BoletinBucles.exe
-C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\03BoletinBucles\obj\Debug\03BoletinBucles.pdb
