@@ -58,11 +58,12 @@ namespace _01ExplicacionArrays
             Console.WriteLine("La media es: " + media);
 
             //Inicializar un array con valores
-            float[] temperaturas = { 1, 6f, 17.5f; 20, 6f, 12.5f };
+            float[] temperaturas = { 1, 6f, 17.5f, 20, 6f, 12.5f };
 
 
-        Console.ReadLine();
-
-        }
+            Console.ReadLine();
+         }
     }
+
 }
+
