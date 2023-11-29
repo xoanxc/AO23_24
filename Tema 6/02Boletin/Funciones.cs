@@ -6,24 +6,52 @@ using System.Threading.Tasks;
 
 namespace _02Boletin
 {
-    internal class Funciones
+    class Funciones
     {
-        public static void printArray(int[] a)
+        public static void printEnunciado(int ejercicio)
         {
-            for (int i = 0; i < a.Length; i++)
-            {
-                Console.WriteLine(a[i] + " ");
-            }
             Console.WriteLine();
-
+            Console.WriteLine("**************EJERCICIO " + ejercicio + "**************");
+            Console.WriteLine();
         }
         public static void printArray(int[] a)
         {
             for (int i = 0; i < a.Length; i++)
             {
-                break;
+                Console.Write(a[i] + " ");
             }
-            Console.WriteLine(a[i]);
+            Console.WriteLine();
+        }
+
+        public static void printArray(short[] a)
+        {
+            for (int i = 0; i < a.Length; i++)
+            {
+                Console.Write(a[i] + " ");
+            }
+            Console.WriteLine();
+        }
+        //Mostrar array
+        public static void printArray(float[] a)
+        {
+            for (int i = 0; i < a.Length; i++)
+            {
+                Console.Write(a[i] + " ");
+            }
+            Console.WriteLine();
+        }
+
+        public static void printArray(String[] a)
+        {
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i] == null)
+                {
+                    break;
+                }
+                Console.WriteLine(a[i]);
+            }
+           
         }
     }
 }
