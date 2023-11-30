@@ -11,6 +11,11 @@ namespace _02Boletin
     {
         static void Main(string[] args)
         {
+            int ejercicio = int.Parse(Console.ReadLine());
+
+            switch(ejercicio)
+            {
+                case 1:
             //Ejercicio 1:
             Console.WriteLine("********* EJERCICIO 1 *********");
             int[] a1 = { 1, 2, 3, 4, 5, 6, 7,8,9,10};
@@ -30,15 +35,18 @@ namespace _02Boletin
             Console.WriteLine();
             Funciones.printArray(a2);
             Console.WriteLine();
-            //Ejercicio 2: 
-            Funciones.printEnunciado(2);
+                    break;
+                case 2:
+                    //Ejercicio 2: 
+                    Funciones.printEnunciado(2);
             float[] a3 = new float[20];
 
             Funciones.printArray(a3);
-            
 
-            //Ejercicio 3: 
-            Funciones.printEnunciado(3);
+                    break;
+                case 3:
+                    //Ejercicio 3: 
+                    Funciones.printEnunciado(3);
             int[] a4 = new int[10];
 
             a4[0] = -1;
@@ -47,9 +55,10 @@ namespace _02Boletin
             a4[9] = -1;
 
             Funciones.printArray(a4);
-
-            //Ejercicio 4:
-            Funciones.printEnunciado(4);
+                    break;
+                case 4:
+                    //Ejercicio 4:
+                    Funciones.printEnunciado(4);
 
             String[] libros = new string[50];
 
@@ -91,13 +100,15 @@ namespace _02Boletin
                 Console.Write(a6[i] + " ");
             }
             Console.WriteLine();
+                    break;
+                case 7:
+                    //Ejercicio 7:
+                    Funciones.printEnunciado(7);
 
-            //Ejercicio 7:
-            Funciones.printEnunciado(7);
-
-
-            //Ejercicio 8:
-            Funciones.printEnunciado(8);
+                    break;
+                case 8:
+                    //Ejercicio 8:
+                    Funciones.printEnunciado(8);
 
             int[] a8 = new int[100];
             int contador = 0;
@@ -122,19 +133,21 @@ namespace _02Boletin
                 Console.Write(a8[i] + " ");
             }
             Console.WriteLine();
-
-            //Ejercicio 9:
-            Funciones.printEnunciado(9);
+                    break;
+                case 9:
+                    //Ejercicio 9:
+                    Funciones.printEnunciado(9);
 
             int[] a9 = new int[100];
 
-            //for (int i = 0;)
-            {
+            for (int i = 0;)
+                    {
 
-            }
-
-            //Ejercicio 10:
-            Funciones.printEnunciado(10);
+                    }
+                    break;
+                case 10:
+                    //Ejercicio 10:
+                    Funciones.printEnunciado(10);
 
             int[] a10 = new int[100];
 
@@ -157,14 +170,16 @@ namespace _02Boletin
             }
             Console.WriteLine();
 
-
+                    break;
             //Dudas
             //Mostrar el array
 
 
-
+            
             //Cierre de Consola
             Console.ReadLine();
-        }
+            }
+}
     }
+
 }
