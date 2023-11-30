@@ -167,23 +167,14 @@ namespace _02Boletin
 
 
                     //Dar valores al Array
+                    Random generador3 = new Random();
 
-                    Random generador10 = new Random();
-                    int num10 = generador10.Next(10, 35);
-
-                    for (int i = a10[99]; i < 99; i++)
+                    for (int i = 0; i < 100; i += 2)
                     {
-
-
-
-                        a10[i] = num10;
+                        a10[i] = generador3.Next(10, 35);
+                        Console.Write(a10[i] + " ");
                     }
-                    //Mostrar el Array
-                    for (int i = 0; i < a10.Length; i++)
-                    {
-                        Console.Write(a10 + " ");
-                    }
-                    Console.WriteLine();
+
 
                     break;
                 default:
