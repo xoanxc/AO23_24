@@ -99,31 +99,36 @@ namespace _02Boletin
             //Ejercicio 8:
             Funciones.printEnunciado(8);
 
-            int[] a7 = new int[100];
-
+            int[] a8 = new int[100];
+            int contador = 0;
+             Random generador = new Random();
+            int num = 0;
 
             //Dar valores al Array
-            for (int i = a7[99]; i < 99; i++)
+            for (int i = 0; i < a8.Length; i++)
             {
-                Random generador = new Random();
-                int num = generador.Next(0, 999);
+                do
+                {
+                    contador++;
+                    num = generador.Next(0, 999);
 
-                a7[i] = num;
+                } while (num > contador);
+                a8[i] = num;
             }
 
             //Mostrar el Array
-            for (int i = 0; i < a7.Length; i++)
+            for (int i = 0; i < a8.Length; i++)
             {
-                Console.Write(a7 + " ");
+                Console.Write(a8[i] + " ");
             }
             Console.WriteLine();
 
             //Ejercicio 9:
             Funciones.printEnunciado(9);
 
-            int[] a8 = new int[100];
+            int[] a9 = new int[100];
 
-            for (int i = 0;)
+            //for (int i = 0;)
             {
 
             }
@@ -131,6 +136,26 @@ namespace _02Boletin
             //Ejercicio 10:
             Funciones.printEnunciado(10);
 
+            int[] a10 = new int[100];
+
+
+            //Dar valores al Array
+
+            Random generador = new Random();
+
+            for (int i = a10[99]; i < 99; i++)
+            {
+               
+                int num = generador.Next(10, 35);
+
+                a10[i] = num;
+            }
+            //Mostrar el Array
+            for (int i = 0; i < a8.Length; i++)
+            {
+                Console.Write(a8 + " ");
+            }
+            Console.WriteLine();
 
 
             //Dudas
