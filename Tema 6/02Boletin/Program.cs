@@ -15,7 +15,7 @@ namespace _02Boletin
         {
             Console.WriteLine("02Boletin By Xoán Alonso Fernández");
             Console.WriteLine();
-            Console.WriteLine("Introduce un ejercicio entre 1 a 10");
+            Console.WriteLine("Introduce un ejercicio entre 1 a 12");
             int ejercicio = int.Parse(Console.ReadLine());
 
             switch (ejercicio)
@@ -111,8 +111,8 @@ namespace _02Boletin
                     Funciones.printEnunciado(7);
 
                     Console.WriteLine("Introduce un valor: ");
-                    int i1 = int.Parse(Console.ReadLine());
-                    int[] n = new int[i1];
+                    int a7 = int.Parse(Console.ReadLine());
+                    int[] n = new int[a7];
 
                     n[n.Length -1] = 20;
 
@@ -132,7 +132,7 @@ namespace _02Boletin
                     //Dar valores al Array y mostrarlo
                     for (int i = 0; i < a8.Length; i++)
                     {
-                        a8[i] = generador.Next(0, 999);
+                        a8[i] = generador.Next(0, 10);
                         Console.Write(a8[i] + " ");
                     } 
                     break;
@@ -158,14 +158,57 @@ namespace _02Boletin
                     int[] a10 = new int[100];
 
                     //Asignar variable Random
-                    Random generador3 = new Random();
+                    Random generador10 = new Random();
 
                     //Dar valores al Array y mostrarlos
                     for (int i = 1; i < 100; i += 2)
                     {
-                        a10[i] = generador3.Next(10, 35);
+                        a10[i] = generador10.Next(10, 35);
                         Console.Write(a10[i] + " ");
                     }
+                    break;
+
+                case 11: //Ejercicio 11
+                    Funciones.printEnunciado(11);
+
+                    //Crear array con 50 valores
+                    int[] a11 = new int[50];
+
+                    //Asignar variable Random
+                    Random generador11 = new Random();
+
+                    //Dar valores al Array y mostrarlos
+                    for (int i = 0; i < 50; i++)
+                    {
+                        a11[i] = generador11.Next(-10, 50);
+
+                        //Mostrar los numeros
+                        if (a11[i] < 0)
+                        {
+                            //Mostrar de distintas formas el array
+                            //Console.WriteLine(a11[i] + " y la posición es " + i);
+                            Console.WriteLine("En la posición " + i + " el numeron es " + a11[i]);
+                        }
+                    }
+                    break;
+
+                case 12: //Ejercicio 12
+
+                    Funciones.printEnunciado(12);
+
+                    int[] a12 = new int[50];
+
+                    Random generador12 = new Random();
+
+                    for (int i = 0; i < a12.Length; i++)
+                    {
+                        a12[i] = generador12.Next(1, 99);
+                    }
+                    for (int i = 0; i < a12.Length; i++)
+                    {
+                        a12[0] = a12[0] + a12[i];
+                    }
+                    Console.WriteLine("La suma es: " + a12[0]);
                     break;
 
                 //Default
