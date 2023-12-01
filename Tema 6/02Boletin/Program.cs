@@ -129,20 +129,12 @@ namespace _02Boletin
                     Random generador = new Random();
                     int num = generador.Next(0, 999);
 
-                    //Dar valores al Array
+                    //Dar valores al Array y mostrarlo
                     for (int i = 0; i < a8.Length; i++)
                     {
                         a8[i] = generador.Next(1, 11);
                         Console.Write(a8[i] + " ");
-                    }
-
-
-                    //Mostrar el Array
-                    for (int i = 0; i < a8.Length; i++)
-                    {
-                        Console.Write(a8[i] + " ");
-                    }
-                    Console.WriteLine();
+                    } 
                     break;
 
                 case 9: //Ejercicio 9:
@@ -182,9 +174,6 @@ namespace _02Boletin
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Error CRITICO, vuelva a intentarlo");
                     break;
-
-                    //Dudas
-                    //Mostrar el array
 
 
 
