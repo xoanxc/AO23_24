@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -114,7 +115,7 @@ namespace _02Boletin
                     int a7 = int.Parse(Console.ReadLine());
                     int[] n = new int[a7];
 
-                    n[n.Length -1] = 20;
+                    n[n.Length - 1] = 20;
 
                     n[0] = 10;
 
@@ -134,7 +135,7 @@ namespace _02Boletin
                     {
                         a8[i] = generador.Next(0, 10);
                         Console.Write(a8[i] + " ");
-                    } 
+                    }
                     break;
 
                 case 9: //Ejercicio 9:
@@ -178,7 +179,7 @@ namespace _02Boletin
                     Random generador11 = new Random();
 
                     //Dar valores al Array y mostrarlos
-                    for (int i = 0; i < 50; i++)
+                    for (int i = 0; i < a11.Length; i++)
                     {
                         a11[i] = generador11.Next(-10, 50);
 
@@ -187,7 +188,7 @@ namespace _02Boletin
                         {
                             //Mostrar de distintas formas el array
                             //Console.WriteLine(a11[i] + " y la posición es " + i);
-                            Console.WriteLine("En la posición " + i + " el numeron es " + a11[i]);
+                            Console.WriteLine("En la posición " + i + " el numero es " + a11[i]);
                         }
                     }
                     break;
@@ -211,15 +212,52 @@ namespace _02Boletin
                     Console.WriteLine("La suma es: " + a12[0]);
                     break;
 
+                case 16: //Ejercicio 16
+                    Funciones.printEnunciado(16);
+
+                    int contador = 0;
+                    int[] a16 = new int[50];
+
+                    Random generador16 = new Random();
+
+                    for (int i = 0; i < a16.Length; i++)
+                    {
+                        //Generar los negativos
+                        a16[i] = generador16.Next(-25, 25);
+
+                        //Contar los negativos
+                        if (a16[i] < 0)
+                        {
+                            contador++;
+                        }
+                    }
+                    Console.WriteLine("Son " + contador + " números negativos");
+                    break;
+
+                case 18: //Ejercicio 18
+                    Funciones.printEnunciado(18);
+
+                    string[] a18 = new string[10];
+                    a18[0] = "RC Celta de Vigo";
+
+                    int contador18 = 0;
+
+                    for (int i = 0; i < a18.Length; i++)
+                    {
+                        if (a18[i] == null) //null es 0 en String
+                        {
+                            contador18++;
+                        }
+                    }
+                    Console.WriteLine("Posiciones vacías: " + contador18);
+                    break;
+
                 //Default
                 default:
                     Console.WriteLine();
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Error CRITICO, vuelva a intentarlo");
                     break;
-
-
-
 
             }
             //Cierre de Consola
