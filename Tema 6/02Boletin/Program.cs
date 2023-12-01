@@ -126,13 +126,13 @@ namespace _02Boletin
 
                     int[] a8 = new int[100];
 
+                    //Asignar variable Random
                     Random generador = new Random();
-                    int num = generador.Next(0, 999);
 
                     //Dar valores al Array y mostrarlo
                     for (int i = 0; i < a8.Length; i++)
                     {
-                        a8[i] = generador.Next(1, 11);
+                        a8[i] = generador.Next(0, 999);
                         Console.Write(a8[i] + " ");
                     } 
                     break;
@@ -157,18 +157,18 @@ namespace _02Boletin
 
                     int[] a10 = new int[100];
 
-
-                    //Dar valores al Array
+                    //Asignar variable Random
                     Random generador3 = new Random();
 
+                    //Dar valores al Array y mostrarlos
                     for (int i = 0; i < 100; i += 2)
                     {
                         a10[i] = generador3.Next(10, 35);
                         Console.Write(a10[i] + " ");
                     }
-
-
                     break;
+
+                //Default
                 default:
                     Console.WriteLine();
                     Console.ForegroundColor = ConsoleColor.Red;
