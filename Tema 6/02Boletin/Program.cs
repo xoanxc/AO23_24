@@ -161,7 +161,7 @@ namespace _02Boletin
                     Random generador3 = new Random();
 
                     //Dar valores al Array y mostrarlos
-                    for (int i = 0; i < 100; i += 2)
+                    for (int i = 1; i < 100; i += 2)
                     {
                         a10[i] = generador3.Next(10, 35);
                         Console.Write(a10[i] + " ");
