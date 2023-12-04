@@ -252,6 +252,7 @@ namespace _02Boletin
                     Console.WriteLine("Posiciones vacías: " + contador18);
                     break;
 
+
                 //Default
                 default:
                     Console.WriteLine();

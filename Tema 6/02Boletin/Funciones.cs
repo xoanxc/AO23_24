@@ -54,7 +54,34 @@ namespace _02Boletin
             }
 
         }
+        //Metodo que llena un array con numeros aleatorios
+        public static void llenarArray(int[] matriz)
+        {
+            Random generador = new Random();
+            for (int i = 0; i < matriz.Length; i++)
+            {
+                matriz[i] = generador.Next();
+            }
 
-        public static void printRandom
+        }
+        public static void llenarArray(int[] matriz, int limiteInferior, int limiteSuperior)
+        {
+            Random generador = new Random();
+            for (int i = 0; i < matriz.Length; i++)
+            {
+                matriz[i] = generador.Next(limiteInferior, limiteSuperior + 1);
+            }
+
+        }
+        public static void llenarArray(double[] matriz, double limiteInferior, double limiteSuperior)
+        {
+            Random generador = new Random();
+            for (int i = 0; i < matriz.Length; i++)
+            {
+                matriz[i] = generador.Next();
+            }
+
+        }
+
     }
 }
