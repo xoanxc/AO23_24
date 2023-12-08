@@ -329,6 +329,44 @@ namespace _02Boletin
 
                     Funciones.printEnunciado(26);
 
+                    int[] a26 = new int[50];
+                    int[] b26 = new int[50];
+
+                    a26[1] = 1;
+                    b26[1] = 0;
+
+                    bool[] Estado = new bool[50];
+
+                    int contador26 = 0;
+
+
+                    for (int i = 0; i < a26.Length; i++)
+                    {
+                        if (a26[i] == b26[i])
+                        {
+                            Estado[i] = true;
+                        }
+                        else
+                        {
+                            Estado[i] = false;
+                        }
+                    }
+                    for (int i = 0; i < Estado.Length; i++)
+                    {
+                        if (Estado[i] == true)
+                        {
+                            contador26++;
+                        }
+                        
+                    }
+                    if (contador26 == 50)
+                    {
+                        Console.WriteLine("Son iguales");
+                    }
+                    else
+                    {
+                        Console.WriteLine("No son iguales");
+                    }
                     break;
 
 
