@@ -239,6 +239,25 @@ namespace _02Boletin
 
                 case 15://Ejercicio 15
 
+                    Funciones.printEnunciado(15);
+
+                    int[] a15 = new int[50];
+
+                    int suma15 = 0;
+
+                    Random generador15 = new Random();
+
+                    for (int i = 0; i < a15.Length; i++)
+                    {
+                        a15[i] = generador15.Next(-50, 50);
+
+                        if (a15[i] >= 0)
+                        {
+                            suma15 += a15[i];
+                        }
+                    }
+                    Console.WriteLine("La sumade los no negativos es: " + suma15);
+
                     break;
 
                 case 16: //Ejercicio 16
@@ -265,6 +284,27 @@ namespace _02Boletin
 
                 case 17: //Ejercicio 17
 
+                    Funciones.printEnunciado(17);
+
+                    int[] a17 = new int[50];
+
+                    double impares17 = 0;
+
+                    double porcentaje17 = 0;
+
+                    Random generador17 = new Random();
+
+                    for (int i = 0; i < a17.Length; i++)
+                    {
+                        a17[i] = generador17.Next(0, 100);
+
+                        if (a17[i] % 2 != 0)
+                        {
+                            impares17++;
+                        }
+                    }
+                    porcentaje17 = (impares17 / 50) * 100;
+                    Console.WriteLine("El porcentaje de numeros impares es " + porcentaje17 + "%");
                     break;
 
                 case 18: //Ejercicio 18
@@ -286,6 +326,8 @@ namespace _02Boletin
                     break;
 
                 case 26: //Ejercicio 26
+
+                    Funciones.printEnunciado(26);
 
                     break;
 
