@@ -212,6 +212,35 @@ namespace _02Boletin
                     Console.WriteLine("La suma es: " + a12[0]);
                     break;
 
+                case 14: //Ejercicio 14
+
+                    Funciones.printEnunciado(14);
+
+                    int[] a14 = new int[50];
+
+                    //double cuadrado14 = 0;
+
+                    double suma14 = 0;
+
+                    Random generador14 = new Random();
+
+                    for (int i = 0; i < a14.Length; i++)
+                    {
+                        a14[i] = generador14.Next(1, 99);
+
+                        //cuadrado14 = Math.Sqrt(a14[i]);
+
+                        suma14 += Math.Sqrt(a14[i]);
+                    }
+                    Console.WriteLine("La suma es: " + suma14);
+
+
+                    break;
+
+                case 15://Ejercicio 15
+
+                    break;
+
                 case 16: //Ejercicio 16
                     Funciones.printEnunciado(16);
 
@@ -234,6 +263,10 @@ namespace _02Boletin
                     Console.WriteLine("Son " + contador + " números negativos");
                     break;
 
+                case 17: //Ejercicio 17
+
+                    break;
+
                 case 18: //Ejercicio 18
                     Funciones.printEnunciado(18);
 
@@ -250,6 +283,10 @@ namespace _02Boletin
                         }
                     }
                     Console.WriteLine("Posiciones vacías: " + contador18);
+                    break;
+
+                case 26: //Ejercicio 26
+
                     break;
 
 
