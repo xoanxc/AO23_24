@@ -329,8 +329,10 @@ namespace _02Boletin
 
                     Funciones.printEnunciado(26);
 
-                    int[] a26 = new int[50];
-                    int[] b26 = new int[50];
+                    int capacidadArray = 50;
+
+                    int[] a26 = new int[capacidadArray];
+                    int[] b26 = new int[capacidadArray];
 
                     a26[1] = 1;
                     b26[1] = 0;
@@ -359,7 +361,7 @@ namespace _02Boletin
                         }
                         
                     }
-                    if (contador26 == 50)
+                    if (contador26 == capacidadArray)
                     {
                         Console.WriteLine("Son iguales");
                     }
