@@ -14,9 +14,9 @@ namespace _02Boletin
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("02Boletin By Xoán Alonso Fernández");
+            Console.WriteLine("02Boletín By Xoán Alonso Fernández");
             Console.WriteLine();
-            Console.WriteLine("Introduce un ejercicio entre 1 a 12");
+            Console.WriteLine("Introduce un ejercicio entre 1 a 27");
             int ejercicio = int.Parse(Console.ReadLine());
 
             switch (ejercicio)
@@ -362,6 +362,40 @@ namespace _02Boletin
                         
                     }
                     if (contador26 == capacidadArray)
+                    {
+                        Console.WriteLine("Son iguales");
+                    }
+                    else
+                    {
+                        Console.WriteLine("No son iguales");
+                    }
+                    break;
+
+                case 27:
+
+                    Funciones.printEnunciado(27);
+
+                    int capacidadArray27 = 50;
+                    int[] a27 = new int[capacidadArray27];
+                    int[] b27 = new int[capacidadArray27];
+
+                    bool[] result = new bool[capacidadArray27];
+                    int contador27 = 0;
+                    
+
+                    for (int i = 0; i < a27.Length; i++)
+                    {
+                        result[i] = Array.Equals(a27[i], b27[i]);
+                    }
+                    for (int i = 0; i < result.Length; i++)
+                    {
+                        if (result[i] == true)
+                        {
+                            contador27++;
+                        }
+
+                    }
+                    if (contador27 == capacidadArray27)
                     {
                         Console.WriteLine("Son iguales");
                     }
