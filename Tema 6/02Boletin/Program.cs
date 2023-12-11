@@ -230,7 +230,7 @@ namespace _02Boletin
 
                         //cuadrado14 = Math.Sqrt(a14[i]);
 
-                        suma14 += Math.Sqrt(a14[i]);
+                        suma14 += Math.Pow(a14[i], 2);
                     }
                     Console.WriteLine("La suma es: " + suma14);
 
