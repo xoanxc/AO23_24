@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\03AlgoritmosAvanzados\bin\Debug\03AlgoritmosAvanzados.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\03AlgoritmosAvanzados\bin\Debug\03AlgoritmosAvanzados.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\03AlgoritmosAvanzados\bin\Debug\03AlgoritmosAvanzados.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\03AlgoritmosAvanzados\obj\Debug\03AlgoritmosAvanzados.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\03AlgoritmosAvanzados\obj\Debug\03AlgoritmosAvanzados.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\03AlgoritmosAvanzados\obj\Debug\03AlgoritmosAvanzados.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\03AlgoritmosAvanzados\obj\Debug\03AlgoritmosAvanzados.pdb

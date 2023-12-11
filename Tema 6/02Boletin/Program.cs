@@ -256,7 +256,7 @@ namespace _02Boletin
                             suma15 += a15[i];
                         }
                     }
-                    Console.WriteLine("La sumade los no negativos es: " + suma15);
+                    Console.WriteLine("La suma de los no negativos es: " + suma15);
 
                     break;
 
@@ -341,33 +341,41 @@ namespace _02Boletin
 
                     int contador26 = 0;
 
-
-                    for (int i = 0; i < a26.Length; i++)
+                    if(a26.Length  != b26.Length)
+                        {
+                        Console.WriteLine("No son iguales");
+                        }
+                    else
                     {
-                        if (a26[i] == b26[i])
+
+                        for (int i = 0; i < a26.Length; i++)
                         {
-                            Estado[i] = true;
+                            if (a26[i] == b26[i])
+                            {
+                                Estado[i] = true;
+                            }
+                            else
+                            {
+                                Estado[i] = false;
+                            }
                         }
-                        else
-                        {
-                            Estado[i] = false;
-                        }
-                    }
+                    
                     for (int i = 0; i < Estado.Length; i++)
                     {
                         if (Estado[i] == true)
                         {
                             contador26++;
+                            }
+
                         }
-                        
-                    }
-                    if (contador26 == capacidadArray)
-                    {
-                        Console.WriteLine("Son iguales");
-                    }
-                    else
-                    {
-                        Console.WriteLine("No son iguales");
+                        if (contador26 == capacidadArray)
+                        {
+                            Console.WriteLine("Son iguales");
+                        }
+                        else
+                        {
+                            Console.WriteLine("No son iguales");
+                        }
                     }
                     break;
 
