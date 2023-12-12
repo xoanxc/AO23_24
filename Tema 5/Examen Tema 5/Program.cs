@@ -34,19 +34,17 @@ namespace Examen_Tema_5
                     int i = 0;
 
 
-                    while (a < 100)
+                    while (a = 100)
                     {
-                        //if ()
-                        //{
+                        a -= 100
 
-                        //}
-                        //i = b + 2;
-
-                        Console.Write("a.");
+                        Console.Write(a);
                         
                     }
-
-
+                    while (b = 25)
+                    {
+                        b += 2
+                    }
 
                         break;
                     case 2:
