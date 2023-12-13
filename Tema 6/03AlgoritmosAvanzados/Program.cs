@@ -36,7 +36,7 @@ namespace _03AlgoritmosAvanzados
                 case 2:
                     //2º Algoritmo que obtiene la posición del primer número superior a la media del array.
 
-                    int[] ints = new int[5];
+                    int[] a2 = new int[20];
 
                     break;
                 case 3:
@@ -45,48 +45,52 @@ namespace _03AlgoritmosAvanzados
 
                     int[] c3 = new int[10];
 
+                    Random gen3 = new Random();
+
                     for (int i = 0; i < c3.Length; i++)
                     {
-                        
+                        c3[i] = gen3.Next();
                     }
                     break;
+
+                    int minimo = c3[0];
+
+                    for (int i = 0; i < c3.Length; i++)
+                    {
+                        if (minimo > c3[i])
+                        {
+                            minimo = c3[i];
+                        }
+                    }
+                    Console.WriteLine("El minimo es " + minimo);
+
                 case 4:
                     //4º Algoritmo que ordena los números de un array de menor a mayor
 
-                    int[] c4 = new int[3];
+                    int[] c4 = new int[5];
 
                     Random gen4 = new Random();
 
-                    for (int i = 0; i < c4.Length; i++)
+                    for (int u = 0; u < c4.Length; u++)
                     {
-                        c4[i] = gen4.Next(1, 20);
+                        c4[u] = gen4.Next(1, 20);
                     }
+
                     for (int i = 0; i < c4.Length; i++)
                     {
-                        if (c4[0] > c4[1])
+                        for (int j = 0; j < c4.Length - 1; j++)
                         {
-                            c4[0] = c4[1];
-
-                            if (c4[0] < c4[2])
+                            if (c4[j] > c4[j + 1])
                             {
-                                c4[0] = c4[2];
+                                int aux = c4[j];
+                                c4[j] = c4[j + 1];
+                                c4[j + 1] = aux;
                             }
                         }
-                        else if (c4[0] > c4[1])
+                        for (int o = 0; o < c4.Length; o++)
                         {
-                            c4[1] = c4[0];
-
-                            if (c4[0] < c4[2])
-                            {
-                                c4[0] = c4[2];
-                            }
+                            Console.Write(c4[o] + " ");
                         }
-
-
-                    }
-                    for (int i = 0; i < c4.Length; i++)
-                    {
-                        Console.WriteLine("Ordenados de menor a mayor: " + c4[i]);
                     }
 
                     break;
