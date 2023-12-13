@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\Repaso_13.12\bin\Debug\Repaso_13.12.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\Repaso_13.12\bin\Debug\Repaso_13.12.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\Repaso_13.12\bin\Debug\Repaso_13.12.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\Repaso_13.12\obj\Debug\Repaso_13.12.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\Repaso_13.12\obj\Debug\Repaso_13.12.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\Repaso_13.12\obj\Debug\Repaso_13.12.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 5\Repaso_13.12\obj\Debug\Repaso_13.12.pdb
