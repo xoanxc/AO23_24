@@ -18,6 +18,7 @@ namespace _02Boletin
             Console.WriteLine();
             Console.WriteLine("Introduce un ejercicio entre 1 a 27");
             int ejercicio = int.Parse(Console.ReadLine());
+            Console.WriteLine();
 
             switch (ejercicio)
             {
@@ -412,13 +413,37 @@ namespace _02Boletin
                         Console.WriteLine("No son iguales");
                     }
                     break;
+                case 31:
+
+                    int[] a31 = new int[25];
+                    Random gen31 = new Random();
+                    Console.Write("a. ");
+                    for (int i = 0; i < a31.Length; i++)
+                    {
+                        a31[i] = gen31.Next(1, 50);
+                        Console.Write(a31[i] + " ");
+                    }
+                    Console.WriteLine();
+
+                    Console.Write("b. ");
+                    for (int i = 0; i < 5; i++)
+                    {
+                        a31[i] = gen31.Next(1, 50);
+                        Console.Write(a31[i] + " ");
+                    }
+                    Console.WriteLine();
+                    
 
 
-                //Default
-                default:
+
+                    break;
+
+
+                
+                default: //Default
                     Console.WriteLine();
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Error CRITICO, vuelva a intentarlo");
+                    Console.WriteLine("Error CRITICO");
                     break;
 
             }
