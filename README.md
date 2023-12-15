@@ -11,4 +11,4 @@ Repo: https://github.com/realramonrs/AO23_24
 # Lenguajes
 
 ## C#
-![CSharp]()
+![CSharp](https://github.com/xoanxc/AO23_24/blob/main/assets/csharp.webp)
