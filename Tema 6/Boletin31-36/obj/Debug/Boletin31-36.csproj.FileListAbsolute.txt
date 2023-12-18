@@ -5,3 +5,10 @@ C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\Boletin31-36\obj\Debug\Boletin31
 C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\Boletin31-36\obj\Debug\Boletin31-36.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\Boletin31-36\obj\Debug\Boletin31-36.exe
 C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 6\Boletin31-36\obj\Debug\Boletin31-36.pdb
+G:\Users\xoana\Documents\GitHub\AO23_24\Tema 6\Boletin31-36\obj\Debug\Boletin31-36.csproj.AssemblyReference.cache
+G:\Users\xoana\Documents\GitHub\AO23_24\Tema 6\Boletin31-36\obj\Debug\Boletin31-36.csproj.CoreCompileInputs.cache
+G:\Users\xoana\Documents\GitHub\AO23_24\Tema 6\Boletin31-36\obj\Debug\Boletin31-36.exe
+G:\Users\xoana\Documents\GitHub\AO23_24\Tema 6\Boletin31-36\obj\Debug\Boletin31-36.pdb
+G:\Users\xoana\Documents\GitHub\AO23_24\Tema 6\Boletin31-36\bin\Debug\Boletin31-36.exe.config
+G:\Users\xoana\Documents\GitHub\AO23_24\Tema 6\Boletin31-36\bin\Debug\Boletin31-36.exe
+G:\Users\xoana\Documents\GitHub\AO23_24\Tema 6\Boletin31-36\bin\Debug\Boletin31-36.pdb

@@ -62,22 +62,28 @@ namespace Boletin31_36
                         c31[i] = a31[i];
                     }
 
-                    //f.Ordenar el array copia de menor a mayor.
+                    // f. Ordenar el array copia de menor a mayor.
                     for (int i = 0; i < c31.Length; i++)
                     {
                         for (int j = 0; j < c31.Length - 1; j++)
                         {
                             if (c31[j] > c31[j + 1])
                             {
+                                // Swap elements if they are in the wrong order
                                 int aux = c31[j];
-                                c31[j] = c31[j + 1];
+                                c31[j] = c31[j + 1]; //No consigo que funcione a pesar de usar el mismo codigo del GitHub de Ramon
                                 c31[j + 1] = aux;
                             }
                         }
+                        for (i = 0; i < c31.Length; i++)
+                        {
+                            Console.Write(c31[i] + " "); 
+                        }
+                        Console.WriteLine();
                     }
 
                     //g.Calcular la suma de los valores almacenados en las 10 primeras posiciones de ambos arrays. 
-                    int suma = 0;
+                    double suma = 0;
                     for (int i = 0; i < 9; i++)
                     {
                         suma += a31[i] + c31[i];
@@ -94,9 +100,85 @@ namespace Boletin31_36
 
                     //i.Poner a cero todas aquellas posiciones que almacenen un número mayor que la media en ambos arrays.
 
+                    //Reinicio la variable suma
+                    suma = 0;
 
+                    for (int i = 0; i < a31.Length; i++)
+                    {
+                        suma += a31[i] + c31[i];
+                    }
+                    suma /= 50;
+
+                    for (int i = 0; i < a31.Length; i++)
+                    {
+                        if (a31[i] > suma)
+                        {
+                            a31[i] = 0;
+                        }
+                    }
+                    Console.WriteLine();
+                    for (int i = 0; i < c31.Length; i++)
+                    {
+                        if (c31[i] > suma)
+                        {
+                            c31[i] = 0;
+                        }
+                    }
+
+                    //j.Solicitar al usuario un valor y buscarlo en ambos arrays mostrar por pantalla la posición que ocupa. En caso de no encontrarlo avisa de que no 'está en la matriz'
+                    Console.WriteLine();
+                    Console.WriteLine("Introduce un valor: ");
+                    int valorj = int.Parse(Console.ReadLine());
+                    bool encontrado1 = false;
+                    bool encontrado2 = false;
+
+                    for (int i = 0; i < a31.Length; i++)
+                    {
+                        if (a31[i] == valorj)
+                        {
+                            Console.WriteLine("He encontrado este valor " + a31[i] + " en la posición " + i + " del array a31");
+                            encontrado1 = true;
+                        }
+
+                    }
+                    for (int i = 0; i < c31.Length; i++)
+                    {
+                        if (c31[i] == valorj)
+                        {
+                            Console.WriteLine("He encontrado este valor " + c31[i] + " en la posición " + i + " del array c31");
+                            encontrado2 = true;
+                        }
+                    }
+                    if (!encontrado1 && !encontrado2)
+                    {
+                        Console.WriteLine("El valor introducido no se encuentra en ninguno de los dos arrays");
+                    }
                     break;
+
                 case 32:
+                    Console.WriteLine("Introduce el valor de n ");
+                    int valorN = int.Parse(Console.ReadLine());
+
+                    double suma32 = 0;
+                    int[] a32 = new int[valorN];
+                    Random gen32 = new Random();
+                    for (int i = 0; i < a32.Length; i++)
+                    {
+                        a32[i] = gen32.Next(0, 10);
+                    }
+
+                    //a.Calcular la media de los elementos del Array.
+                    for (int i = 0; i < a32.Length; i++)
+                    {
+                        suma32 += a32[i];
+                    }
+                    suma32 /= valorN;
+                    Console.WriteLine("La media es " + suma32);
+
+                    //b.Calcular el porcentaje de valores que están por encima de la media:
+
+
+
                     break;
                 case 33:
                     break;
