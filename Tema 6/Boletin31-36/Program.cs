@@ -164,7 +164,7 @@ namespace Boletin31_36
                     Random gen32 = new Random();
                     for (int i = 0; i < a32.Length; i++)
                     {
-                        a32[i] = gen32.Next(0, 10);
+                        a32[i] = gen32.Next(0, 11);
                     }
 
                     //a.Calcular la media de los elementos del Array.
@@ -176,17 +176,67 @@ namespace Boletin31_36
                     Console.WriteLine("La media es " + suma32);
 
                     //b.Calcular el porcentaje de valores que están por encima de la media:
+                    double porcentaje32 = 0;
+
+                    for (int i = 0; i < a32.Length; i++)
+                    {
+                        if (suma32 < a32[i])
+                        {
+                            porcentaje32++;
+                        }
+                    }
+                    porcentaje32 = Math.Round(((porcentaje32 / valorN) * 100), 2); //Un parentesis sobra, pero me quedo mas tranquilo :(
 
 
+                    //Comprobación de quien aprueba y quien NO (no lo decido yo, lo decide el if)
 
+                    if (porcentaje32 < 5)
+                    {
+                        Console.WriteLine("Lamentablemente debo informarte de tu suspenso, con una media de " + porcentaje32 + ", esfuerzate mas en las recuperaciones");
+                    }
+                    else if (porcentaje32 >= 5 || porcentaje32 < 7)
+                    {
+                        Console.WriteLine("Felicidades, has aprobado, aunque tienes margen para mejorar");
+                    }
+                    else if (porcentaje32 > 7 || porcentaje32 < 9)
+                    {
+                        Console.WriteLine("Notable, a las puertas de la perfección");
+                    }
+                    else if (porcentaje32 > 9 || porcentaje32 <= 10)
+                    {
+                        Console.WriteLine("Sobresaliente, felicidades");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error fatal");
+                    }
                     break;
+                                                                                   
                 case 33:
                     break;
+
                 case 34:
                     break;
+
                 case 35:
                     break;
+
                 case 36:
+
+                    int[] a36 = new int[25];
+                    Random gen36 = new Random();
+                    for (int i = 0; i < a36.Length; i++)
+                    {
+                        a36[i] = gen36.Next(-25, 25);
+                    }
+                    for (int i = 0; i < a36.Length; i++)
+                    {
+                        if (a36[i] < 0)
+                        {
+                            Console.WriteLine("El primero numero negativo en la posición " + i + " es " + a36[i]);
+                            break;
+                        }
+                    }
                     break;
 
 
