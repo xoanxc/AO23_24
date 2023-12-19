@@ -211,14 +211,101 @@ namespace Boletin31_36
                         Console.WriteLine("Error fatal");
                     }
                     break;
-                                                                                   
+
                 case 33:
+                    Console.WriteLine("Introduce n");
+                    int n33 = int.Parse(Console.ReadLine());
+
+                    int[] array = new int[n33];
+                    double[] desviaciones = new double[n33];
+                    Random generador = new Random();
+                    double suma33 = 0;
+
+                    //Llenar el array y calcular la suma
+                    for (int i = 0; i < array.Length; i++)
+                    {
+                        array[i] = generador.Next();
+                        suma33 += array[i];
+                    }
+
+                    //Calcular la media
+                    double media = suma33 / n33;
+
+                    //Calcular la desviación con respecto a la media y acumular en un array
+                    for (int i = 0; i < array.Length; i++)
+                    {
+                        desviaciones[i] = Math.Abs(array[i] - media);
+                    }
+
+                    //Calcular la desviación media
+                    double desviacionMedia = 0;
+                    for (int i = 0; i < desviaciones.Length; i++)
+                    {
+                        desviacionMedia += desviaciones[i];
+                    }
+                    desviacionMedia /= n33;
+
+                    Console.WriteLine("Desviación Media: " + desviacionMedia); //Has hecho que me duela la cabeza
                     break;
 
                 case 34:
+
+                    int[] a34 = new int[5];
+                    int[] b34 = new int[5];
+
+                    Console.WriteLine("Introduce los valores del array");
+                    Console.WriteLine("Primer valor");
+                    a34[0] = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Segundo valor");
+                    a34[1] = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Tercer valor");
+                    a34[2] = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Cuarto valor");
+                    a34[3] = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Quinto valor");
+                    a34[4] = int.Parse(Console.ReadLine());
+                    //*Se podia haber hecho con un for :(
+
+                    for (int i = 0; i < b34.Length; i++)
+                    {
+                        b34[i] = a34[i] + 10;
+                    }
+                    for (int i = 0; i < a34.Length; i++)
+                    {
+                        Console.Write(a34[i] + " ");
+                    }
+                    Console.WriteLine();
+                    for (int i = 0; i < b34.Length; i++)
+                    {
+                        Console.Write(b34[i] + " ");
+                    }
+
                     break;
 
                 case 35:
+
+                    double suma35 = 0;
+                    double modulo = 0;
+                    double[] a35 = new double[5];
+                    double[] potencias = new double[5];
+
+                    Random gen35 = new Random();
+
+                    for (int i = 0; i < a35.Length; i++)
+                    {
+                        a35[i] = gen35.Next();
+                    }
+                    for (int i = 0; i < potencias.Length; i++)
+                    {
+                        potencias[i] = Math.Pow(a35[i], 2);
+                        suma35 += potencias[i]; //Innecesario
+                    }
+                    suma35 = Math.Round(Math.Sqrt(suma35), 2);
+                    Console.WriteLine("El modulo es: " + suma35);
+
+
+
+
                     break;
 
                 case 36:
@@ -240,7 +327,8 @@ namespace Boletin31_36
                     break;
 
 
-                   
+                //Ojala haber utilizado funciones :(
+
                 default: //Default
                     Console.WriteLine();
                     Console.ForegroundColor = ConsoleColor.Red;
