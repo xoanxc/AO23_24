@@ -715,10 +715,48 @@ namespace _02Boletin
                         }
                     }
                     break;
+                case 37:
+
+                    int[] a37 = new int[25];
+                    Random gen37 = new Random();
+
+                    bool encontrado37 = false;
+                    int contador37 = 0;
 
 
+                    for (int i = 0; i < a37.Length; i++)
+                    {
+                        a37[i] = gen37.Next(1, 99);
+                    }
 
-                
+                    Console.WriteLine("Introduzca un número");
+                    int num37 = int.Parse(Console.ReadLine());
+
+
+                    for (int i = 0; i < a37.Length; i++)
+                    {
+                        if (num37 == a37[i])
+                        {
+                            Console.WriteLine("El " + a37[i] + " se encuentra en el array " + contador37 + " veces");
+                            contador37++;
+                            encontrado37 = true;
+                        }
+                    }
+                    if (encontrado37 = true)
+                    {
+                        Console.WriteLine("***Índice***");
+                        for (int i = 0; i < a37.Length; i++)
+                        {
+                            Console.WriteLine(i + "." + a37[i]);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Lamentablemente, el numero no se encuentra en el array");
+                    }
+                    break;
+                    
+
                 default: //Default
                     Console.WriteLine();
                     Console.ForegroundColor = ConsoleColor.Red;
