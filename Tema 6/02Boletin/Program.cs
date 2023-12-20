@@ -717,7 +717,8 @@ namespace _02Boletin
                     break;
                 case 37:
 
-                    int[] a37 = new int[25];
+                    
+                    int[] a37 = new int[50];
                     Random gen37 = new Random();
 
                     bool encontrado37 = false;
@@ -737,12 +738,13 @@ namespace _02Boletin
                     {
                         if (num37 == a37[i])
                         {
+                            contador37++; //Repite demasiado
                             Console.WriteLine("El " + a37[i] + " se encuentra en el array " + contador37 + " veces");
-                            contador37++;
                             encontrado37 = true;
+                            break; //Para en la primera coincidencia
                         }
                     }
-                    if (encontrado37 = true)
+                    if (encontrado37 == true)
                     {
                         Console.WriteLine("***Índice***");
                         for (int i = 0; i < a37.Length; i++)
