@@ -69,7 +69,6 @@ namespace Boletin31_36
                         {
                             if (c31[j] > c31[j + 1])
                             {
-                                // Swap elements if they are in the wrong order
                                 int aux = c31[j];
                                 c31[j] = c31[j + 1]; //No consigo que funcione a pesar de usar el mismo codigo del GitHub de Ramon
                                 c31[j + 1] = aux;
