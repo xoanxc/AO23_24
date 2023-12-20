@@ -319,7 +319,7 @@ namespace Boletin31_36
                     {
                         if (a36[i] < 0)
                         {
-                            Console.WriteLine("El primero numero negativo en la posición " + i + " es " + a36[i]);
+                            Console.WriteLine("El primer número negativo en la posición " + i + " es " + a36[i]);
                             break;
                         }
                     }
