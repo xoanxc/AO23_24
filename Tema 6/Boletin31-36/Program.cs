@@ -193,15 +193,15 @@ namespace Boletin31_36
                     {
                         Console.WriteLine("Lamentablemente debo informarte de tu suspenso, con una media de " + porcentaje32 + ", esfuerzate mas en las recuperaciones");
                     }
-                    else if (porcentaje32 >= 5 || porcentaje32 < 7)
+                    else if (porcentaje32 >= 5 && porcentaje32 < 7)
                     {
                         Console.WriteLine("Felicidades, has aprobado, aunque tienes margen para mejorar");
                     }
-                    else if (porcentaje32 > 7 || porcentaje32 < 9)
+                    else if (porcentaje32 > 7 && porcentaje32 < 9)
                     {
                         Console.WriteLine("Notable, a las puertas de la perfección");
                     }
-                    else if (porcentaje32 > 9 || porcentaje32 <= 10)
+                    else if (porcentaje32 > 9 && porcentaje32 <= 10)
                     {
                         Console.WriteLine("Sobresaliente, felicidades");
                     }
