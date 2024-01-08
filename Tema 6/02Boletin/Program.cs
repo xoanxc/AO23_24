@@ -715,7 +715,7 @@ namespace _02Boletin
                         }
                     }
                     break;
-                case 37:
+                case 37: //Con problemas
 
                     
                     int[] a37 = new int[50];
@@ -757,7 +757,10 @@ namespace _02Boletin
                         Console.WriteLine("Lamentablemente, el numero no se encuentra en el array");
                     }
                     break;
-                    
+                case 40:
+
+                    break;
+
 
                 default: //Default
                     Console.WriteLine();
