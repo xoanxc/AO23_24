@@ -849,7 +849,6 @@ namespace _02Boletin
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Error CRITICO");
                     break;
-
             }
             //Cierre de Consola
             Console.ReadLine();
