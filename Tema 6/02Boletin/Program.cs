@@ -722,9 +722,8 @@ namespace _02Boletin
                     Random gen37 = new Random();
 
                     bool encontrado37 = false;
-                    int contador37 = 0;
 
-
+                    //Llenar con nº aleatorios
                     for (int i = 0; i < a37.Length; i++)
                     {
                         a37[i] = gen37.Next(1, 99);
@@ -734,32 +733,115 @@ namespace _02Boletin
                     int num37 = int.Parse(Console.ReadLine());
 
 
+                    Console.WriteLine(num37 + " aparece en las posiciones: ");
                     for (int i = 0; i < a37.Length; i++)
                     {
                         if (num37 == a37[i])
                         {
-                            contador37++; //Repite demasiado
-                            Console.WriteLine("El " + a37[i] + " se encuentra en el array " + contador37 + " veces");
                             encontrado37 = true;
-                            break; //Para en la primera coincidencia
+                            Console.WriteLine("Posición: " + i);      
                         }
                     }
-                    if (encontrado37 == true)
-                    {
-                        Console.WriteLine("***Índice***");
-                        for (int i = 0; i < a37.Length; i++)
-                        {
-                            Console.WriteLine(i + "." + a37[i]);
-                        }
-                    }
-                    else
+                    if (!encontrado37)
                     {
                         Console.WriteLine("Lamentablemente, el numero no se encuentra en el array");
                     }
                     break;
-                case 40:
+                case 38:
 
-                    break;
+                    String[] series = new String[100];
+
+                    series[0] = "Breaking Bad";
+                    series[1] = "True Detective";
+                    series[2] = "The Wire";
+                    int opcion = 0;
+
+                    do
+                    {
+
+                        Console.WriteLine("1.Introducir Serie");
+                        Console.WriteLine("2.Mostrar Series");
+                        Console.WriteLine("3.Contar Series");
+                        Console.WriteLine("4.Contar huecos");
+                        Console.WriteLine("5.Buscar Serie");
+                        Console.WriteLine("6.Eliminar Serie");
+                        opcion = int.Parse(Console.ReadLine());
+                        Console.WriteLine();//Espacio
+
+                        switch (opcion)
+                        {
+                            case 1:
+                                Console.WriteLine("Introduzca el título dela serie:");
+                                String serie = Console.ReadLine();
+
+                                //Guardar en la primera posición vacía
+                                for (int i = 0; i < series.Length; i++)
+                                {
+                                    if (series[i] == null)
+                                    {
+                                        series[i] = serie;
+                                        break;
+                                    }
+                                }
+                                break;
+                            case 2:
+                                Console.WriteLine("Series en la BBDD: ");
+                                foreach (String s in series)
+                                {
+                                    if (s != null)
+                                    {
+                                        Console.WriteLine(s);
+                                    }
+                                    else
+                                    {
+                                        break;
+                                    }
+                                }
+                                break;
+                            case 3:
+                                int contador38 = 0;
+
+                                foreach (String s in series)
+                                {
+                                    if (s != null)
+                                    {
+                                        contador38++;
+                                    }
+                                    else
+                                    {
+                                        break;
+                                    }
+                                }
+                                Console.WriteLine("Hay " + contador38 + " series guardadas.");
+
+                                break;
+                            case 4:
+                                break;
+                            case 5:
+                                Console.WriteLine("Que serie desea buscar?");
+                                String serieBuscada = Console.ReadLine();
+                                bool encontrado38 = false;
+
+                                for (int i = 0; i < series.Length; i++)
+                                {
+                                    if (series[i] == serieBuscada)
+                                    {
+                                        Console.WriteLine("La serie está en la posición " + i);
+                                        encontrado38 = true;
+                                        break;
+                                    }
+                                }
+                                if (!encontrado38)
+                                {
+                                    Console.WriteLine("La serie está fuera del DBBDD");
+                                }
+                                break;
+                            case 6:
+                                break;
+                        }
+                    }
+                    while (opcion < 7);
+                        break;
 
 
                 default: //Default
