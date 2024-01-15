@@ -342,10 +342,10 @@ namespace _02Boletin
 
                     int contador26 = 0;
 
-                    if(a26.Length  != b26.Length)
-                        {
+                    if (a26.Length != b26.Length)
+                    {
                         Console.WriteLine("No son iguales");
-                        }
+                    }
                     else
                     {
 
@@ -360,12 +360,12 @@ namespace _02Boletin
                                 Estado[i] = false;
                             }
                         }
-                    
-                    for (int i = 0; i < Estado.Length; i++)
-                    {
-                        if (Estado[i] == true)
+
+                        for (int i = 0; i < Estado.Length; i++)
                         {
-                            contador26++;
+                            if (Estado[i] == true)
+                            {
+                                contador26++;
                             }
 
                         }
@@ -390,7 +390,7 @@ namespace _02Boletin
 
                     bool[] result = new bool[capacidadArray27];
                     int contador27 = 0;
-                    
+
 
                     for (int i = 0; i < a27.Length; i++)
                     {
@@ -717,7 +717,7 @@ namespace _02Boletin
                     break;
                 case 37: //Con problemas
 
-                    
+
                     int[] a37 = new int[50];
                     Random gen37 = new Random();
 
@@ -739,7 +739,7 @@ namespace _02Boletin
                         if (num37 == a37[i])
                         {
                             encontrado37 = true;
-                            Console.WriteLine("Posición: " + i);      
+                            Console.WriteLine("Posición: " + i);
                         }
                     }
                     if (!encontrado37)
@@ -841,7 +841,31 @@ namespace _02Boletin
                         }
                     }
                     while (opcion < 7);
-                        break;
+                    break;
+
+
+                case 44:
+
+                    int[,] a44 = new int[3, 3];
+
+                    Console.WriteLine("Selecciona una posición");
+                    Console.WriteLine("Introduce la linea");
+                    int line44 = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Introduce la posición");
+                    int pos44 = int.Parse(Console.ReadLine());
+
+                    a44[1, 1] = 4;
+                    a44[2, 2] = 1;
+                    a44[3, 3] = 2;
+
+
+
+                    Console.WriteLine(a44[line44, pos44]);
+
+
+
+
+                    break;
 
 
                 default: //Default
@@ -849,6 +873,11 @@ namespace _02Boletin
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Error CRITICO");
                     break;
+
+
+
+
+
             }
             //Cierre de Consola
             Console.ReadLine();
