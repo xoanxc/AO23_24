@@ -1,0 +1,7 @@
+C:\Users\xoana\source\repos\Explicacion_17-01\bin\Debug\Explicacion_17-01.exe.config
+C:\Users\xoana\source\repos\Explicacion_17-01\bin\Debug\Explicacion_17-01.exe
+C:\Users\xoana\source\repos\Explicacion_17-01\bin\Debug\Explicacion_17-01.pdb
+C:\Users\xoana\source\repos\Explicacion_17-01\obj\Debug\Explicacion_17-01.csproj.AssemblyReference.cache
+C:\Users\xoana\source\repos\Explicacion_17-01\obj\Debug\Explicacion_17-01.csproj.CoreCompileInputs.cache
+C:\Users\xoana\source\repos\Explicacion_17-01\obj\Debug\Explicacion_17-01.exe
+C:\Users\xoana\source\repos\Explicacion_17-01\obj\Debug\Explicacion_17-01.pdb
