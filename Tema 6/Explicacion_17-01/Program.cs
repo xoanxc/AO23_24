@@ -92,6 +92,31 @@ namespace Explicacion_17_01
                 Console.WriteLine("No hay ceros :(");
             }
 
+            //Volcar todos los valores pares de un array, a las primeras posiciones del otro
+            int[] ar1 = new int[10];
+            int[] ar2 = new int[10];
+
+            Random Gen = new Random();
+
+            for (int i = 0; i < ar1.Length; i++)
+            {
+                ar1[i] = Gen.Next(1, 10);
+            }
+
+            //Recorro el primer array
+            for (int i = 0; i < ar1.Length; i ++)
+            {
+                if (ar1[i] % 2== 0)
+                {
+
+                }
+            }
+
+            for (int i = 0; ar2[i] == 0; i++)
+            {
+                Console.WriteLine(ar2[i]);
+            }
+
 
 
 
