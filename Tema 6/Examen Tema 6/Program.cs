@@ -135,6 +135,13 @@ namespace Examen_Tema_6
                         }
 
                         Console.WriteLine();
+                        //Si hay numeros mayores al introducido
+                        if (conteo3 >= 1)
+                        {
+                            Console.WriteLine("En la matriz hay " + conteo3 + " valores que se encuentran por encima del introducido por teclado");
+                        }
+
+                        Console.WriteLine();
                         //En el caso de no haber ninguno
                         if (conteo3 == 0)
                         {
@@ -176,13 +183,6 @@ namespace Examen_Tema_6
                             Console.WriteLine("Posición " + i + ": " + desviación);
                         }
                         break;
-
-
-                        Console.WriteLine("En la matriz hay " + conteo3 + " valores que se encuentran por encima del introducido por teclado");
-                        
-                        break;
-
-
                 }
 
 
