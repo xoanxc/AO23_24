@@ -10,25 +10,59 @@ namespace BoletinMatrizes2D
     {
         static void Main(string[] args)
         {
-            //Declaración de la matriz
-            int[,] a = { { 4, 2, 7 }, { 1, 5, 8 } };
-
-            //Solicitud de datos
-            Console.WriteLine("Selecciona una fila");
-            int seleccion = int.Parse(Console.ReadLine());
-
-            for (int i = 0; i < a.GetLength(0); i++)
+            Console.WriteLine();
+            char opcion;
+            do
             {
-                for (int j = 0; j < a.GetLength(1); j++)
+                Console.WriteLine("Selecciona un ejercicio");
+                Console.WriteLine();
+                Console.WriteLine("44.Declarar una matriz 3 X 3 y darle valores en la declaración.");
+                Console.WriteLine("46.A partir de una matriz 3x3 obtener otra matriz que sea la matriz traspuesta de la primera.");
+                Console.WriteLine("55.Programar el hundir la flota.");
+                byte ejercicio = byte.Parse(Console.ReadLine());
+                Console.WriteLine();
+                switch (ejercicio)
+
+
                 {
-                    Console.Write(a[seleccion, j] + " ");
+                    //Ejercicio 44
+                    case 44:
+                        //Declaración de la matriz
+                        int[,] a44 = { { 4, 2, 7 }, { 1, 5, 8 }, { 4, 3, 1 } };
+
+                        //Solicitud de datos
+                        Console.WriteLine("Selecciona una fila");
+                        int seleccion = int.Parse(Console.ReadLine());
+
+                        for (int j = 0; j < a44.GetLength(1); j++)
+                        {
+                            Console.Write(a44[seleccion, j] + " ");
+                        }
+                        Console.WriteLine();
+                        break;
+
+                    //Ejercicio 46
+                    case 46:
+
+                        break;
+
+                    //Ejercicio 55
+                    case 55:
+
+                        break;
+
+
+
+
+
+
                 }
                 Console.WriteLine();
+                Console.WriteLine("¿Desea volver al menú inicial? s/n");
+                opcion = char.ToLower(char.Parse(Console.ReadLine()));
+
             }
-
-            Console.ReadLine();
-
-
+            while (opcion == 's');
         }
     }
 }
