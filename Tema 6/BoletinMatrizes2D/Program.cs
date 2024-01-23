@@ -17,8 +17,9 @@ namespace BoletinMatrizes2D
                 Console.WriteLine("Selecciona un ejercicio");
                 Console.WriteLine();
                 Console.WriteLine("44.Declarar una matriz 3 X 3 y darle valores en la declaración.");
-                Console.WriteLine("46.A partir de una matriz 3x3 obtener otra matriz que sea la matriz traspuesta de la primera.");
-                Console.WriteLine("55.Programar el hundir la flota.");
+                Console.WriteLine("46.A partir de una matriz 3x3 obtener otra matriz que...");
+                Console.WriteLine("55.El programa debe llenar una matriz 5x5 con números generados aleatoriamente...");
+                Console.WriteLine("56.Programar el hundir la flota.");
                 byte ejercicio = byte.Parse(Console.ReadLine());
                 Console.WriteLine();
                 switch (ejercicio)
@@ -34,11 +35,20 @@ namespace BoletinMatrizes2D
                         Console.WriteLine("Selecciona una fila");
                         int seleccion = int.Parse(Console.ReadLine());
 
+                        //a)Solicitar al usuario que escoja una fila y mostrarle los valores de esa fila.
                         for (int j = 0; j < a44.GetLength(1); j++)
                         {
                             Console.Write(a44[seleccion, j] + " ");
                         }
                         Console.WriteLine();
+
+                        //b)Guardar un cero en las últimas posiciones de cada fila.
+
+                        //c) Sumar todos los valores de la primera fila.
+
+                        //d)Contar cuántos ceros hay en la segunda columna.
+
+                        //e)Calcular la media de una matriz 3x3
                         break;
 
                     //Ejercicio 46
