@@ -1,0 +1,7 @@
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\01_EjemploFunciones\bin\Debug\01_EjemploFunciones.exe.config
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\01_EjemploFunciones\bin\Debug\01_EjemploFunciones.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\01_EjemploFunciones\bin\Debug\01_EjemploFunciones.pdb
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\01_EjemploFunciones\obj\Debug\01_EjemploFunciones.csproj.AssemblyReference.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\01_EjemploFunciones\obj\Debug\01_EjemploFunciones.csproj.CoreCompileInputs.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\01_EjemploFunciones\obj\Debug\01_EjemploFunciones.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\01_EjemploFunciones\obj\Debug\01_EjemploFunciones.pdb
