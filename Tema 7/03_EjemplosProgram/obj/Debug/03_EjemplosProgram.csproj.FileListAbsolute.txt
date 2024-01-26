@@ -1,0 +1,7 @@
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\03_EjemplosProgram\bin\Debug\03_EjemplosProgram.exe.config
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\03_EjemplosProgram\bin\Debug\03_EjemplosProgram.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\03_EjemplosProgram\bin\Debug\03_EjemplosProgram.pdb
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\03_EjemplosProgram\obj\Debug\03_EjemplosProgram.csproj.AssemblyReference.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\03_EjemplosProgram\obj\Debug\03_EjemplosProgram.csproj.CoreCompileInputs.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\03_EjemplosProgram\obj\Debug\03_EjemplosProgram.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\03_EjemplosProgram\obj\Debug\03_EjemplosProgram.pdb

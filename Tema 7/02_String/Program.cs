@@ -25,7 +25,7 @@ namespace _02_String
             {
                 if (frase[i] == 'a')
                 {
-                    contadorAes++;
+                    
                 }
 ;
             }
@@ -40,13 +40,7 @@ namespace _02_String
             //Substring --> Obtiene una subcadena del string principal
             String subCadena = frase.Substring(posPrimerEspacio + 1);
             Console.WriteLine("SubCadena: " + subCadena);
-
-            string subcadena2 = frase.Substring(posPrimerEspacio + 1, 5);
-            Console.WriteLine("SubCadena: " + subCadena);
-
-            //Split --> Trocea un String en base a un separador 
-            String[] palabras  = frase.Substring(posPrimerEspacio   + 1, 9);
-            Console.WriteLine("SubCadena: " + subCadena2);
+            Console.ReadLine();
         }
     }
 }

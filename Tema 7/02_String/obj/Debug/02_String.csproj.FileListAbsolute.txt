@@ -1,0 +1,7 @@
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\02_String\bin\Debug\02_String.exe.config
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\02_String\bin\Debug\02_String.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\02_String\bin\Debug\02_String.pdb
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\02_String\obj\Debug\02_String.csproj.AssemblyReference.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\02_String\obj\Debug\02_String.csproj.CoreCompileInputs.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\02_String\obj\Debug\02_String.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\02_String\obj\Debug\02_String.pdb
