@@ -32,19 +32,34 @@ namespace BoletinMatrizes2D
                         int[,] a44 = { { 4, 2, 7 }, { 1, 5, 8 }, { 4, 3, 1 } };
 
                         //Solicitud de datos
-                        Console.WriteLine("Selecciona una fila");
+                        Console.WriteLine("Selecciona una fila 0-2");
                         int seleccion = int.Parse(Console.ReadLine());
+                        Console.WriteLine();
+                        if (seleccion >= 3)
+                        {
+                            seleccion = 2;
+                            Console.WriteLine("Fila a mostrar: 2");
+                        }
 
                         //a)Solicitar al usuario que escoja una fila y mostrarle los valores de esa fila.
                         for (int j = 0; j < a44.GetLength(1); j++)
-                        {
-                            Console.Write(a44[seleccion, j] + " ");
-                        }
+                            {
+                                Console.Write(a44[seleccion, j] + " ");
+                            }
+                        
                         Console.WriteLine();
 
                         //b)Guardar un cero en las últimas posiciones de cada fila.
+                        for (int i = 0; i < a44.GetLength(0); i++)
+                        {
+                            a44[i, a44.GetLength(1) - 1] = 0;
+                        }
 
                         //c) Sumar todos los valores de la primera fila.
+                        for (int i = 0; i < a44.GetLength(0); i++)
+                        {
+                            a44[0, i] = 0;
+                        }
 
                         //d)Contar cuántos ceros hay en la segunda columna.
 
