@@ -55,10 +55,11 @@ namespace BoletinMatrizes2D
                             a44[i, a44.GetLength(1) - 1] = 0;
                         }
 
+                        int suma = 0;
                         //c) Sumar todos los valores de la primera fila.
                         for (int i = 0; i < a44.GetLength(0); i++)
                         {
-                            a44[0, i] = 0;
+                            suma += a44[0, i];
                         }
 
                         //d)Contar cuántos ceros hay en la segunda columna.
