@@ -63,8 +63,23 @@ namespace BoletinMatrizes2D
                         }
 
                         //d)Contar cuántos ceros hay en la segunda columna.
+                        Console.WriteLine();
+                        Console.WriteLine("d)Contar cuántos ceros hay en la segunda columna.");
+                        int contador0 = 0;
+                        for (int i = 0; i < 3; i++)
+                        {
+                            if (a44[i, 1] == 0)
+                            {
+                                contador0++;
+                            }
+                        }
+
+                        Console.WriteLine("Hay " + contador0 + " ceros");
 
                         //e)Calcular la media de una matriz 3x3
+
+
+
                         break;
 
                     //Ejercicio 46
