@@ -31,6 +31,22 @@ namespace BoletinMatrizes2D
                         //Declaración de la matriz
                         int[,] a44 = { { 4, 2, 7 }, { 1, 5, 8 }, { 4, 3, 1 } };
 
+                        //Mostrar array completo
+                        Console.WriteLine("Array utilizado: ");
+                        for (int i = 0; i < a44.GetLength(0); i++)
+                        {
+                            for (int j = 0; j < a44.GetLength(1); j++)
+                            {
+                                Console.Write(a44[i, j] + " ");
+                            }
+                            Console.WriteLine();
+                        }
+                        Console.WriteLine();
+
+
+                        //a)Solicitar al usuario que escoja una fila y mostrarle los valores de esa fila.
+                        Console.WriteLine("a)Solicitar al usuario que escoja una fila y mostrarle los valores de esa fila.");
+                        
                         //Solicitud de datos
                         Console.WriteLine("Selecciona una fila 0-2");
                         int seleccion = int.Parse(Console.ReadLine());
@@ -41,30 +57,66 @@ namespace BoletinMatrizes2D
                             Console.WriteLine("Fila a mostrar: 2");
                         }
 
-                        //a)Solicitar al usuario que escoja una fila y mostrarle los valores de esa fila.
+                        //Mostrar datos
                         for (int j = 0; j < a44.GetLength(1); j++)
                             {
                                 Console.Write(a44[seleccion, j] + " ");
                             }
                         
                         Console.WriteLine();
+                        Console.WriteLine();
 
                         //b)Guardar un cero en las últimas posiciones de cada fila.
+                        Console.WriteLine("b)Guardar un cero en las últimas posiciones de cada fila.");
                         for (int i = 0; i < a44.GetLength(0); i++)
                         {
                             a44[i, a44.GetLength(1) - 1] = 0;
                         }
 
+                        //Array actual
+                        Console.WriteLine("Array resultante");
+                        for (int i = 0; i < a44.GetLength(0); i++)
+                        {
+                            for (int j = 0; j < a44.GetLength(1); j++)
+                            {
+                                Console.Write(a44[i, j] + " ");
+                            }
+                            Console.WriteLine();
+                        }
+                        Console.WriteLine();
+
+
+                        //c)Sumar todos los valores de la primera fila.
+                        Console.WriteLine("c)Sumar todos los valores de la primera fila.");
                         int suma = 0;
-                        //c) Sumar todos los valores de la primera fila.
                         for (int i = 0; i < a44.GetLength(0); i++)
                         {
                             suma += a44[0, i];
                         }
+                        Console.WriteLine("Resultado: "suma);
 
                         //d)Contar cuántos ceros hay en la segunda columna.
+                        Console.WriteLine("d)Contar cuántos ceros hay en la segunda columna.");
+                        int contador0 = 0; //Menuda ironía
+
+                        
+
+                        //i es la fila
+                        for (int i = 0; i < a44.GetLength(0); i++)
+                        {
+                            if (a44[i, 1] == 0)
+                            {
+                                contador0++;
+                            }
+                        }
+                        Console.WriteLine("Número de ceros en la segunda columna: " + contador0);
 
                         //e)Calcular la media de una matriz 3x3
+                        Console.WriteLine("e)Calcular la media de una matriz 3x3");
+
+
+
+
                         break;
 
                     //Ejercicio 46
@@ -74,6 +126,25 @@ namespace BoletinMatrizes2D
 
                     //Ejercicio 55
                     case 55:
+
+                        break;
+                    //Ejercicio 
+                    case 56:
+
+                        //Logotipo bien chulo
+                        Console.ForegroundColor = ConsoleColor.Gray;
+                        Console.WriteLine("     **");
+                        Console.WriteLine("     ****");
+                        Console.WriteLine("     ******              **>            *>");
+                        Console.WriteLine("     *******    **       ****           ***");
+                        Console.WriteLine("***********************************************");
+                        Console.WriteLine("********[Hundir la Flota: By xoan.xc]********");
+                        Console.WriteLine("  *****************************************");
+                        Console.WriteLine("   **************************************");
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine();
+
+
 
                         break;
 
