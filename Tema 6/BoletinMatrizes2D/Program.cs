@@ -100,8 +100,23 @@ namespace BoletinMatrizes2D
                         //e)Calcular la media de una matriz 3x3
                         Console.WriteLine();
                         Console.WriteLine("e)Calcular la media de una matriz 3x3");
+                        suma = 0;
+                        int media = 0;
 
+                        //Recorrer y sumar el array
+                        for (int i = 0; i < a44.GetLength(0); i++)
+                        {
+                            for (int j = 0; j < a44.GetLength(1); j++)
+                            {
+                                suma += a44[i, j];
+                            }
+                        }
 
+                        //Calcular la media
+                        media = suma / a44.Length;
+
+                        //Mostrar resultado
+                        Console.WriteLine("La media del array2D es " + media);
                         break;
 
                     //Ejercicio 46
