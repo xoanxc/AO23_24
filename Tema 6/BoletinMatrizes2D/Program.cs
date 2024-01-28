@@ -74,13 +74,13 @@ namespace BoletinMatrizes2D
                         Console.WriteLine("c) Sumar todos los valores de la primera fila.");
 
                         //Sumar valores
-                        int suma = 0;
+                        int suma44 = 0;
                         for (int i = 0; i < a44.GetLength(1); i++)
                         {
-                            suma += a44[0, i];
+                            suma44 += a44[0, i];
                         }
 
-                        Console.WriteLine("El resultado es: " + suma);
+                        Console.WriteLine("El resultado es: " + suma44);
 
                         //d) Contar cuántos ceros hay en la segunda columna.
                         Console.WriteLine();
@@ -100,49 +100,166 @@ namespace BoletinMatrizes2D
                         //e)Calcular la media de una matriz 3x3
                         Console.WriteLine();
                         Console.WriteLine("e)Calcular la media de una matriz 3x3");
-                        suma = 0;
-                        int media = 0;
+                        suma44 = 0;
+                        int media44 = 0;
 
                         //Recorrer y sumar el array
                         for (int i = 0; i < a44.GetLength(0); i++)
                         {
                             for (int j = 0; j < a44.GetLength(1); j++)
                             {
-                                suma += a44[i, j];
+                                suma44 += a44[i, j];
                             }
                         }
 
                         //Calcular la media
-                        media = suma / a44.Length;
+                        media44 = suma44 / a44.Length;
 
                         //Mostrar resultado
-                        Console.WriteLine("La media del array2D es " + media);
+                        Console.WriteLine("La media del array2D es " + media44);
                         break;
 
                     //Ejercicio 46
                     case 46:
 
+                        //Declaración de Matriz
+                        Console.WriteLine("Matriz Original");
+                        int[,] a46 = { { 6, 0, 7 }, { 3, 1, 9 }, { 0, 4, 6 } };
+
+                        //Mostrar array2D
+                        for (int i = 0; i < a46.GetLength(0); i++)
+                        {
+                            for (int j = 0; j < a46.GetLength(1); j++)
+                            {
+                                Console.Write(a46[i, j] + " ");        
+                            }
+                            Console.WriteLine();
+                        }
+
                         //Matriz Traspuesta:
+                        Console.WriteLine();
+                        Console.WriteLine("Matriz Traspuesta");
+                        int[,] traspuesta = { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } };
+
+                        //Trasponer el array
+                        for (int i = 0; i < a46.GetLength(0); i++)
+                        {
+                            for (int j = 0; j < a46.GetLength(1); j++)
+                            {
+                                traspuesta[j, i] = a46[i, j];
+                            }
+                        }
+
+                        //Mostrar array2D traspuesto                     
+                        for (int i = 0; i < traspuesta.GetLength(0); i++)
+                        {
+                            for (int j = 0; j < traspuesta.GetLength(1); j++)
+                            {
+                                Console.Write(traspuesta[i, j] + " ");
+                            }
+                            Console.WriteLine();
+                        }
+
+
+
+
 
 
 
                         //a)Calcular el porcentaje de ceros
+                        Console.WriteLine();
                         Console.WriteLine("a)Calcular el porcentaje de ceros");
+                        double contador46 = 0;
+
+                        for (int i = 0; i < a46.GetLength(0); i++)
+                        {
+                            for (int j = 0; j < a46.GetLength(1); j++)
+                            {
+                                if (a46[i, j] == 0)
+                                {
+                                    contador46++;
+                                }
+                            }
+                        }
+                        if (contador46 != 0)
+                        {
+                            double porcentaje0 = (contador46 / (a46.GetLength(0) * a46.GetLength(1))) * 100;
+                            Console.WriteLine("El porcentaje de ceros es: " + porcentaje0 + "%");
+                        }
+                        if (contador46 == 0)
+                        {
+                            Console.WriteLine("Ningun 0 encontrado para el calculo");
+                        }
 
                         //b)Comprobar que es simétrica. 
+                        Console.WriteLine();
                         Console.WriteLine("b)Comprobar que es simétrica");
 
+                        //Comprobación
+                        bool simetrica = false;
+                        for (int i = 0; i < a46.GetLength(0); i++)
+                        {
+                            for (int j = 0; j < a46.GetLength(1); j++)
+                            {
+                                if ((a46[i, j]) == (a46[j, i]))
+                                {
+                                    simetrica = true;
+                                }
+                            }
+                        }
+
+                        //Respuesta
+                        if (!simetrica)
+                        {
+                            Console.WriteLine("El array NO es simetrico");
+                        }
+                        else
+                        {
+                            Console.WriteLine("El array SI es simetrico");
+                        }       
+
                         //c)Calcular la suma de la primera fila. 
+                        Console.WriteLine();
                         Console.WriteLine("c)Calcular la suma de la primera fila");
 
+                        //Calcular la suma
+                        int suma46 = 0;
+                        for (int i = 0; i < a46.GetLength(1); i++)
+                        {
+                            suma46 += a46[0, i];
+                        }
+                        Console.WriteLine("La suma de la primera fila es: " + suma46);
+
                         //d)Calcular la suma de la última columna.
+                        Console.WriteLine();
                         Console.WriteLine("d)Calcular la suma de la última columna");
+
+                        //Calcular la suma
+                        suma46 = 0;
+                        for (int i = 0; i < a46.GetLength(0); i++)
+                        {
+                            suma46 += a46[i, a46.GetLength(1) -1];
+                        }
+                        Console.WriteLine("La suma de la ultima columna es: " + suma46);
 
                         break;
 
                     //Ejercicio 55
                     case 55:
+                        int[,] a55 = { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } };
 
+                        Random gen55 = new Random();
+
+                        for (int i = 0; i < a55.GetLength(0); i++)
+                        {
+                            for (int j = 0; j < a55.GetLength(1); j++)
+                            {
+                                if ((a55[i, j]) == (a55[j, i]))
+                                {
+                                    
+                                }
+                            }
+                        }
                         break;
 
                     //Ejercicio 56
@@ -161,7 +278,7 @@ namespace BoletinMatrizes2D
                         Console.ForegroundColor = ConsoleColor.White;
                         Console.WriteLine();
 
-
+                        //No me va a dar tiempo :(
 
                         break;
                 }
