@@ -246,20 +246,88 @@ namespace BoletinMatrizes2D
 
                     //Ejercicio 55
                     case 55:
-                        int[,] a55 = { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } };
 
+                        //Declaracion de variables y matrices
+                        int[,] a55 = new int[5, 5];
                         Random gen55 = new Random();
+                        int vidas = 6;
 
-                        for (int i = 0; i < a55.GetLength(0); i++)
+                        Console.WriteLine("¡Bienvenido al juego!");
+                        Console.WriteLine("Encuentra las posiciones de los ceros en la matriz 5x5.");
+
+
+                        //Inicializar matriz 5x5 con números aleatorios
+                        for (int i = 0; i < 5; i++)
                         {
-                            for (int j = 0; j < a55.GetLength(1); j++)
+                            for (int j = 0; j < 5; j++)
                             {
-                                if ((a55[i, j]) == (a55[j, i]))
-                                {
-                                    
-                                }
+                                a55[i, j] = gen55.Next(1, 9);
                             }
                         }
+
+                        //Colocar los 3 ceros
+                        for (int i = 0; i < 3; i++)
+                        {
+                            int fila = gen55.Next(0, 5);
+                            int columna = gen55.Next(0, 5);
+                            a55[fila, columna] = 0;
+                        }
+
+                        //Bucle While
+                        while (vidas > 0)
+                        {
+                            // Mostrar la matriz actual
+                            Console.WriteLine("Matriz actual:");
+                            for (int i = 0; i < 5; i++)
+                            {
+                                for (int j = 0; j < 5; j++)
+                                {
+                                    Console.Write(a55[i, j]);
+                                }
+                                Console.WriteLine();
+                            }
+                            Console.WriteLine();
+
+                            //Solicitar al usuario las coordenadas
+                            Console.Write("Introduce la fila (1-5): ");
+                            int fila = int.Parse(Console.ReadLine()) - 1; // Restar 1 para convertir de 1-5 a 0-4
+
+                            Console.Write("Introduce la columna (1-5): ");
+                            int columna = int.Parse(Console.ReadLine()) - 1; // Restar 1 para convertir de 1-5 a 0-4
+
+                            //Verificar si la coordenada introducida es un cero
+                            if (a55[fila, columna] == 0)
+                            {
+                                Console.WriteLine("¡Correcto! Has encontrado un cero.");
+
+                                //Reiniciar la matriz
+                                for (int i = 0; i < 5; i++)
+                                {
+                                    for (int j = 0; j < 5; j++)
+                                    {
+                                        a55[i, j] = gen55.Next(1, 10);
+                                    }
+                                }
+
+                                for (int i = 0; i < 3; i++)
+                                {
+                                    int newFila = gen55.Next(0, 5);
+                                    int newColumna = gen55.Next(0, 5);
+                                    a55[newFila, newColumna] = 0;
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("¡Incorrecto! Pierdes una vida.");
+                                vidas--;
+                            }
+
+                            Console.WriteLine("Vidas restantes: " + vidas);
+                        }
+
+                        // Fin del juego
+                        Console.WriteLine("¡Game over! Te quedaste sin vidas.");
+
                         break;
 
                     //Ejercicio 56

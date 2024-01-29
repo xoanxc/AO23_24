@@ -5,3 +5,10 @@ G:\Users\xoana\Documents\GitHub\AO23_24\Tema 6\BoletinMatrizes2D\obj\Debug\Bolet
 G:\Users\xoana\Documents\GitHub\AO23_24\Tema 6\BoletinMatrizes2D\obj\Debug\BoletinMatrizes2D.csproj.CoreCompileInputs.cache
 G:\Users\xoana\Documents\GitHub\AO23_24\Tema 6\BoletinMatrizes2D\obj\Debug\BoletinMatrizes2D.exe
 G:\Users\xoana\Documents\GitHub\AO23_24\Tema 6\BoletinMatrizes2D\obj\Debug\BoletinMatrizes2D.pdb
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 6\BoletinMatrizes2D\bin\Debug\BoletinMatrizes2D.exe.config
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 6\BoletinMatrizes2D\bin\Debug\BoletinMatrizes2D.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 6\BoletinMatrizes2D\bin\Debug\BoletinMatrizes2D.pdb
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 6\BoletinMatrizes2D\obj\Debug\BoletinMatrizes2D.csproj.AssemblyReference.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 6\BoletinMatrizes2D\obj\Debug\BoletinMatrizes2D.csproj.CoreCompileInputs.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 6\BoletinMatrizes2D\obj\Debug\BoletinMatrizes2D.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 6\BoletinMatrizes2D\obj\Debug\BoletinMatrizes2D.pdb
