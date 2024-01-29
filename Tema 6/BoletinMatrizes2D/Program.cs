@@ -276,7 +276,7 @@ namespace BoletinMatrizes2D
                         //Bucle While
                         while (vidas > 0)
                         {
-                            // Mostrar la matriz actual
+                            // Mostrar la matriz en uso (5x5)
                             Console.WriteLine("Matriz actual:");
                             for (int i = 0; i < 5; i++)
                             {
@@ -295,7 +295,7 @@ namespace BoletinMatrizes2D
                             Console.Write("Introduce la columna (1-5): ");
                             int columna = int.Parse(Console.ReadLine()) - 1; // Restar 1 para convertir de 1-5 a 0-4
 
-                            //Verificar si la coordenada introducida es un cero
+                            //Comprobar si la coordenada introducida es un cero
                             if (a55[fila, columna] == 0)
                             {
                                 Console.WriteLine("¡Correcto! Has encontrado un cero.");
@@ -309,6 +309,7 @@ namespace BoletinMatrizes2D
                                     }
                                 }
 
+                                //Vuelvo a colocar los 0
                                 for (int i = 0; i < 3; i++)
                                 {
                                     int newFila = gen55.Next(0, 5);
