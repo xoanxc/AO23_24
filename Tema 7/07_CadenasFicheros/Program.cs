@@ -24,6 +24,83 @@ namespace _07_CadenasFicheros
                     //Ejercicio 1
                     case 1:
 
+                        string[] matricula = new string[10];
+
+                        matricula[0] = "1518-GHC";
+                        matricula[1] = "7349-JKN";
+                        matricula[2] = "5318-LHT";
+                        matricula[3] = "7143-DFG";
+                        matricula[4] = "1500-DFL";
+                        matricula[5] = "4178-HNZ";
+                        matricula[6] = "9123-PLD";
+                        matricula[7] = "3481-THZ";
+                        matricula[8] = "6891-TCG";
+                        matricula[9] = "3419-SSZ";
+
+                        //Apartado a)
+                        Console.WriteLine();
+                        Console.WriteLine("a)Mostrar las matrículas que acaban por z");
+
+                        for (int i = 0; i < matricula.Length; i++)
+                        {
+                            if (matricula[i].EndsWith("Z"))
+                            {
+                                Console.WriteLine(matricula[i]);
+                            }
+                        }
+
+                        //Apartado b)
+                        Console.WriteLine();
+                        Console.WriteLine("b)Mostrar las matrículas que contienen el número 34");
+
+                        for (int i = 0; i < matricula.Length; i++)
+                        {
+                            if (matricula[i].Contains("34"))
+                            {
+                                Console.WriteLine(matricula[i]);
+                            }
+                        }
+
+                        //Apartado c)
+                        Console.WriteLine();
+                        Console.WriteLine("Mostrar sólo la parte numérica de las matrículas");
+
+                        //Mostrar ls numeros
+                        for (int i = 0; i < matricula.Length; i++)
+                        {
+                            Console.Write("Matricula " + i + ": ");
+                            for(int j = 0; j < matricula[i].Length; j++)
+                            {
+                                if (char.IsDigit(matricula[i][j]))
+                                {
+                                    Console.Write(matricula[i][j]);
+                                }
+                            }
+                            Console.WriteLine();
+                        }
+
+                        //Apartado d)
+                        Console.WriteLine();
+                        Console.WriteLine("Mostrar sólo la parte de las letras de las matrículas");
+
+                        //Mostrar las letras
+                        for (int i = 0; i < matricula.Length; i++)
+                        {
+                            Console.Write("Matricula " + i + ": ");
+                            for (int j = 0; j < matricula[i].Length; j++)
+                            {
+                                if (char.IsLetter(matricula[i][j]))
+                                {
+                                    Console.Write(matricula[i][j]);
+                                }
+                            }
+                            Console.WriteLine();
+                        }
+
+
+
+
+
                         break;
 
                     //Ejercicio 2
@@ -190,9 +267,13 @@ namespace _07_CadenasFicheros
                 Console.WriteLine();
                 Console.WriteLine("¿Desea volver al menú inicial? s/n");
                 opcion = char.ToLower(char.Parse(Console.ReadLine()));
+                
 
             }
             while (opcion == 's');
+
+            //Ramon Exclamo: Eyyy, HUEPA 31/01/2024
+            //*la clase se rio por primera vez
         }
     }
 }

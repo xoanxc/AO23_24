@@ -5,3 +5,10 @@ C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_CadenasFicheros.csproj.CoreCompileInputs.cache
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_CadenasFicheros.exe
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_CadenasFicheros.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\bin\Debug\07_CadenasFicheros.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\bin\Debug\07_CadenasFicheros.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\bin\Debug\07_CadenasFicheros.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_CadenasFicheros.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_CadenasFicheros.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_CadenasFicheros.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_CadenasFicheros.pdb
