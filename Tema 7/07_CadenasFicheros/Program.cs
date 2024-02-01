@@ -35,7 +35,7 @@ namespace _07_CadenasFicheros
                         matricula[6] = "9123-PLD";
                         matricula[7] = "3481-THZ";
                         matricula[8] = "6891-TCG";
-                        matricula[9] = "3419-SSZ";
+                        matricula[9] = "3419-SSR";
 
                         //Apartado a)
                         Console.WriteLine();
@@ -96,10 +96,6 @@ namespace _07_CadenasFicheros
                             }
                             Console.WriteLine();
                         }
-
-
-
-
 
                         break;
 
