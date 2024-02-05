@@ -43,14 +43,32 @@ namespace Modelo3Capas
                 }
             }
 
-            StreamWriter escritor = new StreamWriter(rutaFichero, true);
-            Console.WriteLine("Introduzca su serie: ");
-            string serie = Console.ReadLine();
-            Console.WriteLine("En que plataforma se emite?");
-            string plataforma = Console.ReadLine();
-            escritor.WriteLine(serie + "*" + plataforma);
+            byte opcion = 1;
+            switch(opcion)
+            {
+                case 1:
+                    StreamWriter escritor = new StreamWriter(rutaFichero, true);
+                    Console.WriteLine("Introduzca su serie: ");
+                    string serie = Console.ReadLine();
+                    Console.WriteLine("En que plataforma se emite?");
+                    string plataforma = Console.ReadLine();
+                    escritor.WriteLine(serie + "*" + plataforma);
 
-            escritor.Close();
+                    escritor.Close();
+                    break;
+                case 2:
+                    //Ver serie de una determinada plataforma:
+                    String platform;
+                    Console.WriteLine("De qué plataforma quieres obtener información: ");
+                    plataforma = Console.ReadLine();
+
+                    //Cuantas series hay y listarlas:
+
+                    break;
+
+            }
+
+            
 
             Console.ReadLine();
 
