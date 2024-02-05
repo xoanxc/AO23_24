@@ -62,6 +62,8 @@ namespace Modelo3Capas
                     Console.WriteLine("De qué plataforma quieres obtener información: ");
                     plataforma = Console.ReadLine();
 
+                    
+
                     //Cuantas series hay y listarlas:
 
                     break;
