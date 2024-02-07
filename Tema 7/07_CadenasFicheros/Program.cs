@@ -201,15 +201,15 @@ namespace _07_CadenasFicheros
 
                         //Menu de toda la vida
                         Console.WriteLine("Menu:");
-                        Console.WriteLine("1. Mostrar registros");
-                        Console.WriteLine("2. Insertar nuevo registro");
-                        Console.WriteLine("3. Consultar por DNI");
-                        Console.WriteLine("4. Mostrar registros cuyo salario sea superior a 2500€");
-                        Console.WriteLine("5. Modificar registro");
-                        Console.WriteLine("6. Eliminar registro");
+                        Console.WriteLine("1.Mostrar registros");
+                        Console.WriteLine("2.Insertar nuevo registro");
+                        Console.WriteLine("3.Consultar por DNI");
+                        Console.WriteLine("4.Mostrar registros cuyo salario sea superior a 2500€");
+                        Console.WriteLine("5.Modificar registro");
+                        Console.WriteLine("6.Eliminar registro");
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("7. Mostrar registros ordenados por salario (de menor a mayor)");
-                        Console.WriteLine("8. Salir");
+                        Console.WriteLine("7.Mostrar registros ordenados por salario (de menor a mayor)");
+                        Console.WriteLine("8.Salir");
                         byte menu26 = byte.Parse(Console.ReadLine());
                         Console.ForegroundColor = ConsoleColor.White;
 

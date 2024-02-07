@@ -12,3 +12,10 @@ C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_
 C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_CadenasFicheros.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_CadenasFicheros.exe
 C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_CadenasFicheros.pdb
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\bin\Debug\07_CadenasFicheros.exe.config
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\bin\Debug\07_CadenasFicheros.exe
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\bin\Debug\07_CadenasFicheros.pdb
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_CadenasFicheros.csproj.AssemblyReference.cache
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_CadenasFicheros.csproj.CoreCompileInputs.cache
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_CadenasFicheros.exe
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 7\07_CadenasFicheros\obj\Debug\07_CadenasFicheros.pdb
