@@ -98,10 +98,29 @@ namespace _05_ConexionFicheros
                                 break;
                             }
                         }
-
                         break;
                     case 3:
-   
+                        //Buscar serie
+                        Console.WriteLine("Que serie desea buscar?");
+                        String serie = Console.ReadLine();
+
+                        foreach(String s in series)
+                        {
+                            //Estructura registro -- serie*plataforma
+                            //Obtenemos la cadena que hay antes del asterisco
+                            if(s == null)
+                            {
+                                Console.WriteLine("Serie no encontrada.");
+                                break;
+                            }
+                            String[] trozos = s.Split('*');
+                            if (serie.Equals(trozos[0], StringComparison.OrdinalIgnoreCase))
+                            {
+                                Console.WriteLine("Serie enconttrada. Información: ");
+                                Console.WriteLine("Plataforma : " + trozos[1]);
+                                break;
+                            }
+                        }
                         break;
                     case 4:
                         break;
