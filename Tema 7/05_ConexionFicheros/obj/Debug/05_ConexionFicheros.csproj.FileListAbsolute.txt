@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\05_ConexionFicheros\bin\Debug\05_ConexionFicheros.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\05_ConexionFicheros\bin\Debug\05_ConexionFicheros.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\05_ConexionFicheros\bin\Debug\05_ConexionFicheros.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\05_ConexionFicheros\obj\Debug\05_ConexionFicheros.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\05_ConexionFicheros\obj\Debug\05_ConexionFicheros.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\05_ConexionFicheros\obj\Debug\05_ConexionFicheros.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\05_ConexionFicheros\obj\Debug\05_ConexionFicheros.pdb
