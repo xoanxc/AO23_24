@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace _07_CadenasFicheros
 {
@@ -97,10 +98,29 @@ namespace _07_CadenasFicheros
                             Console.WriteLine();
                         }
 
+                        //Apartado e)
+                        Console.WriteLine();
+                        Console.WriteLine("Volcar los datos de la matriz a un fichero");
+                        
+                        //Declarar el fichero
+                        StreamWriter fichero = new StreamWriter("matriculas.txt");
+
+                        //Volcar los datos
+                        for (int i = 0; i < matricula.Length; i++)
+                        {
+                            fichero.WriteLine(matricula[i]);
+                        }
+                        fichero.Close(); 
+
                         break;
 
                     //Ejercicio 2
                     case 2:
+
+                        //Algoritmo que obtiene el número de veces que aparece un determinado char en un  string. 
+                        Console.WriteLine();
+                        Console.WriteLine("Algoritmo que obtiene el número de veces que aparece un determinado char en un  string.");
+
                         break;
 
                     //Ejercicio 3
