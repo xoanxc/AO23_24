@@ -101,9 +101,11 @@ namespace _07_CadenasFicheros
                         //Apartado e)
                         Console.WriteLine();
                         Console.WriteLine("Volcar los datos de la matriz a un fichero");
-                        
-                        //Declarar el fichero
-                        StreamWriter fichero = new StreamWriter("matriculas.txt");
+
+                        //Asignar la ruta
+                        string ruta = Directory.GetCurrentDirectory();
+                        string rutaFichero = ruta + "\\matriculas.txt";
+                        StreamWriter fichero = new StreamWriter(rutaFichero);
 
                         //Volcar los datos
                         for (int i = 0; i < matricula.Length; i++)
@@ -121,10 +123,91 @@ namespace _07_CadenasFicheros
                         Console.WriteLine();
                         Console.WriteLine("Algoritmo que obtiene el número de veces que aparece un determinado char en un  string.");
 
+                        //Solicitud de datos
+                        Console.WriteLine("Introduce un char");
+                        char caracter2 = char.Parse(Console.ReadLine());
+
+                        //Declaración de variables
+                        byte contador2 = 0;
+
+                        string texto2 = "IU134BFP38A";
+
+                        //Hace distincion entre mayúsculas y minúsculas
+                        for(int i = 0; i < texto2.Length; i++)
+                        {
+                            if (texto2[i] == caracter2)
+                            {
+                                contador2++;
+                            }
+                        }
+                        Console.WriteLine("Hay " + contador2 + " \"" + caracter2 + "\" en el string");
                         break;
 
                     //Ejercicio 3
                     case 3:
+
+                        
+
+                        //Declaración de variables
+                        bool Correcto2 = false;
+                        bool letra2 = false;
+                        bool numero2 = false;
+                        
+
+
+                        do
+                        {
+                            //Solicitud de datos
+                            Console.WriteLine("Introduce tu DNI");
+                            string dni2 = Console.ReadLine();
+
+                            //Comprobación cantidad de caracteres
+                            if (dni2.Length == 9) 
+                            {
+                                for (int i = 0; i < dni2.Length - 1; i++) //Recorrer el DNI
+                                {
+                                    if (char.IsDigit(dni2[i])) //Si los 8 primeros son numeros 
+                                    {
+                                        numero2 = true; //Control del bucle
+                                    }
+                                    else //De lo contrario
+                                    {
+                                        Console.WriteLine("DNI incorrecto, la parte numerica es incorrecta");
+                                        numero2 = false; //Control del bucle
+                                        break;
+                                    }
+                                }
+
+                                if (char.IsLetter(dni2[8]))
+                                {
+                                    letra2 = true;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("La parte de la letra es incorrecta");
+                                    letra2 = false;
+                                    break;
+                                }
+                                //Fin del bucle, ya que letra y numero es correcto
+                                if (letra2 == true && numero2 == true)
+                                {
+                                    Correcto2 = true;
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("El DNI es incorrecto, su longitud no es la correcta");
+                            }
+
+                            //Comprobación del numero
+                            
+                            
+                            
+                        }
+                        while (Correcto2 = false);
+
+
+
                         break;
 
                     //Ejercicio 4
