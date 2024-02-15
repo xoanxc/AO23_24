@@ -287,6 +287,13 @@ namespace _07_CadenasFicheros
 
                     //Ejercicio 9
                     case 9:
+                        Console.WriteLine("Introduzca un string");
+                        string ej9 = Console.ReadLine();
+
+                        //.Replace remplaza el espacio por el asterisco en este caso
+                        ej9 = ej9.Replace(" ", "*");
+
+                        Console.WriteLine(ej9);
                         break;
 
                     //Ejercicio 10
