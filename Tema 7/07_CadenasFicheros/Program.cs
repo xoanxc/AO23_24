@@ -216,18 +216,72 @@ namespace _07_CadenasFicheros
 
                     //Ejercicio 5
                     case 5:
+                        Console.WriteLine("Introduce un string");
+                        string ej5 = Console.ReadLine();
+                        bool tof5 = false;
+
+                        if (ej5.Contains("@"))
+                        {
+                            tof5 = true;
+                            Console.WriteLine("True");
+                        }
+                        else
+                        {
+                            //tof5 = false; //No es necesario, ya que por defecto ya esta en false
+                            Console.WriteLine("False");
+                        }
                         break;
 
                     //Ejercicio 6
                     case 6:
+
                         break;
 
                     //Ejercicio 7
                     case 7:
+                        Console.WriteLine("Introduce un email valido");
+                        string email7 = Console.ReadLine();
+
+                        //En caso de contener un @ se detecta como email
+                        if(email7.Contains("@"))
+                        {
+                            string[] dominio7 = email7.Split('@'); //Troceo el string desde el @
+                            Console.WriteLine(dominio7[1]); //Muestro la parte 2 del string
+                        }
+                        else
+                        {
+                            Console.WriteLine("Maquina, te dejaste el @");
+                        }
                         break;
 
                     //Ejercicio 8
                     case 8:
+                        Console.WriteLine("Introduce un código");
+                        string codigo8 = Console.ReadLine();
+
+                        //Verifico si tiene 4 caracteres
+                        if (codigo8.Length == 4)
+                        {
+                            if (char.IsLetter(codigo8[0]) && char.IsLetter(codigo8[1]))
+                            {
+                                if (char.IsNumber(codigo8[2]) && char.IsNumber(codigo8[3]))
+                                {
+                                    Console.WriteLine("El formato es correcto");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("La parte de numeros es incorrecta");
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("La parte de letras es incorrecta");
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("La cantidad de caracteres es incorrecta");
+                        }
                         break;
 
 
