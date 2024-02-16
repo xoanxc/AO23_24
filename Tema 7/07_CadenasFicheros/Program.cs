@@ -40,7 +40,7 @@ namespace _07_CadenasFicheros
 
                         //Apartado a)
                         Console.WriteLine();
-                        Console.WriteLine("a)Mostrar las matrículas que acaban por z");
+                        Console.WriteLine("a)Mostrar las matrículas que acaban por Z");
 
                         for (int i = 0; i < matricula.Length; i++)
                         {
@@ -66,7 +66,7 @@ namespace _07_CadenasFicheros
                         Console.WriteLine();
                         Console.WriteLine("Mostrar sólo la parte numérica de las matrículas");
 
-                        //Mostrar ls numeros
+                        //Mostrar los numeros
                         for (int i = 0; i < matricula.Length; i++)
                         {
                             Console.Write("Matricula " + i + ": ");
@@ -145,14 +145,12 @@ namespace _07_CadenasFicheros
 
                     //Ejercicio 3
                     case 3:
-
-                        
+  
 
                         //Declaración de variables
                         bool Correcto2 = false;
                         bool letra2 = false;
-                        bool numero2 = false;
-                        
+                        bool numero2 = false;           
 
 
                         do
@@ -201,7 +199,10 @@ namespace _07_CadenasFicheros
 
                             //Comprobación del numero
                             
-                            
+                            //HACER -+-+-+-+-+-+-+-+-+-+-+-+-+ IMPORTANTE ******************
+                            //**************************************************************
+                            //**************************************************************
+                            //**************************************************************
                             
                         }
                         while (Correcto2 = false);
