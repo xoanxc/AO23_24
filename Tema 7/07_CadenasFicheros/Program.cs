@@ -253,6 +253,30 @@ namespace _07_CadenasFicheros
                     //Ejercicio 6
                     case 6:
 
+                        string ejemplo6 = "abajo, abatida, abacero, antiaereo, formidable, austero, confortable, ramon";
+                        string contiene6 = "aba";
+                        Console.WriteLine("Introduce un string para buscar");
+                        contiene6 = Console.ReadLine();
+
+                        //Por si introducen mayusculas
+                        contiene6 = contiene6.ToLower();
+
+                        //Trozear con split
+                        string[] palabras = ejemplo6.Split(' ');
+
+                        //Contador
+                        int contar6 = 0;
+
+                        //Contar el número de palabras
+                        foreach (string palabra in palabras)
+                        {
+                            if (palabra.Contains(contiene6))
+                            {
+                                contar6++;
+                            }
+
+                        }
+                        Console.WriteLine("Enontradas " + contar6 + " palabras que contienen \"" + contiene6 + "\"");
                         break;
 
                     //Ejercicio 7
