@@ -198,12 +198,13 @@ namespace _07_CadenasFicheros
                             }
 
                             //Comprobación del numero
+
+                            //Array letras DNI
+                            char[] letras = { 'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E' };
+
                             
-                            //HACER -+-+-+-+-+-+-+-+-+-+-+-+-+ IMPORTANTE ******************
-                            //**************************************************************
-                            //**************************************************************
-                            //**************************************************************
                             
+
                         }
                         while (Correcto2 = false);
 
@@ -213,6 +214,22 @@ namespace _07_CadenasFicheros
 
                     //Ejercicio 4
                     case 4:
+
+                        Console.WriteLine("Introduce una cadena de texto");
+                        string texto4 = Console.ReadLine();
+
+                        string[] troceo4 = texto4.Split(' ');
+
+                        Console.WriteLine();
+                        Console.WriteLine("Palabras que comienzan con 'b': ");
+                        foreach (string palabra4 in troceo4)
+                        {
+                            //Ex "palabra4.Length > 0" esto comprueba que la longitud sea mayor a 0, por si colocan doble espacio
+                            if (palabra4.Length > 0 && char.ToLower(palabra4[0]) == 'b')
+                            {
+                                Console.WriteLine(palabra4);
+                            }
+                        }
                         break;
 
                     //Ejercicio 5
@@ -299,8 +316,27 @@ namespace _07_CadenasFicheros
 
                     //Ejercicio 10
                     case 10:
-                        break;
 
+                        string a10 = "Pedro Jimenez*14Julio1990?2500";
+                        string b10 = "Maria Benitez*9070!06Agosto1998";
+
+                        string[] trozoA10 = a10.Split('?');
+                        string[] trozoB10 = b10.Split('*', '!');
+
+                        int salario = int.Parse(trozoA10[1]);
+
+                        if (salario > 1000)
+                        {
+                            Console.WriteLine("El de Pedro Jimenez es " + salario + "€");
+                        }
+
+                        salario = int.Parse(trozoB10[1]);
+
+                        if (salario > 1000)
+                        {
+                            Console.WriteLine("El de Maria Benitez es " + salario + "€");
+                        }
+                        break;
                     //Ejercicio 11
                     case 11:
                         break;
