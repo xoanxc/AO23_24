@@ -148,48 +148,64 @@ namespace _07_CadenasFicheros
   
 
                         //Declaración de variables
-                        bool Correcto2 = false;
-                        bool letra2 = false;
-                        bool numero2 = false;           
+                        bool correcto = false;
+                        bool letra = false;
+                        bool numero = false;
+                        //Array letras DNI
+                        char[] letras = { 'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E' };
 
 
                         do
                         {
                             //Solicitud de datos
                             Console.WriteLine("Introduce tu DNI");
-                            string dni2 = Console.ReadLine();
+                            string dni = Console.ReadLine();
 
                             //Comprobación cantidad de caracteres
-                            if (dni2.Length == 9) 
+                            if (dni.Length == 9) 
                             {
-                                for (int i = 0; i < dni2.Length - 1; i++) //Recorrer el DNI
+                                for (int i = 0; i < dni.Length - 1; i++) //Recorrer el DNI
                                 {
-                                    if (char.IsDigit(dni2[i])) //Si los 8 primeros son numeros 
+                                    if (char.IsDigit(dni[i])) //Si los 8 primeros son numeros 
                                     {
-                                        numero2 = true; //Control del bucle
+                                        numero = true; //Control del bucle
                                     }
                                     else //De lo contrario
                                     {
                                         Console.WriteLine("DNI incorrecto, la parte numerica es incorrecta");
-                                        numero2 = false; //Control del bucle
+                                        numero = false; //Control del bucle
                                         break;
                                     }
                                 }
 
-                                if (char.IsLetter(dni2[8]))
+                                if (char.IsLetter(dni[8]))
                                 {
-                                    letra2 = true;
+                                    letra = true;
                                 }
                                 else
                                 {
                                     Console.WriteLine("La parte de la letra es incorrecta");
-                                    letra2 = false;
+                                    letra = false;
                                     break;
                                 }
-                                //Fin del bucle, ya que letra y numero es correcto
-                                if (letra2 == true && numero2 == true)
+                                //Si hasta aquí todo fue correcto, procedemos a la comprobación final
+                                if (letra == true && numero == true)
                                 {
-                                    Correcto2 = true;
+                                    //Comprobación del numero 
+                                    int numero3 = Convert.ToInt32(dni.Substring(0, 8));
+
+                                    int restoDiv = numero3 % 23;
+
+                                    if (dni[8] == letras[restoDiv])
+                                    {
+                                        Console.WriteLine("Tu DNI es correcto al 100%");
+                                    }
+                                    else
+                                    {
+                                        correcto = false;
+                                        Console.WriteLine("La letra es incorrecta");
+                                    }
+                                    
                                 }
                             }
                             else
@@ -197,16 +213,12 @@ namespace _07_CadenasFicheros
                                 Console.WriteLine("El DNI es incorrecto, su longitud no es la correcta");
                             }
 
-                            //Comprobación del numero
-
-                            //Array letras DNI
-                            char[] letras = { 'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E' };
-
                             
                             
+
 
                         }
-                        while (Correcto2 = false);
+                        while (correcto = false);
 
 
 
@@ -253,7 +265,7 @@ namespace _07_CadenasFicheros
                     //Ejercicio 6
                     case 6:
 
-                        string ejemplo6 = "abajo, abatida, abacero, antiaereo, formidable, austero, confortable, ramon";
+                        string ejemplo6 = "abajo, abatida, abacero, antiaereo, formidable, austero, confortable, ramon, roto";
                         string contiene6 = "aba";
                         
 
@@ -277,10 +289,13 @@ namespace _07_CadenasFicheros
                         }
                         Console.WriteLine("Enontradas " + contar6 + " palabras que contienen \"" + contiene6 + "\"");
 
-                        Console.WriteLine("Introduce un string para buscar");
+                        Console.WriteLine("Introduce un substring para buscar");
                         contiene6 = Console.ReadLine();
                         //Por si introducen mayusculas
                         contiene6 = contiene6.ToLower();
+
+                        //Reseteo de contar6
+                        contar6 = 0;
 
                         //Contar el número de palabras
                         foreach (string palabra in palabras)
@@ -292,7 +307,6 @@ namespace _07_CadenasFicheros
 
                         }
                         Console.WriteLine("Enontradas " + contar6 + " palabras que contienen \"" + contiene6 + "\"");
-
                         break;
 
                     //Ejercicio 7
