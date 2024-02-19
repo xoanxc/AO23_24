@@ -393,6 +393,19 @@ namespace _07_CadenasFicheros
                         break;
                     //Ejercicio 11
                     case 11:
+
+                        string[] palabra = new string[10];
+
+                        palabra[0] = "Mesa";
+                        palabra[1] = "Hormiga";
+                        palabra[2] = "Cargador";
+                        palabra[3] = "Mochila";
+                        palabra[4] = "Ordenador";
+                        palabra[5] = "Paisaje";
+                        palabra[6] = "Competencia";
+                        palabra[7] = "Submarino";
+                        palabra[8] = "Ahorcado";
+                        palabra[9] = "Pez";
                         break;
 
                     //Ejercicio 12
