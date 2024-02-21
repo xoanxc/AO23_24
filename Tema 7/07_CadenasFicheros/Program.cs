@@ -395,7 +395,6 @@ namespace _07_CadenasFicheros
 
                         
                         string[] palabra11 = new string[12];
-                        string copia11 = "";
 
                         //Bienvenido al ahorcado
                         Console.Title = "El Ahorcado: Console Edition - By: Xoán Alonso";
@@ -429,7 +428,8 @@ namespace _07_CadenasFicheros
 
                         Random gen11 = new Random();
                         int num11 = gen11.Next(0, 12);
-                        string cpPalabra11 = palabra11[num11];
+                        string palabraActiva = palabra11[num11];
+                        string cpPalabra11 = palabraActiva;
 
                         for(int i = 0; i < cpPalabra11.Length; i++)
                         {
@@ -437,29 +437,60 @@ namespace _07_CadenasFicheros
                         }
                         Console.WriteLine(cpPalabra11);
 
+                        Console.WriteLine("Palabra que buscar: " + palabraActiva);
+
                         Console.WriteLine();
                         Console.WriteLine("Introduce una letra:");
                         char letra11 = char.Parse(Console.ReadLine());
                         Console.WriteLine();
 
-                        if(char.IsLetter(letra11))
+                        do
                         {
-                            
+
+
+                            if (char.IsLetter(letra11))
+                            {
+                                if (palabraActiva.Contains(letra11))
+                                {
+                                    for (int i = 0; i < palabraActiva.Length; i++)
+                                    {
+                                        if (palabraActiva[i] == letra11)
+                                        {
+                                            //cpPalabra11 = cpPalabra11.Replace(cpPalabra11[i],letra11); MAL
+                                            Console.WriteLine(cpPalabra11);
+                                        }
+                                    }
+                                }
+                                else
+                                {
+                                    Console.WriteLine("_________");
+                                    Console.WriteLine("|       |");
+                                    Console.WriteLine("|      (*)");
+                                    Console.WriteLine("|");
+                                    Console.WriteLine("|");
+                                    Console.WriteLine("|");
+                                    Console.WriteLine("------------");
+                                }
+                            }
+                            else
+                            {
+                                //Game Over por desobediencia 
+                                Console.WriteLine("Has introducido un caracter invalido, por tanto mataremos a Miguel");
+                                Console.WriteLine();
+                                Console.WriteLine("_________");
+                                Console.WriteLine("|       |");
+                                Console.WriteLine("|      (*)");
+                                Console.WriteLine("|      /|\\");
+                                Console.WriteLine("|      / \\");
+                                Console.WriteLine("|");
+                                Console.WriteLine("------------");
+                            }
                         }
-                        else
-                        {
-                            //Game Over por desobediencia 
-                            Console.WriteLine("Has introducido un caracter invalido, por tanto mataremos a Miguel");
-                            Console.WriteLine();
-                            Console.WriteLine("_________");
-                            Console.WriteLine("|       |");
-                            Console.WriteLine("|      (*)");
-                            Console.WriteLine("|      /|\\");
-                            Console.WriteLine("|      / \\");
-                            Console.WriteLine("|");
-                            Console.WriteLine("------------");
-                        }            
+                        while (cpPalabra11.Contains('*'));
+
+                        
                         break;
+
 
                     //Ejercicio 12
                     case 12:
