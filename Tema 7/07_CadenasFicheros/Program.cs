@@ -15,6 +15,7 @@ namespace _07_CadenasFicheros
             char opcion;
             do
             {
+                Console.Title = " Ejercicios 1 al 26 - By Xoán Alonso";
                 Console.WriteLine("Selecciona un ejercicio entre 1 y 26");
                 byte ejercicio = byte.Parse(Console.ReadLine());
                 Console.WriteLine();
@@ -392,9 +393,27 @@ namespace _07_CadenasFicheros
                     //Ejercicio 11
                     case 11:
 
-                        string[] palabra11 = new string[10];
+                        
+                        string[] palabra11 = new string[12];
                         string copia11 = "";
 
+                        //Bienvenido al ahorcado
+                        Console.Title = "El Ahorcado: Console Edition - By: Xoán Alonso";
+                        Console.WriteLine("Bienvenido al ahorcado");
+                        Console.WriteLine();
+
+                        //Monigote
+                        Console.WriteLine("¡Salva a Miguel!");
+                        Console.WriteLine("_________");
+                        Console.WriteLine("|");
+                        Console.WriteLine("|");
+                        Console.WriteLine("|      (*)");
+                        Console.WriteLine("|      /|\\");
+                        Console.WriteLine("|      / \\");
+                        Console.WriteLine("------------");
+                        Console.WriteLine();
+
+                        //Palabras
                         palabra11[0] = "Mesa";
                         palabra11[1] = "Hormiga";
                         palabra11[2] = "Cargador";
@@ -405,11 +424,41 @@ namespace _07_CadenasFicheros
                         palabra11[7] = "Submarino";
                         palabra11[8] = "Ahorcado";
                         palabra11[9] = "Pez";
+                        palabra11[10] = "Ladron";
+                        palabra11[11] = "Ahorcado";
 
-                        
-                        
+                        Random gen11 = new Random();
+                        int num11 = gen11.Next(0, 12);
+                        string cpPalabra11 = palabra11[num11];
 
+                        for(int i = 0; i < cpPalabra11.Length; i++)
+                        {
+                            cpPalabra11 = cpPalabra11.Replace(cpPalabra11[i], '*');
+                        }
+                        Console.WriteLine(cpPalabra11);
 
+                        Console.WriteLine();
+                        Console.WriteLine("Introduce una letra:");
+                        char letra11 = char.Parse(Console.ReadLine());
+                        Console.WriteLine();
+
+                        if(char.IsLetter(letra11))
+                        {
+                            
+                        }
+                        else
+                        {
+                            //Game Over por desobediencia 
+                            Console.WriteLine("Has introducido un caracter invalido, por tanto mataremos a Miguel");
+                            Console.WriteLine();
+                            Console.WriteLine("_________");
+                            Console.WriteLine("|       |");
+                            Console.WriteLine("|      (*)");
+                            Console.WriteLine("|      /|\\");
+                            Console.WriteLine("|      / \\");
+                            Console.WriteLine("|");
+                            Console.WriteLine("------------");
+                        }            
                         break;
 
                     //Ejercicio 12
