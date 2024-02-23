@@ -560,6 +560,7 @@ namespace _07_CadenasFicheros
                                 Console.WriteLine("|      / \\");
                                 Console.WriteLine("|");
                                 Console.WriteLine("------------");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 easteregg = true;
                                 break;
                             }                        
