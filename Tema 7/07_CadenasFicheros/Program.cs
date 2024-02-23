@@ -393,13 +393,30 @@ namespace _07_CadenasFicheros
                     //Ejercicio 11
                     case 11:
 
-                        
-                        string[] palabra11 = new string[12];
-
                         //Bienvenido al ahorcado
                         Console.Title = "El Ahorcado: Console Edition - By: Xoán Alonso";
                         Console.WriteLine("Bienvenido al ahorcado");
                         Console.WriteLine();
+
+                        //Declaración de variables
+                        string[] palabra11 = new string[13];
+                        bool easteregg = false;
+
+                        //Palabras
+                        palabra11[0] = "mesa";
+                        palabra11[1] = "hormiga";
+                        palabra11[2] = "cargador";
+                        palabra11[3] = "mochila";
+                        palabra11[4] = "ordenador";
+                        palabra11[5] = "paisaje";
+                        palabra11[6] = "competencia";
+                        palabra11[7] = "submarino";
+                        palabra11[8] = "ahorcado";
+                        palabra11[9] = "pez";
+                        palabra11[10] = "ladron";
+                        palabra11[11] = "ahorcado";
+                        palabra11[12] = "huevo";
+
 
                         //Monigote
                         Console.WriteLine("¡Salva a Miguel!");
@@ -412,70 +429,129 @@ namespace _07_CadenasFicheros
                         Console.WriteLine("------------");
                         Console.WriteLine();
 
-                        //Palabras
-                        palabra11[0] = "Mesa";
-                        palabra11[1] = "Hormiga";
-                        palabra11[2] = "Cargador";
-                        palabra11[3] = "Mochila";
-                        palabra11[4] = "Ordenador";
-                        palabra11[5] = "Paisaje";
-                        palabra11[6] = "Competencia";
-                        palabra11[7] = "Submarino";
-                        palabra11[8] = "Ahorcado";
-                        palabra11[9] = "Pez";
-                        palabra11[10] = "Ladron";
-                        palabra11[11] = "Ahorcado";
 
+                        //Creación de variables copia y random
                         Random gen11 = new Random();
-                        int num11 = gen11.Next(0, 12);
+                        int num11 = gen11.Next(0, 13);
                         string palabraActiva = palabra11[num11];
-                        string cpPalabra11 = palabraActiva;
+                        char[] cpPalabra11 = new char[palabraActiva.Length];
+                        byte fallos11 = 0;
 
+                        //Colocación de asteriscos en copia
                         for(int i = 0; i < cpPalabra11.Length; i++)
                         {
-                            cpPalabra11 = cpPalabra11.Replace(cpPalabra11[i], '*');
+                            cpPalabra11[i] = '*';
                         }
                         Console.WriteLine(cpPalabra11);
 
+                        //Muestro de palabra para desarrollo
                         Console.WriteLine("Palabra que buscar: " + palabraActiva);
 
-                        Console.WriteLine();
-                        Console.WriteLine("Introduce una letra:");
-                        char letra11 = char.Parse(Console.ReadLine());
-                        Console.WriteLine();
 
+                        //Bucle principal
                         do
                         {
+                            //Pregunta frecuente
+                            Console.WriteLine();
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.WriteLine("Introduce una letra:");
+                            char letra11 = char.Parse(Console.ReadLine());
+                            letra11 = char.ToLower(letra11);
+                            Console.WriteLine();
 
-
+                            //Obra de Arte infravalorada
                             if (char.IsLetter(letra11))
                             {
+                                //Si contiene la letra introducida
                                 if (palabraActiva.Contains(letra11))
                                 {
+                                    //Colocamos en la ubicacion la letra (remplazando los asteriscos necesarios=
                                     for (int i = 0; i < palabraActiva.Length; i++)
                                     {
                                         if (palabraActiva[i] == letra11)
                                         {
-                                            //cpPalabra11 = cpPalabra11.Replace(cpPalabra11[i],letra11); MAL
-                                            Console.WriteLine(cpPalabra11);
+                                            cpPalabra11[i] = letra11;
+                                            
                                         }
                                     }
+
+                                    //Mostramos la ayuda
+                                    Console.WriteLine(cpPalabra11);
                                 }
                                 else
                                 {
-                                    Console.WriteLine("_________");
-                                    Console.WriteLine("|       |");
-                                    Console.WriteLine("|      (*)");
-                                    Console.WriteLine("|");
-                                    Console.WriteLine("|");
-                                    Console.WriteLine("|");
-                                    Console.WriteLine("------------");
+                                    //Fallos con monigote
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine("!Fallaste!");
+                                    fallos11++;
+
+
+                                    if (fallos11 == 1)
+                                    {
+                                        Console.WriteLine("_________");
+                                        Console.WriteLine("|       |");
+                                        Console.WriteLine("|      (*)");
+                                        Console.WriteLine("|");
+                                        Console.WriteLine("|");
+                                        Console.WriteLine("|");
+                                        Console.WriteLine("------------");
+                                    }
+                                    if (fallos11 == 2)
+                                    {
+                                        Console.WriteLine("_________");
+                                        Console.WriteLine("|       |");
+                                        Console.WriteLine("|      (*)");
+                                        Console.WriteLine("|      /|");
+                                        Console.WriteLine("|");
+                                        Console.WriteLine("|");
+                                        Console.WriteLine("------------");
+                                    }
+                                    if (fallos11 == 3)
+                                    {
+                                        Console.WriteLine("_________");
+                                        Console.WriteLine("|       |");
+                                        Console.WriteLine("|      (*)");
+                                        Console.WriteLine("|      /|\\");
+                                        Console.WriteLine("|");
+                                        Console.WriteLine("|");
+                                        Console.WriteLine("------------");
+                                    }
+                                    if (fallos11 == 4)
+                                    {
+                                        Console.WriteLine("_________");
+                                        Console.WriteLine("|       |");
+                                        Console.WriteLine("|      (*)");
+                                        Console.WriteLine("|      /|\\");
+                                        Console.WriteLine("|      /");
+                                        Console.WriteLine("|");
+                                        Console.WriteLine("------------");
+                                    }
+                                    if (fallos11 == 5)
+                                    {    
+                                        Console.WriteLine();
+                                        Console.WriteLine("_________");
+                                        Console.WriteLine("|       |");
+                                        Console.WriteLine("|      (*)");
+                                        Console.WriteLine("|      /|\\");
+                                        Console.WriteLine("|      / \\");
+                                        Console.WriteLine("|");
+                                        Console.WriteLine("------------");
+
+                                        Console.WriteLine();
+                                        Console.Write("Hasta nunca Miguel");
+
+                                        //Para continuar
+                                        Console.ReadLine();
+
+                                    }
                                 }
                             }
-                            else
+                            
+                            if(!char.IsLetter(letra11))
                             {
                                 //Game Over por desobediencia 
-                                Console.WriteLine("Has introducido un caracter invalido, por tanto mataremos a Miguel");
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.WriteLine("Has introducido un caracter invalido, por tanto ahorcamos a Miguel");
                                 Console.WriteLine();
                                 Console.WriteLine("_________");
                                 Console.WriteLine("|       |");
@@ -484,13 +560,29 @@ namespace _07_CadenasFicheros
                                 Console.WriteLine("|      / \\");
                                 Console.WriteLine("|");
                                 Console.WriteLine("------------");
-                            }
+                                easteregg = true;
+                                break;
+                            }                        
                         }
+                        //El bucle termina cuando no tenemos las asteriscos en la copia
                         while (cpPalabra11.Contains('*'));
 
-                        
+                        if(easteregg == false)
+                        {
+                            //Si lo consigue WIN MIGUEL
+                            Console.WriteLine();
+                            Console.WriteLine();
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.WriteLine("¡SALVASTE A MIGUEL!");
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.WriteLine();
+                            Console.WriteLine("   (*)");
+                            Console.WriteLine("   \\|/");
+                            Console.WriteLine("   / \\");
+                            Console.WriteLine("------------");
+                            Console.WriteLine("Perfecto, la palabra era: " + palabraActiva);
+                        }                      
                         break;
-
 
                     //Ejercicio 12
                     case 12:
