@@ -400,7 +400,7 @@ namespace _07_CadenasFicheros
 
                         //Declaración de variables
                         string[] palabra11 = new string[13];
-                        bool easteregg = false;
+                        bool gameOver = false;
 
                         //Palabras
                         palabra11[0] = "mesa";
@@ -495,6 +495,8 @@ namespace _07_CadenasFicheros
                                         Console.WriteLine("|");
                                         Console.WriteLine("|");
                                         Console.WriteLine("------------");
+                                        //Mostramos la ayuda
+                                        Console.WriteLine(cpPalabra11);
                                     }
                                     if (fallos11 == 2)
                                     {
@@ -505,6 +507,8 @@ namespace _07_CadenasFicheros
                                         Console.WriteLine("|");
                                         Console.WriteLine("|");
                                         Console.WriteLine("------------");
+                                        //Mostramos la ayuda
+                                        Console.WriteLine(cpPalabra11);
                                     }
                                     if (fallos11 == 3)
                                     {
@@ -515,6 +519,8 @@ namespace _07_CadenasFicheros
                                         Console.WriteLine("|");
                                         Console.WriteLine("|");
                                         Console.WriteLine("------------");
+                                        //Mostramos la ayuda
+                                        Console.WriteLine(cpPalabra11);
                                     }
                                     if (fallos11 == 4)
                                     {
@@ -525,6 +531,8 @@ namespace _07_CadenasFicheros
                                         Console.WriteLine("|      /");
                                         Console.WriteLine("|");
                                         Console.WriteLine("------------");
+                                        //Mostramos la ayuda
+                                        Console.WriteLine(cpPalabra11);
                                     }
                                     if (fallos11 == 5)
                                     {    
@@ -539,9 +547,11 @@ namespace _07_CadenasFicheros
 
                                         Console.WriteLine();
                                         Console.Write("Hasta nunca Miguel");
-
+                                        gameOver = true;
+                                        
                                         //Para continuar
                                         Console.ReadLine();
+                                        break; //Termino con el bucle
 
                                     }
                                 }
@@ -561,14 +571,14 @@ namespace _07_CadenasFicheros
                                 Console.WriteLine("|");
                                 Console.WriteLine("------------");
                                 Console.ForegroundColor = ConsoleColor.White;
-                                easteregg = true;
+                                gameOver = true;
                                 break;
                             }                        
                         }
                         //El bucle termina cuando no tenemos las asteriscos en la copia
                         while (cpPalabra11.Contains('*'));
 
-                        if(easteregg == false)
+                        if(gameOver == false)
                         {
                             //Si lo consigue WIN MIGUEL
                             Console.WriteLine();
@@ -643,6 +653,12 @@ namespace _07_CadenasFicheros
 
                     //Ejercicio 26
                     case 26:
+
+                        //Asignar la ruta y crear el archivo de registros.txt
+                        string ruta26 = Directory.GetCurrentDirectory();
+                        string rutaFichero26 = ruta26 + "\\registros.txt";
+                        StreamWriter fichero26 = new StreamWriter(rutaFichero26);
+
 
                         //Menu de toda la vida
                         Console.WriteLine("Menu:");
