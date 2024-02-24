@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Runtime.ExceptionServices;
 
 namespace _07_CadenasFicheros
 {
@@ -654,10 +655,17 @@ namespace _07_CadenasFicheros
                     //Ejercicio 26
                     case 26:
 
-                        //Asignar la ruta y crear el archivo de registros.txt
-                        string ruta26 = Directory.GetCurrentDirectory();
-                        string rutaFichero26 = ruta26 + "\\registros.txt";
-                        StreamWriter fichero26 = new StreamWriter(rutaFichero26);
+                        //Asignar la ruta y crear el archivo
+                        string ruta26 = Directory.GetCurrentDirectory(); //Obtener la ruta
+                        string rutaFichero26 = ruta26 + "\\registros.txt"; //Asignar la ruta
+                        StreamWriter fichero26 = new StreamWriter(rutaFichero26); //Crear el fichero
+
+                       
+                        //Volcar los datos de ejemplo
+                        fichero26.WriteLine("81723421A*Juan Perez?27?1500");
+                        fichero26.Close(); //Cerramos el fichero
+
+
 
 
                         //Menu de toda la vida
@@ -678,11 +686,50 @@ namespace _07_CadenasFicheros
                         {
                             //1.Mostrar registros
                             case 1:
+                                //Abrir el fichero para leerlo
+                                StreamReader LeerFichero26 = new StreamReader(rutaFichero26); 
+                                string linea26 = LeerFichero26.ReadLine(); //Leer la primera linea
 
+                                while (linea26 != null)
+                                {
+                                    Console.WriteLine(linea26);
+                                    linea26 = LeerFichero26.ReadLine();
+                                }
+                                LeerFichero26.Close();
                                 break;
 
                             //2.Insertar nuevo registro
                             case 2:
+
+                                //Abrir el fichero para añadir un nuevo registro
+                                StreamWriter anadirFichero26 = new StreamWriter(rutaFichero26, true);
+
+
+                                //Solicitud del DNI
+                                Console.WriteLine();
+                                Console.WriteLine("Introduce tu DNI:");
+                                string dni26 = Console.ReadLine();
+
+                                //Solicitud del nombre y primer apellido
+                                Console.WriteLine();
+                                Console.WriteLine("Introduce tu nombre y primer apellido:");
+                                string nombre26 = Console.ReadLine();
+
+                                //Solicitud de la edad
+                                Console.WriteLine();
+                                Console.WriteLine("Introduce tu edad:");
+                                byte edad26 = byte.Parse(Console.ReadLine());
+
+                                //Solicitud del salario
+                                Console.WriteLine();
+                                Console.WriteLine("Introduce tu salario:");
+                                double salario26 = double.Parse(Console.ReadLine());
+
+                                //Formar el nuevo registro
+                                string nuevoRegistro26 = dni26 + "*" + nombre26 + "?" + edad26 + "?" + salario26;
+
+                                //Escribir el nuevo registro en el archivo
+                                anadirFichero26.WriteLine(nuevoRegistro26);
 
                                 break;
 
