@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Runtime.ExceptionServices;
+using System.CodeDom;
+using Microsoft.Win32;
 
 namespace _07_CadenasFicheros
 {
@@ -72,7 +74,7 @@ namespace _07_CadenasFicheros
                         for (int i = 0; i < matricula.Length; i++)
                         {
                             Console.Write("Matricula " + i + ": ");
-                            for(int j = 0; j < matricula[i].Length; j++)
+                            for (int j = 0; j < matricula[i].Length; j++)
                             {
                                 if (char.IsDigit(matricula[i][j]))
                                 {
@@ -114,7 +116,7 @@ namespace _07_CadenasFicheros
                         {
                             fichero.WriteLine(matricula[i]);
                         }
-                        fichero.Close(); 
+                        fichero.Close();
 
                         break;
 
@@ -135,7 +137,7 @@ namespace _07_CadenasFicheros
                         string texto2 = "IU134BFP38A";
 
                         //Hace distincion entre mayúsculas y minúsculas
-                        for(int i = 0; i < texto2.Length; i++)
+                        for (int i = 0; i < texto2.Length; i++)
                         {
                             if (texto2[i] == caracter2)
                             {
@@ -147,7 +149,7 @@ namespace _07_CadenasFicheros
 
                     //Ejercicio 3
                     case 3:
-  
+
 
                         //Declaración de variables
                         bool correcto = false;
@@ -164,7 +166,7 @@ namespace _07_CadenasFicheros
                             string dni = Console.ReadLine();
 
                             //Comprobación cantidad de caracteres
-                            if (dni.Length == 9) 
+                            if (dni.Length == 9)
                             {
                                 for (int i = 0; i < dni.Length - 1; i++) //Recorrer el DNI
                                 {
@@ -208,7 +210,7 @@ namespace _07_CadenasFicheros
                                         correcto = false;
                                         Console.WriteLine("La letra es incorrecta");
                                     }
-                                    
+
                                 }
                             }
                             else
@@ -216,8 +218,8 @@ namespace _07_CadenasFicheros
                                 Console.WriteLine("El DNI es incorrecto, su longitud no es la correcta");
                             }
 
-                            
-                            
+
+
 
 
                         }
@@ -267,7 +269,7 @@ namespace _07_CadenasFicheros
 
                         string ejemplo6 = "abajo, abatida, abacero, antiaereo, formidable, austero, confortable, ramon, roto";
                         string contiene6 = "aba";
-                        
+
 
                         //Por si introducen mayusculas
                         contiene6 = contiene6.ToLower();
@@ -315,7 +317,7 @@ namespace _07_CadenasFicheros
                         string email7 = Console.ReadLine();
 
                         //En caso de contener un @ se detecta como email
-                        if(email7.Contains("@"))
+                        if (email7.Contains("@"))
                         {
                             string[] dominio7 = email7.Split('@'); //Troceo el string desde el @
                             Console.WriteLine(dominio7[1]); //Muestro la parte 2 del string
@@ -439,7 +441,7 @@ namespace _07_CadenasFicheros
                         byte fallos11 = 0;
 
                         //Colocación de asteriscos en copia
-                        for(int i = 0; i < cpPalabra11.Length; i++)
+                        for (int i = 0; i < cpPalabra11.Length; i++)
                         {
                             cpPalabra11[i] = '*';
                         }
@@ -472,7 +474,7 @@ namespace _07_CadenasFicheros
                                         if (palabraActiva[i] == letra11)
                                         {
                                             cpPalabra11[i] = letra11;
-                                            
+
                                         }
                                     }
 
@@ -536,7 +538,7 @@ namespace _07_CadenasFicheros
                                         Console.WriteLine(cpPalabra11);
                                     }
                                     if (fallos11 == 5)
-                                    {    
+                                    {
                                         Console.WriteLine();
                                         Console.WriteLine("_________");
                                         Console.WriteLine("|       |");
@@ -549,7 +551,7 @@ namespace _07_CadenasFicheros
                                         Console.WriteLine();
                                         Console.Write("Hasta nunca Miguel");
                                         gameOver = true;
-                                        
+
                                         //Para continuar
                                         Console.ReadLine();
                                         break; //Termino con el bucle
@@ -557,8 +559,8 @@ namespace _07_CadenasFicheros
                                     }
                                 }
                             }
-                            
-                            if(!char.IsLetter(letra11))
+
+                            if (!char.IsLetter(letra11))
                             {
                                 //Game Over por desobediencia 
                                 Console.ForegroundColor = ConsoleColor.Red;
@@ -574,12 +576,12 @@ namespace _07_CadenasFicheros
                                 Console.ForegroundColor = ConsoleColor.White;
                                 gameOver = true;
                                 break;
-                            }                        
+                            }
                         }
                         //El bucle termina cuando no tenemos las asteriscos en la copia
                         while (cpPalabra11.Contains('*'));
 
-                        if(gameOver == false)
+                        if (gameOver == false)
                         {
                             //Si lo consigue WIN MIGUEL
                             Console.WriteLine();
@@ -593,7 +595,7 @@ namespace _07_CadenasFicheros
                             Console.WriteLine("   / \\");
                             Console.WriteLine("------------");
                             Console.WriteLine("Perfecto, la palabra era: " + palabraActiva);
-                        }                      
+                        }
                         break;
 
                     //Ejercicio 12
@@ -655,117 +657,177 @@ namespace _07_CadenasFicheros
                     //Ejercicio 26
                     case 26:
 
-                        //Asignar la ruta y crear el archivo
-                        string ruta26 = Directory.GetCurrentDirectory(); //Obtener la ruta
-                        string rutaFichero26 = ruta26 + "\\registros.txt"; //Asignar la ruta
-                        StreamWriter fichero26 = new StreamWriter(rutaFichero26); //Crear el fichero
+                        //Ruta del fichero
+                        String ruta26 = Directory.GetCurrentDirectory();
+                        String rutaFichero26 = ruta26 + @"\registros.txt";
 
-                       
-                        //Volcar los datos de ejemplo
-                        fichero26.WriteLine("81723421A*Juan Perez?27?1500");
-                        fichero26.Close(); //Cerramos el fichero
+                        //Recuperar datos del fichero
+                        String[] registros26 = new string[100];
 
-
-
-
-                        //Menu de toda la vida
-                        Console.WriteLine("Menu:");
-                        Console.WriteLine("1.Mostrar registros");
-                        Console.WriteLine("2.Insertar nuevo registro");
-                        Console.WriteLine("3.Consultar por DNI");
-                        Console.WriteLine("4.Mostrar registros cuyo salario sea superior a 2500€");
-                        Console.WriteLine("5.Modificar registro");
-                        Console.WriteLine("6.Eliminar registro");
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("7.Mostrar registros ordenados por salario (de menor a mayor)");
-                        Console.WriteLine("8.Salir");
-                        byte menu26 = byte.Parse(Console.ReadLine());
-                        Console.ForegroundColor = ConsoleColor.White;
-
-                        switch (menu26)
+                        //Leer fichero
+                        StreamReader lector26;
+                        try
                         {
-                            //1.Mostrar registros
-                            case 1:
-                                //Abrir el fichero para leerlo
-                                StreamReader LeerFichero26 = new StreamReader(rutaFichero26); 
-                                string linea26 = LeerFichero26.ReadLine(); //Leer la primera linea
+                            lector26 = new StreamReader(rutaFichero26);
+                            int posicion26 = 0;
+                            String registro26 = "";
+                            while (registro26 != null)
+                            {
+                                registro26 = lector26.ReadLine();
+                                registros26[posicion26] = registro26;
+                                posicion26++;
+                            }
+                            lector26.Close();
 
-                                while (linea26 != null)
-                                {
-                                    Console.WriteLine(linea26);
-                                    linea26 = LeerFichero26.ReadLine();
-                                }
-                                LeerFichero26.Close();
-                                break;
-
-                            //2.Insertar nuevo registro
-                            case 2:
-
-                                //Abrir el fichero para añadir un nuevo registro
-                                StreamWriter anadirFichero26 = new StreamWriter(rutaFichero26, true);
-
-
-                                //Solicitud del DNI
-                                Console.WriteLine();
-                                Console.WriteLine("Introduce tu DNI:");
-                                string dni26 = Console.ReadLine();
-
-                                //Solicitud del nombre y primer apellido
-                                Console.WriteLine();
-                                Console.WriteLine("Introduce tu nombre y primer apellido:");
-                                string nombre26 = Console.ReadLine();
-
-                                //Solicitud de la edad
-                                Console.WriteLine();
-                                Console.WriteLine("Introduce tu edad:");
-                                byte edad26 = byte.Parse(Console.ReadLine());
-
-                                //Solicitud del salario
-                                Console.WriteLine();
-                                Console.WriteLine("Introduce tu salario:");
-                                double salario26 = double.Parse(Console.ReadLine());
-
-                                //Formar el nuevo registro
-                                string nuevoRegistro26 = dni26 + "*" + nombre26 + "?" + edad26 + "?" + salario26;
-
-                                //Escribir el nuevo registro en el archivo
-                                anadirFichero26.WriteLine(nuevoRegistro26);
-
-                                break;
-
-                            //3.Consultar por DNI
-                            case 3:
-                                break;
-
-                            //4.Mostrar registros cuyo salario sea superior a 2500€
-                            case 4:
-
-                                break;
-
-                            //5.Modificar registro
-                            case 5:
-
-                                break;
-
-                            //6. Eliminar registro
-                            case 6:
-
-                                break;
-
-                            //7.Mostrar registros ordenados por salario (de menor a mayor)
-                            case 7:
-
-                                break;
-
-                            //8.Salir
-                            case 8:
-                                //Aquí no hay que poner nada
-                                break;
                         }
+                        catch (IOException e)
+                        {
+                            if (!File.Exists(rutaFichero26))
+                            {
+                                File.Create(rutaFichero26);
+                            }
+
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e.ToString());
+                        }
+
+                        bool salir26 = false;
+                        do
+                        {
+                            //Menu de toda la vida
+                            Console.WriteLine("Menu:");
+                            Console.WriteLine("1.Mostrar registros");
+                            Console.WriteLine("2.Insertar nuevo registro");
+                            Console.WriteLine("3.Consultar por DNI");
+                            Console.WriteLine("4.Mostrar registros cuyo salario sea superior a 2500€");
+                            Console.WriteLine("5.Modificar registro");
+                            Console.WriteLine("6.Eliminar registro");
+                            Console.WriteLine("7.Mostrar registros ordenados por salario (de menor a mayor)");
+                            Console.WriteLine("8.Salir");
+                            byte menu26 = byte.Parse(Console.ReadLine());
+ 
+                            switch (menu26)
+                            {
+
+                                case 1:
+                                    //Mostrar registros
+                                    foreach (string s in registros26)
+                                    {
+                                        if (s != null)
+                                        {
+                                            Console.WriteLine(s);
+                                        }
+                                        else
+                                        {
+                                            break;
+                                        }
+                                    }
+                                    break;
+
+                                case 2:
+                                    //Solicitud del DNI
+                                    Console.WriteLine();
+                                    Console.WriteLine("Introduce tu DNI:");
+                                    string dni26 = Console.ReadLine();
+
+                                    //Solicitud del nombre y primer apellido
+                                    Console.WriteLine();
+                                    Console.WriteLine("Introduce tu nombre y primer apellido:");
+                                    string nombre26 = Console.ReadLine();
+
+                                    //Solicitud de la edad
+                                    Console.WriteLine();
+                                    Console.WriteLine("Introduce tu edad:");
+                                    byte edad26 = byte.Parse(Console.ReadLine());
+
+                                    //Solicitud del salario
+                                    Console.WriteLine();
+                                    Console.WriteLine("Introduce tu salario:");
+                                    double salario26 = double.Parse(Console.ReadLine());
+
+                                    //Formar el nuevo registro
+                                    string nuevoRegistro26 = dni26 + "*" + nombre26 + "?" + edad26 + "?" + salario26;
+
+
+                                    //Escribimos registro en el fichero
+                                    StreamWriter escritor = new StreamWriter(rutaFichero26, true);
+                                    escritor.WriteLine(nuevoRegistro26);
+                                    escritor.Close();
+
+
+                                    //Actualizar array de series
+                                    for (int i = 0; i < registros26.Length; i++)
+                                    {
+                                        if (registros26[i] == null)
+                                        {
+                                            registros26[i] = nuevoRegistro26;
+                                            break;
+                                        }
+                                    }
+                                    break;
+                                
+                                case 3:
+
+                                    //Buscar por DNI
+                                    Console.WriteLine();
+                                    Console.WriteLine("Introduce el DNI");
+                                    String buscarDNI26 = Console.ReadLine();
+
+                                    foreach (string s in registros26)
+                                    {
+                                        //Obtenemos la cadena que hay antes del asterisco
+                                        if (s == null)
+                                        {
+                                            Console.WriteLine("DNI no encontrado.");
+                                            break;
+                                        }
+                                        //Troceamos la cadena
+                                        String[] trozos26 = s.Split('*', '?', '?');
+                                        if (buscarDNI26.Equals(trozos26[0], StringComparison.OrdinalIgnoreCase))
+                                        {
+                                            Console.WriteLine();
+                                            Console.WriteLine("Propietario del DNI: " + trozos26[1]);
+                                            break;
+                                        }
+                                    }
+                                    break;
+                                case 4:
+
+                                    Console.WriteLine();
+                                    foreach (string s in registros26)
+                                    {
+                                        if (s == null)
+                                        {
+                                            Console.WriteLine("No hay registros con salario superior a 2500€.");
+                                            break;
+                                        }
+                                        String[] trozos26 = s.Split('*', '?', '?');
+                                        if (double.Parse(trozos26[3]) > 2500)
+                                        {
+
+                                            Console.WriteLine(trozos26[1] + " con " + trozos26[3] + " euros");
+                                        }
+                                    }
+                                    break;
+                                case 5: 
+                                    break;
+                                case 6:
+                                    break;
+                                case 7:
+                                    break;
+
+                                default:
+                                    salir26 = true;
+                                    break;
+                            }
+
+                        } while (salir26 == true);
+                        Console.ReadLine();
                         break;
 
                 }
-
 
 
                 Console.WriteLine();
