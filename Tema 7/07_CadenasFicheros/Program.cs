@@ -232,7 +232,7 @@ namespace _07_CadenasFicheros
                     //Ejercicio 4
                     case 4:
 
-                        Console.WriteLine("Introduce una cadena de texto");
+                        Console.WriteLine("Introduce un string");
                         string texto4 = Console.ReadLine();
 
                         string[] troceo4 = texto4.Split(' ');
@@ -707,11 +707,13 @@ namespace _07_CadenasFicheros
                             Console.WriteLine("7.Mostrar registros ordenados por salario (de menor a mayor)");
                             Console.WriteLine("8.Salir");
                             byte menu26 = byte.Parse(Console.ReadLine());
- 
+                            Console.WriteLine();
+
                             switch (menu26)
                             {
 
                                 case 1:
+                                    
                                     //Mostrar registros
                                     foreach (string s in registros26)
                                     {
@@ -777,7 +779,7 @@ namespace _07_CadenasFicheros
 
                                     foreach (string s in registros26)
                                     {
-                                        //Obtenemos la cadena que hay antes del asterisco
+                                        //Obtenemos el string
                                         if (s == null)
                                         {
                                             Console.WriteLine("DNI no encontrado.");
@@ -795,6 +797,7 @@ namespace _07_CadenasFicheros
                                     break;
                                 case 4:
 
+                                    //Mostrar registros cuyo salario sea superior a 2500€
                                     Console.WriteLine();
                                     foreach (string s in registros26)
                                     {
@@ -804,6 +807,8 @@ namespace _07_CadenasFicheros
                                             break;
                                         }
                                         String[] trozos26 = s.Split('*', '?', '?');
+
+                                        //Comprobacion salario superior a 2500€
                                         if (double.Parse(trozos26[3]) > 2500)
                                         {
 
@@ -812,8 +817,94 @@ namespace _07_CadenasFicheros
                                     }
                                     break;
                                 case 5: 
+                                    
+                                    Console.WriteLine();
+                                    Console.WriteLine("Introduce el DNI del registro que quieres modificar");
+                                    String dniModificar26 = Console.ReadLine();
+
+                                    //Recorrer el array de registros
+                                    for (int i = 0; i < registros26.Length; i++)
+                                    {
+                                        //Si no hay registros
+                                        if (registros26[i] == null)
+                                        {
+                                            //Mensaje de error y cierro bucle
+                                            Console.WriteLine("DNI no encontrado.");
+                                            break;
+                                        }
+
+                                        //Trocear el string
+                                        String[] trozos26 = registros26[i].Split('*', '?', '?');
+
+                                        //Si el DNI coincide
+                                        if (dniModificar26.Equals(trozos26[0], StringComparison.OrdinalIgnoreCase))
+                                        {
+
+                                            Console.WriteLine("Introduce el nuevo nombre y primer apellido:");
+                                            String nuevoNombre26 = Console.ReadLine();
+
+                                            Console.WriteLine("Introduce la nueva edad:");
+                                            byte nuevaEdad26 = byte.Parse(Console.ReadLine());
+
+                                            Console.WriteLine("Introduce el nuevo salario:");
+                                            double nuevoSalario26 = double.Parse(Console.ReadLine());
+
+                                            //Actualizar el registro
+                                            registros26[i] = trozos26[0] + "*" + nuevoNombre26 + "?" + nuevaEdad26 + "?" + nuevoSalario26;
+                                            break;
+                                        }
+                                    }
+
+                                    //Actualizar el fichero.txt
+                                    StreamWriter escritor26 = new StreamWriter(rutaFichero26);
+                                    for (int i = 0; i < registros26.Length; i++)
+                                    {
+                                        if (registros26[i] != null)
+                                        {
+                                            escritor26.WriteLine(registros26[i]);
+                                        }
+                                    }
+                                    escritor26.Close();
+
                                     break;
                                 case 6:
+
+                                    Console.WriteLine();
+
+                                    
+                                    Console.WriteLine("Introduce el DNI del registro que quieres eliminar");
+                                    String dniEliminar26 = Console.ReadLine();
+                                    for (int i = 0; i < registros26.Length; i++)
+                                    {
+                                        if (registros26[i] == null)
+                                        {
+                                            Console.WriteLine("DNI no encontrado.");
+                                            break;
+                                        }
+                                        String[] trozos26 = registros26[i].Split('*', '?', '?');
+
+                                        //Si el DNI coincide, se ELIMINA (osea, se pasa a null)
+                                        if (dniEliminar26.Equals(trozos26[0], StringComparison.OrdinalIgnoreCase))
+                                        {
+                                            registros26[i] = null;
+                                            break;
+                                        }
+                                    }
+
+    
+                                    //Actualizar el fichero registros.txt
+                                    StreamWriter escritor2 = new StreamWriter(rutaFichero26);
+                                    for (int i = 0; i < registros26.Length; i++)
+                                    {
+                                        if (registros26[i] != null)
+                                        {
+                                            escritor2.WriteLine(registros26[i]);
+                                        }
+                                    }
+                                    escritor2.Close();
+                                    Console.WriteLine();
+
+
                                     break;
                                 case 7:
                                     break;
