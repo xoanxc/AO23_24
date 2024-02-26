@@ -509,7 +509,7 @@ namespace _07_CadenasFicheros
                                         //Mostramos la ayuda
                                         Console.WriteLine(cpPalabra11);
                                     }
-                                    if (fallos11 == 2)
+                                    else if (fallos11 == 2)
                                     {
                                         Console.WriteLine("_________");
                                         Console.WriteLine("|       |");
@@ -521,7 +521,7 @@ namespace _07_CadenasFicheros
                                         //Mostramos la ayuda
                                         Console.WriteLine(cpPalabra11);
                                     }
-                                    if (fallos11 == 3)
+                                    else if (fallos11 == 3)
                                     {
                                         Console.WriteLine("_________");
                                         Console.WriteLine("|       |");
@@ -533,7 +533,7 @@ namespace _07_CadenasFicheros
                                         //Mostramos la ayuda
                                         Console.WriteLine(cpPalabra11);
                                     }
-                                    if (fallos11 == 4)
+                                    else if (fallos11 == 4)
                                     {
                                         Console.WriteLine("_________");
                                         Console.WriteLine("|       |");
@@ -545,7 +545,7 @@ namespace _07_CadenasFicheros
                                         //Mostramos la ayuda
                                         Console.WriteLine(cpPalabra11);
                                     }
-                                    if (fallos11 == 5)
+                                    else if (fallos11 == 5)
                                     {
                                         Console.WriteLine();
                                         Console.WriteLine("_________");
@@ -568,7 +568,7 @@ namespace _07_CadenasFicheros
                                 }
                             }
 
-                            if (!char.IsLetter(letra11))
+                            else if (!char.IsLetter(letra11))
                             {
                                 //Game Over por desobediencia 
                                 Console.ForegroundColor = ConsoleColor.Red;
