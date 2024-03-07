@@ -1,0 +1,7 @@
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\Modelo3Capas\bin\Debug\Modelo3Capas.exe.config
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\Modelo3Capas\bin\Debug\Modelo3Capas.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\Modelo3Capas\bin\Debug\Modelo3Capas.pdb
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\Modelo3Capas\obj\Debug\Modelo3Capas.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\Modelo3Capas\obj\Debug\Modelo3Capas.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\Modelo3Capas\obj\Debug\Modelo3Capas.exe
+C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 7\Modelo3Capas\obj\Debug\Modelo3Capas.pdb
