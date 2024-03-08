@@ -26,7 +26,7 @@ namespace Boletin_Colecciones
                     case 1:
 
                         //Inicializo la lista y le doy capacidad de 15
-                        List<int> list = new List<int>(15);
+                        List<int> list = new List<int>(15); //Puedo no poner el 15 y la capacidad se adaptara
 
                         Random gen1 = new Random();
 
@@ -118,9 +118,34 @@ namespace Boletin_Colecciones
                             Console.Write(num + " ");
                         }
                         Console.WriteLine();
-           
+
                         break;
-                                   
+                    case 2:
+
+                        List<string> tareas = new List<string>();
+                        int opcion2 = 0;
+
+                        Console.WriteLine("1.Introducir tarea");
+                        Console.WriteLine("2.Eliminar tarea");
+                        Console.WriteLine("3.Contar tareas pendientes");
+                        Console.WriteLine("4.Mostrar tareas pendientes");
+                        Console.WriteLine("5.Monstrar tareas completadas");
+                        opcion2 = int.Parse(Console.ReadLine());
+
+                        switch(opcion2)
+                        {
+                            case 1:
+                                break;
+                        }
+
+
+
+
+
+
+
+                        break;
+
                 }
 
 
