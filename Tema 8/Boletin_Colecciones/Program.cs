@@ -122,24 +122,76 @@ namespace Boletin_Colecciones
                         break;
                     case 2:
 
-                        List<string> tareas = new List<string>();
-                        int opcion2 = 0;
 
+                        //Creación de las listas 
+                        List<string> tareasP = new List<string>(); //Tareas Pendientes
+                        List<string> tareasC = new List<string>(); //Tareas Completadas
+
+                        //Menú
                         Console.WriteLine("1.Introducir tarea");
                         Console.WriteLine("2.Eliminar tarea");
                         Console.WriteLine("3.Contar tareas pendientes");
                         Console.WriteLine("4.Mostrar tareas pendientes");
                         Console.WriteLine("5.Monstrar tareas completadas");
-                        opcion2 = int.Parse(Console.ReadLine());
+                        byte opcion2 = byte.Parse(Console.ReadLine());
 
                         switch(opcion2)
                         {
                             case 1:
+
+                                //a) Introducir tarea
+                                Console.WriteLine("Introduce la tarea:");
+                                tareasP.Add(Console.ReadLine());
+
                                 break;
+
+                            case 2:
+
+                                //b) Completar tarea: Elimina esa tarea y la pasa a una lista donde se almacenan las tareas completadas
+                                Console.WriteLine("Introduce la tarea que deseas completar:");
+                                string tareaS = Console.ReadLine(); //Tarea Seleccionada
+                                
+                                if (tareasP.Contains(tareaS))
+                                {
+                                    tareasP.Remove(tareaS);
+                                    tareasC.Add(tareaS);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("La tarea no se encuentra en la lista de tareas pendientes");
+                                }
+                                break;
+
+                            case 3:
+
+                                //c) Contar tareas pendientes
+                                Console.WriteLine("El número de tareas pendientes es: " + tareasP.Count);
+                                
+                                break;
+                            case 4:
+
+                                //d) Mostrar tareas pendientes
+                                Console.WriteLine("Tareas pendientes:");
+
+                                //Muestro las tareas pendientes
+                                foreach (string tareaM in tareasP) //Tarea Mostrada
+                                {
+                                    Console.WriteLine(tareaM);
+                                }                                    
+                                break;
+
+                            case 5:
+                                //e) Mostrar tareas completadas
+                                Console.WriteLine("Tareas completadas:");
+
+                                //Muestro las tareas completadas
+                                foreach (string tareaM in tareasC) //Tarea Mostrada
+                                {
+                                    Console.WriteLine(tareaM);
+                                }
+                                break;
+
                         }
-
-
-
 
 
 

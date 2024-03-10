@@ -5,3 +5,10 @@ C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 8\Boletin_Colecciones\obj\Debug\Bo
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 8\Boletin_Colecciones\obj\Debug\Boletin_Colecciones.csproj.CoreCompileInputs.cache
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 8\Boletin_Colecciones\obj\Debug\Boletin_Colecciones.exe
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 8\Boletin_Colecciones\obj\Debug\Boletin_Colecciones.pdb
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 8\Boletin_Colecciones\bin\Debug\Boletin_Colecciones.exe.config
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 8\Boletin_Colecciones\bin\Debug\Boletin_Colecciones.exe
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 8\Boletin_Colecciones\bin\Debug\Boletin_Colecciones.pdb
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 8\Boletin_Colecciones\obj\Debug\Boletin_Colecciones.csproj.AssemblyReference.cache
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 8\Boletin_Colecciones\obj\Debug\Boletin_Colecciones.csproj.CoreCompileInputs.cache
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 8\Boletin_Colecciones\obj\Debug\Boletin_Colecciones.exe
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 8\Boletin_Colecciones\obj\Debug\Boletin_Colecciones.pdb
