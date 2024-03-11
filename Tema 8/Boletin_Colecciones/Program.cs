@@ -236,7 +236,6 @@ namespace Boletin_Colecciones
                                 }
 
 
-
                                 break;
 
                             case 2: //Eliminar dni:
