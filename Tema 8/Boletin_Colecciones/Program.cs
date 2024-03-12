@@ -215,7 +215,7 @@ namespace Boletin_Colecciones
                         switch(opcion3)
                         {
                             case 1: //Guardar dni: En caso de que el dni ya esté almacenado no se guarda.
-                                
+
                                 //Introduzco el dni
                                 Console.WriteLine("Introduce el dni:");
                                 string dniI = Console.ReadLine(); //Dni Introducido
@@ -240,20 +240,59 @@ namespace Boletin_Colecciones
 
                             case 2: //Eliminar dni:
 
-                                
+                                //Introduzco el dni
+                                Console.WriteLine("Introduce el dni:");
+                                string dniE = Console.ReadLine(); //Dni Eliminar
 
+                                //Compruebo si el dni ya está almacenado   
+                                if (dni.ContainsKey(dniE))
+                                {
+                                    //Introduzco el nombre
+                                    Console.WriteLine("Introduce el nombre:");
+                                    string nombreI = Console.ReadLine(); //Nombre Introducido
 
+                                    //Elimino el DNI y el nombre del diccionario
+                                    dni.Remove(dniE);          
+                                }
+                                else
+                                {
+                                    Console.WriteLine("El DNI no está almacenado");
+                                }
                                 break;
 
                             case 3: //Mostrar dnis:
 
+                                //Muestro los dnis almacenados
+                                foreach (KeyValuePair<string, string> dniM in dni)
+                                {
+                                    Console.WriteLine("DNI: " + dniM.Key + " Nombre: " + dniM.Value);
+                                }
                                 break;
+                                
+                                
 
                             case 4: //Buscar dnis:
 
+                                //Introduzco el dni
+                                Console.WriteLine("Introduce el dni:");
+                                string dniB = Console.ReadLine(); //Dni Buscar
+
+                                //Compruebo si el dni ya está almacenado
+                                if (dni.ContainsKey(dniB))
+                                {
+                                    //Muestro el nombre asociado al dni
+                                    Console.WriteLine("El nombre asociado al DNI " + dniB + " es: " + dni[dniB]);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("El DNI no está almacenado");
+                                }
                                 break;
 
                             case 5: //Contar dnis.
+
+                                //Muestro el número de dnis almacenados
+                                Console.WriteLine("El número de DNI's almacenados es: " + dni.Count);
 
                                 break;
 
@@ -265,6 +304,71 @@ namespace Boletin_Colecciones
 
                       
                     case 4: //4.Crear un diccionario que permita almacenar los estados de USA junto con su ciudad capital. Inicializarlo con 15 valores. A continuación mostrar un menú que permita al usuario:
+
+                        //Creación del diccionario
+                        Dictionary<string, string> estados = new Dictionary<string, string>(15);
+
+                        //Añado los estados y sus capitales al diccionario
+                        estados.Add("Alabama", "Montgomery");
+                        estados.Add("Alaska", "Juneau");
+                        estados.Add("Arizona", "Phoenix");
+                        estados.Add("Arkansas", "Little Rock");
+                        estados.Add("California", "Sacramento");
+                        estados.Add("Colorado", "Denver");
+                        estados.Add("Connecticut", "Hartford");
+                        estados.Add("Delaware", "Dover");
+                        estados.Add("Florida", "Tallahassee");
+                        estados.Add("Georgia", "Atlanta");
+                        estados.Add("Hawaii", "Honolulu");
+                        estados.Add("Idaho", "Boise");
+                        estados.Add("Illinois", "Springfield");
+                        estados.Add("Indiana", "Indianapolis");
+                        estados.Add("Iowa", "Des Moines");
+
+                        //Menú
+                        Console.WriteLine("1.Buscar capital de un estado en concreto");
+                        Console.WriteLine("2.Mostrar el estado al que pertenece una determinada capital");
+                        Console.WriteLine("3.Introducir un nuevo estado con su capital.");
+                        Console.WriteLine("4.Mostrar los estados ordenados alfabéticamente.");
+                        Console.WriteLine("5.Eliminar un determinado estado junto con su capital.");
+                        byte opcion4 = byte.Parse(Console.ReadLine());
+
+                        switch(opcion4)
+                        {
+                            case 1: //a)Buscar capital de un estado en concreto
+                                
+                                
+                                break;
+
+                            case 2: //b)Mostrar el estado al que pertenece una determinada capital
+
+
+                                break;
+
+                            case 3: //c)Introducir un nuevo estado con su capital.
+
+
+                                break;
+
+                            case 4: //d)Mostrar los estados ordenados alfabéticamente.
+
+
+                                break;
+
+
+                            case 5: //e)Eliminar un determinado estado junto con su capital.
+
+
+                                break;
+
+
+                            default:
+                                Console.WriteLine("ERROR");
+                                break;
+
+
+                        }
+
 
                         break;
 
