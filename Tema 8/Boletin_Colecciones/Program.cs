@@ -319,11 +319,7 @@ namespace Boletin_Colecciones
                         estados.Add("Delaware", "Dover");
                         estados.Add("Florida", "Tallahassee");
                         estados.Add("Georgia", "Atlanta");
-                        estados.Add("Hawaii", "Honolulu");
-                        estados.Add("Idaho", "Boise");
-                        estados.Add("Illinois", "Springfield");
-                        estados.Add("Indiana", "Indianapolis");
-                        estados.Add("Iowa", "Des Moines");
+
 
                         //Menú
                         Console.WriteLine("1.Buscar capital de un estado en concreto");
@@ -336,27 +332,100 @@ namespace Boletin_Colecciones
                         switch(opcion4)
                         {
                             case 1: //a)Buscar capital de un estado en concreto
-                                
-                                
+
+                                //Introduzco el estado
+                                Console.WriteLine("Introduce el estado:");
+                                string estadoB = Console.ReadLine(); //Estado Buscar
+
+                                //Compruebo si el estado ya está almacenado
+                                if (estados.ContainsKey(estadoB))
+                                {
+                                    //Muestro la capital asociada al estado
+                                    Console.WriteLine("La capital de " + estadoB + " es: " + estados[estadoB]);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("El estado no está almacenado");
+                                }     
                                 break;
 
                             case 2: //b)Mostrar el estado al que pertenece una determinada capital
 
+                                //Introduzco la capital
+                                Console.WriteLine("Introduce la capital:");
+                                string capitalB = Console.ReadLine(); //Capital Buscar
 
+                                //Compruebo si la capital ya está almacenada
+                                if (estados.ContainsValue(capitalB))
+                                {
+                                    //Muestro el estado asociado a la capital
+                                    foreach (KeyValuePair<string, string> estadoM in estados)
+                                    {
+                                        if (estadoM.Value == capitalB)
+                                        {
+                                            Console.WriteLine("La capital " + capitalB + " pertenece al estado de " + estadoM.Key);
+                                        }
+                                    }
+                                }
+                                else
+                                {
+                                    Console.WriteLine("La capital no está almacenada");
+                                }
                                 break;
 
                             case 3: //c)Introducir un nuevo estado con su capital.
 
+                                //Introduzco el estado
+                                Console.WriteLine("Introduce el estado:");
+                                string estadoI = Console.ReadLine(); //Estado Introducir
 
+                                //Compruebo si el estado ya está almacenado
+                                if (estados.ContainsKey(estadoI))
+                                {
+                                    Console.WriteLine("El estado ya está almacenado");
+                                }
+                                else
+                                {
+                                    //Introduzco la capital
+                                    Console.WriteLine("Introduce la capital:");
+                                    string capitalI = Console.ReadLine(); //Capital Introducir
+
+                                    //Añado el estado y la capital al diccionario
+                                    estados.Add(estadoI, capitalI);
+                                }
                                 break;
 
                             case 4: //d)Mostrar los estados ordenados alfabéticamente.
+
+                                //Muestro los estados ordenados alfabéticamente
+                                foreach (KeyValuePair<string, string> estadoM in estados.OrderBy(key => key.Key))
+                                {
+                                    Console.WriteLine("Estado: " + estadoM.Key + " Capital: " + estadoM.Value);
+                                }
+
+
 
 
                                 break;
 
 
                             case 5: //e)Eliminar un determinado estado junto con su capital.
+
+                                //Introduzco el estado
+                                Console.WriteLine("Introduce el estado:");
+                                string estadoE = Console.ReadLine(); //Estado Eliminar
+
+                                //Compruebo si el estado ya está almacenado
+                                if (estados.ContainsKey(estadoE))
+                                {
+                                    //Elimino el estado y la capital del diccionario
+                                    estados.Remove(estadoE);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("El estado no está almacenado");
+                                }
+                               
 
 
                                 break;
