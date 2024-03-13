@@ -544,13 +544,77 @@ namespace Boletin_Colecciones
                         {
                             case 1: //a)Mostrar por pantalla la compra de un determinado cliente.
 
+                                //Introduzco el dni
+                                Console.WriteLine("Introduce el dni:");
+                                string dni6 = Console.ReadLine(); //Dni Buscar
+
+                                //Compruebo si el dni ya está almacenado
+                                if (productos.ContainsKey(dni6))
+                                {
+                                    //Muestro los productos asociados al dni
+                                    foreach (string productoM in productos[dni6])
+                                    {
+                                        Console.WriteLine("Producto: " + productoM);
+                                    }
+                                }
+                                else
+                                {
+                                    Console.WriteLine("El DNI no está almacenado");
+                                }
+
                                 break;
 
                             case 2: //b)Eliminar un producto de la compra de un cliente.
+
+                                //Introduzco el dni
+                                Console.WriteLine("Introduce el dni:");
+                                string dni2 = Console.ReadLine(); //Dni Buscar
+                                if (productos.ContainsKey(dni2))
+                                {
+                                    //Introduzco el producto
+                                    Console.WriteLine("Introduce el producto:");
+                                    string producto2 = Console.ReadLine(); //Producto Buscar
+
+                                    //Compruebo si el producto ya está almacenado
+                                    if (productos[dni2].Contains(producto2))
+                                    {
+                                        //Elimino el producto de la lista de productos asociada al dni
+                                        productos[dni2].Remove(producto2);
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Estas de suerte el producto no está almacenado");
+                                    }
+                                }
+                                else
+                                {
+                                    Console.WriteLine("El DNI no está almacenado");
+                                }
+                                            
                                 break;
 
+
                             case 3: //c)Añadir un producto a la compra de un cliente.
+
+                                //Introduzco el dni
+                                Console.WriteLine("Introduce el dni:");
+                                string dni3 = Console.ReadLine(); //Dni Introducir
+                                if (productos.ContainsKey(dni3))
+                                {
+                                    //Introduzco el producto
+                                    Console.WriteLine("Introduce el producto:");
+                                    string producto3 = Console.ReadLine(); //Producto Introducir
+
+                                    //Añado el producto a la lista de productos asociada al dni
+                                    productos[dni3].Add(producto3);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("El DNI no está almacenado");
+                                }
+
                                 break;
+
 
                             default:
                                 Console.WriteLine("ERROR");
