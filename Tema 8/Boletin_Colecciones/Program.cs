@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Boletin_Colecciones
 {
@@ -202,7 +199,7 @@ namespace Boletin_Colecciones
 
                         //Creación del diccionario
                         Dictionary<string, string> dni = new Dictionary<string, string>();
-                        
+
 
                         //Menú
                         Console.WriteLine("1.Guardar DNI:"); //En caso de que ya esté almacenado, no se guarda.
@@ -212,7 +209,7 @@ namespace Boletin_Colecciones
                         Console.WriteLine("5.Constar DNI's");
                         byte opcion3 = byte.Parse(Console.ReadLine());
 
-                        switch(opcion3)
+                        switch (opcion3)
                         {
                             case 1: //Guardar dni: En caso de que el dni ya esté almacenado no se guarda.
 
@@ -252,7 +249,7 @@ namespace Boletin_Colecciones
                                     string nombreI = Console.ReadLine(); //Nombre Introducido
 
                                     //Elimino el DNI y el nombre del diccionario
-                                    dni.Remove(dniE);          
+                                    dni.Remove(dniE);
                                 }
                                 else
                                 {
@@ -268,8 +265,8 @@ namespace Boletin_Colecciones
                                     Console.WriteLine("DNI: " + dniM.Key + " Nombre: " + dniM.Value);
                                 }
                                 break;
-                                
-                                
+
+
 
                             case 4: //Buscar dnis:
 
@@ -302,7 +299,7 @@ namespace Boletin_Colecciones
                         }
                         break;
 
-                      
+
                     case 4: //4.Crear un diccionario que permita almacenar los estados de USA junto con su ciudad capital. Inicializarlo con 15 valores. A continuación mostrar un menú que permita al usuario:
 
                         //Creación del diccionario
@@ -329,7 +326,7 @@ namespace Boletin_Colecciones
                         Console.WriteLine("5.Eliminar un determinado estado junto con su capital.");
                         byte opcion4 = byte.Parse(Console.ReadLine());
 
-                        switch(opcion4)
+                        switch (opcion4)
                         {
                             case 1: //a)Buscar capital de un estado en concreto
 
@@ -346,7 +343,7 @@ namespace Boletin_Colecciones
                                 else
                                 {
                                     Console.WriteLine("El estado no está almacenado");
-                                }     
+                                }
                                 break;
 
                             case 2: //b)Mostrar el estado al que pertenece una determinada capital
@@ -452,7 +449,7 @@ namespace Boletin_Colecciones
                         Console.WriteLine("4.Eliminar cliente a partir de la clave.");
                         byte opcion5 = byte.Parse(Console.ReadLine());
 
-                        switch(opcion5)
+                        switch (opcion5)
                         {
                             case 1:
                                 //a)Guardar clientes asignándole una clave.
@@ -479,7 +476,7 @@ namespace Boletin_Colecciones
                                 clientes.Add(clave, dni5 + ", " + nombre5 + ", " + edad5 + ", " + correo5);
 
                                 break;
-                                
+
                             case 2:
 
                                 //b)Mostrar clientes.
@@ -540,7 +537,10 @@ namespace Boletin_Colecciones
                         Console.WriteLine("3.Añadir un producto a la compra de un cliente.");
                         byte opcion6 = byte.Parse(Console.ReadLine());
 
-                        switch(opcion6)
+                        //Asocia un dni a una lisa de productos
+                        Dictionary<string, List<string>> productos = new Dictionary<string, List<string>>();
+
+                        switch (opcion6)
                         {
                             case 1: //a)Mostrar por pantalla la compra de un determinado cliente.
 
