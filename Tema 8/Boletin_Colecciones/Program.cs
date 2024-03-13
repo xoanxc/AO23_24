@@ -405,7 +405,6 @@ namespace Boletin_Colecciones
 
 
 
-
                                 break;
 
 
@@ -425,9 +424,6 @@ namespace Boletin_Colecciones
                                 {
                                     Console.WriteLine("El estado no está almacenado");
                                 }
-                               
-
-
                                 break;
 
 
@@ -445,7 +441,9 @@ namespace Boletin_Colecciones
                         Dictionary<int, string> clientes = new Dictionary<int, string>();
 
                         //Almacenar por cada cliente: DNI , Nombre, Edad y correo electrónico.
-                        clientes.Add(1, "DNI: 12345678A Nombre: Juan Edad: 25 Correo: juanmagan@gmail.com");
+                        clientes.Add(1, "12345678A, Juan, 25, juanmagan@gmail.com");
+                        clientes.Add(2, "87654321B, Maria, 30, marcosamigui@gmail.com");
+                        clientes.Add(3, "13579246C, Pepe, 40, alvarokj@gmail.com");
 
                         //Menú
                         Console.WriteLine("1.Guardar clientes asignándole una clave.");
@@ -458,39 +456,77 @@ namespace Boletin_Colecciones
                         {
                             case 1:
                                 //a)Guardar clientes asignándole una clave.
+                                Console.WriteLine("Introduce una clave:");
+                                int clave = int.Parse(Console.ReadLine());
+
+                                //Solciito el DNI
                                 Console.WriteLine("Introduce el DNI:");
-                                string dniI = Console.ReadLine(); //DNI Introducir
+                                string dni5 = Console.ReadLine();
 
-                                //Compruebo si el dni ya está almacenado
+                                //Solicito el nombre
+                                Console.WriteLine("Introduce el nombre:");
+                                string nombre5 = Console.ReadLine();
 
-                                if (clientes.ContainsKey(dniI))
+                                //Solicito la edad
+                                Console.WriteLine("Introduce la edad:");
+                                int edad5 = int.Parse(Console.ReadLine());
+
+                                //Solicito el correo electrónico
+                                Console.WriteLine("Introduce el correo electrónico:");
+                                string correo5 = Console.ReadLine();
+
+                                //Construyo el string con los datos del cliente
+                                clientes.Add(clave, dni5 + ", " + nombre5 + ", " + edad5 + ", " + correo5);
+
+                                break;
+                                
+                            case 2:
+
+                                //b)Mostrar clientes.
+                                foreach (KeyValuePair<int, string> clienteM in clientes)
                                 {
-                                    Console.WriteLine("El DNI ya está almacenado");
+                                    Console.WriteLine("Clave: " + clienteM.Key + " Datos: " + clienteM.Value);
+                                }
+
+                                break;
+
+                            case 3:
+
+                                //c)Buscar cliente a partir de la clave.
+                                Console.WriteLine("Introduce la clave:");
+                                int claveB = int.Parse(Console.ReadLine());
+
+                                //Compruebo si la clave ya está almacenada
+                                if (clientes.ContainsKey(claveB))
+                                {
+                                    //Muestro los datos del cliente asociados a la clave
+                                    Console.WriteLine("Datos del cliente: " + clientes[claveB]);
                                 }
                                 else
                                 {
-                                    //Introduzco el nombre
-                                    Console.WriteLine("Introduce el nombre:");
-                                    string nombreI = Console.ReadLine(); //Nombre Introducir
-
-                                    //Introduzco la edad
-                                    Console.WriteLine("Introduce la edad:");
-                                    int edadI = int.Parse(Console.ReadLine()); //Edad Introducir
-
-                                    //Introduzco el correo
-                                    Console.WriteLine("Introduce el correo:");
-                                    string correoI = Console.ReadLine(); //Correo Introducir
-
-                                    //Añado el cliente al diccionario
-                                    clientes.Add(dniI, "DNI: " + dniI + " Nombre: " + nombreI + " Edad: " + edadI + " Correo: " + correoI);
+                                    Console.WriteLine("La clave no está almacenada");
                                 }
 
                                 break;
-                            case 2:
-                                break;
-                            case 3:
-                                break;
                             case 4:
+
+                                //d)Eliminar cliente a partir de la clave.
+
+                                //Introduzco la clave
+                                Console.WriteLine("Introduce la clave:");
+                                int claveE = int.Parse(Console.ReadLine()); //Clave Eliminar
+
+                                //Compruebo si la clave ya está almacenada
+                                if (clientes.ContainsKey(claveE))
+                                {
+                                    //Elimino el cliente del diccionario
+                                    clientes.Remove(claveE);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("La clave no está almacenada");
+                                }
+
                                 break;
                         }
 
