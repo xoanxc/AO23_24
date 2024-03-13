@@ -434,14 +434,66 @@ namespace Boletin_Colecciones
                             default:
                                 Console.WriteLine("ERROR");
                                 break;
-
-
                         }
 
 
                         break;
 
                     case 5: //5.Crear un diccionario cuya clave sea un Integer y el valor sea un String. Este diccionario servirá para almacenar los datos de los clientes de una determinada empresa. De cada cliente hay que almacenar: 
+
+                        //Creación del diccionario
+                        Dictionary<int, string> clientes = new Dictionary<int, string>();
+
+                        //Almacenar por cada cliente: DNI , Nombre, Edad y correo electrónico.
+                        clientes.Add(1, "DNI: 12345678A Nombre: Juan Edad: 25 Correo: juanmagan@gmail.com");
+
+                        //Menú
+                        Console.WriteLine("1.Guardar clientes asignándole una clave.");
+                        Console.WriteLine("2.Mostrar clientes.");
+                        Console.WriteLine("3.Buscar cliente a partir de la clave.");
+                        Console.WriteLine("4.Eliminar cliente a partir de la clave.");
+                        byte opcion5 = byte.Parse(Console.ReadLine());
+
+                        switch(opcion5)
+                        {
+                            case 1:
+                                //a)Guardar clientes asignándole una clave.
+                                Console.WriteLine("Introduce el DNI:");
+                                string dniI = Console.ReadLine(); //DNI Introducir
+
+                                //Compruebo si el dni ya está almacenado
+
+                                if (clientes.ContainsKey(dniI))
+                                {
+                                    Console.WriteLine("El DNI ya está almacenado");
+                                }
+                                else
+                                {
+                                    //Introduzco el nombre
+                                    Console.WriteLine("Introduce el nombre:");
+                                    string nombreI = Console.ReadLine(); //Nombre Introducir
+
+                                    //Introduzco la edad
+                                    Console.WriteLine("Introduce la edad:");
+                                    int edadI = int.Parse(Console.ReadLine()); //Edad Introducir
+
+                                    //Introduzco el correo
+                                    Console.WriteLine("Introduce el correo:");
+                                    string correoI = Console.ReadLine(); //Correo Introducir
+
+                                    //Añado el cliente al diccionario
+                                    clientes.Add(dniI, "DNI: " + dniI + " Nombre: " + nombreI + " Edad: " + edadI + " Correo: " + correoI);
+                                }
+
+                                break;
+                            case 2:
+                                break;
+                            case 3:
+                                break;
+                            case 4:
+                                break;
+                        }
+
                         break;
 
                     case 6: //6.Crear una aplicación que permita asociar a un dni una lista de productos. Los Productos son Strings que almacenan la siguiente información:
