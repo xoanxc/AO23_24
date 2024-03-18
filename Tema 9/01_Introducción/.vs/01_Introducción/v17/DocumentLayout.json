@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\01_Introducci\u00F3n\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90F9616F-9F2C-4B88-A049-ECC51A54825C}|01_Introducci\u00F3n.csproj|c:\\users\\xoanxc\\documents\\github\\ao23_24\\tema 9\\01_introducci\u00F3n\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{90F9616F-9F2C-4B88-A049-ECC51A54825C}|01_Introducci\u00F3n.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F9616F-9F2C-4B88-A049-ECC51A54825C}|01_Introducci\u00F3n.csproj|c:\\users\\xoanxc\\documents\\github\\ao23_24\\tema 9\\01_introducci\u00F3n\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{90F9616F-9F2C-4B88-A049-ECC51A54825C}|01_Introducci\u00F3n.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F9616F-9F2C-4B88-A049-ECC51A54825C}|01_Introducci\u00F3n.csproj|c:\\users\\xoanxc\\documents\\github\\ao23_24\\tema 9\\01_introducci\u00F3n\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F9616F-9F2C-4B88-A049-ECC51A54825C}|01_Introducci\u00F3n.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F9616F-9F2C-4B88-A049-ECC51A54825C}|01_Introducci\u00F3n.csproj|c:\\users\\xoanxc\\documents\\github\\ao23_24\\tema 9\\01_introducci\u00F3n\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F9616F-9F2C-4B88-A049-ECC51A54825C}|01_Introducci\u00F3n.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\01_Introducci\u00F3n\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\01_Introducci\u00F3n\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T09:51:15.272Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\01_Introducci\u00F3n\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\01_Introducci\u00F3n\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T10:25:48.75Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\01_Introducci\u00F3n\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\01_Introducci\u00F3n\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAcwCkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T10:10:59.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\01_Introducci\u00F3n\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\01_Introducci\u00F3n\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T09:53:06.828Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

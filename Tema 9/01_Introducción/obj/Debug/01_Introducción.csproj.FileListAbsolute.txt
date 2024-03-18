@@ -1,0 +1,11 @@
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\01_Introducción\bin\Debug\01_Introducción.exe.config
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\01_Introducción\bin\Debug\01_Introducción.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\01_Introducción\bin\Debug\01_Introducción.pdb
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\01_Introducción\obj\Debug\01_Introducción.csproj.AssemblyReference.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\01_Introducción\obj\Debug\_01_Introducción.Form1.resources
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\01_Introducción\obj\Debug\_01_Introducción.Properties.Resources.resources
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\01_Introducción\obj\Debug\01_Introducción.csproj.GenerateResource.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\01_Introducción\obj\Debug\01_Introducción.csproj.CoreCompileInputs.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\01_Introducción\obj\Debug\01_Introducción.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\01_Introducción\obj\Debug\01_Introducción.pdb
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\01_Introducción\obj\Debug\_01_Introducción.Form2.resources
