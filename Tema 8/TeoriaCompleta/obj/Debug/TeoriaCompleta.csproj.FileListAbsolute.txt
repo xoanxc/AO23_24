@@ -1,0 +1,7 @@
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 8\TeoriaCompleta\bin\Debug\TeoriaCompleta.exe.config
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 8\TeoriaCompleta\bin\Debug\TeoriaCompleta.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 8\TeoriaCompleta\bin\Debug\TeoriaCompleta.pdb
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 8\TeoriaCompleta\obj\Debug\TeoriaCompleta.csproj.AssemblyReference.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 8\TeoriaCompleta\obj\Debug\TeoriaCompleta.csproj.CoreCompileInputs.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 8\TeoriaCompleta\obj\Debug\TeoriaCompleta.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 8\TeoriaCompleta\obj\Debug\TeoriaCompleta.pdb

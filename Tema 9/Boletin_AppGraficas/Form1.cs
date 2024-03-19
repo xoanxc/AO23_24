@@ -16,8 +16,7 @@ namespace Boletin_AppGraficas
         {
             InitializeComponent();
         }
-
-        private void ejercicio7ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ejercicio1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
@@ -26,5 +25,14 @@ namespace Boletin_AppGraficas
         {
 
         }
+
+        private void ejercicio7ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+        
     }
 }
