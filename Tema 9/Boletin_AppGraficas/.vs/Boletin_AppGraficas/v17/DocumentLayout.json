@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\Boletin_AppGraficas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1054ECC6-DE72-42B4-8C6D-71B7BE2A7A39}|Boletin_AppGraficas.csproj|c:\\users\\xoanxc\\documents\\github\\ao23_24\\tema 9\\boletin_appgraficas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1054ECC6-DE72-42B4-8C6D-71B7BE2A7A39}|Boletin_AppGraficas.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1054ECC6-DE72-42B4-8C6D-71B7BE2A7A39}|Boletin_AppGraficas.csproj|c:\\users\\xoanxc\\documents\\github\\ao23_24\\tema 9\\boletin_appgraficas\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1054ECC6-DE72-42B4-8C6D-71B7BE2A7A39}|Boletin_AppGraficas.csproj|solutionrelative:ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1054ECC6-DE72-42B4-8C6D-71B7BE2A7A39}|Boletin_AppGraficas.csproj|c:\\users\\xoanxc\\documents\\github\\ao23_24\\tema 9\\boletin_appgraficas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1054ECC6-DE72-42B4-8C6D-71B7BE2A7A39}|Boletin_AppGraficas.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1054ECC6-DE72-42B4-8C6D-71B7BE2A7A39}|Boletin_AppGraficas.csproj|c:\\users\\xoanxc\\documents\\github\\ao23_24\\tema 9\\boletin_appgraficas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1054ECC6-DE72-42B4-8C6D-71B7BE2A7A39}|Boletin_AppGraficas.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,26 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\Boletin_AppGraficas\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\Boletin_AppGraficas\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Title": "Menu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\Boletin_AppGraficas\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\Boletin_AppGraficas\\Menu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Menu.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T10:37:43.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T10:37:39.132Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\Boletin_AppGraficas\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\Boletin_AppGraficas\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Title": "Ejercicio2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\Boletin_AppGraficas\\Ejercicio2.cs",
+              "RelativeDocumentMoniker": "Ejercicio2.cs",
+              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\Boletin_AppGraficas\\Ejercicio2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Ejercicio2.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T10:37:39.132Z",
+              "WhenOpened": "2024-03-19T11:48:51.918Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

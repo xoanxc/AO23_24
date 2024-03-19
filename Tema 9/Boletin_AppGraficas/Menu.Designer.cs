@@ -1,6 +1,6 @@
 ﻿namespace Boletin_AppGraficas
 {
-    partial class Form1
+    partial class Ejercicio1
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ejercicio1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ejercicio2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnEjercicio1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnEjercicio2 = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -39,18 +39,20 @@
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // ejercicio1ToolStripMenuItem
+            // btnEjercicio1
             // 
-            this.ejercicio1ToolStripMenuItem.Name = "ejercicio1ToolStripMenuItem";
-            this.ejercicio1ToolStripMenuItem.Size = new System.Drawing.Size(106, 29);
-            this.ejercicio1ToolStripMenuItem.Text = "Ejercicio 1";
-            this.ejercicio1ToolStripMenuItem.Click += new System.EventHandler(this.ejercicio1ToolStripMenuItem_Click);
+            this.btnEjercicio1.Name = "btnEjercicio1";
+            this.btnEjercicio1.Size = new System.Drawing.Size(106, 29);
+            this.btnEjercicio1.Text = "Ejercicio 1";
+            this.btnEjercicio1.Click += new System.EventHandler(this.ejercicio1ToolStripMenuItem_Click);
             // 
-            // ejercicio2ToolStripMenuItem
+            // btnEjercicio2
             // 
-            this.ejercicio2ToolStripMenuItem.Name = "ejercicio2ToolStripMenuItem";
-            this.ejercicio2ToolStripMenuItem.Size = new System.Drawing.Size(106, 29);
-            this.ejercicio2ToolStripMenuItem.Text = "Ejercicio 2";
+            this.btnEjercicio2.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnEjercicio2.Name = "btnEjercicio2";
+            this.btnEjercicio2.Size = new System.Drawing.Size(106, 29);
+            this.btnEjercicio2.Text = "Ejercicio 2";
+            this.btnEjercicio2.Click += new System.EventHandler(this.btnEjercicio2_Click);
             // 
             // ejercicio3ToolStripMenuItem
             // 
@@ -88,8 +90,8 @@
             this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ejercicio1ToolStripMenuItem,
-            this.ejercicio2ToolStripMenuItem,
+            this.btnEjercicio1,
+            this.btnEjercicio2,
             this.ejercicio3ToolStripMenuItem,
             this.ejercicio4ToolStripMenuItem,
             this.ejercicio5ToolStripMenuItem,
@@ -102,14 +104,14 @@
             this.menuStrip1.Text = "menuStrip2";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip2_ItemClicked);
             // 
-            // Form1
+            // Menu1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(926, 481);
             this.Controls.Add(this.menuStrip1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Menu1";
+            this.Text = "Menu de ejercicios";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -119,8 +121,8 @@
 
         #endregion
 
-        private System.Windows.Forms.ToolStripMenuItem ejercicio1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ejercicio2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem btnEjercicio1;
+        private System.Windows.Forms.ToolStripMenuItem btnEjercicio2;
         private System.Windows.Forms.ToolStripMenuItem ejercicio3ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ejercicio4ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ejercicio5ToolStripMenuItem;
