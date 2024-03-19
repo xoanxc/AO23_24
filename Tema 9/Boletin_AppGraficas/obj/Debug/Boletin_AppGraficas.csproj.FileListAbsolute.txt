@@ -1,0 +1,10 @@
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\Boletin_AppGraficas\bin\Debug\Boletin_AppGraficas.exe.config
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\Boletin_AppGraficas\bin\Debug\Boletin_AppGraficas.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\Boletin_AppGraficas\bin\Debug\Boletin_AppGraficas.pdb
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\Boletin_AppGraficas\obj\Debug\Boletin_AppGraficas.csproj.AssemblyReference.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\Boletin_AppGraficas\obj\Debug\Boletin_AppGraficas.Form1.resources
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\Boletin_AppGraficas\obj\Debug\Boletin_AppGraficas.Properties.Resources.resources
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\Boletin_AppGraficas\obj\Debug\Boletin_AppGraficas.csproj.GenerateResource.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\Boletin_AppGraficas\obj\Debug\Boletin_AppGraficas.csproj.CoreCompileInputs.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\Boletin_AppGraficas\obj\Debug\Boletin_AppGraficas.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\Boletin_AppGraficas\obj\Debug\Boletin_AppGraficas.pdb

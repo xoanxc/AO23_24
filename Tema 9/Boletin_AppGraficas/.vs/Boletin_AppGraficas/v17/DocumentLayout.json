@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\Boletin_AppGraficas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1054ECC6-DE72-42B4-8C6D-71B7BE2A7A39}|Boletin_AppGraficas.csproj|c:\\users\\xoanxc\\documents\\github\\ao23_24\\tema 9\\boletin_appgraficas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1054ECC6-DE72-42B4-8C6D-71B7BE2A7A39}|Boletin_AppGraficas.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\Boletin_AppGraficas\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\Boletin_AppGraficas\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T09:52:38.079Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
