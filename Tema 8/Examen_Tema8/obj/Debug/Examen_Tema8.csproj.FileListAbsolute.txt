@@ -1,0 +1,7 @@
+C:\Users\xoanxc\source\repos\Examen_Tema8\bin\Debug\Examen_Tema8.exe.config
+C:\Users\xoanxc\source\repos\Examen_Tema8\bin\Debug\Examen_Tema8.exe
+C:\Users\xoanxc\source\repos\Examen_Tema8\bin\Debug\Examen_Tema8.pdb
+C:\Users\xoanxc\source\repos\Examen_Tema8\obj\Debug\Examen_Tema8.csproj.AssemblyReference.cache
+C:\Users\xoanxc\source\repos\Examen_Tema8\obj\Debug\Examen_Tema8.csproj.CoreCompileInputs.cache
+C:\Users\xoanxc\source\repos\Examen_Tema8\obj\Debug\Examen_Tema8.exe
+C:\Users\xoanxc\source\repos\Examen_Tema8\obj\Debug\Examen_Tema8.pdb
