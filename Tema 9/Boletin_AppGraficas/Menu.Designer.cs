@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ejercicio1));
             this.btnEjercicio1 = new System.Windows.Forms.ToolStripMenuItem();
             this.btnEjercicio2 = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -36,7 +37,9 @@
             this.ejercicio6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnEjercicio1
@@ -104,16 +107,27 @@
             this.menuStrip1.Text = "menuStrip2";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip2_ItemClicked);
             // 
-            // Menu1
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(178, 173);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(576, 176);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Ejercicio1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(926, 481);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
-            this.Name = "Menu1";
+            this.Name = "Ejercicio1";
             this.Text = "Menu de ejercicios";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -129,6 +143,7 @@
         private System.Windows.Forms.ToolStripMenuItem ejercicio6ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ejercicio7ToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

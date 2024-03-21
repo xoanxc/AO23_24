@@ -35,6 +35,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.lblFecha = new System.Windows.Forms.Label();
+            this.txtMuestraFecha = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtIntroDatos
@@ -95,11 +97,29 @@
             this.textBox3.Size = new System.Drawing.Size(100, 26);
             this.textBox3.TabIndex = 6;
             // 
+            // lblFecha
+            // 
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.Location = new System.Drawing.Point(181, 366);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(115, 24);
+            this.lblFecha.TabIndex = 7;
+            this.lblFecha.Text = "La fecha es:";
+            // 
+            // txtMuestraFecha
+            // 
+            this.txtMuestraFecha.Location = new System.Drawing.Point(185, 402);
+            this.txtMuestraFecha.Name = "txtMuestraFecha";
+            this.txtMuestraFecha.Size = new System.Drawing.Size(201, 26);
+            this.txtMuestraFecha.TabIndex = 8;
+            // 
             // Ejercicio2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(983, 554);
+            this.ClientSize = new System.Drawing.Size(1352, 757);
+            this.Controls.Add(this.txtMuestraFecha);
+            this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -123,5 +143,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label lblFecha;
+        private System.Windows.Forms.TextBox txtMuestraFecha;
     }
 }
