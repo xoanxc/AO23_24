@@ -1,0 +1,12 @@
+C:\Users\xoanxc\source\repos\AppGraficas I\obj\Debug\AppGraficas I.csproj.AssemblyReference.cache
+C:\Users\xoanxc\source\repos\AppGraficas I\obj\Debug\AppGraficas_I.Properties.Resources.resources
+C:\Users\xoanxc\source\repos\AppGraficas I\obj\Debug\AppGraficas I.csproj.GenerateResource.cache
+C:\Users\xoanxc\source\repos\AppGraficas I\obj\Debug\AppGraficas I.csproj.CoreCompileInputs.cache
+C:\Users\xoanxc\source\repos\AppGraficas I\bin\Debug\AppGraficas I.exe.config
+C:\Users\xoanxc\source\repos\AppGraficas I\bin\Debug\AppGraficas I.exe
+C:\Users\xoanxc\source\repos\AppGraficas I\bin\Debug\AppGraficas I.pdb
+C:\Users\xoanxc\source\repos\AppGraficas I\obj\Debug\AppGraficas I.exe
+C:\Users\xoanxc\source\repos\AppGraficas I\obj\Debug\AppGraficas I.pdb
+C:\Users\xoanxc\source\repos\AppGraficas I\obj\Debug\AppGraficas_I.menuPrincipal.resources
+C:\Users\xoanxc\source\repos\AppGraficas I\obj\Debug\AppGraficas_I.AcercaDe.resources
+C:\Users\xoanxc\source\repos\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio1.resources
