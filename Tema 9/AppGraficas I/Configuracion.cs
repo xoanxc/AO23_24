@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace AppGraficas_I
 {
-    public partial class AcercaDe : Form
+    public partial class Configuracion : Form
     {
-        public AcercaDe()
+        public Configuracion()
         {
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void Configuracion_Load(object sender, EventArgs e)
         {
 
         }

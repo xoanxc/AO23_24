@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace AppGraficas_I
 {
-    public partial class AcercaDe : Form
+    public partial class Ejercicio4 : Form
     {
-        public AcercaDe()
+        public Ejercicio4()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
