@@ -28,10 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AcercaDe));
             this.label1 = new System.Windows.Forms.Label();
-            this.tbDeveloper1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.tbDeveloper1)).BeginInit();
+            this.linkGit = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // label1
@@ -45,28 +43,26 @@
             this.label1.Text = "Desarrollado por:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // tbDeveloper1
+            // linkGit
             // 
-            this.tbDeveloper1.Image = ((System.Drawing.Image)(resources.GetObject("tbDeveloper1.Image")));
-            this.tbDeveloper1.Location = new System.Drawing.Point(72, 101);
-            this.tbDeveloper1.Name = "tbDeveloper1";
-            this.tbDeveloper1.Size = new System.Drawing.Size(226, 333);
-            this.tbDeveloper1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.tbDeveloper1.TabIndex = 1;
-            this.tbDeveloper1.TabStop = false;
-            this.tbDeveloper1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.linkGit.AutoSize = true;
+            this.linkGit.Location = new System.Drawing.Point(122, 119);
+            this.linkGit.Name = "linkGit";
+            this.linkGit.Size = new System.Drawing.Size(134, 13);
+            this.linkGit.TabIndex = 1;
+            this.linkGit.TabStop = true;
+            this.linkGit.Text = "https://github.com/xoanxc";
             // 
             // AcercaDe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(366, 446);
-            this.Controls.Add(this.tbDeveloper1);
+            this.Controls.Add(this.linkGit);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AcercaDe";
             this.Text = "AcercaDe";
-            ((System.ComponentModel.ISupportInitialize)(this.tbDeveloper1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -75,6 +71,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox tbDeveloper1;
+        private System.Windows.Forms.LinkLabel linkGit;
     }
 }

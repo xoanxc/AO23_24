@@ -16,5 +16,15 @@ namespace AppGraficas_I
         {
             InitializeComponent();
         }
+
+        private void Ejercicio2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

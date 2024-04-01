@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|f:\\users\\xoana\\documents\\github\\ao23_24\\tema 9\\appgraficas i\\acercade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:acercade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|f:\\users\\xoana\\documents\\github\\ao23_24\\tema 9\\appgraficas i\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\configuracion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:configuracion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:menuprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:menuprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +26,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Configuracion.Designer.cs",
-              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Configuracion.Designer.cs",
-              "RelativeDocumentMoniker": "Configuracion.Designer.cs",
-              "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Configuracion.Designer.cs",
-              "RelativeToolTip": "Configuracion.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "AcercaDe.cs [Dise\u00F1o]",
+              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\AcercaDe.cs",
+              "RelativeDocumentMoniker": "AcercaDe.cs",
+              "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\AcercaDe.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AcercaDe.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T01:09:46.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T19:49:55.658Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "menuPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuPrincipal.cs",
               "RelativeDocumentMoniker": "menuPrincipal.cs",
@@ -55,18 +54,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Ejercicio2.cs [Dise\u00F1o]",
               "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio2.cs",
               "RelativeDocumentMoniker": "Ejercicio2.cs",
               "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio2.cs [Dise\u00F1o]",
               "RelativeToolTip": "Ejercicio2.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T01:03:13.854Z"
+              "WhenOpened": "2024-03-31T01:03:13.854Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "menuPrincipal.Designer.cs",
               "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuPrincipal.Designer.cs",
               "RelativeDocumentMoniker": "menuPrincipal.Designer.cs",
@@ -74,8 +74,7 @@
               "RelativeToolTip": "menuPrincipal.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T09:54:45.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-21T09:54:45.959Z"
             }
           ]
         }
