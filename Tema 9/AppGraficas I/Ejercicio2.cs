@@ -26,5 +26,20 @@ namespace AppGraficas_I
         {
 
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            //Cerrar la ventana
+            this.Close();
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            //Escribir
+            txtLaFechaEs.Text = "txtDia" + "txtMes" + "txtAnio";
+            
+
+
+        }
     }
 }

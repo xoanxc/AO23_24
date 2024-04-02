@@ -32,10 +32,14 @@
             this.lblIntroD = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblAño = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.txtDia = new System.Windows.Forms.TextBox();
+            this.txtMes = new System.Windows.Forms.TextBox();
+            this.txtAño = new System.Windows.Forms.TextBox();
+            this.lblLaFechaEs = new System.Windows.Forms.Label();
+            this.txtLaFechaEs = new System.Windows.Forms.TextBox();
+            this.btnConvent = new System.Windows.Forms.Button();
+            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblDia
@@ -79,45 +83,86 @@
             this.lblAño.TabIndex = 3;
             this.lblAño.Text = "Año";
             // 
-            // textBox2
+            // txtDia
             // 
-            this.textBox2.Location = new System.Drawing.Point(75, 63);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 5;
+            this.txtDia.Location = new System.Drawing.Point(75, 63);
+            this.txtDia.Name = "txtDia";
+            this.txtDia.Size = new System.Drawing.Size(100, 20);
+            this.txtDia.TabIndex = 5;
             // 
-            // textBox3
+            // txtMes
             // 
-            this.textBox3.Location = new System.Drawing.Point(75, 88);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 6;
+            this.txtMes.Location = new System.Drawing.Point(75, 88);
+            this.txtMes.Name = "txtMes";
+            this.txtMes.Size = new System.Drawing.Size(100, 20);
+            this.txtMes.TabIndex = 6;
             // 
-            // textBox1
+            // txtAño
             // 
-            this.textBox1.Location = new System.Drawing.Point(75, 111);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 7;
+            this.txtAño.Location = new System.Drawing.Point(75, 111);
+            this.txtAño.Name = "txtAño";
+            this.txtAño.Size = new System.Drawing.Size(100, 20);
+            this.txtAño.TabIndex = 7;
             // 
-            // label2
+            // lblLaFechaEs
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(84, 175);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "label2";
+            this.lblLaFechaEs.AutoSize = true;
+            this.lblLaFechaEs.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLaFechaEs.Location = new System.Drawing.Point(73, 175);
+            this.lblLaFechaEs.Name = "lblLaFechaEs";
+            this.lblLaFechaEs.Size = new System.Drawing.Size(67, 12);
+            this.lblLaFechaEs.TabIndex = 8;
+            this.lblLaFechaEs.Text = "La fecha es:";
+            // 
+            // txtLaFechaEs
+            // 
+            this.txtLaFechaEs.Location = new System.Drawing.Point(75, 190);
+            this.txtLaFechaEs.Name = "txtLaFechaEs";
+            this.txtLaFechaEs.Size = new System.Drawing.Size(223, 20);
+            this.txtLaFechaEs.TabIndex = 9;
+            this.txtLaFechaEs.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            // 
+            // btnConvent
+            // 
+            this.btnConvent.Location = new System.Drawing.Point(247, 63);
+            this.btnConvent.Name = "btnConvent";
+            this.btnConvent.Size = new System.Drawing.Size(75, 23);
+            this.btnConvent.TabIndex = 10;
+            this.btnConvent.Text = "Convertir";
+            this.btnConvent.UseVisualStyleBackColor = true;
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Location = new System.Drawing.Point(247, 88);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpiar.TabIndex = 11;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(247, 114);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(75, 23);
+            this.btnSalir.TabIndex = 12;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // Ejercicio2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(510, 298);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.ClientSize = new System.Drawing.Size(364, 238);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnLimpiar);
+            this.Controls.Add(this.btnConvent);
+            this.Controls.Add(this.txtLaFechaEs);
+            this.Controls.Add(this.lblLaFechaEs);
+            this.Controls.Add(this.txtAño);
+            this.Controls.Add(this.txtMes);
+            this.Controls.Add(this.txtDia);
             this.Controls.Add(this.lblAño);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblIntroD);
@@ -136,9 +181,13 @@
         private System.Windows.Forms.Label lblIntroD;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblAño;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtDia;
+        private System.Windows.Forms.TextBox txtMes;
+        private System.Windows.Forms.TextBox txtAño;
+        private System.Windows.Forms.Label lblLaFechaEs;
+        private System.Windows.Forms.TextBox txtLaFechaEs;
+        private System.Windows.Forms.Button btnConvent;
+        private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.Button btnSalir;
     }
 }

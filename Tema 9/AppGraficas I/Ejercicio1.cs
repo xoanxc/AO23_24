@@ -19,10 +19,10 @@ namespace AppGraficas_I
 
         private void btnPulsar_Click(object sender, EventArgs e)
         {
+            //Cambiar nombre del boton
             btnPulsar.Text = "Completado";
 
             //Que muestre un mensaje con los datos introducidos
-
             MessageBox.Show("Nombre: " + txtNombre.Text + "\n" + "Correo: " + txtCorreo.Text);
         }
     }
