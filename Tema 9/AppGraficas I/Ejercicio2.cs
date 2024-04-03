@@ -35,11 +35,28 @@ namespace AppGraficas_I
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-            //Escribir
-            txtLaFechaEs.Text = "txtDia" + "txtMes" + "txtAnio";
+            
             
 
 
+        }
+
+        private void btnConvent_Click(object sender, EventArgs e)
+        {
+            //Llenar un string con la fecha
+            string fecha = txtDia.Text + "/" + txtMes.Text + "/" + txtAño.Text;
+
+            //Mostrar la fecha en el cuadro de texto
+            txtLaFechaEs.Text = fecha;
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            //Vaciar los campos
+            txtDia.Clear();
+            txtMes.Clear();
+            txtAño.Clear();
+            txtLaFechaEs.Clear();
         }
     }
 }

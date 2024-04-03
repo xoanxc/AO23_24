@@ -40,7 +40,7 @@
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblNombre.Location = new System.Drawing.Point(42, 74);
+            this.lblNombre.Location = new System.Drawing.Point(69, 65);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(195, 21);
             this.lblNombre.TabIndex = 0;
@@ -51,7 +51,7 @@
             this.lblCorreo.AutoSize = true;
             this.lblCorreo.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCorreo.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblCorreo.Location = new System.Drawing.Point(42, 171);
+            this.lblCorreo.Location = new System.Drawing.Point(69, 143);
             this.lblCorreo.Name = "lblCorreo";
             this.lblCorreo.Size = new System.Drawing.Size(182, 21);
             this.lblCorreo.TabIndex = 1;
@@ -59,23 +59,26 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(46, 108);
+            this.txtNombre.Location = new System.Drawing.Point(73, 92);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(150, 26);
+            this.txtNombre.Size = new System.Drawing.Size(178, 22);
             this.txtNombre.TabIndex = 2;
             // 
             // txtCorreo
             // 
-            this.txtCorreo.Location = new System.Drawing.Point(46, 205);
+            this.txtCorreo.Location = new System.Drawing.Point(73, 170);
+            this.txtCorreo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(200, 26);
+            this.txtCorreo.Size = new System.Drawing.Size(178, 22);
             this.txtCorreo.TabIndex = 3;
             // 
             // btnPulsar
             // 
-            this.btnPulsar.Location = new System.Drawing.Point(46, 253);
+            this.btnPulsar.Location = new System.Drawing.Point(64, 213);
+            this.btnPulsar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPulsar.Name = "btnPulsar";
-            this.btnPulsar.Size = new System.Drawing.Size(200, 66);
+            this.btnPulsar.Size = new System.Drawing.Size(217, 76);
             this.btnPulsar.TabIndex = 4;
             this.btnPulsar.Text = "Pulsame";
             this.btnPulsar.UseVisualStyleBackColor = true;
@@ -83,14 +86,15 @@
             // 
             // Ejercicio1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(308, 401);
+            this.ClientSize = new System.Drawing.Size(328, 342);
             this.Controls.Add(this.btnPulsar);
             this.Controls.Add(this.txtCorreo);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblCorreo);
             this.Controls.Add(this.lblNombre);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Ejercicio1";
             this.Text = "Ejercicio1";
             this.ResumeLayout(false);

@@ -24,3 +24,17 @@ F:\Users\xoana\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGrafic
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas I.pdb
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Configuracion.resources
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio2.resources
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\bin\Debug\AppGraficas I.exe.config
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\bin\Debug\AppGraficas I.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\bin\Debug\AppGraficas I.pdb
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas I.csproj.AssemblyReference.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.AcercaDe.resources
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Configuracion.resources
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio1.resources
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio2.resources
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.menuPrincipal.resources
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Properties.Resources.resources
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas I.csproj.GenerateResource.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas I.csproj.CoreCompileInputs.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas I.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas I.pdb
