@@ -38,3 +38,5 @@ C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGrafi
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas I.csproj.CoreCompileInputs.cache
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas I.exe
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas I.pdb
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio4.resources
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio3.resources

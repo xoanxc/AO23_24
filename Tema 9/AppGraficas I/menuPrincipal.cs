@@ -16,8 +16,9 @@ namespace AppGraficas_I
         {
             InitializeComponent();
         }
+        
 
-        private void menuPrincipal_Load(object sender, EventArgs e)
+        public void menuPrincipal_Load(object sender, EventArgs e)
         {
 
         }
@@ -84,6 +85,11 @@ namespace AppGraficas_I
         {
             Configuracion configuracion = new Configuracion();
             configuracion.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
