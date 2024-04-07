@@ -27,12 +27,6 @@ namespace AppGraficas_I
         {
             if (rdbMontecastelo.Checked)
             {
-                //Declaro la funcion de la imagen publica de menuPrincipal
-                menuPrincipal menuPrincipal = new menuPrincipal();
-
-                //Quiero llamar a la imagen publica de menuPrincipal
-                menuPrincipal.ptTemaMenu.Image = Properties.Resources.ciclosmontecastelo_cover;
-               
                 
 
                 
@@ -43,13 +37,7 @@ namespace AppGraficas_I
         {
             if (rdbFrieren.Checked)
             {
-                //Declaro la funcion de la imagen publica de menuPrincipal
-                menuPrincipal menuPrincipal = new menuPrincipal();
-
-                //Quiero llamar a la imagen publica de menuPrincipal
-                menuPrincipal.ptTemaMenu.Image = Properties.Resources.frieren;
-
-
+                
 
 
 
