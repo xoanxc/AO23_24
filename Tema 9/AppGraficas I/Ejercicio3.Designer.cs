@@ -145,7 +145,7 @@
             // 
             this.btnCuadrado.Location = new System.Drawing.Point(667, 135);
             this.btnCuadrado.Name = "btnCuadrado";
-            this.btnCuadrado.Size = new System.Drawing.Size(88, 36);
+            this.btnCuadrado.Size = new System.Drawing.Size(132, 36);
             this.btnCuadrado.TabIndex = 11;
             this.btnCuadrado.Text = "Cuadrado";
             this.btnCuadrado.UseVisualStyleBackColor = true;
@@ -153,27 +153,31 @@
             // 
             // btnRectangulo
             // 
+            this.btnRectangulo.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnRectangulo.Location = new System.Drawing.Point(666, 201);
             this.btnRectangulo.Name = "btnRectangulo";
-            this.btnRectangulo.Size = new System.Drawing.Size(87, 36);
+            this.btnRectangulo.Size = new System.Drawing.Size(133, 36);
             this.btnRectangulo.TabIndex = 12;
             this.btnRectangulo.Text = "Rectangulo";
-            this.btnRectangulo.UseVisualStyleBackColor = true;
+            this.btnRectangulo.UseVisualStyleBackColor = false;
+            this.btnRectangulo.Click += new System.EventHandler(this.btnRectangulo_Click);
             // 
             // btnTriangulo
             // 
+            this.btnTriangulo.BackColor = System.Drawing.SystemColors.Info;
             this.btnTriangulo.Location = new System.Drawing.Point(667, 262);
             this.btnTriangulo.Name = "btnTriangulo";
-            this.btnTriangulo.Size = new System.Drawing.Size(87, 36);
+            this.btnTriangulo.Size = new System.Drawing.Size(132, 36);
             this.btnTriangulo.TabIndex = 13;
             this.btnTriangulo.Text = "Triangulo";
-            this.btnTriangulo.UseVisualStyleBackColor = true;
+            this.btnTriangulo.UseVisualStyleBackColor = false;
+            this.btnTriangulo.Click += new System.EventHandler(this.btnTriangulo_Click);
             // 
             // txtResultado
             // 
             this.txtResultado.Location = new System.Drawing.Point(103, 365);
             this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(141, 22);
+            this.txtResultado.Size = new System.Drawing.Size(183, 22);
             this.txtResultado.TabIndex = 14;
             // 
             // lblResultado
@@ -190,7 +194,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(828, 450);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.btnTriangulo);

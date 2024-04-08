@@ -19,6 +19,9 @@ namespace AppGraficas_I
 
         private void btnCuadrado_Click(object sender, EventArgs e)
         {
+            //Limpiar la caja de texto
+            txtResultado.Text = ""; //Evita crash de la aplicación
+
             //Convertir el valor de la caja de texto a double
             double lado = Convert.ToDouble(txtValorLado.Text);
 
@@ -27,7 +30,39 @@ namespace AppGraficas_I
 
             //Mostrar el resultado en la caja de texto
             txtResultado.Text = area.ToString();
+        }
 
+        private void btnRectangulo_Click(object sender, EventArgs e)
+        {
+            //Limpiar la caja de texto
+            txtResultado.Text = ""; //Evita crash de la aplicación
+
+            //Convertir los valores de las cajas de texto a double
+            double valorLadoMayor = Convert.ToDouble(txtValorLadoMayor.Text);
+            double valorLadoMenor = Convert.ToDouble(txtValorLadoMenor.Text);
+
+            //Calcular el area del rectangulo
+            double area = valorLadoMayor * valorLadoMenor;
+
+            //Mostrar el resultado en la caja de texto
+            txtResultado.Text = area.ToString();
+        }
+
+        private void btnTriangulo_Click(object sender, EventArgs e)
+        {
+
+            //Limpiar la caja de texto
+            txtResultado.Text = ""; //Evita crash de la aplicación
+
+            //Convertir los valores de las cajas de texto a double
+            double valorBase = Convert.ToDouble(txtValorBase.Text);
+            double valorAltura = Convert.ToDouble(txtValorAltura.Text);
+
+            //Calcular el area del triangulo
+            double area = (valorBase * valorAltura) / 2;
+
+            //Mostrar el resultado en la caja de texto
+            txtResultado.Text = area.ToString();
         }
     }
 }
