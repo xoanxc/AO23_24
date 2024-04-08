@@ -42,37 +42,42 @@
             // txtNum1
             // 
             this.txtNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNum1.Location = new System.Drawing.Point(32, 63);
+            this.txtNum1.Location = new System.Drawing.Point(24, 51);
+            this.txtNum1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNum1.Multiline = true;
             this.txtNum1.Name = "txtNum1";
-            this.txtNum1.Size = new System.Drawing.Size(131, 73);
+            this.txtNum1.Size = new System.Drawing.Size(99, 60);
             this.txtNum1.TabIndex = 0;
             // 
             // txtNum2
             // 
             this.txtNum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNum2.Location = new System.Drawing.Point(209, 63);
+            this.txtNum2.Location = new System.Drawing.Point(157, 51);
+            this.txtNum2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNum2.Multiline = true;
             this.txtNum2.Name = "txtNum2";
-            this.txtNum2.Size = new System.Drawing.Size(131, 73);
+            this.txtNum2.Size = new System.Drawing.Size(99, 60);
             this.txtNum2.TabIndex = 1;
+            this.txtNum2.TextChanged += new System.EventHandler(this.txtNum2_TextChanged);
             // 
             // txtResultado
             // 
             this.txtResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtResultado.Location = new System.Drawing.Point(396, 63);
+            this.txtResultado.Location = new System.Drawing.Point(297, 51);
+            this.txtResultado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtResultado.Multiline = true;
             this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(171, 73);
+            this.txtResultado.Size = new System.Drawing.Size(129, 60);
             this.txtResultado.TabIndex = 2;
             // 
             // lblSigno
             // 
             this.lblSigno.AutoSize = true;
             this.lblSigno.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSigno.Location = new System.Drawing.Point(169, 79);
+            this.lblSigno.Location = new System.Drawing.Point(127, 64);
+            this.lblSigno.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSigno.Name = "lblSigno";
-            this.lblSigno.Size = new System.Drawing.Size(34, 46);
+            this.lblSigno.Size = new System.Drawing.Size(28, 37);
             this.lblSigno.TabIndex = 3;
             this.lblSigno.Text = "-";
             this.lblSigno.Visible = false;
@@ -80,9 +85,10 @@
             // btnMas
             // 
             this.btnMas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMas.Location = new System.Drawing.Point(72, 248);
+            this.btnMas.Location = new System.Drawing.Point(54, 202);
+            this.btnMas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMas.Name = "btnMas";
-            this.btnMas.Size = new System.Drawing.Size(75, 42);
+            this.btnMas.Size = new System.Drawing.Size(56, 34);
             this.btnMas.TabIndex = 5;
             this.btnMas.Text = "+";
             this.btnMas.UseVisualStyleBackColor = true;
@@ -91,9 +97,10 @@
             // btnMenos
             // 
             this.btnMenos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenos.Location = new System.Drawing.Point(177, 248);
+            this.btnMenos.Location = new System.Drawing.Point(133, 202);
+            this.btnMenos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMenos.Name = "btnMenos";
-            this.btnMenos.Size = new System.Drawing.Size(75, 42);
+            this.btnMenos.Size = new System.Drawing.Size(56, 34);
             this.btnMenos.TabIndex = 6;
             this.btnMenos.Text = "-";
             this.btnMenos.UseVisualStyleBackColor = true;
@@ -102,9 +109,10 @@
             // btnMultiplica
             // 
             this.btnMultiplica.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMultiplica.Location = new System.Drawing.Point(287, 248);
+            this.btnMultiplica.Location = new System.Drawing.Point(215, 202);
+            this.btnMultiplica.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMultiplica.Name = "btnMultiplica";
-            this.btnMultiplica.Size = new System.Drawing.Size(75, 42);
+            this.btnMultiplica.Size = new System.Drawing.Size(56, 34);
             this.btnMultiplica.TabIndex = 7;
             this.btnMultiplica.Text = "*";
             this.btnMultiplica.UseVisualStyleBackColor = true;
@@ -113,9 +121,10 @@
             // btnEntre
             // 
             this.btnEntre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntre.Location = new System.Drawing.Point(400, 248);
+            this.btnEntre.Location = new System.Drawing.Point(300, 202);
+            this.btnEntre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEntre.Name = "btnEntre";
-            this.btnEntre.Size = new System.Drawing.Size(75, 42);
+            this.btnEntre.Size = new System.Drawing.Size(56, 34);
             this.btnEntre.TabIndex = 8;
             this.btnEntre.Text = "/";
             this.btnEntre.UseVisualStyleBackColor = true;
@@ -125,17 +134,18 @@
             // 
             this.lblIgual.AutoSize = true;
             this.lblIgual.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIgual.Location = new System.Drawing.Point(346, 79);
+            this.lblIgual.Location = new System.Drawing.Point(260, 64);
+            this.lblIgual.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblIgual.Name = "lblIgual";
-            this.lblIgual.Size = new System.Drawing.Size(44, 46);
+            this.lblIgual.Size = new System.Drawing.Size(37, 37);
             this.lblIgual.TabIndex = 4;
             this.lblIgual.Text = "=";
             // 
             // Ejercicio5
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(593, 378);
+            this.ClientSize = new System.Drawing.Size(445, 307);
             this.Controls.Add(this.btnEntre);
             this.Controls.Add(this.btnMultiplica);
             this.Controls.Add(this.btnMenos);
@@ -145,6 +155,7 @@
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.txtNum2);
             this.Controls.Add(this.txtNum1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Ejercicio5";
             this.Text = "Ejercicio5";
             this.ResumeLayout(false);

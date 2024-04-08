@@ -92,6 +92,18 @@ namespace AppGraficas_I
             
         }
 
-        
+        private void ejercicio8ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Mostrar la ventana
+            Ejercicio8 ejercicio8 = new Ejercicio8();
+            ejercicio8.Show();
+        }
+
+        private void pROYECTOToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Mostrar la ventana
+            Proyecto proyecto = new Proyecto();
+            proyecto.Show();
+        }
     }
 }

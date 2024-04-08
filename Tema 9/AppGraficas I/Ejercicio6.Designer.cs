@@ -28,81 +28,90 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.lblGradosCentigrados = new System.Windows.Forms.Label();
+            this.lblGradosFahrenheit = new System.Windows.Forms.Label();
+            this.txtCentigrados = new System.Windows.Forms.TextBox();
+            this.txtFahrenheit = new System.Windows.Forms.TextBox();
+            this.btnPasarF = new System.Windows.Forms.Button();
+            this.btnPasarC = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lblGradosCentigrados
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(66, 61);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(177, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Grados Centigrados";
+            this.lblGradosCentigrados.AutoSize = true;
+            this.lblGradosCentigrados.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGradosCentigrados.Location = new System.Drawing.Point(50, 50);
+            this.lblGradosCentigrados.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblGradosCentigrados.Name = "lblGradosCentigrados";
+            this.lblGradosCentigrados.Size = new System.Drawing.Size(153, 17);
+            this.lblGradosCentigrados.TabIndex = 0;
+            this.lblGradosCentigrados.Text = "Grados Centigrados";
             // 
-            // label2
+            // lblGradosFahrenheit
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(66, 126);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(165, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Grados Fahrenheit";
+            this.lblGradosFahrenheit.AutoSize = true;
+            this.lblGradosFahrenheit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGradosFahrenheit.Location = new System.Drawing.Point(50, 102);
+            this.lblGradosFahrenheit.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblGradosFahrenheit.Name = "lblGradosFahrenheit";
+            this.lblGradosFahrenheit.Size = new System.Drawing.Size(144, 17);
+            this.lblGradosFahrenheit.TabIndex = 1;
+            this.lblGradosFahrenheit.Text = "Grados Fahrenheit";
             // 
-            // textBox1
+            // txtCentigrados
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(288, 61);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(143, 27);
-            this.textBox1.TabIndex = 2;
+            this.txtCentigrados.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCentigrados.Location = new System.Drawing.Point(216, 50);
+            this.txtCentigrados.Margin = new System.Windows.Forms.Padding(2);
+            this.txtCentigrados.Name = "txtCentigrados";
+            this.txtCentigrados.Size = new System.Drawing.Size(108, 23);
+            this.txtCentigrados.TabIndex = 2;
             // 
-            // textBox2
+            // txtFahrenheit
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(288, 124);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(143, 27);
-            this.textBox2.TabIndex = 3;
+            this.txtFahrenheit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFahrenheit.Location = new System.Drawing.Point(216, 101);
+            this.txtFahrenheit.Margin = new System.Windows.Forms.Padding(2);
+            this.txtFahrenheit.Name = "txtFahrenheit";
+            this.txtFahrenheit.Size = new System.Drawing.Size(108, 23);
+            this.txtFahrenheit.TabIndex = 3;
             // 
-            // button1
+            // btnPasarF
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(268, 189);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 45);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Pasar a ºF";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnPasarF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPasarF.Location = new System.Drawing.Point(201, 154);
+            this.btnPasarF.Margin = new System.Windows.Forms.Padding(2);
+            this.btnPasarF.Name = "btnPasarF";
+            this.btnPasarF.Size = new System.Drawing.Size(112, 37);
+            this.btnPasarF.TabIndex = 4;
+            this.btnPasarF.Text = "Pasar a ºF";
+            this.btnPasarF.UseVisualStyleBackColor = true;
+            this.btnPasarF.Click += new System.EventHandler(this.btnPasarF_Click);
             // 
-            // button2
+            // btnPasarC
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(81, 189);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 45);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Pasar a ºC";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnPasarC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPasarC.Location = new System.Drawing.Point(61, 154);
+            this.btnPasarC.Margin = new System.Windows.Forms.Padding(2);
+            this.btnPasarC.Name = "btnPasarC";
+            this.btnPasarC.Size = new System.Drawing.Size(112, 37);
+            this.btnPasarC.TabIndex = 5;
+            this.btnPasarC.Text = "Pasar a ºC";
+            this.btnPasarC.UseVisualStyleBackColor = true;
+            this.btnPasarC.Click += new System.EventHandler(this.button2_Click);
             // 
             // Ejercicio6
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(510, 292);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(382, 237);
+            this.Controls.Add(this.btnPasarC);
+            this.Controls.Add(this.btnPasarF);
+            this.Controls.Add(this.txtFahrenheit);
+            this.Controls.Add(this.txtCentigrados);
+            this.Controls.Add(this.lblGradosFahrenheit);
+            this.Controls.Add(this.lblGradosCentigrados);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Ejercicio6";
             this.Text = "Ejercicio6";
             this.ResumeLayout(false);
@@ -112,11 +121,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label lblGradosCentigrados;
+        private System.Windows.Forms.Label lblGradosFahrenheit;
+        private System.Windows.Forms.TextBox txtCentigrados;
+        private System.Windows.Forms.TextBox txtFahrenheit;
+        private System.Windows.Forms.Button btnPasarF;
+        private System.Windows.Forms.Button btnPasarC;
     }
 }

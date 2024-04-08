@@ -16,5 +16,34 @@ namespace AppGraficas_I
         {
             InitializeComponent();
         }
+
+        private void btnConvertirDolares_Click(object sender, EventArgs e)
+        {
+            if (txtEuros.Text == "")
+            {
+                MessageBox.Show("Ingrese la cantidad de euros a convertir", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                double euros = Convert.ToDouble(txtEuros.Text);
+                double dolares = euros * 1.18;
+                txtDolares.Text = dolares.ToString();
+            }
+            
+        }
+
+        private void btnConvertirEuros_Click(object sender, EventArgs e)
+        {
+            if (txtDolares.Text == "")
+            {
+                MessageBox.Show("Ingrese la cantidad de dolares a convertir", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                double dolares = Convert.ToDouble(txtDolares.Text);
+                double euros = dolares * 0.85;
+                txtEuros.Text = euros.ToString();
+            }
+        }
     }
 }

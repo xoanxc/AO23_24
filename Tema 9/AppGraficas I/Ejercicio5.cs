@@ -57,5 +57,10 @@ namespace AppGraficas_I
             //Dividir los dos números y mostrar el resultado
             txtResultado.Text = Convert.ToString(Convert.ToDouble(txtNum1.Text) / Convert.ToDouble(txtNum2.Text));
         }
+
+        private void txtNum2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
