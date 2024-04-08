@@ -29,7 +29,6 @@ C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\bin\Debug\AppGrafi
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\bin\Debug\AppGraficas I.pdb
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas I.csproj.AssemblyReference.cache
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.AcercaDe.resources
-C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Configuracion.resources
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio1.resources
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio2.resources
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.menuPrincipal.resources

@@ -52,12 +52,6 @@
     <Compile Include="AcercaDe.Designer.cs">
       <DependentUpon>AcercaDe.cs</DependentUpon>
     </Compile>
-    <Compile Include="Configuracion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Configuracion.Designer.cs">
-      <DependentUpon>Configuracion.cs</DependentUpon>
-    </Compile>
     <Compile Include="Ejercicio1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,9 +104,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AcercaDe.resx">
       <DependentUpon>AcercaDe.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Configuracion.resx">
-      <DependentUpon>Configuracion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio1.resx">
       <DependentUpon>Ejercicio1.cs</DependentUpon>

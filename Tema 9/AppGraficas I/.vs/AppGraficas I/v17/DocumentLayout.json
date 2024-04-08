@@ -11,12 +11,8 @@
       "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:menuprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "menuPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "menuPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuPrincipal.Designer.cs",
+              "RelativeToolTip": "menuPrincipal.Designer.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwLAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T07:37:40.224Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -36,35 +45,10 @@
               "RelativeDocumentMoniker": "menuPrincipal.cs",
               "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuPrincipal.cs",
               "RelativeToolTip": "menuPrincipal.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAUwBEAAAAJAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAApwFwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T08:51:05.036Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Configuracion.cs",
-              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Configuracion.cs",
-              "RelativeDocumentMoniker": "Configuracion.cs",
-              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Configuracion.cs",
-              "RelativeToolTip": "Configuracion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T08:33:19.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Configuracion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Configuracion.cs",
-              "RelativeDocumentMoniker": "Configuracion.cs",
-              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Configuracion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Configuracion.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T07:56:35.702Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",

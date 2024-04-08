@@ -25,7 +25,7 @@ namespace AppGraficas_I
 
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            //Mostrar la ventana
             AcercaDe acercaDe = new AcercaDe();
             acercaDe.Show();
 
@@ -40,12 +40,14 @@ namespace AppGraficas_I
 
         private void ejercicio1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //Mostrar la ventana
             Ejercicio1 ejercicio1 = new Ejercicio1();
             ejercicio1.Show();
         }
 
         private void ejercicio2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //Mostrar la ventana
             Ejercicio2 ejercicio2 = new Ejercicio2();
             ejercicio2.Show();
 
@@ -59,37 +61,37 @@ namespace AppGraficas_I
 
         private void ejercicio4ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //Mostrar la ventana
             Ejercicio4 ejercicio4 = new Ejercicio4();
             ejercicio4.Show();
         }
 
         private void ejercicio5ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //Mostrar la ventana
             Ejercicio5 ejercicio5 = new Ejercicio5();
             ejercicio5.Show();
         }
 
         private void ejercicio6ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //Mostrar la ventana
             Ejercicio6 ejercicio6 = new Ejercicio6();
             ejercicio6.Show();
         }
 
         private void ejercicio7ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //Mostrar la ventana
             Ejercicio7 ejercicio7 = new Ejercicio7();
             ejercicio7.Show();
         }
 
         private void configuraciónToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Configuracion configuracion = new Configuracion();
-            configuracion.Show();
+            
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
