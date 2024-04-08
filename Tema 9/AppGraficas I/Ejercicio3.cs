@@ -16,5 +16,18 @@ namespace AppGraficas_I
         {
             InitializeComponent();
         }
+
+        private void btnCuadrado_Click(object sender, EventArgs e)
+        {
+            //Convertir el valor de la caja de texto a double
+            double lado = Convert.ToDouble(txtValorLado.Text);
+
+            //Calcular el area del cuadrado
+            double area = lado * lado;
+
+            //Mostrar el resultado en la caja de texto
+            txtResultado.Text = area.ToString();
+
+        }
     }
 }

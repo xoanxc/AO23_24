@@ -42,6 +42,8 @@
             this.btnCuadrado = new System.Windows.Forms.Button();
             this.btnRectangulo = new System.Windows.Forms.Button();
             this.btnTriangulo = new System.Windows.Forms.Button();
+            this.txtResultado = new System.Windows.Forms.TextBox();
+            this.lblResultado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblCarcularAreaPoligonos
@@ -147,6 +149,7 @@
             this.btnCuadrado.TabIndex = 11;
             this.btnCuadrado.Text = "Cuadrado";
             this.btnCuadrado.UseVisualStyleBackColor = true;
+            this.btnCuadrado.Click += new System.EventHandler(this.btnCuadrado_Click);
             // 
             // btnRectangulo
             // 
@@ -166,11 +169,30 @@
             this.btnTriangulo.Text = "Triangulo";
             this.btnTriangulo.UseVisualStyleBackColor = true;
             // 
+            // txtResultado
+            // 
+            this.txtResultado.Location = new System.Drawing.Point(103, 365);
+            this.txtResultado.Name = "txtResultado";
+            this.txtResultado.Size = new System.Drawing.Size(141, 22);
+            this.txtResultado.TabIndex = 14;
+            // 
+            // lblResultado
+            // 
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Location = new System.Drawing.Point(100, 346);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(82, 16);
+            this.lblResultado.TabIndex = 15;
+            this.lblResultado.Text = "Resultado:";
+            // 
             // Ejercicio3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.btnTriangulo);
             this.Controls.Add(this.btnRectangulo);
             this.Controls.Add(this.btnCuadrado);
@@ -208,5 +230,7 @@
         private System.Windows.Forms.Button btnCuadrado;
         private System.Windows.Forms.Button btnRectangulo;
         private System.Windows.Forms.Button btnTriangulo;
+        private System.Windows.Forms.TextBox txtResultado;
+        private System.Windows.Forms.Label lblResultado;
     }
 }
