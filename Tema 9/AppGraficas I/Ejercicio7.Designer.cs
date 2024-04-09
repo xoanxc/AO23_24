@@ -53,6 +53,7 @@
             this.txtDolares.Name = "txtDolares";
             this.txtDolares.Size = new System.Drawing.Size(166, 20);
             this.txtDolares.TabIndex = 1;
+            this.txtDolares.TextChanged += new System.EventHandler(this.txtDolares_TextChanged);
             // 
             // txtEuros
             // 

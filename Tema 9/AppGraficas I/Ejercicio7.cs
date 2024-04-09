@@ -45,5 +45,10 @@ namespace AppGraficas_I
                 txtEuros.Text = euros.ToString();
             }
         }
+
+        private void txtDolares_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
