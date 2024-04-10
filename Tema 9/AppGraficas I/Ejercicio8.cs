@@ -191,32 +191,73 @@ namespace AppGraficas_I
             }
             else
             {
+                //Pasar contenido de la textBox a un string
                 string resultado = txtCajaOperadora.Text;
 
-                
+                if(resultado.Contains(" ") == true)
+                {
+                    //Quitar los espacios en blanco con Trim
+                    resultado = resultado.Trim();
+                }
 
-                //Almacenar los numeros y operadores en variables separadas
+                //Almacenar los numeros en variables separadas
                 string[] numeros = resultado.Split(new char[] { '+', '-', '*', '/', '%' });
 
                 //Almacenar los operadores en variables separadas
                 string[] operadores = resultado.Split(new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' });
 
-                string mas = "+";
-                //for (operadores[0] == 
-                //{
 
-                //}
+                double[] numerosC = new double[numeros.Length];
+                char[] operadoresC = new char[operadores.Length];
 
+                for (int i = 0; i < numeros.Length; i++)
+                {
+                    if (numeros[i] != "") //Coloco esto, porque al usar Split, me coloca espacios en blanco en el array
+                    {
+                        numerosC[i] = Convert.ToInt32(numeros[i]);
+                    }
+                }
+                for (int i = 0; i < operadores.Length; i++)
+                {
+                    if (operadores[i] != "") //Coloco esto, porque al usar Split, me coloca espacios en blanco en el array
+                    {
+                        operadoresC[i] = Convert.ToChar(operadores[i]);
+                    }
+                    
+                }
 
-                //int numero1 = Convert.ToInt32(numeros[0])  Convert.ToInt32(numeros[1]);
+                //Realizar las operaciones
+                double resultadoFinal = numerosC[0];
 
-                //txtCajaOperadora.Text = numero1.ToString();
+                for (int i = 0; i < operadoresC.Length; i++)
+                {
+                    switch (operadoresC[i])
+                    {
+                        case '+':
+                            resultadoFinal += numerosC[i];
+                            break;
+                        case '-':
+                            resultadoFinal -= numerosC[i];
+                            break;
+                        case '*':
+                            resultadoFinal *= numerosC[i];
+                            break;
+                        case '/':
+                            resultadoFinal /= numerosC[i];
+                            break;
+                        case '%':
+                            resultadoFinal %= numerosC[i];
+                            break;
+                    }
+                }
 
+                //Mostrar el resultado en la caja de texto
+                txtCajaOperadora.Text = Convert.ToString(resultadoFinal);
 
-
-
-                                
                 
+
+                
+        
                 
             }
         }
