@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -140,7 +141,7 @@ namespace AppGraficas_I
                 //**Explicación**
 
                 //Convertir el número de la caja de texto a entero
-                int numeroTextBox = Convert.ToInt32(txtCajaOperadora.Text);
+                long numeroTextBox = Convert.ToInt64(txtCajaOperadora.Text);
 
                 //Convertir el número entero a binario, con un String añadiendo el formato de binario con el "2" al final
                 txtCajaOperadora.Text = Convert.ToString(numeroTextBox, 2);
@@ -191,20 +192,21 @@ namespace AppGraficas_I
             }
             else
             {
-                //Pasar contenido de la textBox a un string
-                string resultado = txtCajaOperadora.Text;
-
-                if(resultado.Contains(" ") == true)
+                if (txtCajaOperadora.Text.Contains(" ") == true)
                 {
                     //Quitar los espacios en blanco con Trim
-                    resultado = resultado.Trim();
+                    txtCajaOperadora.Text = txtCajaOperadora.Text.Trim();
                 }
 
                 //Almacenar los numeros en variables separadas
-                string[] numeros = resultado.Split(new char[] { '+', '-', '*', '/', '%' });
+                string[] numeros = txtCajaOperadora.Text.Split(new char[] { '+', '-', '*', '/', '%' });
 
-                //Almacenar los operadores en variables separadas
-                string[] operadores = resultado.Split(new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' });
+                //Almacenar los operadores en variables separadas con Split
+                string[] operadores =txtCajaOperadora.Text.Split(new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' });
+
+                
+                
+
 
 
                 double[] numerosC = new double[numeros.Length];
@@ -212,22 +214,19 @@ namespace AppGraficas_I
 
                 for (int i = 0; i < numeros.Length; i++)
                 {
-                    if (numeros[i] != "") //Coloco esto, porque al usar Split, me coloca espacios en blanco en el array
-                    {
-                        numerosC[i] = Convert.ToInt32(numeros[i]);
-                    }
+                    numerosC[i] = Double.Parse(numeros[i]);
                 }
                 for (int i = 0; i < operadores.Length; i++)
                 {
-                    if (operadores[i] != "") //Coloco esto, porque al usar Split, me coloca espacios en blanco en el array
+                    if (operadores[i] != "")
                     {
-                        operadoresC[i] = Convert.ToChar(operadores[i]);
+                        operadoresC[i] = Char.Parse(operadores[i]);
                     }
-                    
+
                 }
 
                 //Realizar las operaciones
-                double resultadoFinal = numerosC[0];
+                double resultadoFinal = numerosC[0]; //Este es el primer numero
 
                 for (int i = 0; i < operadoresC.Length; i++)
                 {
@@ -249,16 +248,13 @@ namespace AppGraficas_I
                             resultadoFinal %= numerosC[i];
                             break;
                     }
+
                 }
 
                 //Mostrar el resultado en la caja de texto
                 txtCajaOperadora.Text = Convert.ToString(resultadoFinal);
 
-                
 
-                
-        
-                
             }
         }
     }
