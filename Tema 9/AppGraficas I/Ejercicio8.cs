@@ -39,7 +39,7 @@ namespace AppGraficas_I
         private void btnPunto_Click(object sender, EventArgs e)
         {
             //Añadir un punto en la caja de texto
-            txtCajaOperadora.Text = txtCajaOperadora.Text + ".";
+            txtCajaOperadora.Text = txtCajaOperadora.Text + ",";
         }
 
         private void btnUno_Click(object sender, EventArgs e)
@@ -111,11 +111,113 @@ namespace AppGraficas_I
             }
             else if (txtCajaOperadora.Text.Length == 0) //Si la caja de texto está vacía, no hago nada
             {
-                MessageBox.Show("La caja esta vacía");
+                MessageBox.Show("La caja de texto está vacía", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else //Si la caja de texto tiene más de un caracter, elimino el último con .Lenght - 1
             {
                 txtCajaOperadora.Text = txtCajaOperadora.Text.Remove(txtCajaOperadora.Text.Length - 1);
+            }
+        }
+
+        private void btnBinario_Click(object sender, EventArgs e)
+        {
+            if(txtCajaOperadora.Text == "") //Si la caja de texto está vacía, no hago nada
+            {
+                //Mensaje de error con icono de advertencia
+                MessageBox.Show("La caja de texto está vacía", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);    
+            }
+
+            //Forma horrible de hacerlo, si tengo tiempo lo cambiare
+            else if (txtCajaOperadora.Text.Contains(",") || txtCajaOperadora.Text.Contains("+") || txtCajaOperadora.Text.Contains("-") || txtCajaOperadora.Text.Contains("/") || txtCajaOperadora.Text.Contains("*") || txtCajaOperadora.Text.Contains("%") == true)
+            {
+                //Mensaje de error como en las CASIO JAJA
+                MessageBox.Show("Syntax ERROR", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                //Pasar a binario
+
+                //**Explicación**
+
+                //Convertir el número de la caja de texto a entero
+                int numeroTextBox = Convert.ToInt32(txtCajaOperadora.Text);
+
+                //Convertir el número entero a binario, con un String añadiendo el formato de binario con el "2" al final
+                txtCajaOperadora.Text = Convert.ToString(numeroTextBox, 2);
+
+            //Referencia:
+            //https://www.techiedelight.com/es/convert-integer-to-binary-csharp/
+
+            }             
+        }
+
+        private void btnBarra_Click(object sender, EventArgs e)
+        {
+            //Añadir un / en la caja de texto
+            txtCajaOperadora.Text = txtCajaOperadora.Text + "/";
+        }
+
+        private void btnMenos_Click(object sender, EventArgs e)
+        {
+            //Añadir un - en la caja de texto
+            txtCajaOperadora.Text = txtCajaOperadora.Text + "-";
+        }
+
+        private void btnPor_Click(object sender, EventArgs e)
+        {
+            //Añadir un * en la caja de texto
+            txtCajaOperadora.Text = txtCajaOperadora.Text + "*";
+        }
+
+        private void btnMas_Click(object sender, EventArgs e)
+        {
+            //Añadir un + en la caja de texto
+            txtCajaOperadora.Text = txtCajaOperadora.Text + "+";
+        }
+
+        private void btnPorcentaje_Click(object sender, EventArgs e)
+        {
+            //Añadir un % en la caja de texto
+            txtCajaOperadora.Text = txtCajaOperadora.Text + "%";
+        }
+
+        private void btnIgual_Click(object sender, EventArgs e)
+        {
+            //Si la caja de texto está vacía, no hago nada
+            if (txtCajaOperadora.Text == "")
+            {
+                //No me interesa que salga un error, prefiero que simplemente no haga nada
+                //MessageBox.Show("La caja de texto esta vacia", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                string resultado = txtCajaOperadora.Text;
+
+                
+
+                //Almacenar los numeros y operadores en variables separadas
+                string[] numeros = resultado.Split(new char[] { '+', '-', '*', '/', '%' });
+
+                //Almacenar los operadores en variables separadas
+                string[] operadores = resultado.Split(new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' });
+
+                string mas = "+";
+                //for (operadores[0] == 
+                //{
+
+                //}
+
+
+                //int numero1 = Convert.ToInt32(numeros[0])  Convert.ToInt32(numeros[1]);
+
+                //txtCajaOperadora.Text = numero1.ToString();
+
+
+
+
+                                
+                
+                
             }
         }
     }

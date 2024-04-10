@@ -48,3 +48,4 @@ F:\Users\xoana\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGrafic
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio8.resources
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio7.resources
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio8.resources
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Proyecto.resources
