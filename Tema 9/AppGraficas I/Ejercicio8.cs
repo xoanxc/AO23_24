@@ -95,5 +95,28 @@ namespace AppGraficas_I
             //Añadir un nueve en la caja de texto
             txtCajaOperadora.Text = txtCajaOperadora.Text + "9";
         }
+
+        private void btnCE_Click(object sender, EventArgs e)
+        {
+            //Limpiar la caja de texto
+            txtCajaOperadora.Clear();
+        }
+
+        private void btnC_Click(object sender, EventArgs e)
+        {
+            //Eliminar el último caracter de la caja de texto
+            if (txtCajaOperadora.Text.Length == 1) //Si la caja de texto tiene un solo caracter, elimino TODO (como CE)
+            {
+                txtCajaOperadora.Text = "";
+            }
+            else if (txtCajaOperadora.Text.Length == 0) //Si la caja de texto está vacía, no hago nada
+            {
+                MessageBox.Show("La caja esta vacía");
+            }
+            else //Si la caja de texto tiene más de un caracter, elimino el último con .Lenght - 1
+            {
+                txtCajaOperadora.Text = txtCajaOperadora.Text.Remove(txtCajaOperadora.Text.Length - 1);
+            }
+        }
     }
 }
