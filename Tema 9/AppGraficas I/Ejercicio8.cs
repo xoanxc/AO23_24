@@ -137,59 +137,108 @@ namespace AppGraficas_I
             }
             else
             {
-                //Pasar a binario
+                try
+                {
+                    //Pasar a binario
 
-                //**Explicación**
+                    //**Explicación**
 
-                //Convertir el número de la caja de texto a entero
-                long numeroTextBox = Convert.ToInt64(txtCajaOperadora.Text);
+                    //Convertir el número de la caja de texto a entero
+                    long numeroTextBox = Convert.ToInt64(txtCajaOperadora.Text);
 
-                //Convertir el número entero a binario, con un String añadiendo el formato de binario con el "2" al final
-                txtCajaOperadora.Text = Convert.ToString(numeroTextBox, 2);
+                    //Convertir el número entero a binario, con un String añadiendo el formato de binario con el "2" al final
+                    txtCajaOperadora.Text = Convert.ToString(numeroTextBox, 2);
 
-            //Referencia:
-            //https://www.techiedelight.com/es/convert-integer-to-binary-csharp/
+                    //Referencia:
+                    //https://www.techiedelight.com/es/convert-integer-to-binary-csharp/
+                }
+                catch
+                {
+                    MessageBox.Show("No se admiten OVERFLOW en esta aplicación", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    txtCajaOperadora.Clear();
+                    txtCajaOperadora.Focus();
+                    return;
+                    
+                }
+
+
+
 
             }             
         }
 
         private void btnBarra_Click(object sender, EventArgs e)
         {
-            //Añadir un / en la caja de texto
-            txtCajaOperadora.Text = txtCajaOperadora.Text + "/";
+            if (txtCajaOperadora.Text == "")
+            {
+                return;
+            }
+            else
+            {
+                //Añadir un / en la caja de texto
+                txtCajaOperadora.Text = txtCajaOperadora.Text + "/";
+            }
+            
         }
 
         private void btnMenos_Click(object sender, EventArgs e)
         {
-            //Añadir un - en la caja de texto
-            txtCajaOperadora.Text = txtCajaOperadora.Text + "-";
+            if (txtCajaOperadora.Text == "")
+            {
+                return;
+            }
+            else
+            {
+                //Añadir un - en la caja de texto
+                txtCajaOperadora.Text = txtCajaOperadora.Text + "-";
+            }
         }
 
         private void btnPor_Click(object sender, EventArgs e)
         {
-            //Añadir un * en la caja de texto
-            txtCajaOperadora.Text = txtCajaOperadora.Text + "*";
+            if (txtCajaOperadora.Text == "")
+            {
+                return;
+            }
+            else
+            {
+                //Añadir un * en la caja de texto
+                txtCajaOperadora.Text = txtCajaOperadora.Text + "*";
+            }
         }
 
         private void btnMas_Click(object sender, EventArgs e)
         {
-            //Añadir un + en la caja de texto
-            txtCajaOperadora.Text = txtCajaOperadora.Text + "+";
+            if (txtCajaOperadora.Text == "")
+            {
+                return;
+            }
+            else
+            {
+                //Añadir un + en la caja de texto
+                txtCajaOperadora.Text = txtCajaOperadora.Text + "+";
+            }
         }
 
         private void btnPorcentaje_Click(object sender, EventArgs e)
         {
-            //Añadir un % en la caja de texto
-            txtCajaOperadora.Text = txtCajaOperadora.Text + "%";
+            if (txtCajaOperadora.Text == "")
+            {
+                return;
+            }
+            else
+            {
+                //Añadir un % en la caja de texto
+                txtCajaOperadora.Text = txtCajaOperadora.Text + "%";
+            }
         }
 
         private void btnIgual_Click(object sender, EventArgs e)
         {
-            //Si la caja de texto está vacía, no hago nada
+             //Si la caja de texto está vacía, no hago nada
             if (txtCajaOperadora.Text == "")
             {
-                //No me interesa que salga un error, prefiero que simplemente no haga nada
-                //MessageBox.Show("La caja de texto esta vacia", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
             else
             {
@@ -199,7 +248,6 @@ namespace AppGraficas_I
                     //Quitar los espacios en blanco con Trim
                     txtCajaOperadora.Text = txtCajaOperadora.Text.Trim();
                 }
-
 
                 //Almacenar los numeros en variables separadas con Split
                 List<string> numeros = new List<string>(txtCajaOperadora.Text.Split(new char[] { '+', '-', '*', '/', '%' }));   
@@ -213,16 +261,42 @@ namespace AppGraficas_I
                 List<double> numerosC = new List<double>();
                 List<char> operadoresC = new List<char>();
 
+
+
                 //Recorrer los números y los operadores para almacenarlos en las listas
                 foreach (string numero in numeros)
-                {                  
-                        numerosC.Add(double.Parse(numero));                    
+                {
+                    if (!string.IsNullOrWhiteSpace(numero))  //Si el operador no está vacío, añadirlo a la lista
+                    {
+                        try
+                        {
+                            numerosC.Add(double.Parse(numero));
+                        }
+                        catch (Exception) //Si hay un error, mostrar un mensaje de error
+                        {
+                            MessageBox.Show("No, TU, no vas a ocasionar un OVERFLOW", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            txtCajaOperadora.Clear();
+                            txtCajaOperadora.Focus();
+                            return;
+                        }
+                        
+                    }
                 }
                 foreach (string operador in operadores)
                 {
                     if (!string.IsNullOrWhiteSpace(operador))  //Si el operador no está vacío, añadirlo a la lista
                     {
-                        operadoresC.Add(char.Parse(operador));
+                        try
+                        {
+                            operadoresC.Add(char.Parse(operador));
+                        }
+                        catch (Exception) //Si hay un error, mostrar un mensaje de error
+                        {
+                            MessageBox.Show("Syntax ERROR", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            txtCajaOperadora.Clear();
+                            txtCajaOperadora.Focus();
+                            return;
+                        }          
                     }
                 }
                 //Con el punto de ruptura despues de muchos errores me di cuenta que añade "" a la lista, preguntar a Ramón porque
@@ -258,7 +332,6 @@ namespace AppGraficas_I
 
                 //Mostrar el resultado en la caja de texto
                 txtCajaOperadora.Text = Convert.ToString(resultadoFinal);
-
 
             }
         }
@@ -320,18 +393,29 @@ namespace AppGraficas_I
             //Calcular la raíz cuadrada del número en la caja de texto
             if (txtCajaOperadora.Text == "")
             {
-                //No pongo nada
+                return;
             }
             else
             {
-                //Convertir el número de la caja de texto a double
-                double numeroRaiz = Double.Parse(txtCajaOperadora.Text);
+                try
+                {
+                    //Convertir el número de la caja de texto a double
+                    double numeroRaiz = Double.Parse(txtCajaOperadora.Text);
 
-                //Calcular la raíz cuadrada
-                double resultadoRaiz = Math.Sqrt(numeroRaiz);
+                    //Calcular la raíz cuadrada
+                    double resultadoRaiz = Math.Sqrt(numeroRaiz);
 
-                //Mostrar el resultado en la caja de texto
-                txtCajaOperadora.Text = Convert.ToString(resultadoRaiz);
+                    //Mostrar el resultado en la caja de texto
+                    txtCajaOperadora.Text = Convert.ToString(resultadoRaiz);
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Buen intento, no admito OVERFLOW", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    txtCajaOperadora.Clear();
+                    txtCajaOperadora.Focus();
+                    return;
+                }
+                
             }
 
         }

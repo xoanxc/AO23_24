@@ -16,5 +16,10 @@ namespace AppGraficas_I
         {
             InitializeComponent();
         }
+
+        private void Proyecto_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

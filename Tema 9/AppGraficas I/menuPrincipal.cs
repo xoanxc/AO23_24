@@ -89,7 +89,7 @@ namespace AppGraficas_I
 
         private void configuraciónToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            MessageBox.Show("Ya te gustaría");
         }
 
         private void ejercicio8ToolStripMenuItem_Click(object sender, EventArgs e)
