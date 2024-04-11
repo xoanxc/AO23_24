@@ -24,15 +24,23 @@ namespace AppGraficas_I
 
         private void btnConvertir_Click(object sender, EventArgs e)
         {
+            if (txtNumeroHoras.Text == "")
+            {
+                MessageBox.Show("Por favor, ingrese un número de horas", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtNumeroHoras.Focus();
+            }
+            else
+            {
+                //Almacenar el valor de la textbox en una variable double
+                double horas = double.Parse(txtNumeroHoras.Text);
 
-            //Almacenar el valor de la textbox en una variable double
-            double horas = double.Parse(txtNumeroHoras.Text);
+                //Convertir de minutos a horas y mostrarlo en la textbox
+                txtMinutos.Text = Convert.ToString(horas * 60);
 
-            //Convertir de minutos a horas y mostrarlo en la textbox
-            txtMinutos.Text = Convert.ToString(horas * 60);
-
-            //Convertir de horas a segundos y mostrarlo en la textbox
-            txtSegundos.Text = Convert.ToString(horas * 3600);
+                //Convertir de horas a segundos y mostrarlo en la textbox
+                txtSegundos.Text = Convert.ToString(horas * 3600);
+            }
+            
         }
     }
 }

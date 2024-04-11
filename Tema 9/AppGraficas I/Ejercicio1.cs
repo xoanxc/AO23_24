@@ -19,11 +19,25 @@ namespace AppGraficas_I
 
         private void btnPulsar_Click(object sender, EventArgs e)
         {
-            //Cambiar nombre del boton
-            btnPulsar.Text = "Completado";
-
-            //Que muestre un mensaje con los datos introducidos
-            MessageBox.Show("Nombre: " + txtNombre.Text + "\n" + "Correo: " + txtCorreo.Text);
+            //Si contiene un numero
+            if (txtNombre.Text.Contains("0") || txtNombre.Text.Contains("1") || txtNombre.Text.Contains("2") || txtNombre.Text.Contains("3") || txtNombre.Text.Contains("4") || txtNombre.Text.Contains("5") || txtNombre.Text.Contains("6") || txtNombre.Text.Contains("7") || txtNombre.Text.Contains("8") || txtNombre.Text.Contains("9"))
+            {
+                //Que muestre un mensaje de error
+                MessageBox.Show("El nombre no puede contener numeros");
+            }
+            else
+            {
+                //Si contiene el correo un @
+                if (txtCorreo.Text.Contains("@"))
+                {
+                    //Que muestre un mensaje con los datos introducidos
+                    MessageBox.Show("Nombre: " + txtNombre.Text + "\n" + "Correo: " + txtCorreo.Text);
+                }
+                else
+                {
+                    MessageBox.Show("El correo no contiene un @");
+                }
+            }            
         }
     }
 }

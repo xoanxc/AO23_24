@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -192,45 +193,49 @@ namespace AppGraficas_I
             }
             else
             {
+                //Eliminar los espacios en blanco puestos por error
                 if (txtCajaOperadora.Text.Contains(" ") == true)
                 {
                     //Quitar los espacios en blanco con Trim
                     txtCajaOperadora.Text = txtCajaOperadora.Text.Trim();
                 }
 
-                //Almacenar los numeros en variables separadas
-                string[] numeros = txtCajaOperadora.Text.Split(new char[] { '+', '-', '*', '/', '%' });
+
+                //Almacenar los numeros en variables separadas con Split
+                List<string> numeros = new List<string>(txtCajaOperadora.Text.Split(new char[] { '+', '-', '*', '/', '%' }));   
+
+                
 
                 //Almacenar los operadores en variables separadas con Split
-                string[] operadores =txtCajaOperadora.Text.Split(new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' });
+                List<string> operadores = new List<string>(txtCajaOperadora.Text.Split(new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' }));
 
-                
-                
+                //Listas para almacenar los números y los operadores (double y char)
+                List<double> numerosC = new List<double>();
+                List<char> operadoresC = new List<char>();
 
-
-
-                double[] numerosC = new double[numeros.Length];
-                char[] operadoresC = new char[operadores.Length];
-
-                for (int i = 0; i < numeros.Length; i++)
-                {
-                    numerosC[i] = Double.Parse(numeros[i]);
+                //Recorrer los números y los operadores para almacenarlos en las listas
+                foreach (string numero in numeros)
+                {                  
+                        numerosC.Add(double.Parse(numero));                    
                 }
-                for (int i = 0; i < operadores.Length; i++)
+                foreach (string operador in operadores)
                 {
-                    if (operadores[i] != "")
+                    if (!string.IsNullOrWhiteSpace(operador))  //Si el operador no está vacío, añadirlo a la lista
                     {
-                        operadoresC[i] = Char.Parse(operadores[i]);
+                        operadoresC.Add(char.Parse(operador));
                     }
-
                 }
+                //Con el punto de ruptura despues de muchos errores me di cuenta que añade "" a la lista, preguntar a Ramón porque
 
-                //Realizar las operaciones
-                double resultadoFinal = numerosC[0]; //Este es el primer numero
 
-                for (int i = 0; i < operadoresC.Length; i++)
+
+                // Realizar las operaciones
+                double resultadoFinal = numerosC[0]; // Este es el primer número
+
+                // Comenzar desde el segundo número
+                for (int i = 1; i < numerosC.Count; i++)
                 {
-                    switch (operadoresC[i])
+                    switch (operadoresC[i - 1]) // Aquí, se usa i - 1 para acceder a los operadores (ya que empezamos el for en 1 y si no restamos nos saltamos el primero)
                     {
                         case '+':
                             resultadoFinal += numerosC[i];
@@ -248,14 +253,97 @@ namespace AppGraficas_I
                             resultadoFinal %= numerosC[i];
                             break;
                     }
-
                 }
+
 
                 //Mostrar el resultado en la caja de texto
                 txtCajaOperadora.Text = Convert.ToString(resultadoFinal);
 
 
             }
+        }
+
+
+        //Inicializo la Memoria
+        double memoriaM = 0;
+        private void btnMS_Click(object sender, EventArgs e)
+        {
+            if (txtCajaOperadora.Text == "")
+            {
+                //Mensaje de error con icono de advertencia
+                MessageBox.Show("La caja de texto está vacía", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                if (txtCajaOperadora.Text.Contains("+") || txtCajaOperadora.Text.Contains("-") || txtCajaOperadora.Text.Contains("/") || txtCajaOperadora.Text.Contains("*") || txtCajaOperadora.Text.Contains("%") == true)
+                {
+                    //Mensaje de error
+                    MessageBox.Show("Syntax ERROR", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    //Convertir el número de la caja de texto a double
+                    memoriaM = Double.Parse(txtCajaOperadora.Text);
+
+                }
+
+            }
+            
+        }
+
+        private void btnMR_Click(object sender, EventArgs e)
+        {
+            //Mostrar el número de la memoria en la caja de texto
+            txtCajaOperadora.Text = Convert.ToString(memoriaM);
+        }
+
+        private void btnMC_Click(object sender, EventArgs e)
+        {
+            //Resetear la memoria
+            memoriaM = 0;
+        }
+
+        private void btnMPlus_Click(object sender, EventArgs e)
+        {
+            //Sumar el número de la caja de texto a la memoria
+            memoriaM += Double.Parse(txtCajaOperadora.Text);
+        }
+
+        private void btnMMin_Click(object sender, EventArgs e)
+        {
+            //Restar el número de la caja de texto a la memoria
+            memoriaM -= Double.Parse(txtCajaOperadora.Text);
+        }
+
+        private void btnRaiz_Click(object sender, EventArgs e)
+        {
+            //Calcular la raíz cuadrada del número en la caja de texto
+            if (txtCajaOperadora.Text == "")
+            {
+                //No pongo nada
+            }
+            else
+            {
+                //Convertir el número de la caja de texto a double
+                double numeroRaiz = Double.Parse(txtCajaOperadora.Text);
+
+                //Calcular la raíz cuadrada
+                double resultadoRaiz = Math.Sqrt(numeroRaiz);
+
+                //Mostrar el resultado en la caja de texto
+                txtCajaOperadora.Text = Convert.ToString(resultadoRaiz);
+            }
+
+        }
+
+        private void btnCos_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Esta función no está disponible", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
+
+        private void btnSen_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Esta función no está disponible", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
     }
 }

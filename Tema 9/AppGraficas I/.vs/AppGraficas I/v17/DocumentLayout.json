@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\",
+  "WorkspaceRootPath": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|f:\\users\\xoana\\documents\\github\\ao23_24\\tema 9\\appgraficas i\\ejercicio8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|c:\\users\\xoanxc\\documents\\github\\ao23_24\\tema 9\\appgraficas i\\ejercicio8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:ejercicio8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\ejercicio8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\ejercicio8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:ejercicio8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,48 +26,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Proyecto.cs [Dise\u00F1o]",
-              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Proyecto.cs",
-              "RelativeDocumentMoniker": "Proyecto.cs",
-              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Proyecto.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T10:01:51.734Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Ejercicio8.cs",
-              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio8.cs",
+              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio8.cs",
               "RelativeDocumentMoniker": "Ejercicio8.cs",
-              "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio8.cs",
+              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio8.cs",
               "RelativeToolTip": "Ejercicio8.cs",
-              "ViewState": "AQIAAHwAAAAAAAAAAAAWwI8AAAAUAAAA",
+              "ViewState": "AQIAANwAAAAAAAAAAAAjwFkBAAB2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T18:11:01.108Z",
+              "WhenOpened": "2024-04-11T07:16:26.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Ejercicio8.cs [Dise\u00F1o]",
-              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio8.cs",
+              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio8.cs",
               "RelativeDocumentMoniker": "Ejercicio8.cs",
-              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio8.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\xoanxc\\Downloads\\AppGraficas I\\Ejercicio8.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\AppGraficas I\\Ejercicio8.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T15:59:39.838Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Proyecto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Proyecto.cs",
+              "RelativeDocumentMoniker": "Proyecto.cs",
+              "ToolTip": "C:\\Users\\xoanxc\\Downloads\\AppGraficas I\\Proyecto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\AppGraficas I\\Proyecto.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T10:01:51.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "menuPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuPrincipal.cs",
               "RelativeDocumentMoniker": "menuPrincipal.cs",
-              "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuPrincipal.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\xoanxc\\Downloads\\AppGraficas I\\menuPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\AppGraficas I\\menuPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T09:51:13.568Z"
             }

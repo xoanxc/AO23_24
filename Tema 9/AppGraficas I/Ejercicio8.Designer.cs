@@ -308,6 +308,7 @@
             this.btnCos.TabIndex = 20;
             this.btnCos.Text = "cos";
             this.btnCos.UseVisualStyleBackColor = true;
+            this.btnCos.Click += new System.EventHandler(this.btnCos_Click);
             // 
             // btnSen
             // 
@@ -319,6 +320,7 @@
             this.btnSen.TabIndex = 21;
             this.btnSen.Text = "sen";
             this.btnSen.UseVisualStyleBackColor = true;
+            this.btnSen.Click += new System.EventHandler(this.btnSen_Click);
             // 
             // btnMS
             // 
@@ -330,6 +332,7 @@
             this.btnMS.TabIndex = 22;
             this.btnMS.Text = "MS";
             this.btnMS.UseVisualStyleBackColor = true;
+            this.btnMS.Click += new System.EventHandler(this.btnMS_Click);
             // 
             // btnMC
             // 
@@ -341,6 +344,7 @@
             this.btnMC.TabIndex = 23;
             this.btnMC.Text = "MC";
             this.btnMC.UseVisualStyleBackColor = true;
+            this.btnMC.Click += new System.EventHandler(this.btnMC_Click);
             // 
             // btnMPlus
             // 
@@ -352,6 +356,7 @@
             this.btnMPlus.TabIndex = 24;
             this.btnMPlus.Text = "M+";
             this.btnMPlus.UseVisualStyleBackColor = true;
+            this.btnMPlus.Click += new System.EventHandler(this.btnMPlus_Click);
             // 
             // btnMMin
             // 
@@ -363,6 +368,7 @@
             this.btnMMin.TabIndex = 25;
             this.btnMMin.Text = "M-";
             this.btnMMin.UseVisualStyleBackColor = true;
+            this.btnMMin.Click += new System.EventHandler(this.btnMMin_Click);
             // 
             // btnMR
             // 
@@ -374,6 +380,7 @@
             this.btnMR.TabIndex = 26;
             this.btnMR.Text = "MR";
             this.btnMR.UseVisualStyleBackColor = true;
+            this.btnMR.Click += new System.EventHandler(this.btnMR_Click);
             // 
             // btnRaiz
             // 
@@ -385,6 +392,7 @@
             this.btnRaiz.TabIndex = 27;
             this.btnRaiz.Text = "Raíz";
             this.btnRaiz.UseVisualStyleBackColor = true;
+            this.btnRaiz.Click += new System.EventHandler(this.btnRaiz_Click);
             // 
             // btnBinario
             // 

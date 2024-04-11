@@ -50,3 +50,23 @@ C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGrafi
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio8.resources
 C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Proyecto.resources
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 9\AppGraficas I\obj\Debug\AppGraficas_I.Proyecto.resources
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas I.csproj.AssemblyReference.cache
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas_I.AcercaDe.resources
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio1.resources
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio2.resources
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio3.resources
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio4.resources
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio5.resources
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio6.resources
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio7.resources
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas_I.Ejercicio8.resources
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas_I.menuPrincipal.resources
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas_I.Properties.Resources.resources
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas_I.Proyecto.resources
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas I.csproj.GenerateResource.cache
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas I.csproj.CoreCompileInputs.cache
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas I.exe
+C:\Users\xoanxc\Downloads\AppGraficas I\obj\Debug\AppGraficas I.pdb
+C:\Users\xoanxc\Downloads\AppGraficas I\bin\Debug\AppGraficas I.exe.config
+C:\Users\xoanxc\Downloads\AppGraficas I\bin\Debug\AppGraficas I.exe
+C:\Users\xoanxc\Downloads\AppGraficas I\bin\Debug\AppGraficas I.pdb

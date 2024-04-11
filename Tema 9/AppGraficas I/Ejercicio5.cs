@@ -19,43 +19,73 @@ namespace AppGraficas_I
 
         private void btnMas_Click(object sender, EventArgs e)
         {
-            //Cambiar el signo a + y mostrarlo
-            lblSigno.Text = "+";
-            lblSigno.Show();
+            if(txtNum1.Text == "" || txtNum2.Text == "")
+            {
+                //No hago nada
+            }
+            else
+            {
+                //Cambiar el signo a + y mostrarlo
+                lblSigno.Text = "+";
+                lblSigno.Show();
 
-            //Sumar los dos números y mostrar el resultado
-            txtResultado.Text = Convert.ToString(Convert.ToDouble(txtNum1.Text) + Convert.ToDouble(txtNum2.Text));
+                //Sumar los dos números y mostrar el resultado
+                txtResultado.Text = Convert.ToString(Convert.ToDouble(txtNum1.Text) + Convert.ToDouble(txtNum2.Text));
+
+            }
+            
 
         }
 
         private void btnMenos_Click(object sender, EventArgs e)
         {
-            //Cambiar el signo a - y mostrarlo
-            lblSigno.Text = "-";
-            lblSigno.Show();
+            if (txtNum1.Text == "" || txtNum2.Text == "")
+            {
+                //No hago nada
+            }
+            else
+            {
+                //Cambiar el signo a - y mostrarlo
+                lblSigno.Text = "-";
+                lblSigno.Show();
 
-            //Restar los dos números y mostrar el resultado
-            txtResultado.Text = Convert.ToString(Convert.ToDouble(txtNum1.Text) - Convert.ToDouble(txtNum2.Text));
+                //Restar los dos números y mostrar el resultado
+                txtResultado.Text = Convert.ToString(Convert.ToDouble(txtNum1.Text) - Convert.ToDouble(txtNum2.Text));
+            }
         }
 
         private void btnMultiplica_Click(object sender, EventArgs e)
         {
-            //Cambiar el signo a * y mostrarlo
-            lblSigno.Text = "*";
-            lblSigno.Show();
+            if (txtNum1.Text == "" || txtNum2.Text == "")
+            {
+                //No hago nada
+            }
+            else
+            {
+                //Cambiar el signo a * y mostrarlo
+                lblSigno.Text = "*";
+                lblSigno.Show();
 
-            //Multiplicar los dos números y mostrar el resultado
-            txtResultado.Text = Convert.ToString(Convert.ToDouble(txtNum1.Text) * Convert.ToDouble(txtNum2.Text));
+                //Multiplicar los dos números y mostrar el resultado
+                txtResultado.Text = Convert.ToString(Convert.ToDouble(txtNum1.Text) * Convert.ToDouble(txtNum2.Text));
+            }
         }
 
         private void btnEntre_Click(object sender, EventArgs e)
         {
-            //Cambiar el signo a / y mostrarlo
-            lblSigno.Text = "/";
-            lblSigno.Show();
+            if (txtNum1.Text == "" || txtNum2.Text == "")
+            {
+                //No hago nada
+            }
+            else
+            {
+                //Cambiar el signo a / y mostrarlo
+                lblSigno.Text = "/";
+                lblSigno.Show();
 
-            //Dividir los dos números y mostrar el resultado
-            txtResultado.Text = Convert.ToString(Convert.ToDouble(txtNum1.Text) / Convert.ToDouble(txtNum2.Text));
+                //Dividir los dos números y mostrar el resultado
+                txtResultado.Text = Convert.ToString(Convert.ToDouble(txtNum1.Text) / Convert.ToDouble(txtNum2.Text));
+            }
         }
 
         private void txtNum2_TextChanged(object sender, EventArgs e)
