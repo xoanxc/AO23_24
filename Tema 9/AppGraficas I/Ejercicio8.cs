@@ -235,20 +235,13 @@ namespace AppGraficas_I
 
         private void btnIgual_Click(object sender, EventArgs e)
         {
-             //Si la caja de texto está vacía, no hago nada
+            //Si la caja de texto está vacía, no hago nada
             if (txtCajaOperadora.Text == "")
             {
                 return;
             }
             else
             {
-                //Eliminar los espacios en blanco puestos por error
-                if (txtCajaOperadora.Text.Contains(" ") == true)
-                {
-                    //Quitar los espacios en blanco con Trim
-                    txtCajaOperadora.Text = txtCajaOperadora.Text.Trim();
-                }
-
                 //Almacenar los numeros en variables separadas con Split
                 List<string> numeros = new List<string>(txtCajaOperadora.Text.Split(new char[] { '+', '-', '*', '/', '%' }));   
 
@@ -266,13 +259,13 @@ namespace AppGraficas_I
                 //Recorrer los números y los operadores para almacenarlos en las listas
                 foreach (string numero in numeros)
                 {
-                    if (!string.IsNullOrWhiteSpace(numero))  //Si el operador no está vacío, añadirlo a la lista
+                    if (!string.IsNullOrWhiteSpace(numero))  //Si el número no está vacío, añadirlo a la lista
                     {
                         try
                         {
                             numerosC.Add(double.Parse(numero));
                         }
-                        catch (Exception) //Si hay un error, mostrar un mensaje de error
+                        catch (Exception) //Evitar el oferflow
                         {
                             MessageBox.Show("No, TU, no vas a ocasionar un OVERFLOW", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                             txtCajaOperadora.Clear();
@@ -290,49 +283,67 @@ namespace AppGraficas_I
                         {
                             operadoresC.Add(char.Parse(operador));
                         }
-                        catch (Exception) //Si hay un error, mostrar un mensaje de error
+                        catch (Exception) //Evitar el errores de sintaxis
                         {
                             MessageBox.Show("Syntax ERROR", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                             txtCajaOperadora.Clear();
                             txtCajaOperadora.Focus();
                             return;
-                        }          
+                        }
                     }
                 }
                 //Con el punto de ruptura despues de muchos errores me di cuenta que añade "" a la lista, preguntar a Ramón porque
 
 
 
-                // Realizar las operaciones
-                double resultadoFinal = numerosC[0]; // Este es el primer número
-
-                // Comenzar desde el segundo número
-                for (int i = 1; i < numerosC.Count; i++)
+                //Calcular primero multiplicación, división y porcentaje
+                for (int i = 0; i < operadoresC.Count; i++)
                 {
-                    switch (operadoresC[i - 1]) // Aquí, se usa i - 1 para acceder a los operadores (ya que empezamos el for en 1 y si no restamos nos saltamos el primero)
+                    if (operadoresC[i] == '*' || operadoresC[i] == '/' || operadoresC[i] == '%')
                     {
-                        case '+':
-                            resultadoFinal += numerosC[i];
-                            break;
-                        case '-':
-                            resultadoFinal -= numerosC[i];
-                            break;
-                        case '*':
-                            resultadoFinal *= numerosC[i];
-                            break;
-                        case '/':
-                            resultadoFinal /= numerosC[i];
-                            break;
-                        case '%':
-                            resultadoFinal %= numerosC[i];
-                            break;
+                        switch (operadoresC[i])
+                        {
+                            case '*':
+                                numerosC[i] *= numerosC[i + 1]; //Sumo ambos numeros por ejemplo 2 * 3, el primero seria el 2 y el segundo seria el 3, por eso sumo a i +1
+                                break;
+
+                            case '/':
+                                numerosC[i] /= numerosC[i + 1];
+                                break;
+
+                            case '%':
+                                numerosC[i] %= numerosC[i + 1];
+                                break;
+                        }
+
+                        //Eliminar el operador y el número que ya se han utilizado
+                        operadoresC.RemoveAt(i);
+                        numerosC.RemoveAt(i + 1);
+                        i--; //IMPORTANTE, SI NO DA ERROR, Restar el contador para no saltarse un operador
+                        //*Prueba y error con el punto de ruptura
                     }
                 }
 
+                //Calcular suma y resta
+                double resultadoFinal = numerosC[0];
+                for (int i = 0; i < operadoresC.Count; i++)
+                {
+                    switch (operadoresC[i])
+                    {
+                        case '+':
+                            resultadoFinal += numerosC[i + 1]; //Sumo 1 porque el primer número ya lo añadí al principio, se puede hacer de otra forma
+                            break;
 
+                        case '-':
+                            resultadoFinal -= numerosC[i + 1];
+                            break;
+                    }
+                }
+                //Algoritmo original pero para sumar y restar, ya que da igual el orden
+
+                
                 //Mostrar el resultado en la caja de texto
                 txtCajaOperadora.Text = Convert.ToString(resultadoFinal);
-
             }
         }
 
