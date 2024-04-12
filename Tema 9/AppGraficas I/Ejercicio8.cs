@@ -319,7 +319,7 @@ namespace AppGraficas_I
                         //Eliminar el operador y el número que ya se han utilizado
                         operadoresC.RemoveAt(i);
                         numerosC.RemoveAt(i + 1);
-                        i--; //IMPORTANTE, SI NO DA ERROR, Restar el contador para no saltarse un operador
+                        i--; //IMPORTANTE, SI NO, DA ERROR, Restar el contador para no saltarse un operador
                         //*Prueba y error con el punto de ruptura
                     }
                 }
