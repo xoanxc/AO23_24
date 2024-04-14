@@ -30,15 +30,28 @@ namespace Ejemplo_2_2_4
 
             float valorIntmenor = (float)Math.Floor(valor);
 
-            Console.WriteLine(valor +  " redondeado a " + valorIntmenor);
+            Console.WriteLine(valor + " redondeado a " + valorIntmenor);
 
             float valorIntmayor = (float)Math.Ceiling(valor);
 
             float valorIntCercano = (float)Math.Round(valor);
             Console.WriteLine(valor + " redondeo cercano " + valorIntCercano);
 
+            
+            Console.WriteLine("\nPress Enter to travel to 14/04/2024...");
             Console.ReadLine();
 
+
+            //14/04/2024
+            //Fardeo de Skills
+            byte numero1 = 2;
+            byte numero2 = 2;
+            byte resultado = Convert.ToByte(numero1 + numero2);
+
+            Console.WriteLine("El impresionante resultado de 2 + 2 es... " + resultado);
+
+
+            Console.ReadLine();
 
         }
     }

@@ -5,3 +5,10 @@ C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejemplo 2+2=4\obj\Debug\Ejemplo 
 C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejemplo 2+2=4\obj\Debug\Ejemplo 2+2=4.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejemplo 2+2=4\obj\Debug\Ejemplo 2+2=4.exe
 C:\Users\Alumno\Documents\GitHub\AO23_24\Tema 3\Ejemplo 2+2=4\obj\Debug\Ejemplo 2+2=4.pdb
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 3\Ejemplo 2+2=4\bin\Debug\Ejemplo 2+2=4.exe.config
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 3\Ejemplo 2+2=4\bin\Debug\Ejemplo 2+2=4.exe
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 3\Ejemplo 2+2=4\bin\Debug\Ejemplo 2+2=4.pdb
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 3\Ejemplo 2+2=4\obj\Debug\Ejemplo 2+2=4.csproj.AssemblyReference.cache
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 3\Ejemplo 2+2=4\obj\Debug\Ejemplo 2+2=4.csproj.CoreCompileInputs.cache
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 3\Ejemplo 2+2=4\obj\Debug\Ejemplo 2+2=4.exe
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 3\Ejemplo 2+2=4\obj\Debug\Ejemplo 2+2=4.pdb

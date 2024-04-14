@@ -1,0 +1,4 @@
+Bego,Paoli,43,bego@gmail.org,21562178P
+Juan,Martinez,35,juan@gmail.com,87654321Q
+Ana,Rodriguez,28,ana@hotmail.com,65432187X
+Luis,Garcia,39,luis@yahoo.com,98765432R
