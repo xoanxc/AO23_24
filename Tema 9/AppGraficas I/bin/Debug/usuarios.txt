@@ -1,3 +1,5 @@
-MANU,ASAS,21,KJANS@,21234567P
-sd,sd,32,as,12345678P
+MANU,ASAS,21,KJANS@gmail.com,21234567P
+Amanda,Guz,32,mani@gmail.com,12345678P
 Manuel,Alonso,31,manu@gmail.com,87657865O
+Manu,Alon,21,manu@gmail.com,39101430P
+

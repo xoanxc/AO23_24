@@ -14,23 +14,23 @@ namespace AppGraficas_I
 {
     public partial class Proyecto : Form
     {
-        //Se crea una lista para guardar los datos de los usuarios
+        //Creo una lista para guardar los datos de los usuarios y poder usarla en cualquier método
         private List<string> usuarios = new List<string>();
 
+        //Creo función para guardar la ruta del archivo y poder usarla en cualquier método
         private string rutaFichero = Directory.GetCurrentDirectory() + @"\usuarios.txt";
 
 
         public Proyecto()
         {
-            InitializeComponent();
-
+            InitializeComponent(); //Auto-generado, no se que hace
 
             //Si el archivo existe
             if (File.Exists(rutaFichero))
             {
                 //Leer el archivo y almacenar las lineas en un array
                 string[] lineas = File.ReadAllLines(rutaFichero);
-                
+
 
                 //Recorrer las lineas
                 foreach (string linea in lineas)
@@ -44,6 +44,9 @@ namespace AppGraficas_I
                 //Si no existe el archivo, se crea
                 File.Create(rutaFichero);
             }
+
+            //****Coloco aquí el código para cargar el primer registro en los campos del formulario****
+            //Invesgado en internet, no se si es la mejor forma de hacerlo, creo que esta bastante bien FUNCIONA
         }
 
         private void Proyecto_Load(object sender, EventArgs e)
@@ -95,6 +98,17 @@ namespace AppGraficas_I
             {
                 MessageBox.Show("DNI no válido");
             }
+            //Validar si la letra es correcta
+            //Me lié un poco con el código, pero lo entiendo
+            //Explicación a la matriz/array de letras le doy el resultado de la división de los 8 primeros números del DNI entre 23 y si no coincide con la letra del DNI, no es válido (la letra del DNI esta en la ultima posición, la 8)
+            else if (letras[int.Parse(txtDNI.Text.Substring(0, 8)) % 23] != txtDNI.Text[8])
+            {
+                MessageBox.Show("DNI no válido");
+            }
+            else if (txtEmail.Text.Contains("@") == false || txtEmail.Text.Contains(".") == false)
+            {
+                MessageBox.Show("Email no válido");
+            }
             //Guardar los datos
             else
             {
@@ -132,6 +146,7 @@ namespace AppGraficas_I
 
                 //Actualizar el archivo txt con los nuevos datos
                 File.WriteAllLines(rutaFichero, usuarios);
+                //File.WriteAllLines escribe un array de string en un archivo de texto, sobreescribiendo el archivo si ya existe (bastante bruto)
 
 
 
@@ -173,14 +188,7 @@ namespace AppGraficas_I
                 }
             }
             //Actualizar el archivo txt con los nuevos datos
-            string rutaFichero = Directory.GetCurrentDirectory() + @"\usuarios.txt";
             File.WriteAllLines(rutaFichero, usuarios);
-
-
-
-            
-
-
 
         }
 
@@ -236,6 +244,7 @@ namespace AppGraficas_I
             //Buscar el DNI del textBox en la lista
             string dni = txtDNIBuscar.Text;
 
+            //Recorrer la lista
             for (int i = 0; i < usuarios.Count; i++)
             {
                 //Separar los datos
@@ -244,13 +253,14 @@ namespace AppGraficas_I
                 //Si el DNI coincide
                 if (datos[4] == dni)
                 {
-
+                    //Mostrar los datos
                     MessageBox.Show("Usuario encontrado:\n" + datos[0] + " "+ datos[1] + ", " + datos[2] + " años");
                     txtDNIEliminar.Clear();
                     break;
                 }
                 else
                 {
+                    //Si no coincide
                     MessageBox.Show("DNI no encontrado");
                     txtDNIEliminar.Clear();
                     break;
