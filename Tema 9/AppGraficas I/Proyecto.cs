@@ -17,13 +17,13 @@ namespace AppGraficas_I
         //Se crea una lista para guardar los datos de los usuarios
         private List<string> usuarios = new List<string>();
 
+        private string rutaFichero = Directory.GetCurrentDirectory() + @"\usuarios.txt";
+
 
         public Proyecto()
         {
             InitializeComponent();
 
-            //Asignar la ruta del archivo
-            string rutaFichero = Directory.GetCurrentDirectory() + @"\usuarios.txt";
 
             //Si el archivo existe
             if (File.Exists(rutaFichero))
@@ -103,9 +103,36 @@ namespace AppGraficas_I
                 //Crear la lista para guardar los datos
                 List<string> usuarios = new List<string>();
 
+
+                //Si el archivo existe ****COPIADO DEL CODIGO A LA CARGA DEL FORMULARIO****
+                if (File.Exists(rutaFichero))
+                {
+                    //Leer el archivo y almacenar las lineas en un array
+                    string[] lineas = File.ReadAllLines(rutaFichero);
+
+
+                    //Recorrer las lineas
+                    foreach (string linea in lineas)
+                    {
+                        //Añadir las lineas a la lista
+                        usuarios.Add(linea);
+                    }
+                }
+                else
+                {
+                    //Si no existe el archivo, se crea
+                    File.Create(rutaFichero);
+                }
+
+
+
                 //Guardar los datos en un string y pasarlos a la lista
                 string guardar = txtNombre.Text + "," + txtApellidos.Text + "," + txtEdad.Text + "," + txtEmail.Text + "," + txtDNI.Text;
                 usuarios.Add(guardar);
+
+                //Actualizar el archivo txt con los nuevos datos
+                File.WriteAllLines(rutaFichero, usuarios);
+
 
 
 
