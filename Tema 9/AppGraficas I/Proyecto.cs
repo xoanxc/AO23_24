@@ -150,8 +150,7 @@ namespace AppGraficas_I
 
 
 
-
-                //Limpiar los campos
+                //Limpiar los campos (facilitar al usuario)
                 txtNombre.Clear();
                 txtApellidos.Clear();
                 txtEdad.Clear();
@@ -182,13 +181,14 @@ namespace AppGraficas_I
                 }
                 else
                 {
+                    //DNI no encontrado
                     MessageBox.Show("DNI no encontrado");
                     txtDNIEliminar.Clear();
                     break;
                 }
             }
             //Actualizar el archivo txt con los nuevos datos
-            File.WriteAllLines(rutaFichero, usuarios);
+            File.WriteAllLines(rutaFichero, usuarios); //Sobreescritura del archivo
 
         }
 
@@ -255,14 +255,14 @@ namespace AppGraficas_I
                 {
                     //Mostrar los datos
                     MessageBox.Show("Usuario encontrado:\n" + datos[0] + " "+ datos[1] + ", " + datos[2] + " años");
-                    txtDNIEliminar.Clear();
+                    txtDNIBuscar.Clear();
                     break;
                 }
                 else
                 {
                     //Si no coincide
                     MessageBox.Show("DNI no encontrado");
-                    txtDNIEliminar.Clear();
+                    txtDNIBuscar.Clear();
                     break;
                 }
             }
