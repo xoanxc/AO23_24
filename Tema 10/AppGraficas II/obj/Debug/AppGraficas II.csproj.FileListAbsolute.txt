@@ -1,0 +1,11 @@
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\bin\Debug\AppGraficas II.exe.config
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\bin\Debug\AppGraficas II.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\bin\Debug\AppGraficas II.pdb
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas II.csproj.AssemblyReference.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Ejercicio1.resources
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Properties.Resources.resources
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas II.csproj.GenerateResource.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas II.csproj.CoreCompileInputs.cache
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas II.exe
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas II.pdb
+C:\Users\xoanxc\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.menuPrincipal.resources

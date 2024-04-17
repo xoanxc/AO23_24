@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F9FBB070-66FD-4405-B47F-28AB22EDF09F}</ProjectGuid>
+    <ProjectGuid>{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>AppGraficas_II</RootNamespace>
     <AssemblyName>AppGraficas II</AssemblyName>
@@ -46,14 +46,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Ejercicio1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Ejercicio1.Designer.cs">
+      <DependentUpon>Ejercicio1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones.cs" />
+    <Compile Include="menuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuPrincipal.Designer.cs">
+      <DependentUpon>menuPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ejercicio1.resx">
+      <DependentUpon>Ejercicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuPrincipal.resx">
+      <DependentUpon>menuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
