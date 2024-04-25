@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|c:\\users\\xoanxc\\documents\\github\\ao23_24\\tema 9\\appgraficas i\\ejercicio8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\ejercicio8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:ejercicio8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:ejercicio8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|c:\\users\\xoanxc\\documents\\github\\ao23_24\\tema 9\\appgraficas i\\ejercicio7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\ejercicio7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:ejercicio7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:ejercicio7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|c:\\users\\xoanxc\\documents\\github\\ao23_24\\tema 9\\appgraficas i\\ejercicio5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\ejercicio5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:ejercicio5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -43,7 +43,7 @@
       "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|c:\\users\\xoanxc\\documents\\github\\ao23_24\\tema 9\\appgraficas i\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C4C15D5F-7B07-4416-BE4E-9684FCC6930C}|AppGraficas I.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -91,8 +91,7 @@
               "RelativeToolTip": "Ejercicio8.cs",
               "ViewState": "AQIAAFkBAAAAAAAAAAAAwCcBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:52:39.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T09:52:39.382Z"
             },
             {
               "$type": "Document",
@@ -104,8 +103,7 @@
               "RelativeToolTip": "Ejercicio7.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAASwCQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:52:26.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T09:52:26.82Z"
             },
             {
               "$type": "Document",
@@ -117,8 +115,7 @@
               "RelativeToolTip": "Ejercicio5.cs",
               "ViewState": "AQIAAEgAAAAAAAAAAAAUwGAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:50:44.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T09:50:44.136Z"
             },
             {
               "$type": "Document",
@@ -129,8 +126,7 @@
               "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\menuPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "menuPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:39:33.648Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-15T09:39:33.648Z"
             },
             {
               "$type": "Document",
@@ -141,8 +137,7 @@
               "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Ejercicio1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:39:18.999Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-15T09:39:18.999Z"
             },
             {
               "$type": "Document",
@@ -153,8 +148,7 @@
               "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio2.cs [Dise\u00F1o]",
               "RelativeToolTip": "Ejercicio2.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:39:25.376Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-15T09:39:25.376Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio3.cs [Dise\u00F1o]",
               "RelativeToolTip": "Ejercicio3.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:39:26.765Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-15T09:39:26.765Z"
             },
             {
               "$type": "Document",
@@ -177,8 +170,7 @@
               "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio4.cs [Dise\u00F1o]",
               "RelativeToolTip": "Ejercicio4.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:39:27.506Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-15T09:39:27.506Z"
             },
             {
               "$type": "Document",
@@ -189,8 +181,7 @@
               "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio5.cs [Dise\u00F1o]",
               "RelativeToolTip": "Ejercicio5.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:39:28.402Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-15T09:39:28.402Z"
             },
             {
               "$type": "Document",
@@ -201,8 +192,7 @@
               "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio6.cs [Dise\u00F1o]",
               "RelativeToolTip": "Ejercicio6.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:39:29.181Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-15T09:39:29.181Z"
             },
             {
               "$type": "Document",
@@ -213,8 +203,7 @@
               "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio7.cs [Dise\u00F1o]",
               "RelativeToolTip": "Ejercicio7.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:39:30.108Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-15T09:39:30.108Z"
             },
             {
               "$type": "Document",
@@ -225,8 +214,7 @@
               "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Ejercicio8.cs [Dise\u00F1o]",
               "RelativeToolTip": "Ejercicio8.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:35:29.055Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-15T09:35:29.055Z"
             },
             {
               "$type": "Document",
@@ -237,8 +225,7 @@
               "ToolTip": "C:\\Users\\xoanxc\\Documents\\GitHub\\AO23_24\\Tema 9\\AppGraficas I\\Proyecto.cs [Dise\u00F1o]",
               "RelativeToolTip": "Proyecto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:39:35.399Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-15T09:39:35.399Z"
             }
           ]
         }
