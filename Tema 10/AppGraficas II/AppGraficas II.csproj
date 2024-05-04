@@ -100,7 +100,6 @@
     <Compile Include="Ejercicio9.Designer.cs">
       <DependentUpon>Ejercicio9.cs</DependentUpon>
     </Compile>
-    <Compile Include="Funciones.cs" />
     <Compile Include="menuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="menuPrincipal.resx">
       <DependentUpon>menuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PingPong.resx">
+      <DependentUpon>PingPong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
