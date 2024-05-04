@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AppGraficas_II
 {
     internal class Funciones
-    {
-        
+    {  
+
     }
 }

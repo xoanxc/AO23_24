@@ -52,6 +52,54 @@
     <Compile Include="Ejercicio1.Designer.cs">
       <DependentUpon>Ejercicio1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicio2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio2.Designer.cs">
+      <DependentUpon>Ejercicio2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio3.Designer.cs">
+      <DependentUpon>Ejercicio3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio4.Designer.cs">
+      <DependentUpon>Ejercicio4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio5.Designer.cs">
+      <DependentUpon>Ejercicio5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio6.Designer.cs">
+      <DependentUpon>Ejercicio6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio7.Designer.cs">
+      <DependentUpon>Ejercicio7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio8.Designer.cs">
+      <DependentUpon>Ejercicio8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio9.Designer.cs">
+      <DependentUpon>Ejercicio9.cs</DependentUpon>
+    </Compile>
     <Compile Include="Funciones.cs" />
     <Compile Include="menuPrincipal.cs">
       <SubType>Form</SubType>
@@ -59,8 +107,26 @@
     <Compile Include="menuPrincipal.Designer.cs">
       <DependentUpon>menuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="PingPong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PingPong.Designer.cs">
+      <DependentUpon>PingPong.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Snake.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Snake.Designer.cs">
+      <DependentUpon>Snake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TresEnRaya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TresEnRaya.Designer.cs">
+      <DependentUpon>TresEnRaya.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Ejercicio1.resx">
       <DependentUpon>Ejercicio1.cs</DependentUpon>
     </EmbeddedResource>
@@ -76,6 +142,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Snake.resx">
+      <DependentUpon>Snake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TresEnRaya.resx">
+      <DependentUpon>TresEnRaya.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
