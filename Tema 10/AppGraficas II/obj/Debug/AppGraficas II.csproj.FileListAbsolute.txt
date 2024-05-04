@@ -23,3 +23,6 @@ F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraf
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Snake.resources
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.TresEnRaya.resources
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.PingPong.resources
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Ejercicio2.resources
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Ejercicio2_Form.resources
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Ejercicio3.resources

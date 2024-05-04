@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace AppGraficas_II
 {
-    public partial class Ejercicio3 : Form
+    public partial class Ejercicio2_Form : Form
     {
-        public Ejercicio3()
+        public Ejercicio2_Form()
         {
             InitializeComponent();
         }
 
-        private void btnSalir_Click(object sender, EventArgs e)
+        private void Ejercicio2_Form_Load(object sender, EventArgs e)
         {
-            this.Close();
+
         }
     }
 }
