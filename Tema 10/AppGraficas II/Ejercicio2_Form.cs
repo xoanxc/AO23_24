@@ -17,9 +17,16 @@ namespace AppGraficas_II
             InitializeComponent();
         }
 
-        private void Ejercicio2_Form_Load(object sender, EventArgs e)
+        // Método público para agregar elementos al ListBox desde otro formulario
+        public void AgregarElementoAlListBox(string elemento)
         {
-
+            lbMaterias.Items.Add(elemento);
         }
+        public void AñadirNombreProfesor(string nombre)
+        {
+            txtProfesor.Text = nombre;
+        }
+
+
     }
 }
