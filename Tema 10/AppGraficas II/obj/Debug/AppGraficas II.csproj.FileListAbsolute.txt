@@ -15,7 +15,6 @@ F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\bin\Debug\AppGraf
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas II.csproj.AssemblyReference.cache
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Ejercicio1.resources
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.menuPrincipal.resources
-F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Properties.Resources.resources
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas II.csproj.GenerateResource.cache
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas II.csproj.CoreCompileInputs.cache
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas II.exe
@@ -26,3 +25,4 @@ F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraf
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Ejercicio2.resources
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Ejercicio2_Form.resources
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Ejercicio3.resources
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Ejercicio6.resources

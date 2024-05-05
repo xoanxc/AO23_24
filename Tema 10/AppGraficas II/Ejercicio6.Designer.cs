@@ -39,15 +39,14 @@
             // rdTux
             // 
             this.rdTux.AutoSize = true;
-            this.rdTux.Checked = true;
             this.rdTux.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdTux.Location = new System.Drawing.Point(18, 106);
             this.rdTux.Name = "rdTux";
             this.rdTux.Size = new System.Drawing.Size(52, 24);
             this.rdTux.TabIndex = 0;
-            this.rdTux.TabStop = true;
             this.rdTux.Text = "Tux";
             this.rdTux.UseVisualStyleBackColor = true;
+            this.rdTux.CheckedChanged += new System.EventHandler(this.rdTux_CheckedChanged);
             // 
             // rdMiike
             // 
@@ -59,6 +58,7 @@
             this.rdMiike.TabIndex = 1;
             this.rdMiike.Text = "Miike";
             this.rdMiike.UseVisualStyleBackColor = true;
+            this.rdMiike.CheckedChanged += new System.EventHandler(this.rdMiike_CheckedChanged);
             // 
             // rdWikiRafa
             // 
@@ -70,6 +70,7 @@
             this.rdWikiRafa.TabIndex = 2;
             this.rdWikiRafa.Text = "WikiRafa";
             this.rdWikiRafa.UseVisualStyleBackColor = true;
+            this.rdWikiRafa.CheckedChanged += new System.EventHandler(this.rdWikiRafa_CheckedChanged);
             // 
             // lblSeleccion
             // 
@@ -83,14 +84,12 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::AppGraficas_II.Properties.Resources.Tux;
-            this.pictureBox1.Location = new System.Drawing.Point(183, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(169, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(221, 242);
+            this.pictureBox1.Size = new System.Drawing.Size(235, 242);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Ejercicio6
             // 
