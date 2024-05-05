@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ejercicio1));
             this.chLaserJet = new System.Windows.Forms.CheckBox();
             this.chBigNotebook = new System.Windows.Forms.CheckBox();
             this.chSmartDesktop = new System.Windows.Forms.CheckBox();
@@ -333,6 +334,7 @@
             this.Controls.Add(this.chSmartDesktop);
             this.Controls.Add(this.chBigNotebook);
             this.Controls.Add(this.chLaserJet);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Ejercicio1";
             this.Text = "Ejercicio1";
