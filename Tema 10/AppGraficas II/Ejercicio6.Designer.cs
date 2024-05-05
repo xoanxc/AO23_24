@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ejercicio6));
             this.rdTux = new System.Windows.Forms.RadioButton();
             this.rdMiike = new System.Windows.Forms.RadioButton();
             this.rdWikiRafa = new System.Windows.Forms.RadioButton();
@@ -104,6 +105,7 @@
             this.Controls.Add(this.rdWikiRafa);
             this.Controls.Add(this.rdMiike);
             this.Controls.Add(this.rdTux);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Ejercicio6";
             this.Text = "Ejercicio6";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -25,7 +25,7 @@ namespace AppGraficas_II
         private void button1_Click(object sender, EventArgs e)
         {
             //Si esta vacio
-            if (txtValor.Text == "")
+            if (txtValor.Text == "" || txtValor.Text.Contains('.'))
             {
                 MessageBox.Show("Ingrese un valor", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;  
