@@ -120,6 +120,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Snake.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,14 +149,24 @@
     <EmbeddedResource Include="Ejercicio3.resx">
       <DependentUpon>Ejercicio3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio4.resx">
+      <DependentUpon>Ejercicio4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio6.resx">
       <DependentUpon>Ejercicio6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio8.resx">
+      <DependentUpon>Ejercicio8.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menuPrincipal.resx">
       <DependentUpon>menuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PingPong.resx">
       <DependentUpon>PingPong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Snake.resx">
       <DependentUpon>Snake.cs</DependentUpon>
@@ -172,6 +187,38 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dado3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dado4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dado5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dado6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSharp_Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Miike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tux.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WikiRafa.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -39,11 +39,13 @@
             // rdTux
             // 
             this.rdTux.AutoSize = true;
+            this.rdTux.Checked = true;
             this.rdTux.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdTux.Location = new System.Drawing.Point(18, 106);
             this.rdTux.Name = "rdTux";
             this.rdTux.Size = new System.Drawing.Size(52, 24);
             this.rdTux.TabIndex = 0;
+            this.rdTux.TabStop = true;
             this.rdTux.Text = "Tux";
             this.rdTux.UseVisualStyleBackColor = true;
             this.rdTux.CheckedChanged += new System.EventHandler(this.rdTux_CheckedChanged);
@@ -84,6 +86,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::AppGraficas_II.Properties.Resources.Tux;
             this.pictureBox1.Location = new System.Drawing.Point(169, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(235, 242);

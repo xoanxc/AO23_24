@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.lblNombreDelCampo = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // lblNombreDelCampo
+            // 
+            this.lblNombreDelCampo.AutoSize = true;
+            this.lblNombreDelCampo.Location = new System.Drawing.Point(49, 34);
+            this.lblNombreDelCampo.Name = "lblNombreDelCampo";
+            this.lblNombreDelCampo.Size = new System.Drawing.Size(97, 13);
+            this.lblNombreDelCampo.TabIndex = 0;
+            this.lblNombreDelCampo.Text = "Nombre del Campo";
+            // 
+            // Ejercicio4
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(609, 455);
+            this.Controls.Add(this.lblNombreDelCampo);
+            this.Name = "Ejercicio4";
             this.Text = "Ejercicio4";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblNombreDelCampo;
     }
 }

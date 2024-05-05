@@ -20,31 +20,28 @@ namespace AppGraficas_II
 
         private void rdTux_CheckedChanged(object sender, EventArgs e)
         {
-            string rutaFichero = Directory.GetCurrentDirectory() + @"\images\tux.png";
             if (rdTux.Checked)
             {
                 //Mostrar la imagen de Tux
-                pictureBox1.Image = Image.FromFile(rutaFichero);
+                pictureBox1.Image = Properties.Resources.Tux;
             }
         }
 
         private void rdMiike_CheckedChanged(object sender, EventArgs e)
         {
-            string rutaFichero = Directory.GetCurrentDirectory() + @"\images\miike.png";
             if (rdMiike.Checked)
             {
                 //Mostrar la imagen de Miike
-                pictureBox1.Image = Image.FromFile(rutaFichero);
+                pictureBox1.Image = Properties.Resources.Miike;
             }
         }
 
         private void rdWikiRafa_CheckedChanged(object sender, EventArgs e)
         {
-            string rutaFichero = Directory.GetCurrentDirectory() + @"\images\wikirafa.png";
             if (rdWikiRafa.Checked)
             {
                 //Mostrar la imagen de WikiRafa
-                pictureBox1.Image = Image.FromFile(rutaFichero);
+                pictureBox1.Image = Properties.Resources.WikiRafa;
             }
         }
     }
