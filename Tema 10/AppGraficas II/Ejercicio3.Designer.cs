@@ -31,12 +31,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.txtValor = new System.Windows.Forms.TextBox();
+            this.txtResultado = new System.Windows.Forms.TextBox();
+            this.rdMilimetros = new System.Windows.Forms.RadioButton();
+            this.rdCentimetros = new System.Windows.Forms.RadioButton();
+            this.rdDecimetros = new System.Windows.Forms.RadioButton();
+            this.rdKilometros = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
@@ -72,63 +72,64 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Tipo de Conversión";
             // 
-            // textBox1
+            // txtValor
             // 
-            this.textBox1.Location = new System.Drawing.Point(187, 60);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 3;
+            this.txtValor.Location = new System.Drawing.Point(187, 60);
+            this.txtValor.Name = "txtValor";
+            this.txtValor.Size = new System.Drawing.Size(100, 20);
+            this.txtValor.TabIndex = 3;
             // 
-            // textBox2
+            // txtResultado
             // 
-            this.textBox2.Location = new System.Drawing.Point(303, 128);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 4;
+            this.txtResultado.Location = new System.Drawing.Point(303, 128);
+            this.txtResultado.Name = "txtResultado";
+            this.txtResultado.Size = new System.Drawing.Size(100, 20);
+            this.txtResultado.TabIndex = 4;
             // 
-            // radioButton1
+            // rdMilimetros
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(57, 128);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
-            this.radioButton1.TabIndex = 5;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdMilimetros.AutoSize = true;
+            this.rdMilimetros.Checked = true;
+            this.rdMilimetros.Location = new System.Drawing.Point(57, 128);
+            this.rdMilimetros.Name = "rdMilimetros";
+            this.rdMilimetros.Size = new System.Drawing.Size(71, 17);
+            this.rdMilimetros.TabIndex = 5;
+            this.rdMilimetros.TabStop = true;
+            this.rdMilimetros.Text = "Milimetros";
+            this.rdMilimetros.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rdCentimetros
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(57, 151);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(85, 17);
-            this.radioButton2.TabIndex = 6;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdCentimetros.AutoSize = true;
+            this.rdCentimetros.Location = new System.Drawing.Point(57, 151);
+            this.rdCentimetros.Name = "rdCentimetros";
+            this.rdCentimetros.Size = new System.Drawing.Size(80, 17);
+            this.rdCentimetros.TabIndex = 6;
+            this.rdCentimetros.TabStop = true;
+            this.rdCentimetros.Text = "Centimetros";
+            this.rdCentimetros.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // rdDecimetros
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(57, 174);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(85, 17);
-            this.radioButton3.TabIndex = 7;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rdDecimetros.AutoSize = true;
+            this.rdDecimetros.Location = new System.Drawing.Point(57, 174);
+            this.rdDecimetros.Name = "rdDecimetros";
+            this.rdDecimetros.Size = new System.Drawing.Size(78, 17);
+            this.rdDecimetros.TabIndex = 7;
+            this.rdDecimetros.TabStop = true;
+            this.rdDecimetros.Text = "Decimetros";
+            this.rdDecimetros.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rdKilometros
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(57, 197);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(85, 17);
-            this.radioButton4.TabIndex = 8;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rdKilometros.AutoSize = true;
+            this.rdKilometros.Location = new System.Drawing.Point(57, 197);
+            this.rdKilometros.Name = "rdKilometros";
+            this.rdKilometros.Size = new System.Drawing.Size(73, 17);
+            this.rdKilometros.TabIndex = 8;
+            this.rdKilometros.TabStop = true;
+            this.rdKilometros.Text = "Kilometros";
+            this.rdKilometros.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -139,6 +140,7 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "Convertir";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -149,6 +151,7 @@
             this.button2.TabIndex = 10;
             this.button2.Text = "Nuevo Calculo";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnSalir
             // 
@@ -169,12 +172,12 @@
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.rdKilometros);
+            this.Controls.Add(this.rdDecimetros);
+            this.Controls.Add(this.rdCentimetros);
+            this.Controls.Add(this.rdMilimetros);
+            this.Controls.Add(this.txtResultado);
+            this.Controls.Add(this.txtValor);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -190,12 +193,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.TextBox txtValor;
+        private System.Windows.Forms.TextBox txtResultado;
+        private System.Windows.Forms.RadioButton rdMilimetros;
+        private System.Windows.Forms.RadioButton rdCentimetros;
+        private System.Windows.Forms.RadioButton rdDecimetros;
+        private System.Windows.Forms.RadioButton rdKilometros;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnSalir;

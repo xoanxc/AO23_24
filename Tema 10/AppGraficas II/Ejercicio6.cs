@@ -16,5 +16,10 @@ namespace AppGraficas_II
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

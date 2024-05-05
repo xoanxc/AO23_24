@@ -18,7 +18,7 @@ namespace AppGraficas_II
         }
 
         //Crear un array para almacenar el total de cada producto
-        public double[] total = new double[6];
+        public double[] total = new double[7];
 
 
         private void button1_Click(object sender, EventArgs e)
