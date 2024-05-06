@@ -63,6 +63,16 @@ namespace AppGraficas_II.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap crema {
+            get {
+                object obj = ResourceManager.GetObject("crema", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CSharp_Background {
             get {
                 object obj = ResourceManager.GetObject("CSharp_Background", resourceCulture);
@@ -126,6 +136,26 @@ namespace AppGraficas_II.Properties {
         internal static System.Drawing.Bitmap Dado6 {
             get {
                 object obj = ResourceManager.GetObject("Dado6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap empanadillas {
+            get {
+                object obj = ResourceManager.GetObject("empanadillas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ensalada {
+            get {
+                object obj = ResourceManager.GetObject("ensalada", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

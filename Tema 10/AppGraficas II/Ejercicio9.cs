@@ -16,5 +16,23 @@ namespace AppGraficas_II
         {
             InitializeComponent();
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            //Mostrar la imagen de crema
+            pbImages.Image = Properties.Resources.crema;
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            //Mostrar la imagen de ensalada
+            pbImages.Image = Properties.Resources.ensalada;
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            //Mostrar la imagen de empanadillas
+            pbImages.Image = Properties.Resources.empanadillas;
+        }
     }
 }

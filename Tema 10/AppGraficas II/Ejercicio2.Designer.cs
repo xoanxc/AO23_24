@@ -111,7 +111,7 @@
             this.Controls.Add(this.SeleccionaUnCurso);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Ejercicio2";
-            this.Text = "Ejercicio2";
+            this.Text = "Ejercicio 2";
             this.ResumeLayout(false);
             this.PerformLayout();
 

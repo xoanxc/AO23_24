@@ -50,7 +50,7 @@
             this.ClientSize = new System.Drawing.Size(617, 384);
             this.Controls.Add(this.pictureBox1);
             this.Name = "PingPong";
-            this.Text = "PingPong";
+            this.Text = "Ping Pong";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

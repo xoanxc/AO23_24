@@ -84,7 +84,7 @@
             this.Controls.Add(this.txtProfesor);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Ejercicio2_Form";
-            this.Text = "Ejercicio2_Form";
+            this.Text = "Ejercicio 2";
             this.ResumeLayout(false);
             this.PerformLayout();
 

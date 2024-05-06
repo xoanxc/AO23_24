@@ -337,7 +337,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Ejercicio1";
-            this.Text = "Ejercicio1";
+            this.Text = "Ejercicio 1";
             ((System.ComponentModel.ISupportInitialize)(this.upLaserJet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.upBigNotebook)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.upSmartDesktop)).EndInit();

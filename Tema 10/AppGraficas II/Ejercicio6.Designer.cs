@@ -107,7 +107,7 @@
             this.Controls.Add(this.rdTux);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Ejercicio6";
-            this.Text = "Ejercicio6";
+            this.Text = "Ejercicio 6";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

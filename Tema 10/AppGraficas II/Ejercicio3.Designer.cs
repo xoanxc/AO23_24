@@ -184,7 +184,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Ejercicio3";
-            this.Text = "Ejercicio3";
+            this.Text = "Ejercicio 3";
             this.ResumeLayout(false);
             this.PerformLayout();
 

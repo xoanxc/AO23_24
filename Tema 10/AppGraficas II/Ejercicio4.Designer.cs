@@ -141,7 +141,7 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.lblNombreDelCampo);
             this.Name = "Ejercicio4";
-            this.Text = "Ejercicio4";
+            this.Text = "Ejercicio 4";
             this.ResumeLayout(false);
             this.PerformLayout();
 
