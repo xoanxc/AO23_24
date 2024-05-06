@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|c:\\users\\xoan\\documents\\github\\ao23_24\\tema 10\\appgraficas ii\\ejercicio7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|solutionrelative:ejercicio7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|c:\\users\\xoan\\documents\\github\\ao23_24\\tema 10\\appgraficas ii\\ejercicio5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|solutionrelative:ejercicio5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|c:\\users\\xoan\\documents\\github\\ao23_24\\tema 10\\appgraficas ii\\ejercicio7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|solutionrelative:ejercicio7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\ejercicio5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|solutionrelative:ejercicio5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\ejercicio5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|solutionrelative:ejercicio5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ejercicio7.cs",
-              "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\Ejercicio7.cs",
-              "RelativeDocumentMoniker": "Ejercicio7.cs",
-              "ToolTip": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\Ejercicio7.cs",
-              "RelativeToolTip": "Ejercicio7.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAArwDcAAAAbAAAA",
+              "DocumentIndex": 2,
+              "Title": "Ejercicio5.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\Ejercicio5.Designer.cs",
+              "RelativeDocumentMoniker": "Ejercicio5.Designer.cs",
+              "ToolTip": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\Ejercicio5.Designer.cs",
+              "RelativeToolTip": "Ejercicio5.Designer.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAvwMcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T09:54:48.699Z",
+              "WhenOpened": "2024-05-06T10:44:39.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ejercicio5.cs",
+              "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\Ejercicio5.cs",
+              "RelativeDocumentMoniker": "Ejercicio5.cs",
+              "ToolTip": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\Ejercicio5.cs",
+              "RelativeToolTip": "Ejercicio5.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAFsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T10:35:04.718Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Ejercicio7.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\Ejercicio7.cs",
-              "RelativeDocumentMoniker": "Ejercicio7.cs",
-              "ToolTip": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\Ejercicio7.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Ejercicio7.cs [Dise\u00F1o]",
+              "Title": "Ejercicio5.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\Ejercicio5.cs",
+              "RelativeDocumentMoniker": "Ejercicio5.cs",
+              "ToolTip": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\Ejercicio5.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Ejercicio5.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T09:27:59.96Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-06T10:14:42.746Z"
             }
           ]
         }

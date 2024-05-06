@@ -27,7 +27,7 @@ namespace AppGraficas_II
             //Si esta vacio
             if (txtValor.Text == "" || txtValor.Text.Contains('.'))
             {
-                MessageBox.Show("Ingrese un valor", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Ingrese un elemento valido", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;  
             }
             else
