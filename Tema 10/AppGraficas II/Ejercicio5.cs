@@ -72,6 +72,10 @@ namespace AppGraficas_II
                 lbNoche.Items.Add(lbMañana.Items[i]);
             }
             lbMañana.Items.Clear(); //Limpio lbMañana
+
+            //Actualizo el total de la mañana y la noche
+            txtTotalMañana.Text = lbMañana.Items.Count.ToString();
+            txtTotalNoche.Text = lbNoche.Items.Count.ToString();
         }
 
         private void btnIzquierdazo_Click(object sender, EventArgs e)
@@ -82,6 +86,9 @@ namespace AppGraficas_II
                 lbMañana.Items.Add(lbNoche.Items[i]);
             }
             lbNoche.Items.Clear(); //Limpio lbNoche
+            //Actualizo el total de la mañana y la noche
+            txtTotalMañana.Text = lbMañana.Items.Count.ToString();
+            txtTotalNoche.Text = lbNoche.Items.Count.ToString();
         }
     }
 }

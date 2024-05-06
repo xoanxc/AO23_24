@@ -51,3 +51,5 @@ C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGrafi
 C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas II.pdb
 C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Ejercicio5.resources
 C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Ejercicio7.resources
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Ejercicio5.resources
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\AppGraficas II\obj\Debug\AppGraficas_II.Ejercicio7.resources
