@@ -16,6 +16,16 @@ namespace AppGraficas_II
         public Ejercicio4()
         {
             InitializeComponent();
+
+            //Si no existen los ficheros, los crea
+            if (!File.Exists(rutaFicheroCombo))
+            {
+                File.Create(rutaFicheroCombo).Close();
+            }
+            if (!File.Exists(rutaFicheroList))
+            {
+                File.Create(rutaFicheroList).Close();
+            }
         }
 
         //Ruta del fichero
