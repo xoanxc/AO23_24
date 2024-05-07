@@ -63,6 +63,16 @@ namespace AppGraficas_II.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap agua {
+            get {
+                object obj = ResourceManager.GetObject("agua", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap crema {
             get {
                 object obj = ResourceManager.GetObject("crema", resourceCulture);
@@ -173,9 +183,29 @@ namespace AppGraficas_II.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap refresco {
+            get {
+                object obj = ResourceManager.GetObject("refresco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Tux {
             get {
                 object obj = ResourceManager.GetObject("Tux", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vino {
+            get {
+                object obj = ResourceManager.GetObject("vino", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

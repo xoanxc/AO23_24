@@ -34,5 +34,33 @@ namespace AppGraficas_II
             //Mostrar la imagen de empanadillas
             pbImages.Image = Properties.Resources.empanadillas;
         }
+
+        private void rdAgua_CheckedChanged(object sender, EventArgs e)
+        {
+            //Mostrar la imagen de agua
+            pbBebida.Image = Properties.Resources.agua;
+        }
+
+        private void radioButton8_CheckedChanged(object sender, EventArgs e)
+        {
+            //Mostrar la imagen de refresco
+            pbBebida.Image = Properties.Resources.refresco;
+
+        }
+
+        private void rdVino_CheckedChanged(object sender, EventArgs e)
+        {
+            //Mostrar la imagen de vino
+            pbBebida.Image = Properties.Resources.vino;
+        }
+
+        private void gbBebida_Enter(object sender, EventArgs e)
+        {
+            //Si se selecciona la opción de agua, se mostrará la imagen de agua
+            if(rdAgua.Checked)
+            {
+                lblPrecioBebidaNum.Text = "1,50";
+            }
+        }
     }
 }
