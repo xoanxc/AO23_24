@@ -84,11 +84,9 @@
             this.gbPrimerPlato.Controls.Add(this.rdEnsalada);
             this.gbPrimerPlato.Controls.Add(this.rdCrema);
             this.gbPrimerPlato.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbPrimerPlato.Location = new System.Drawing.Point(18, 18);
-            this.gbPrimerPlato.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gbPrimerPlato.Location = new System.Drawing.Point(12, 12);
             this.gbPrimerPlato.Name = "gbPrimerPlato";
-            this.gbPrimerPlato.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.gbPrimerPlato.Size = new System.Drawing.Size(446, 472);
+            this.gbPrimerPlato.Size = new System.Drawing.Size(297, 307);
             this.gbPrimerPlato.TabIndex = 4;
             this.gbPrimerPlato.TabStop = false;
             this.gbPrimerPlato.Text = "Primer Plato";
@@ -96,28 +94,27 @@
             // PrecioPrimer
             // 
             this.PrecioPrimer.AutoSize = true;
-            this.PrecioPrimer.Location = new System.Drawing.Point(130, 419);
+            this.PrecioPrimer.Location = new System.Drawing.Point(87, 272);
+            this.PrecioPrimer.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.PrecioPrimer.Name = "PrecioPrimer";
-            this.PrecioPrimer.Size = new System.Drawing.Size(0, 25);
+            this.PrecioPrimer.Size = new System.Drawing.Size(0, 20);
             this.PrecioPrimer.TabIndex = 7;
             // 
             // lblPrecioPrimeroNum
             // 
             this.lblPrecioPrimeroNum.AutoSize = true;
-            this.lblPrecioPrimeroNum.Location = new System.Drawing.Point(33, 419);
-            this.lblPrecioPrimeroNum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrecioPrimeroNum.Location = new System.Drawing.Point(22, 272);
             this.lblPrecioPrimeroNum.Name = "lblPrecioPrimeroNum";
-            this.lblPrecioPrimeroNum.Size = new System.Drawing.Size(80, 25);
+            this.lblPrecioPrimeroNum.Size = new System.Drawing.Size(64, 20);
             this.lblPrecioPrimeroNum.TabIndex = 5;
             this.lblPrecioPrimeroNum.Text = "Precio:";
             // 
             // pbImages
             // 
             this.pbImages.Image = global::AppGraficas_II.Properties.Resources.crema;
-            this.pbImages.Location = new System.Drawing.Point(24, 89);
-            this.pbImages.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pbImages.Location = new System.Drawing.Point(16, 58);
             this.pbImages.Name = "pbImages";
-            this.pbImages.Size = new System.Drawing.Size(159, 162);
+            this.pbImages.Size = new System.Drawing.Size(106, 105);
             this.pbImages.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbImages.TabIndex = 4;
             this.pbImages.TabStop = false;
@@ -125,20 +122,18 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(238, 209);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.comboBox1.Location = new System.Drawing.Point(159, 136);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(180, 33);
+            this.comboBox1.Size = new System.Drawing.Size(121, 28);
             this.comboBox1.TabIndex = 3;
             // 
             // rdEmpanada
             // 
             this.rdEmpanada.AutoSize = true;
             this.rdEmpanada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdEmpanada.Location = new System.Drawing.Point(238, 169);
-            this.rdEmpanada.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.rdEmpanada.Location = new System.Drawing.Point(159, 110);
             this.rdEmpanada.Name = "rdEmpanada";
-            this.rdEmpanada.Size = new System.Drawing.Size(117, 24);
+            this.rdEmpanada.Size = new System.Drawing.Size(100, 20);
             this.rdEmpanada.TabIndex = 2;
             this.rdEmpanada.Text = "Empanada";
             this.rdEmpanada.UseVisualStyleBackColor = true;
@@ -148,10 +143,9 @@
             // 
             this.rdEnsalada.AutoSize = true;
             this.rdEnsalada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdEnsalada.Location = new System.Drawing.Point(238, 129);
-            this.rdEnsalada.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.rdEnsalada.Location = new System.Drawing.Point(159, 84);
             this.rdEnsalada.Name = "rdEnsalada";
-            this.rdEnsalada.Size = new System.Drawing.Size(107, 24);
+            this.rdEnsalada.Size = new System.Drawing.Size(91, 20);
             this.rdEnsalada.TabIndex = 1;
             this.rdEnsalada.Text = "Ensalada";
             this.rdEnsalada.UseVisualStyleBackColor = true;
@@ -162,10 +156,9 @@
             this.rdCrema.AutoSize = true;
             this.rdCrema.Checked = true;
             this.rdCrema.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdCrema.Location = new System.Drawing.Point(238, 89);
-            this.rdCrema.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.rdCrema.Location = new System.Drawing.Point(159, 58);
             this.rdCrema.Name = "rdCrema";
-            this.rdCrema.Size = new System.Drawing.Size(85, 24);
+            this.rdCrema.Size = new System.Drawing.Size(70, 20);
             this.rdCrema.TabIndex = 0;
             this.rdCrema.TabStop = true;
             this.rdCrema.Text = "Crema";
@@ -181,11 +174,9 @@
             this.gbSegundoPlato.Controls.Add(this.rdCarne);
             this.gbSegundoPlato.Controls.Add(this.rdPescado);
             this.gbSegundoPlato.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbSegundoPlato.Location = new System.Drawing.Point(472, 18);
-            this.gbSegundoPlato.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gbSegundoPlato.Location = new System.Drawing.Point(315, 12);
             this.gbSegundoPlato.Name = "gbSegundoPlato";
-            this.gbSegundoPlato.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.gbSegundoPlato.Size = new System.Drawing.Size(300, 472);
+            this.gbSegundoPlato.Size = new System.Drawing.Size(200, 307);
             this.gbSegundoPlato.TabIndex = 5;
             this.gbSegundoPlato.TabStop = false;
             this.gbSegundoPlato.Text = "Segundo Plato";
@@ -193,38 +184,36 @@
             // lblPrecioSegundoNum
             // 
             this.lblPrecioSegundoNum.AutoSize = true;
-            this.lblPrecioSegundoNum.Location = new System.Drawing.Point(119, 420);
+            this.lblPrecioSegundoNum.Location = new System.Drawing.Point(79, 273);
+            this.lblPrecioSegundoNum.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPrecioSegundoNum.Name = "lblPrecioSegundoNum";
-            this.lblPrecioSegundoNum.Size = new System.Drawing.Size(0, 24);
+            this.lblPrecioSegundoNum.Size = new System.Drawing.Size(0, 18);
             this.lblPrecioSegundoNum.TabIndex = 7;
             // 
             // lblPrecioSegundo
             // 
             this.lblPrecioSegundo.AutoSize = true;
-            this.lblPrecioSegundo.Location = new System.Drawing.Point(26, 420);
-            this.lblPrecioSegundo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrecioSegundo.Location = new System.Drawing.Point(17, 273);
             this.lblPrecioSegundo.Name = "lblPrecioSegundo";
-            this.lblPrecioSegundo.Size = new System.Drawing.Size(76, 24);
+            this.lblPrecioSegundo.Size = new System.Drawing.Size(62, 18);
             this.lblPrecioSegundo.TabIndex = 6;
             this.lblPrecioSegundo.Text = "Precio:";
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(64, 210);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.comboBox2.Location = new System.Drawing.Point(43, 136);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(180, 32);
+            this.comboBox2.Size = new System.Drawing.Size(121, 26);
             this.comboBox2.TabIndex = 3;
             // 
             // rdPasta
             // 
             this.rdPasta.AutoSize = true;
             this.rdPasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdPasta.Location = new System.Drawing.Point(64, 169);
-            this.rdPasta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.rdPasta.Location = new System.Drawing.Point(43, 110);
             this.rdPasta.Name = "rdPasta";
-            this.rdPasta.Size = new System.Drawing.Size(78, 24);
+            this.rdPasta.Size = new System.Drawing.Size(65, 20);
             this.rdPasta.TabIndex = 2;
             this.rdPasta.Text = "Pasta";
             this.rdPasta.UseVisualStyleBackColor = true;
@@ -233,10 +222,9 @@
             // 
             this.rdCarne.AutoSize = true;
             this.rdCarne.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdCarne.Location = new System.Drawing.Point(64, 129);
-            this.rdCarne.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.rdCarne.Location = new System.Drawing.Point(43, 84);
             this.rdCarne.Name = "rdCarne";
-            this.rdCarne.Size = new System.Drawing.Size(80, 24);
+            this.rdCarne.Size = new System.Drawing.Size(66, 20);
             this.rdCarne.TabIndex = 1;
             this.rdCarne.Text = "Carne";
             this.rdCarne.UseVisualStyleBackColor = true;
@@ -246,10 +234,9 @@
             this.rdPescado.AutoSize = true;
             this.rdPescado.Checked = true;
             this.rdPescado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdPescado.Location = new System.Drawing.Point(64, 89);
-            this.rdPescado.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.rdPescado.Location = new System.Drawing.Point(43, 58);
             this.rdPescado.Name = "rdPescado";
-            this.rdPescado.Size = new System.Drawing.Size(102, 24);
+            this.rdPescado.Size = new System.Drawing.Size(87, 20);
             this.rdPescado.TabIndex = 0;
             this.rdPescado.TabStop = true;
             this.rdPescado.Text = "Pescado";
@@ -264,11 +251,9 @@
             this.gbBebida.Controls.Add(this.rdRefresco);
             this.gbBebida.Controls.Add(this.rdAgua);
             this.gbBebida.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbBebida.Location = new System.Drawing.Point(782, 18);
-            this.gbBebida.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gbBebida.Location = new System.Drawing.Point(521, 12);
             this.gbBebida.Name = "gbBebida";
-            this.gbBebida.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.gbBebida.Size = new System.Drawing.Size(300, 200);
+            this.gbBebida.Size = new System.Drawing.Size(200, 130);
             this.gbBebida.TabIndex = 6;
             this.gbBebida.TabStop = false;
             this.gbBebida.Text = "Bebida";
@@ -276,19 +261,20 @@
             // lblPrecioBebidaNum
             // 
             this.lblPrecioBebidaNum.AutoSize = true;
-            this.lblPrecioBebidaNum.Location = new System.Drawing.Point(101, 160);
+            this.lblPrecioBebidaNum.Location = new System.Drawing.Point(67, 104);
+            this.lblPrecioBebidaNum.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPrecioBebidaNum.Name = "lblPrecioBebidaNum";
-            this.lblPrecioBebidaNum.Size = new System.Drawing.Size(44, 20);
+            this.lblPrecioBebidaNum.Size = new System.Drawing.Size(35, 16);
             this.lblPrecioBebidaNum.TabIndex = 5;
             this.lblPrecioBebidaNum.Text = "1,50";
             // 
             // pbBebida
             // 
             this.pbBebida.Image = global::AppGraficas_II.Properties.Resources.agua;
-            this.pbBebida.Location = new System.Drawing.Point(172, 41);
-            this.pbBebida.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pbBebida.Location = new System.Drawing.Point(115, 27);
+            this.pbBebida.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.pbBebida.Name = "pbBebida";
-            this.pbBebida.Size = new System.Drawing.Size(100, 100);
+            this.pbBebida.Size = new System.Drawing.Size(67, 65);
             this.pbBebida.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbBebida.TabIndex = 4;
             this.pbBebida.TabStop = false;
@@ -296,10 +282,9 @@
             // lblPrecio
             // 
             this.lblPrecio.AutoSize = true;
-            this.lblPrecio.Location = new System.Drawing.Point(25, 160);
-            this.lblPrecio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrecio.Location = new System.Drawing.Point(17, 104);
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(69, 20);
+            this.lblPrecio.Size = new System.Drawing.Size(56, 16);
             this.lblPrecio.TabIndex = 3;
             this.lblPrecio.Text = "Precio:";
             // 
@@ -307,10 +292,9 @@
             // 
             this.rdVino.AutoSize = true;
             this.rdVino.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdVino.Location = new System.Drawing.Point(29, 104);
-            this.rdVino.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.rdVino.Location = new System.Drawing.Point(19, 68);
             this.rdVino.Name = "rdVino";
-            this.rdVino.Size = new System.Drawing.Size(61, 21);
+            this.rdVino.Size = new System.Drawing.Size(50, 17);
             this.rdVino.TabIndex = 2;
             this.rdVino.Text = "Vino";
             this.rdVino.UseVisualStyleBackColor = true;
@@ -320,10 +304,9 @@
             // 
             this.rdRefresco.AutoSize = true;
             this.rdRefresco.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdRefresco.Location = new System.Drawing.Point(29, 72);
-            this.rdRefresco.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.rdRefresco.Location = new System.Drawing.Point(19, 47);
             this.rdRefresco.Name = "rdRefresco";
-            this.rdRefresco.Size = new System.Drawing.Size(94, 21);
+            this.rdRefresco.Size = new System.Drawing.Size(76, 17);
             this.rdRefresco.TabIndex = 1;
             this.rdRefresco.Text = "Refresco";
             this.rdRefresco.UseVisualStyleBackColor = true;
@@ -334,10 +317,9 @@
             this.rdAgua.AutoSize = true;
             this.rdAgua.Checked = true;
             this.rdAgua.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdAgua.Location = new System.Drawing.Point(29, 41);
-            this.rdAgua.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.rdAgua.Location = new System.Drawing.Point(19, 27);
             this.rdAgua.Name = "rdAgua";
-            this.rdAgua.Size = new System.Drawing.Size(66, 21);
+            this.rdAgua.Size = new System.Drawing.Size(54, 17);
             this.rdAgua.TabIndex = 0;
             this.rdAgua.TabStop = true;
             this.rdAgua.Text = "Agua";
@@ -351,11 +333,9 @@
             this.gbPostreCafe.Controls.Add(this.rdCafe);
             this.gbPostreCafe.Controls.Add(this.rdPostre);
             this.gbPostreCafe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbPostreCafe.Location = new System.Drawing.Point(782, 222);
-            this.gbPostreCafe.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gbPostreCafe.Location = new System.Drawing.Point(521, 144);
             this.gbPostreCafe.Name = "gbPostreCafe";
-            this.gbPostreCafe.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.gbPostreCafe.Size = new System.Drawing.Size(300, 268);
+            this.gbPostreCafe.Size = new System.Drawing.Size(200, 174);
             this.gbPostreCafe.TabIndex = 7;
             this.gbPostreCafe.TabStop = false;
             this.gbPostreCafe.Text = "Postre/Café";
@@ -363,28 +343,25 @@
             // comboBox4
             // 
             this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(9, 182);
-            this.comboBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.comboBox4.Location = new System.Drawing.Point(6, 118);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(180, 28);
+            this.comboBox4.Size = new System.Drawing.Size(121, 24);
             this.comboBox4.TabIndex = 8;
             // 
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(9, 95);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.comboBox3.Location = new System.Drawing.Point(6, 62);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(180, 28);
+            this.comboBox3.Size = new System.Drawing.Size(121, 24);
             this.comboBox3.TabIndex = 2;
             // 
             // rdCafe
             // 
             this.rdCafe.AutoSize = true;
-            this.rdCafe.Location = new System.Drawing.Point(9, 142);
-            this.rdCafe.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.rdCafe.Location = new System.Drawing.Point(6, 92);
             this.rdCafe.Name = "rdCafe";
-            this.rdCafe.Size = new System.Drawing.Size(69, 24);
+            this.rdCafe.Size = new System.Drawing.Size(57, 20);
             this.rdCafe.TabIndex = 1;
             this.rdCafe.Text = "Café";
             this.rdCafe.UseVisualStyleBackColor = true;
@@ -393,10 +370,9 @@
             // 
             this.rdPostre.AutoSize = true;
             this.rdPostre.Checked = true;
-            this.rdPostre.Location = new System.Drawing.Point(9, 55);
-            this.rdPostre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.rdPostre.Location = new System.Drawing.Point(6, 36);
             this.rdPostre.Name = "rdPostre";
-            this.rdPostre.Size = new System.Drawing.Size(85, 24);
+            this.rdPostre.Size = new System.Drawing.Size(70, 20);
             this.rdPostre.TabIndex = 0;
             this.rdPostre.TabStop = true;
             this.rdPostre.Text = "Postre";
@@ -405,37 +381,33 @@
             // btnCalcularCuenta
             // 
             this.btnCalcularCuenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcularCuenta.Location = new System.Drawing.Point(42, 526);
-            this.btnCalcularCuenta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnCalcularCuenta.Location = new System.Drawing.Point(12, 342);
             this.btnCalcularCuenta.Name = "btnCalcularCuenta";
-            this.btnCalcularCuenta.Size = new System.Drawing.Size(160, 66);
+            this.btnCalcularCuenta.Size = new System.Drawing.Size(138, 43);
             this.btnCalcularCuenta.TabIndex = 5;
             this.btnCalcularCuenta.Text = "Calcular cuenta";
             this.btnCalcularCuenta.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(873, 522);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox1.Location = new System.Drawing.Point(582, 339);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(148, 26);
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 8;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(874, 568);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox2.Location = new System.Drawing.Point(583, 369);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(148, 26);
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 9;
             // 
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(612, 528);
-            this.btnCalcular.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnCalcular.Location = new System.Drawing.Point(408, 343);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(160, 66);
+            this.btnCalcular.Size = new System.Drawing.Size(107, 43);
             this.btnCalcular.TabIndex = 10;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -443,64 +415,58 @@
             // lblEfectivo
             // 
             this.lblEfectivo.AutoSize = true;
-            this.lblEfectivo.Location = new System.Drawing.Point(795, 526);
-            this.lblEfectivo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblEfectivo.Location = new System.Drawing.Point(530, 342);
             this.lblEfectivo.Name = "lblEfectivo";
-            this.lblEfectivo.Size = new System.Drawing.Size(66, 20);
+            this.lblEfectivo.Size = new System.Drawing.Size(46, 13);
             this.lblEfectivo.TabIndex = 11;
             this.lblEfectivo.Text = "Efectivo";
             // 
             // lblVuelta
             // 
             this.lblVuelta.AutoSize = true;
-            this.lblVuelta.Location = new System.Drawing.Point(810, 572);
-            this.lblVuelta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblVuelta.Location = new System.Drawing.Point(540, 372);
             this.lblVuelta.Name = "lblVuelta";
-            this.lblVuelta.Size = new System.Drawing.Size(55, 20);
+            this.lblVuelta.Size = new System.Drawing.Size(37, 13);
             this.lblVuelta.TabIndex = 12;
             this.lblVuelta.Text = "Vuelta";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(314, 526);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox3.Location = new System.Drawing.Point(209, 342);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(148, 26);
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 13;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(314, 566);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox4.Location = new System.Drawing.Point(209, 368);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(148, 26);
+            this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 14;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(234, 531);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(156, 345);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 20);
+            this.label1.Size = new System.Drawing.Size(47, 13);
             this.label1.TabIndex = 15;
             this.label1.Text = "11% IVA";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(258, 572);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(172, 372);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 20);
+            this.label2.Size = new System.Drawing.Size(31, 13);
             this.label2.TabIndex = 16;
             this.label2.Text = "Total";
             // 
             // Ejercicio9
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1110, 631);
+            this.ClientSize = new System.Drawing.Size(740, 410);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox4);
@@ -516,7 +482,6 @@
             this.Controls.Add(this.gbSegundoPlato);
             this.Controls.Add(this.gbPrimerPlato);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Ejercicio9";
             this.Text = "Ejercicio 9";
             this.gbPrimerPlato.ResumeLayout(false);

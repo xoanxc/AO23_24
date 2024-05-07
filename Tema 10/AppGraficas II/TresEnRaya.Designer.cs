@@ -37,6 +37,8 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
+            this.rd1Jugador = new System.Windows.Forms.RadioButton();
+            this.rd2Jugadores = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // button1
@@ -120,11 +122,35 @@
             this.button9.TabIndex = 8;
             this.button9.UseVisualStyleBackColor = true;
             // 
+            // rd1Jugador
+            // 
+            this.rd1Jugador.AutoSize = true;
+            this.rd1Jugador.Location = new System.Drawing.Point(38, 335);
+            this.rd1Jugador.Name = "rd1Jugador";
+            this.rd1Jugador.Size = new System.Drawing.Size(72, 17);
+            this.rd1Jugador.TabIndex = 9;
+            this.rd1Jugador.TabStop = true;
+            this.rd1Jugador.Text = "1 Jugador";
+            this.rd1Jugador.UseVisualStyleBackColor = true;
+            // 
+            // rd2Jugadores
+            // 
+            this.rd2Jugadores.AutoSize = true;
+            this.rd2Jugadores.Location = new System.Drawing.Point(199, 335);
+            this.rd2Jugadores.Name = "rd2Jugadores";
+            this.rd2Jugadores.Size = new System.Drawing.Size(83, 17);
+            this.rd2Jugadores.TabIndex = 10;
+            this.rd2Jugadores.TabStop = true;
+            this.rd2Jugadores.Text = "2 Jugadores";
+            this.rd2Jugadores.UseVisualStyleBackColor = true;
+            // 
             // TresEnRaya
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(338, 336);
+            this.ClientSize = new System.Drawing.Size(338, 364);
+            this.Controls.Add(this.rd2Jugadores);
+            this.Controls.Add(this.rd1Jugador);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -137,6 +163,7 @@
             this.Name = "TresEnRaya";
             this.Text = "Tres en Raya";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -151,5 +178,7 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.RadioButton rd1Jugador;
+        private System.Windows.Forms.RadioButton rd2Jugadores;
     }
 }
