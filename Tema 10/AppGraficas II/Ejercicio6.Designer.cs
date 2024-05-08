@@ -42,9 +42,10 @@
             this.rdTux.AutoSize = true;
             this.rdTux.Checked = true;
             this.rdTux.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdTux.Location = new System.Drawing.Point(18, 106);
+            this.rdTux.Location = new System.Drawing.Point(24, 130);
+            this.rdTux.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdTux.Name = "rdTux";
-            this.rdTux.Size = new System.Drawing.Size(52, 24);
+            this.rdTux.Size = new System.Drawing.Size(67, 29);
             this.rdTux.TabIndex = 0;
             this.rdTux.TabStop = true;
             this.rdTux.Text = "Tux";
@@ -55,9 +56,10 @@
             // 
             this.rdMiike.AutoSize = true;
             this.rdMiike.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdMiike.Location = new System.Drawing.Point(18, 136);
+            this.rdMiike.Location = new System.Drawing.Point(24, 167);
+            this.rdMiike.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdMiike.Name = "rdMiike";
-            this.rdMiike.Size = new System.Drawing.Size(63, 24);
+            this.rdMiike.Size = new System.Drawing.Size(79, 29);
             this.rdMiike.TabIndex = 1;
             this.rdMiike.Text = "Miike";
             this.rdMiike.UseVisualStyleBackColor = true;
@@ -67,9 +69,10 @@
             // 
             this.rdWikiRafa.AutoSize = true;
             this.rdWikiRafa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdWikiRafa.Location = new System.Drawing.Point(18, 166);
+            this.rdWikiRafa.Location = new System.Drawing.Point(24, 204);
+            this.rdWikiRafa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdWikiRafa.Name = "rdWikiRafa";
-            this.rdWikiRafa.Size = new System.Drawing.Size(91, 24);
+            this.rdWikiRafa.Size = new System.Drawing.Size(111, 29);
             this.rdWikiRafa.TabIndex = 2;
             this.rdWikiRafa.Text = "WikiRafa";
             this.rdWikiRafa.UseVisualStyleBackColor = true;
@@ -79,33 +82,38 @@
             // 
             this.lblSeleccion.AutoSize = true;
             this.lblSeleccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeleccion.Location = new System.Drawing.Point(12, 66);
+            this.lblSeleccion.Location = new System.Drawing.Point(16, 81);
+            this.lblSeleccion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSeleccion.Name = "lblSeleccion";
-            this.lblSeleccion.Size = new System.Drawing.Size(151, 33);
+            this.lblSeleccion.Size = new System.Drawing.Size(190, 42);
             this.lblSeleccion.TabIndex = 4;
             this.lblSeleccion.Text = "Selección";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::AppGraficas_II.Properties.Resources.Tux;
-            this.pictureBox1.Location = new System.Drawing.Point(169, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(225, 15);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(235, 242);
+            this.pictureBox1.Size = new System.Drawing.Size(313, 298);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
             // Ejercicio6
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(416, 266);
+            this.ClientSize = new System.Drawing.Size(555, 327);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblSeleccion);
             this.Controls.Add(this.rdWikiRafa);
             this.Controls.Add(this.rdMiike);
             this.Controls.Add(this.rdTux);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(573, 374);
+            this.MinimumSize = new System.Drawing.Size(573, 374);
             this.Name = "Ejercicio6";
             this.Text = "Ejercicio 6";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

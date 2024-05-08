@@ -63,10 +63,10 @@
             // 
             this.chLaserJet.AutoSize = true;
             this.chLaserJet.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chLaserJet.Location = new System.Drawing.Point(96, 61);
-            this.chLaserJet.Margin = new System.Windows.Forms.Padding(2);
+            this.chLaserJet.Location = new System.Drawing.Point(94, 58);
+            this.chLaserJet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chLaserJet.Name = "chLaserJet";
-            this.chLaserJet.Size = new System.Drawing.Size(89, 20);
+            this.chLaserJet.Size = new System.Drawing.Size(113, 24);
             this.chLaserJet.TabIndex = 0;
             this.chLaserJet.Text = "LaserJet X";
             this.chLaserJet.UseVisualStyleBackColor = true;
@@ -76,10 +76,10 @@
             // 
             this.chBigNotebook.AutoSize = true;
             this.chBigNotebook.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chBigNotebook.Location = new System.Drawing.Point(96, 100);
-            this.chBigNotebook.Margin = new System.Windows.Forms.Padding(2);
+            this.chBigNotebook.Location = new System.Drawing.Point(94, 106);
+            this.chBigNotebook.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chBigNotebook.Name = "chBigNotebook";
-            this.chBigNotebook.Size = new System.Drawing.Size(109, 20);
+            this.chBigNotebook.Size = new System.Drawing.Size(131, 24);
             this.chBigNotebook.TabIndex = 1;
             this.chBigNotebook.Text = "Big Notebook";
             this.chBigNotebook.UseVisualStyleBackColor = true;
@@ -89,10 +89,10 @@
             // 
             this.chSmartDesktop.AutoSize = true;
             this.chSmartDesktop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chSmartDesktop.Location = new System.Drawing.Point(96, 137);
-            this.chSmartDesktop.Margin = new System.Windows.Forms.Padding(2);
+            this.chSmartDesktop.Location = new System.Drawing.Point(94, 152);
+            this.chSmartDesktop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chSmartDesktop.Name = "chSmartDesktop";
-            this.chSmartDesktop.Size = new System.Drawing.Size(115, 20);
+            this.chSmartDesktop.Size = new System.Drawing.Size(143, 24);
             this.chSmartDesktop.TabIndex = 2;
             this.chSmartDesktop.Text = "Smart Desktop";
             this.chSmartDesktop.UseVisualStyleBackColor = true;
@@ -102,10 +102,10 @@
             // 
             this.chHPDigicam.AutoSize = true;
             this.chHPDigicam.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chHPDigicam.Location = new System.Drawing.Point(315, 61);
-            this.chHPDigicam.Margin = new System.Windows.Forms.Padding(2);
+            this.chHPDigicam.Location = new System.Drawing.Point(386, 58);
+            this.chHPDigicam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chHPDigicam.Name = "chHPDigicam";
-            this.chHPDigicam.Size = new System.Drawing.Size(99, 20);
+            this.chHPDigicam.Size = new System.Drawing.Size(124, 24);
             this.chHPDigicam.TabIndex = 3;
             this.chHPDigicam.Text = "HD Digicam";
             this.chHPDigicam.UseVisualStyleBackColor = true;
@@ -115,10 +115,10 @@
             // 
             this.chHiTech.AutoSize = true;
             this.chHiTech.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chHiTech.Location = new System.Drawing.Point(315, 98);
-            this.chHiTech.Margin = new System.Windows.Forms.Padding(2);
+            this.chHiTech.Location = new System.Drawing.Point(386, 104);
+            this.chHiTech.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chHiTech.Name = "chHiTech";
-            this.chHiTech.Size = new System.Drawing.Size(100, 20);
+            this.chHiTech.Size = new System.Drawing.Size(124, 24);
             this.chHiTech.TabIndex = 4;
             this.chHiTech.Text = "HiTech MP4";
             this.chHiTech.UseVisualStyleBackColor = true;
@@ -128,10 +128,10 @@
             // 
             this.chADSL.AutoSize = true;
             this.chADSL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chADSL.Location = new System.Drawing.Point(315, 138);
-            this.chADSL.Margin = new System.Windows.Forms.Padding(2);
+            this.chADSL.Location = new System.Drawing.Point(386, 153);
+            this.chADSL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chADSL.Name = "chADSL";
-            this.chADSL.Size = new System.Drawing.Size(110, 20);
+            this.chADSL.Size = new System.Drawing.Size(136, 24);
             this.chADSL.TabIndex = 5;
             this.chADSL.Text = "ADSL Modem";
             this.chADSL.UseVisualStyleBackColor = true;
@@ -140,19 +140,19 @@
             // txtTotal
             // 
             this.txtTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotal.Location = new System.Drawing.Point(140, 200);
-            this.txtTotal.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTotal.Location = new System.Drawing.Point(153, 229);
+            this.txtTotal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(96, 22);
+            this.txtTotal.Size = new System.Drawing.Size(127, 26);
             this.txtTotal.TabIndex = 6;
             // 
             // btnCalculate
             // 
             this.btnCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalculate.Location = new System.Drawing.Point(260, 192);
-            this.btnCalculate.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCalculate.Location = new System.Drawing.Point(313, 219);
+            this.btnCalculate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(94, 34);
+            this.btnCalculate.Size = new System.Drawing.Size(125, 42);
             this.btnCalculate.TabIndex = 7;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
@@ -161,10 +161,10 @@
             // btnCancel
             // 
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(358, 192);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCancel.Location = new System.Drawing.Point(443, 219);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(94, 34);
+            this.btnCancel.Size = new System.Drawing.Size(125, 42);
             this.btnCancel.TabIndex = 8;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -174,10 +174,9 @@
             // 
             this.lblTotal.AutoSize = true;
             this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(86, 200);
-            this.lblTotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTotal.Location = new System.Drawing.Point(81, 229);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(50, 17);
+            this.lblTotal.Size = new System.Drawing.Size(57, 20);
             this.lblTotal.TabIndex = 9;
             this.lblTotal.Text = "Total:";
             // 
@@ -185,10 +184,10 @@
             // 
             this.upLaserJet.Enabled = false;
             this.upLaserJet.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.upLaserJet.Location = new System.Drawing.Point(61, 60);
-            this.upLaserJet.Margin = new System.Windows.Forms.Padding(2);
+            this.upLaserJet.Location = new System.Drawing.Point(47, 57);
+            this.upLaserJet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.upLaserJet.Name = "upLaserJet";
-            this.upLaserJet.Size = new System.Drawing.Size(31, 22);
+            this.upLaserJet.Size = new System.Drawing.Size(41, 26);
             this.upLaserJet.TabIndex = 10;
             this.upLaserJet.ValueChanged += new System.EventHandler(this.upLaserJet_ValueChanged);
             // 
@@ -196,10 +195,10 @@
             // 
             this.upBigNotebook.Enabled = false;
             this.upBigNotebook.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.upBigNotebook.Location = new System.Drawing.Point(61, 99);
-            this.upBigNotebook.Margin = new System.Windows.Forms.Padding(2);
+            this.upBigNotebook.Location = new System.Drawing.Point(47, 105);
+            this.upBigNotebook.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.upBigNotebook.Name = "upBigNotebook";
-            this.upBigNotebook.Size = new System.Drawing.Size(31, 22);
+            this.upBigNotebook.Size = new System.Drawing.Size(41, 26);
             this.upBigNotebook.TabIndex = 11;
             this.upBigNotebook.ValueChanged += new System.EventHandler(this.upBigNotebook_ValueChanged);
             // 
@@ -207,10 +206,10 @@
             // 
             this.upSmartDesktop.Enabled = false;
             this.upSmartDesktop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.upSmartDesktop.Location = new System.Drawing.Point(61, 136);
-            this.upSmartDesktop.Margin = new System.Windows.Forms.Padding(2);
+            this.upSmartDesktop.Location = new System.Drawing.Point(47, 150);
+            this.upSmartDesktop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.upSmartDesktop.Name = "upSmartDesktop";
-            this.upSmartDesktop.Size = new System.Drawing.Size(31, 22);
+            this.upSmartDesktop.Size = new System.Drawing.Size(41, 26);
             this.upSmartDesktop.TabIndex = 12;
             this.upSmartDesktop.ValueChanged += new System.EventHandler(this.upSmartDesktop_ValueChanged);
             // 
@@ -218,10 +217,10 @@
             // 
             this.upHPDigicam.Enabled = false;
             this.upHPDigicam.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.upHPDigicam.Location = new System.Drawing.Point(280, 59);
-            this.upHPDigicam.Margin = new System.Windows.Forms.Padding(2);
+            this.upHPDigicam.Location = new System.Drawing.Point(339, 56);
+            this.upHPDigicam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.upHPDigicam.Name = "upHPDigicam";
-            this.upHPDigicam.Size = new System.Drawing.Size(31, 22);
+            this.upHPDigicam.Size = new System.Drawing.Size(41, 26);
             this.upHPDigicam.TabIndex = 13;
             this.upHPDigicam.ValueChanged += new System.EventHandler(this.upHPDigicam_ValueChanged);
             // 
@@ -229,10 +228,10 @@
             // 
             this.upHiTech.Enabled = false;
             this.upHiTech.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.upHiTech.Location = new System.Drawing.Point(280, 97);
-            this.upHiTech.Margin = new System.Windows.Forms.Padding(2);
+            this.upHiTech.Location = new System.Drawing.Point(339, 102);
+            this.upHiTech.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.upHiTech.Name = "upHiTech";
-            this.upHiTech.Size = new System.Drawing.Size(31, 22);
+            this.upHiTech.Size = new System.Drawing.Size(41, 26);
             this.upHiTech.TabIndex = 14;
             this.upHiTech.ValueChanged += new System.EventHandler(this.upHiTech_ValueChanged);
             // 
@@ -240,10 +239,10 @@
             // 
             this.upADSL.Enabled = false;
             this.upADSL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.upADSL.Location = new System.Drawing.Point(280, 134);
-            this.upADSL.Margin = new System.Windows.Forms.Padding(2);
+            this.upADSL.Location = new System.Drawing.Point(339, 148);
+            this.upADSL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.upADSL.Name = "upADSL";
-            this.upADSL.Size = new System.Drawing.Size(31, 22);
+            this.upADSL.Size = new System.Drawing.Size(41, 26);
             this.upADSL.TabIndex = 15;
             this.upADSL.ValueChanged += new System.EventHandler(this.upADSL_ValueChanged);
             // 
@@ -251,9 +250,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(223, 66);
+            this.label1.Location = new System.Drawing.Point(263, 64);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 15);
+            this.label1.Size = new System.Drawing.Size(40, 18);
             this.label1.TabIndex = 16;
             this.label1.Text = "100€";
             // 
@@ -261,9 +261,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(223, 99);
+            this.label2.Location = new System.Drawing.Point(263, 105);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 15);
+            this.label2.Size = new System.Drawing.Size(40, 18);
             this.label2.TabIndex = 17;
             this.label2.Text = "500€";
             // 
@@ -271,9 +272,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(223, 136);
+            this.label3.Location = new System.Drawing.Point(263, 150);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 15);
+            this.label3.Size = new System.Drawing.Size(40, 18);
             this.label3.TabIndex = 18;
             this.label3.Text = "200€";
             // 
@@ -281,9 +283,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(430, 62);
+            this.label4.Location = new System.Drawing.Point(539, 59);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(28, 15);
+            this.label4.Size = new System.Drawing.Size(32, 18);
             this.label4.TabIndex = 19;
             this.label4.Text = "80€";
             // 
@@ -291,9 +294,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(430, 100);
+            this.label5.Location = new System.Drawing.Point(539, 106);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 15);
+            this.label5.Size = new System.Drawing.Size(40, 18);
             this.label5.TabIndex = 20;
             this.label5.Text = "300€";
             // 
@@ -301,17 +305,18 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(430, 139);
+            this.label6.Location = new System.Drawing.Point(539, 154);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 15);
+            this.label6.Size = new System.Drawing.Size(40, 18);
             this.label6.TabIndex = 21;
             this.label6.Text = "150€";
             // 
             // Ejercicio1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(498, 276);
+            this.ClientSize = new System.Drawing.Size(627, 313);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -335,7 +340,9 @@
             this.Controls.Add(this.chBigNotebook);
             this.Controls.Add(this.chLaserJet);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximumSize = new System.Drawing.Size(645, 360);
+            this.MinimumSize = new System.Drawing.Size(645, 360);
             this.Name = "Ejercicio1";
             this.Text = "Ejercicio 1";
             ((System.ComponentModel.ISupportInitialize)(this.upLaserJet)).EndInit();

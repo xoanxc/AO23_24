@@ -287,7 +287,7 @@
             this.lblPrecioBebidaNum.Name = "lblPrecioBebidaNum";
             this.lblPrecioBebidaNum.Size = new System.Drawing.Size(44, 20);
             this.lblPrecioBebidaNum.TabIndex = 5;
-            this.lblPrecioBebidaNum.Text = "1,50";
+            this.lblPrecioBebidaNum.Text = "1,20";
             // 
             // pbBebida
             // 
@@ -524,6 +524,8 @@
             this.Controls.Add(this.gbPrimerPlato);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximumSize = new System.Drawing.Size(1005, 552);
+            this.MinimumSize = new System.Drawing.Size(1005, 552);
             this.Name = "Ejercicio9";
             this.Text = "Ejercicio 9";
             this.gbPrimerPlato.ResumeLayout(false);

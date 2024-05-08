@@ -38,28 +38,31 @@
             // txtProfesor
             // 
             this.txtProfesor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtProfesor.Location = new System.Drawing.Point(26, 50);
+            this.txtProfesor.Location = new System.Drawing.Point(35, 62);
+            this.txtProfesor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtProfesor.Name = "txtProfesor";
-            this.txtProfesor.Size = new System.Drawing.Size(285, 22);
+            this.txtProfesor.Size = new System.Drawing.Size(379, 26);
             this.txtProfesor.TabIndex = 0;
             // 
             // lbMaterias
             // 
             this.lbMaterias.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbMaterias.FormattingEnabled = true;
-            this.lbMaterias.ItemHeight = 16;
-            this.lbMaterias.Location = new System.Drawing.Point(26, 111);
+            this.lbMaterias.ItemHeight = 20;
+            this.lbMaterias.Location = new System.Drawing.Point(35, 137);
+            this.lbMaterias.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lbMaterias.Name = "lbMaterias";
-            this.lbMaterias.Size = new System.Drawing.Size(285, 212);
+            this.lbMaterias.Size = new System.Drawing.Size(379, 244);
             this.lbMaterias.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(22, 27);
+            this.label1.Location = new System.Drawing.Point(29, 33);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 20);
+            this.label1.Size = new System.Drawing.Size(93, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "Profesor";
             // 
@@ -67,22 +70,26 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(23, 90);
+            this.label2.Location = new System.Drawing.Point(31, 111);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 18);
+            this.label2.Size = new System.Drawing.Size(88, 24);
             this.label2.TabIndex = 3;
             this.label2.Text = "Materias";
             // 
             // Ejercicio2_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(337, 343);
+            this.ClientSize = new System.Drawing.Size(449, 422);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbMaterias);
             this.Controls.Add(this.txtProfesor);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(467, 469);
+            this.MinimumSize = new System.Drawing.Size(467, 469);
             this.Name = "Ejercicio2_Form";
             this.Text = "Ejercicio 2";
             this.ResumeLayout(false);
