@@ -47,6 +47,14 @@ namespace AppGraficas_II
         {
             //Mostrar la imagen de empanadillas
             pbImages.Image = Properties.Resources.empanadillas;
+
+            //Limpiar comboBox
+            cbPrimerPlato.Items.Clear();
+            //Meter los tipos en el comboBox
+            cbPrimerPlato.Items.Add("Pulpo");
+            cbPrimerPlato.Items.Add("Zamburiña");
+            cbPrimerPlato.Items.Add("Carne");   
+            cbPrimerPlato.Items.Add("Choco");    
         }
 
         private void rdAgua_CheckedChanged(object sender, EventArgs e)
@@ -83,6 +91,49 @@ namespace AppGraficas_II
             }
         }
 
-      
+        private void cbPrimerPlato_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbPrimerPlato.Text == "Champiñones")
+            {
+                lblPrecioPrimeroNum.Text = "4,00";
+            }
+            else if (cbPrimerPlato.Text == "Puerros")
+            {
+                lblPrecioPrimeroNum.Text = "5,00";
+            }
+            else if (cbPrimerPlato.Text == "Zanahoria")
+            {
+                lblPrecioPrimeroNum.Text = "4,75";
+            }
+            else if (cbPrimerPlato.Text == "Primavera")
+            {
+                lblPrecioPrimeroNum.Text = "3,00";
+            }
+            else if (cbPrimerPlato.Text == "Romana")
+            {
+                lblPrecioPrimeroNum.Text = "4,00";
+            }
+            else if (cbPrimerPlato.Text == "Cesar")
+            {
+                lblPrecioPrimeroNum.Text = "4,50";
+            }
+            else if (cbPrimerPlato.Text == "Pulpo")
+            {
+                lblPrecioPrimeroNum.Text = "6,00";
+            }
+            else if (cbPrimerPlato.Text == "Zamburiña")
+            {
+                lblPrecioPrimeroNum.Text = "7,00";
+            }
+            else if (cbPrimerPlato.Text == "Carne")
+            {
+                lblPrecioPrimeroNum.Text = "3,00";
+            }
+            else if (cbPrimerPlato.Text == "Choco")
+            {
+                lblPrecioPrimeroNum.Text = "3,50";
+            }
+
+        }
     }
 }

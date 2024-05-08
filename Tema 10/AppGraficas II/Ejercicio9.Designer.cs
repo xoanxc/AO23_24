@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ejercicio9));
             this.gbPrimerPlato = new System.Windows.Forms.GroupBox();
-            this.PrecioPrimer = new System.Windows.Forms.Label();
             this.lblPrecioPrimeroNum = new System.Windows.Forms.Label();
+            this.lblPrecioPrimero = new System.Windows.Forms.Label();
             this.pbImages = new System.Windows.Forms.PictureBox();
             this.cbPrimerPlato = new System.Windows.Forms.ComboBox();
             this.rdEmpanada = new System.Windows.Forms.RadioButton();
@@ -76,8 +76,8 @@
             // 
             // gbPrimerPlato
             // 
-            this.gbPrimerPlato.Controls.Add(this.PrecioPrimer);
             this.gbPrimerPlato.Controls.Add(this.lblPrecioPrimeroNum);
+            this.gbPrimerPlato.Controls.Add(this.lblPrecioPrimero);
             this.gbPrimerPlato.Controls.Add(this.pbImages);
             this.gbPrimerPlato.Controls.Add(this.cbPrimerPlato);
             this.gbPrimerPlato.Controls.Add(this.rdEmpanada);
@@ -85,38 +85,38 @@
             this.gbPrimerPlato.Controls.Add(this.rdCrema);
             this.gbPrimerPlato.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbPrimerPlato.Location = new System.Drawing.Point(16, 15);
-            this.gbPrimerPlato.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbPrimerPlato.Margin = new System.Windows.Forms.Padding(4);
             this.gbPrimerPlato.Name = "gbPrimerPlato";
-            this.gbPrimerPlato.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbPrimerPlato.Padding = new System.Windows.Forms.Padding(4);
             this.gbPrimerPlato.Size = new System.Drawing.Size(396, 378);
             this.gbPrimerPlato.TabIndex = 4;
             this.gbPrimerPlato.TabStop = false;
             this.gbPrimerPlato.Text = "Primer Plato";
             // 
-            // PrecioPrimer
-            // 
-            this.PrecioPrimer.AutoSize = true;
-            this.PrecioPrimer.Location = new System.Drawing.Point(116, 335);
-            this.PrecioPrimer.Name = "PrecioPrimer";
-            this.PrecioPrimer.Size = new System.Drawing.Size(54, 25);
-            this.PrecioPrimer.TabIndex = 7;
-            this.PrecioPrimer.Text = "0,00";
-            // 
             // lblPrecioPrimeroNum
             // 
             this.lblPrecioPrimeroNum.AutoSize = true;
-            this.lblPrecioPrimeroNum.Location = new System.Drawing.Point(29, 335);
-            this.lblPrecioPrimeroNum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrecioPrimeroNum.Location = new System.Drawing.Point(116, 335);
             this.lblPrecioPrimeroNum.Name = "lblPrecioPrimeroNum";
-            this.lblPrecioPrimeroNum.Size = new System.Drawing.Size(80, 25);
-            this.lblPrecioPrimeroNum.TabIndex = 5;
-            this.lblPrecioPrimeroNum.Text = "Precio:";
+            this.lblPrecioPrimeroNum.Size = new System.Drawing.Size(54, 25);
+            this.lblPrecioPrimeroNum.TabIndex = 7;
+            this.lblPrecioPrimeroNum.Text = "0,00";
+            // 
+            // lblPrecioPrimero
+            // 
+            this.lblPrecioPrimero.AutoSize = true;
+            this.lblPrecioPrimero.Location = new System.Drawing.Point(29, 335);
+            this.lblPrecioPrimero.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrecioPrimero.Name = "lblPrecioPrimero";
+            this.lblPrecioPrimero.Size = new System.Drawing.Size(80, 25);
+            this.lblPrecioPrimero.TabIndex = 5;
+            this.lblPrecioPrimero.Text = "Precio:";
             // 
             // pbImages
             // 
             this.pbImages.Image = global::AppGraficas_II.Properties.Resources.crema;
             this.pbImages.Location = new System.Drawing.Point(21, 71);
-            this.pbImages.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbImages.Margin = new System.Windows.Forms.Padding(4);
             this.pbImages.Name = "pbImages";
             this.pbImages.Size = new System.Drawing.Size(141, 129);
             this.pbImages.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -131,17 +131,18 @@
             "Puerros",
             "Zanahoria"});
             this.cbPrimerPlato.Location = new System.Drawing.Point(212, 167);
-            this.cbPrimerPlato.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbPrimerPlato.Margin = new System.Windows.Forms.Padding(4);
             this.cbPrimerPlato.Name = "cbPrimerPlato";
             this.cbPrimerPlato.Size = new System.Drawing.Size(160, 33);
             this.cbPrimerPlato.TabIndex = 3;
+            this.cbPrimerPlato.SelectedIndexChanged += new System.EventHandler(this.cbPrimerPlato_SelectedIndexChanged);
             // 
             // rdEmpanada
             // 
             this.rdEmpanada.AutoSize = true;
             this.rdEmpanada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdEmpanada.Location = new System.Drawing.Point(212, 135);
-            this.rdEmpanada.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdEmpanada.Margin = new System.Windows.Forms.Padding(4);
             this.rdEmpanada.Name = "rdEmpanada";
             this.rdEmpanada.Size = new System.Drawing.Size(117, 24);
             this.rdEmpanada.TabIndex = 2;
@@ -154,7 +155,7 @@
             this.rdEnsalada.AutoSize = true;
             this.rdEnsalada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdEnsalada.Location = new System.Drawing.Point(212, 103);
-            this.rdEnsalada.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdEnsalada.Margin = new System.Windows.Forms.Padding(4);
             this.rdEnsalada.Name = "rdEnsalada";
             this.rdEnsalada.Size = new System.Drawing.Size(107, 24);
             this.rdEnsalada.TabIndex = 1;
@@ -168,7 +169,7 @@
             this.rdCrema.Checked = true;
             this.rdCrema.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdCrema.Location = new System.Drawing.Point(212, 71);
-            this.rdCrema.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdCrema.Margin = new System.Windows.Forms.Padding(4);
             this.rdCrema.Name = "rdCrema";
             this.rdCrema.Size = new System.Drawing.Size(85, 24);
             this.rdCrema.TabIndex = 0;
@@ -187,9 +188,9 @@
             this.gbSegundoPlato.Controls.Add(this.rdPescado);
             this.gbSegundoPlato.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbSegundoPlato.Location = new System.Drawing.Point(420, 15);
-            this.gbSegundoPlato.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbSegundoPlato.Margin = new System.Windows.Forms.Padding(4);
             this.gbSegundoPlato.Name = "gbSegundoPlato";
-            this.gbSegundoPlato.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbSegundoPlato.Padding = new System.Windows.Forms.Padding(4);
             this.gbSegundoPlato.Size = new System.Drawing.Size(267, 378);
             this.gbSegundoPlato.TabIndex = 5;
             this.gbSegundoPlato.TabStop = false;
@@ -218,7 +219,7 @@
             // 
             this.cbSegundoPlato.FormattingEnabled = true;
             this.cbSegundoPlato.Location = new System.Drawing.Point(57, 167);
-            this.cbSegundoPlato.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbSegundoPlato.Margin = new System.Windows.Forms.Padding(4);
             this.cbSegundoPlato.Name = "cbSegundoPlato";
             this.cbSegundoPlato.Size = new System.Drawing.Size(160, 32);
             this.cbSegundoPlato.TabIndex = 3;
@@ -228,7 +229,7 @@
             this.rdPasta.AutoSize = true;
             this.rdPasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdPasta.Location = new System.Drawing.Point(57, 135);
-            this.rdPasta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdPasta.Margin = new System.Windows.Forms.Padding(4);
             this.rdPasta.Name = "rdPasta";
             this.rdPasta.Size = new System.Drawing.Size(78, 24);
             this.rdPasta.TabIndex = 2;
@@ -240,7 +241,7 @@
             this.rdCarne.AutoSize = true;
             this.rdCarne.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdCarne.Location = new System.Drawing.Point(57, 103);
-            this.rdCarne.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdCarne.Margin = new System.Windows.Forms.Padding(4);
             this.rdCarne.Name = "rdCarne";
             this.rdCarne.Size = new System.Drawing.Size(80, 24);
             this.rdCarne.TabIndex = 1;
@@ -253,7 +254,7 @@
             this.rdPescado.Checked = true;
             this.rdPescado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdPescado.Location = new System.Drawing.Point(57, 71);
-            this.rdPescado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdPescado.Margin = new System.Windows.Forms.Padding(4);
             this.rdPescado.Name = "rdPescado";
             this.rdPescado.Size = new System.Drawing.Size(102, 24);
             this.rdPescado.TabIndex = 0;
@@ -271,9 +272,9 @@
             this.gbBebida.Controls.Add(this.rdAgua);
             this.gbBebida.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbBebida.Location = new System.Drawing.Point(695, 15);
-            this.gbBebida.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbBebida.Margin = new System.Windows.Forms.Padding(4);
             this.gbBebida.Name = "gbBebida";
-            this.gbBebida.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbBebida.Padding = new System.Windows.Forms.Padding(4);
             this.gbBebida.Size = new System.Drawing.Size(267, 160);
             this.gbBebida.TabIndex = 6;
             this.gbBebida.TabStop = false;
@@ -314,7 +315,7 @@
             this.rdVino.AutoSize = true;
             this.rdVino.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdVino.Location = new System.Drawing.Point(25, 84);
-            this.rdVino.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdVino.Margin = new System.Windows.Forms.Padding(4);
             this.rdVino.Name = "rdVino";
             this.rdVino.Size = new System.Drawing.Size(61, 21);
             this.rdVino.TabIndex = 2;
@@ -327,7 +328,7 @@
             this.rdRefresco.AutoSize = true;
             this.rdRefresco.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdRefresco.Location = new System.Drawing.Point(25, 58);
-            this.rdRefresco.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdRefresco.Margin = new System.Windows.Forms.Padding(4);
             this.rdRefresco.Name = "rdRefresco";
             this.rdRefresco.Size = new System.Drawing.Size(94, 21);
             this.rdRefresco.TabIndex = 1;
@@ -341,7 +342,7 @@
             this.rdAgua.Checked = true;
             this.rdAgua.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdAgua.Location = new System.Drawing.Point(25, 33);
-            this.rdAgua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdAgua.Margin = new System.Windows.Forms.Padding(4);
             this.rdAgua.Name = "rdAgua";
             this.rdAgua.Size = new System.Drawing.Size(66, 21);
             this.rdAgua.TabIndex = 0;
@@ -358,9 +359,9 @@
             this.gbPostreCafe.Controls.Add(this.rdPostre);
             this.gbPostreCafe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbPostreCafe.Location = new System.Drawing.Point(695, 177);
-            this.gbPostreCafe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbPostreCafe.Margin = new System.Windows.Forms.Padding(4);
             this.gbPostreCafe.Name = "gbPostreCafe";
-            this.gbPostreCafe.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbPostreCafe.Padding = new System.Windows.Forms.Padding(4);
             this.gbPostreCafe.Size = new System.Drawing.Size(267, 214);
             this.gbPostreCafe.TabIndex = 7;
             this.gbPostreCafe.TabStop = false;
@@ -370,7 +371,7 @@
             // 
             this.cbCafé.FormattingEnabled = true;
             this.cbCafé.Location = new System.Drawing.Point(8, 145);
-            this.cbCafé.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbCafé.Margin = new System.Windows.Forms.Padding(4);
             this.cbCafé.Name = "cbCafé";
             this.cbCafé.Size = new System.Drawing.Size(160, 28);
             this.cbCafé.TabIndex = 8;
@@ -379,7 +380,7 @@
             // 
             this.cbPostre.FormattingEnabled = true;
             this.cbPostre.Location = new System.Drawing.Point(8, 76);
-            this.cbPostre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbPostre.Margin = new System.Windows.Forms.Padding(4);
             this.cbPostre.Name = "cbPostre";
             this.cbPostre.Size = new System.Drawing.Size(160, 28);
             this.cbPostre.TabIndex = 2;
@@ -388,7 +389,7 @@
             // 
             this.rdCafe.AutoSize = true;
             this.rdCafe.Location = new System.Drawing.Point(8, 113);
-            this.rdCafe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdCafe.Margin = new System.Windows.Forms.Padding(4);
             this.rdCafe.Name = "rdCafe";
             this.rdCafe.Size = new System.Drawing.Size(69, 24);
             this.rdCafe.TabIndex = 1;
@@ -400,7 +401,7 @@
             this.rdPostre.AutoSize = true;
             this.rdPostre.Checked = true;
             this.rdPostre.Location = new System.Drawing.Point(8, 44);
-            this.rdPostre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdPostre.Margin = new System.Windows.Forms.Padding(4);
             this.rdPostre.Name = "rdPostre";
             this.rdPostre.Size = new System.Drawing.Size(85, 24);
             this.rdPostre.TabIndex = 0;
@@ -412,7 +413,7 @@
             // 
             this.btnCalcularCuenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcularCuenta.Location = new System.Drawing.Point(16, 421);
-            this.btnCalcularCuenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCalcularCuenta.Margin = new System.Windows.Forms.Padding(4);
             this.btnCalcularCuenta.Name = "btnCalcularCuenta";
             this.btnCalcularCuenta.Size = new System.Drawing.Size(184, 53);
             this.btnCalcularCuenta.TabIndex = 5;
@@ -422,7 +423,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(776, 417);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(132, 22);
             this.textBox1.TabIndex = 8;
@@ -430,7 +431,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(777, 454);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(132, 22);
             this.textBox2.TabIndex = 9;
@@ -439,7 +440,7 @@
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcular.Location = new System.Drawing.Point(544, 422);
-            this.btnCalcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCalcular.Margin = new System.Windows.Forms.Padding(4);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(143, 53);
             this.btnCalcular.TabIndex = 10;
@@ -469,7 +470,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(279, 421);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(132, 22);
             this.textBox3.TabIndex = 13;
@@ -477,7 +478,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(279, 453);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(132, 22);
             this.textBox4.TabIndex = 14;
@@ -522,7 +523,7 @@
             this.Controls.Add(this.gbSegundoPlato);
             this.Controls.Add(this.gbPrimerPlato);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Ejercicio9";
             this.Text = "Ejercicio 9";
             this.gbPrimerPlato.ResumeLayout(false);
@@ -551,7 +552,7 @@
         private System.Windows.Forms.RadioButton rdEmpanada;
         private System.Windows.Forms.RadioButton rdEnsalada;
         private System.Windows.Forms.RadioButton rdCrema;
-        private System.Windows.Forms.Label lblPrecioPrimeroNum;
+        private System.Windows.Forms.Label lblPrecioPrimero;
         private System.Windows.Forms.Label lblPrecioSegundo;
         private System.Windows.Forms.ComboBox cbSegundoPlato;
         private System.Windows.Forms.RadioButton rdPasta;
@@ -576,7 +577,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pbBebida;
-        private System.Windows.Forms.Label PrecioPrimer;
+        private System.Windows.Forms.Label lblPrecioPrimeroNum;
         private System.Windows.Forms.Label lblPrecioSegundoNum;
         private System.Windows.Forms.Label lblPrecioBebidaNum;
     }
