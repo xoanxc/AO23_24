@@ -52,13 +52,15 @@
             this.rdRefresco = new System.Windows.Forms.RadioButton();
             this.rdAgua = new System.Windows.Forms.RadioButton();
             this.gbPostreCafe = new System.Windows.Forms.GroupBox();
-            this.cbCafé = new System.Windows.Forms.ComboBox();
+            this.lblPrecioPostreNum = new System.Windows.Forms.Label();
+            this.lblPrecioPostre = new System.Windows.Forms.Label();
+            this.cbCafe = new System.Windows.Forms.ComboBox();
             this.cbPostre = new System.Windows.Forms.ComboBox();
             this.rdCafe = new System.Windows.Forms.RadioButton();
             this.rdPostre = new System.Windows.Forms.RadioButton();
             this.btnCalcularCuenta = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtEfectivo = new System.Windows.Forms.TextBox();
+            this.txtVuelta = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.lblEfectivo = new System.Windows.Forms.Label();
             this.lblVuelta = new System.Windows.Forms.Label();
@@ -344,7 +346,9 @@
             // 
             // gbPostreCafe
             // 
-            this.gbPostreCafe.Controls.Add(this.cbCafé);
+            this.gbPostreCafe.Controls.Add(this.lblPrecioPostreNum);
+            this.gbPostreCafe.Controls.Add(this.lblPrecioPostre);
+            this.gbPostreCafe.Controls.Add(this.cbCafe);
             this.gbPostreCafe.Controls.Add(this.cbPostre);
             this.gbPostreCafe.Controls.Add(this.rdCafe);
             this.gbPostreCafe.Controls.Add(this.rdPostre);
@@ -356,21 +360,46 @@
             this.gbPostreCafe.TabStop = false;
             this.gbPostreCafe.Text = "Postre/Café";
             // 
-            // cbCafé
+            // lblPrecioPostreNum
             // 
-            this.cbCafé.FormattingEnabled = true;
-            this.cbCafé.Location = new System.Drawing.Point(6, 118);
-            this.cbCafé.Name = "cbCafé";
-            this.cbCafé.Size = new System.Drawing.Size(121, 24);
-            this.cbCafé.TabIndex = 8;
+            this.lblPrecioPostreNum.AutoSize = true;
+            this.lblPrecioPostreNum.Location = new System.Drawing.Point(67, 144);
+            this.lblPrecioPostreNum.Name = "lblPrecioPostreNum";
+            this.lblPrecioPostreNum.Size = new System.Drawing.Size(35, 16);
+            this.lblPrecioPostreNum.TabIndex = 10;
+            this.lblPrecioPostreNum.Text = "0,00";
+            // 
+            // lblPrecioPostre
+            // 
+            this.lblPrecioPostre.AutoSize = true;
+            this.lblPrecioPostre.Location = new System.Drawing.Point(13, 145);
+            this.lblPrecioPostre.Name = "lblPrecioPostre";
+            this.lblPrecioPostre.Size = new System.Drawing.Size(56, 16);
+            this.lblPrecioPostre.TabIndex = 9;
+            this.lblPrecioPostre.Text = "Precio:";
+            // 
+            // cbCafe
+            // 
+            this.cbCafe.FormattingEnabled = true;
+            this.cbCafe.Location = new System.Drawing.Point(6, 118);
+            this.cbCafe.Name = "cbCafe";
+            this.cbCafe.Size = new System.Drawing.Size(121, 24);
+            this.cbCafe.TabIndex = 8;
+            this.cbCafe.SelectedIndexChanged += new System.EventHandler(this.cbCafe_SelectedIndexChanged);
             // 
             // cbPostre
             // 
             this.cbPostre.FormattingEnabled = true;
+            this.cbPostre.Items.AddRange(new object[] {
+            "Fruta /Yogurt",
+            "Brownie Chocolate con helado",
+            "Tarta de Santiago",
+            "Tarta semifria de chocolate y queso"});
             this.cbPostre.Location = new System.Drawing.Point(6, 62);
             this.cbPostre.Name = "cbPostre";
             this.cbPostre.Size = new System.Drawing.Size(121, 24);
             this.cbPostre.TabIndex = 2;
+            this.cbPostre.SelectedIndexChanged += new System.EventHandler(this.cbPostre_SelectedIndexChanged);
             // 
             // rdCafe
             // 
@@ -381,6 +410,7 @@
             this.rdCafe.TabIndex = 1;
             this.rdCafe.Text = "Café";
             this.rdCafe.UseVisualStyleBackColor = true;
+            this.rdCafe.CheckedChanged += new System.EventHandler(this.rdCafe_CheckedChanged);
             // 
             // rdPostre
             // 
@@ -393,6 +423,7 @@
             this.rdPostre.TabStop = true;
             this.rdPostre.Text = "Postre";
             this.rdPostre.UseVisualStyleBackColor = true;
+            this.rdPostre.CheckedChanged += new System.EventHandler(this.rdPostre_CheckedChanged);
             // 
             // btnCalcularCuenta
             // 
@@ -405,19 +436,19 @@
             this.btnCalcularCuenta.UseVisualStyleBackColor = true;
             this.btnCalcularCuenta.Click += new System.EventHandler(this.btnCalcularCuenta_Click);
             // 
-            // textBox1
+            // txtEfectivo
             // 
-            this.textBox1.Location = new System.Drawing.Point(582, 339);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 8;
+            this.txtEfectivo.Location = new System.Drawing.Point(582, 339);
+            this.txtEfectivo.Name = "txtEfectivo";
+            this.txtEfectivo.Size = new System.Drawing.Size(100, 20);
+            this.txtEfectivo.TabIndex = 8;
             // 
-            // textBox2
+            // txtVuelta
             // 
-            this.textBox2.Location = new System.Drawing.Point(583, 369);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 9;
+            this.txtVuelta.Location = new System.Drawing.Point(583, 369);
+            this.txtVuelta.Name = "txtVuelta";
+            this.txtVuelta.Size = new System.Drawing.Size(100, 20);
+            this.txtVuelta.TabIndex = 9;
             // 
             // btnCalcular
             // 
@@ -428,6 +459,7 @@
             this.btnCalcular.TabIndex = 10;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // lblEfectivo
             // 
@@ -491,8 +523,8 @@
             this.Controls.Add(this.lblVuelta);
             this.Controls.Add(this.lblEfectivo);
             this.Controls.Add(this.btnCalcular);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtVuelta);
+            this.Controls.Add(this.txtEfectivo);
             this.Controls.Add(this.btnCalcularCuenta);
             this.Controls.Add(this.gbPostreCafe);
             this.Controls.Add(this.gbBebida);
@@ -542,10 +574,10 @@
         private System.Windows.Forms.RadioButton rdCafe;
         private System.Windows.Forms.RadioButton rdPostre;
         private System.Windows.Forms.Label lblPrecio;
-        private System.Windows.Forms.ComboBox cbCafé;
+        private System.Windows.Forms.ComboBox cbCafe;
         private System.Windows.Forms.ComboBox cbPostre;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtEfectivo;
+        private System.Windows.Forms.TextBox txtVuelta;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Label lblEfectivo;
         private System.Windows.Forms.Label lblVuelta;
@@ -557,5 +589,7 @@
         private System.Windows.Forms.Label lblPrecioPrimeroNum;
         private System.Windows.Forms.Label lblPrecioSegundoNum;
         private System.Windows.Forms.Label lblPrecioBebidaNum;
+        private System.Windows.Forms.Label lblPrecioPostreNum;
+        private System.Windows.Forms.Label lblPrecioPostre;
     }
 }

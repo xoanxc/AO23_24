@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -238,17 +239,89 @@ namespace AppGraficas_II
             double precioPrimero = Convert.ToDouble(lblPrecioPrimeroNum.Text);
             double precioSegundo = Convert.ToDouble(lblPrecioSegundoNum.Text);
             double precioBebida = Convert.ToDouble(lblPrecioBebidaNum.Text);
-            double total = precioPrimero + precioSegundo + precioBebida;
+            double precioPostre = Convert.ToDouble(lblPrecioPostreNum.Text);
+            double total = precioPrimero + precioSegundo + precioBebida + precioPostre;
 
-            
+            //Mostrar el total sin IVA
             double IVA = total * 0.11;
             txtTotalIVA.Text = IVA.ToString();
 
             //Mostrar el total redondeado a 2 decimales
             txtTotal.Text = Math.Round(total + IVA, 2).ToString();
 
+            //Limpiar campo de vuelta y efectivo PULIDISIMO 
+            txtVuelta.Text = "";
+            txtEfectivo.Text = "";
+            
+        }
+
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //Si el efectivo es menor que el total
+                if (Convert.ToDouble(txtEfectivo.Text) < Convert.ToDouble(txtTotal.Text))
+                {
+                    MessageBox.Show("Efectivo menor que el total");
+                }
+                else
+                {
+                    //Calcular el cambio
+                    txtVuelta.Text = (Convert.ToDouble(txtEfectivo.Text) - Convert.ToDouble(txtTotal.Text)).ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error FATAL");
+            }          
+        }
+
+        private void rdPostre_CheckedChanged(object sender, EventArgs e)
+        {
+            //Limpiar comboBox
+            cbPostre.Items.Clear();
+
+            //Meter los tipos en el comboBox
+            cbPostre.Items.Add("Fruta/Yogurt");
+            cbPostre.Items.Add("Brownie Chocolate con helado");
+            cbPostre.Items.Add("Tarta de Santiago");
+            cbPostre.Items.Add("Tarta semifria de chocolate y queso");
+        }
+
+        private void rdCafe_CheckedChanged(object sender, EventArgs e)
+        {
+            //Limpiar comboBox
+            cbCafe.Items.Clear();
+
+            //Meter los tipos en el comboBox
+            cbCafe.Items.Add("Con leche");
+            cbCafe.Items.Add("Cortado");
+            cbCafe.Items.Add("Solo");
+            cbCafe.Items.Add("Descafeinado ");
+        }
+
+        private void cbPostre_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //Postre
+            if (cbPostre.Text == "Fruta/Yogurt")
+            {
+                lblPrecioPostreNum.Text = "1,50";
+            }
+            else if (cbPostre.Text == "Brownie Chocolate con helado" || cbPostre.Text == "Tarta de Santiago" || cbPostre.Text == "Tarta semifria de chocolate y queso")
+            {
+                lblPrecioPostreNum.Text = "3,50";
+            }
 
             
+        }
+
+        private void cbCafe_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //Cafe
+            if (cbCafe.Text == "Con leche" || cbCafe.Text == "Cortado" || cbCafe.Text == "Solo" || cbCafe.Text == "Descafeinado ")
+            {
+                lblPrecioPostreNum.Text = "1,00";
+            }
         }
     }
 }
