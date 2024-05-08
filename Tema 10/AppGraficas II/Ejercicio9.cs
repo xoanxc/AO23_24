@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -93,6 +94,7 @@ namespace AppGraficas_II
 
         private void cbPrimerPlato_SelectedIndexChanged(object sender, EventArgs e)
         {
+            //Crema
             if (cbPrimerPlato.Text == "Champiñones")
             {
                 lblPrecioPrimeroNum.Text = "4,00";
@@ -105,6 +107,8 @@ namespace AppGraficas_II
             {
                 lblPrecioPrimeroNum.Text = "4,75";
             }
+
+            //Ensalada
             else if (cbPrimerPlato.Text == "Primavera")
             {
                 lblPrecioPrimeroNum.Text = "3,00";
@@ -117,6 +121,8 @@ namespace AppGraficas_II
             {
                 lblPrecioPrimeroNum.Text = "4,50";
             }
+
+            //Empanadillas
             else if (cbPrimerPlato.Text == "Pulpo")
             {
                 lblPrecioPrimeroNum.Text = "6,00";
@@ -134,6 +140,115 @@ namespace AppGraficas_II
                 lblPrecioPrimeroNum.Text = "3,50";
             }
 
+        }
+
+        private void rdPescado_CheckedChanged(object sender, EventArgs e)
+        {
+            //Limpiar comboBox
+            cbSegundoPlato.Items.Clear();
+
+            //Meter los tipos en el comboBox
+            cbSegundoPlato.Items.Add("Merluza a la plancha");
+            cbSegundoPlato.Items.Add("Lenguado");
+            cbSegundoPlato.Items.Add("Besugo");
+            cbSegundoPlato.Items.Add("Bacalao al horno");
+        }
+
+        private void rdCarne_CheckedChanged(object sender, EventArgs e)
+        {
+            //Limpiar comboBox
+            cbSegundoPlato.Items.Clear();
+
+            //Meter los tipos en el comboBox
+            cbSegundoPlato.Items.Add("Milanesa");
+            cbSegundoPlato.Items.Add("Chuleta");
+            cbSegundoPlato.Items.Add("San Jacobos");
+            cbSegundoPlato.Items.Add("Solomillo");
+        }
+
+        private void rdPasta_CheckedChanged(object sender, EventArgs e)
+        {
+            //Limpiar comboBox
+            cbSegundoPlato.Items.Clear();
+
+            //Meter los tipos en el comboBox
+            cbSegundoPlato.Items.Add("Spaguetti Bolognesa");
+            cbSegundoPlato.Items.Add("Macarrones carbonara");
+            cbSegundoPlato.Items.Add("Trofie al pesto");
+        }
+
+        private void cbSegundoPlato_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            //Pescado
+            if (cbSegundoPlato.Text == "Merluza a la plancha")
+            {
+                lblPrecioSegundoNum.Text = "4,50";
+            }
+            else if (cbSegundoPlato.Text == "Lenguado")
+            {
+                lblPrecioSegundoNum.Text = "4,50";
+            }
+            else if (cbSegundoPlato.Text == "Besugo")
+            {
+                lblPrecioSegundoNum.Text = "6,00";
+            }
+            else if (cbSegundoPlato.Text == "Bacalao al horno")
+            {
+                lblPrecioSegundoNum.Text = "6,00";
+            }
+
+            //Carne
+            else if (cbSegundoPlato.Text == "Milanesa")
+            {
+                lblPrecioSegundoNum.Text = "4,50";
+            }
+            else if (cbSegundoPlato.Text == "Chuleta")
+            {
+                lblPrecioSegundoNum.Text = "7,50";
+            }
+            else if (cbSegundoPlato.Text == "San Jacobos")
+            {
+                lblPrecioSegundoNum.Text = "4,50";
+            }
+            else if (cbSegundoPlato.Text == "Solomillo")
+            {
+                lblPrecioSegundoNum.Text = "8,00";
+            }
+
+            //Pasta
+            else if (cbSegundoPlato.Text == "Spaguetti Bolognesa")
+            {
+                lblPrecioSegundoNum.Text = "9,00";
+            }
+            else if (cbSegundoPlato.Text == "Macarrones carbonara")
+            {
+                lblPrecioSegundoNum.Text = "9,50";
+            }
+            else if (cbSegundoPlato.Text == "Trofie al pesto")
+            {
+                lblPrecioSegundoNum.Text = "10,50";
+            }
+
+        }
+
+        private void btnCalcularCuenta_Click(object sender, EventArgs e)
+        {
+            //Sumar los precios
+            double precioPrimero = Convert.ToDouble(lblPrecioPrimeroNum.Text);
+            double precioSegundo = Convert.ToDouble(lblPrecioSegundoNum.Text);
+            double precioBebida = Convert.ToDouble(lblPrecioBebidaNum.Text);
+            double total = precioPrimero + precioSegundo + precioBebida;
+
+            
+            double IVA = total * 0.11;
+            txtTotalIVA.Text = IVA.ToString();
+
+            //Mostrar el total redondeado a 2 decimales
+            txtTotal.Text = Math.Round(total + IVA, 2).ToString();
+
+
+            
         }
     }
 }
