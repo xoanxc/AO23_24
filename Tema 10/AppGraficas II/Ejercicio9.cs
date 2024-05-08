@@ -21,12 +21,26 @@ namespace AppGraficas_II
         {
             //Mostrar la imagen de crema
             pbImages.Image = Properties.Resources.crema;
+
+            //Limpiar comboBox
+            cbPrimerPlato.Items.Clear();
+            //Meter los tipos en el comboBox
+            cbPrimerPlato.Items.Add("Champiñones");
+            cbPrimerPlato.Items.Add("Puerros");
+            cbPrimerPlato.Items.Add("Zanahoria");
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             //Mostrar la imagen de ensalada
             pbImages.Image = Properties.Resources.ensalada;
+
+            //Limpiar comboBox
+            cbPrimerPlato.Items.Clear();
+            //Meter los tipos en el comboBox
+            cbPrimerPlato.Items.Add("Primavera");
+            cbPrimerPlato.Items.Add("Romana");
+            cbPrimerPlato.Items.Add("Cesar");
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
