@@ -46,6 +46,7 @@
             this.snakeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tresEnRayaVSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -155,6 +156,8 @@
             // 
             // tresEnRayaToolStripMenuItem
             // 
+            this.tresEnRayaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tresEnRayaVSToolStripMenuItem});
             this.tresEnRayaToolStripMenuItem.Name = "tresEnRayaToolStripMenuItem";
             this.tresEnRayaToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.tresEnRayaToolStripMenuItem.Text = "Tres en raya";
@@ -185,8 +188,15 @@
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(153, 24);
             this.acercaDeToolStripMenuItem.Text = "Acerca de..";
+            // 
+            // tresEnRayaVSToolStripMenuItem
+            // 
+            this.tresEnRayaVSToolStripMenuItem.Name = "tresEnRayaVSToolStripMenuItem";
+            this.tresEnRayaVSToolStripMenuItem.Size = new System.Drawing.Size(182, 24);
+            this.tresEnRayaVSToolStripMenuItem.Text = "Tres en raya VS";
+            this.tresEnRayaVSToolStripMenuItem.Click += new System.EventHandler(this.tresEnRayaVSToolStripMenuItem_Click);
             // 
             // menuPrincipal
             // 
@@ -198,7 +208,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximumSize = new System.Drawing.Size(340, 443);
             this.MinimumSize = new System.Drawing.Size(340, 443);
             this.Name = "menuPrincipal";
@@ -228,6 +238,7 @@
         private System.Windows.Forms.ToolStripMenuItem snakeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem opcionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tresEnRayaVSToolStripMenuItem;
     }
 }
 

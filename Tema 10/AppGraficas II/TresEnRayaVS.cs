@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AppGraficas_II
 {
-    public partial class TresEnRaya : Form
+    public partial class TresEnRayaVS : Form
     {
-        public TresEnRaya()
+        public TresEnRayaVS()
         {
             InitializeComponent();
         }
@@ -31,7 +31,7 @@ namespace AppGraficas_II
             button9.Text = "";
         }
 
-        public void comprobarGanador ()
+        public void comprobarGanador()
         {
             //Comprobar si hay un ganador
 
@@ -58,7 +58,7 @@ namespace AppGraficas_II
                 MessageBox.Show("Ganador: O");
                 reiniciarJuego();
             }
-            
+
             //Tercera fila
             if (button7.Text == "X" && button8.Text == "X" && button9.Text == "X")
             {
@@ -139,28 +139,43 @@ namespace AppGraficas_II
             }
         }
 
-        //Funcion para cambiar el texto de los botones
+        //Función para el turno de la máquina aleatoria
+        byte turno = 1;
+        public void TurnoMaquina()
+        {
+            Random Gen1 = new Random();
+
+            //Array de botones con Button[]
+            Button[] buttons = { button1, button2, button3, button4, button5, button6, button7, button8, button9 };
+
+            //Botón aleatorio
+            Button randomButton;
+
+            //Buscar casillas vacías y seleccionar una aleatoriamente
+            do
+            {
+                randomButton = buttons[Gen1.Next(0, 9)];
+            } while (randomButton.Text != "");
+
+            randomButton.Text = "O"; //Colocar O en la casilla aleatoria
+            turno = 1; //Cambiar el turno de vuelta al jugador
+        }
+
+        //Función para cambiar el texto de los botones
         public void cambiarTexto(Button boton)
         {
-            byte turno = 1;
-
-            //Dos jugadores
-            if (boton.Text == "")
+            //Si la casilla está vacía y el turno del jugador es X, colocar X
+            if (boton.Text == "" && turno == 1)
             {
-                if (turno == 1)
-                {
-                    boton.Text = "X";
-                    turno = 2;
-                }
-                else
-                {
-                    boton.Text = "O";
-                    turno = 1;
-                }
+                boton.Text = "X";
+                turno = 2; //Cambiar turno a la máquina
+                comprobarGanador(); //Comprobar si el jugador ganó después de su turno
+                TurnoMaquina(); //Turno de la máquina después del jugador
+                comprobarGanador(); //Comprobar si la máquina ganó después de su turno
             }
-            else
+            else if (boton.Text != "")
             {
-                MessageBox.Show("Casilla ocupada");
+                MessageBox.Show("Casilla ocupada, MAL");
             }
         }
 
@@ -219,3 +234,4 @@ namespace AppGraficas_II
         }
     }
 }
+

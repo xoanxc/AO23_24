@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\",
+  "WorkspaceRootPath": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|c:\\users\\xoan\\documents\\github\\ao23_24\\tema 10\\appgraficas ii\\ejercicio9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|solutionrelative:ejercicio9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|f:\\users\\xoana\\documents\\github\\ao23_24\\tema 10\\appgraficas ii\\tresenrayavs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|solutionrelative:tresenrayavs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|c:\\users\\xoan\\documents\\github\\ao23_24\\tema 10\\appgraficas ii\\ejercicio9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|solutionrelative:ejercicio9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|f:\\users\\xoana\\documents\\github\\ao23_24\\tema 10\\appgraficas ii\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|c:\\users\\xoan\\documents\\github\\ao23_24\\tema 10\\appgraficas ii\\tresenraya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|solutionrelative:tresenraya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|f:\\users\\xoana\\documents\\github\\ao23_24\\tema 10\\appgraficas ii\\tresenrayavs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|solutionrelative:tresenrayavs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\tresenraya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\tresenraya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{960C3AE6-54CD-4E71-8E9A-F7DBE7E94F22}|AppGraficas II.csproj|solutionrelative:tresenraya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -30,64 +30,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ejercicio9.cs",
-              "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\Ejercicio9.cs",
-              "RelativeDocumentMoniker": "Ejercicio9.cs",
-              "ToolTip": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\Ejercicio9.cs",
-              "RelativeToolTip": "Ejercicio9.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAnwFcAAAAdAAAA",
+              "DocumentIndex": 1,
+              "Title": "menuPrincipal.cs",
+              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\menuPrincipal.cs",
+              "RelativeDocumentMoniker": "menuPrincipal.cs",
+              "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\menuPrincipal.cs",
+              "RelativeToolTip": "menuPrincipal.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAWwGAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T14:44:32.197Z",
+              "WhenOpened": "2024-05-09T21:24:38.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ejercicio9.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\Ejercicio9.cs",
-              "RelativeDocumentMoniker": "Ejercicio9.cs",
-              "ToolTip": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\Ejercicio9.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Ejercicio9.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "TresEnRayaVS.cs",
+              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\TresEnRayaVS.cs",
+              "RelativeDocumentMoniker": "TresEnRayaVS.cs",
+              "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\TresEnRayaVS.cs",
+              "RelativeToolTip": "TresEnRayaVS.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAWwKAAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T14:44:26.861Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-09T21:24:00.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TresEnRaya.cs",
-              "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\TresEnRaya.cs",
-              "RelativeDocumentMoniker": "TresEnRaya.cs",
-              "ToolTip": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\TresEnRaya.cs",
-              "RelativeToolTip": "TresEnRaya.cs",
-              "ViewState": "AQIAAOIAAAAAAAAAAAAAAOIAAAAAAAAA",
+              "Title": "TresEnRayaVS.cs [Dise\u00F1o]",
+              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\TresEnRayaVS.cs",
+              "RelativeDocumentMoniker": "TresEnRayaVS.cs",
+              "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\TresEnRayaVS.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TresEnRayaVS.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T10:58:51.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T21:20:08.652Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "TresEnRaya.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\TresEnRaya.cs",
+              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\TresEnRaya.cs",
               "RelativeDocumentMoniker": "TresEnRaya.cs",
-              "ToolTip": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\TresEnRaya.cs [Dise\u00F1o]",
+              "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\TresEnRaya.cs [Dise\u00F1o]",
               "RelativeToolTip": "TresEnRaya.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T06:59:09.107Z"
+              "WhenOpened": "2024-05-09T06:59:09.107Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "menuPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\menuPrincipal.cs",
+              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\menuPrincipal.cs",
               "RelativeDocumentMoniker": "menuPrincipal.cs",
-              "ToolTip": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\menuPrincipal.cs [Dise\u00F1o]",
+              "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\AppGraficas II\\menuPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "menuPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T16:37:22.179Z",

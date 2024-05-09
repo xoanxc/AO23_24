@@ -90,5 +90,11 @@ namespace AppGraficas_II
             Snake snk = new Snake();
             snk.Show();
         }
+
+        private void tresEnRayaVSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TresEnRayaVS terVS = new TresEnRayaVS();
+            terVS.Show();
+        }
     }
 }
