@@ -64,21 +64,19 @@ namespace AppGraficas_II
             //Mostrar la imagen de agua
             pbBebida.Image = Properties.Resources.agua;
 
-            if (rdAgua.Checked)
-            {
-                lblPrecioBebidaNum.Text = "1,20";
-            }
+            //Precio del agua
+            lblPrecioBebidaNum.Text = "1,20";
+            
         }
 
         private void radioButton8_CheckedChanged(object sender, EventArgs e)
         {
             //Mostrar la imagen de refresco
             pbBebida.Image = Properties.Resources.refresco;
-       
-            if (rdRefresco.Checked)
-            {
-                lblPrecioBebidaNum.Text = "2,30";
-            }
+            
+            //Precio del refresco
+            lblPrecioBebidaNum.Text = "2,30";
+            
 
         }
 
@@ -86,11 +84,10 @@ namespace AppGraficas_II
         {
             //Mostrar la imagen de vino
             pbBebida.Image = Properties.Resources.vino;
+
+            //Precio del vino
+            lblPrecioBebidaNum.Text = "4,50";
             
-            if (rdVino.Checked)
-            {
-                lblPrecioBebidaNum.Text = "4,50";
-            }
         }
 
         private void cbPrimerPlato_SelectedIndexChanged(object sender, EventArgs e)
