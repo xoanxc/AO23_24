@@ -140,13 +140,14 @@ namespace AppGraficas_II
         }
 
         //Funcion para cambiar el texto de los botones
+        byte turno = 1;
         public void cambiarTexto(Button boton)
         {
-            byte turno = 1;
-
             //Dos jugadores
             if (boton.Text == "")
             {
+                
+
                 if (turno == 1)
                 {
                     boton.Text = "X";

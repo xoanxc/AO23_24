@@ -152,12 +152,6 @@
     <Compile Include="TresEnRaya.Designer.cs">
       <DependentUpon>TresEnRaya.cs</DependentUpon>
     </Compile>
-    <Compile Include="TresEnRayaVS.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TresEnRayaVS.Designer.cs">
-      <DependentUpon>TresEnRayaVS.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Ejercicio1.resx">
       <DependentUpon>Ejercicio1.cs</DependentUpon>
     </EmbeddedResource>
@@ -203,9 +197,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TresEnRaya.resx">
       <DependentUpon>TresEnRaya.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TresEnRayaVS.resx">
-      <DependentUpon>TresEnRayaVS.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
