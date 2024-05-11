@@ -144,7 +144,7 @@ namespace AppGraficas_II
         public void cambiarTexto(Button boton)
         {
             //Elegir 1 o 2 jugadores
-            if (rd2JUGADORES.Checked)
+            if (rd1JUGADOR.Checked)
             {
                 //Dos jugadores
                 if (boton.Text == "")
@@ -167,7 +167,7 @@ namespace AppGraficas_II
                     MessageBox.Show("Casilla ocupada");
                 }
             }
-            else if (rd1JUGADOR.Checked)
+            else if (rd2JUGADORES.Checked)
             {
                 if (turno == 1)
                 {
