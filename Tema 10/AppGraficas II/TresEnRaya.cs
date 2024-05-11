@@ -143,11 +143,32 @@ namespace AppGraficas_II
         byte turno = 1;
         public void cambiarTexto(Button boton)
         {
-            //Dos jugadores
-            if (boton.Text == "")
+            //Elegir 1 o 2 jugadores
+            if (rd2JUGADORES.Checked)
             {
-                
+                //Dos jugadores
+                if (boton.Text == "")
+                {
 
+
+                    if (turno == 1)
+                    {
+                        boton.Text = "X";
+                        turno = 2;
+                    }
+                    else
+                    {
+                        boton.Text = "O";
+                        turno = 1;
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Casilla ocupada");
+                }
+            }
+            else if (rd1JUGADOR.Checked)
+            {
                 if (turno == 1)
                 {
                     boton.Text = "X";
@@ -155,14 +176,21 @@ namespace AppGraficas_II
                 }
                 else
                 {
-                    boton.Text = "O";
-                    turno = 1;
+                    //Selecciona una casilla aleatoria disponible
+                    Random Gen1 = new Random();
+                    int casilla;
+                    do
+                    {
+                        casilla = Gen1.Next(1, 10);
+                    } while (Controls["button" + casilla].Text != ""); //Controla que la casilla esta vacia y añade button + el numero de la casilla
+
+                    Button casillaBoton = (Button)Controls["button" + casilla]; //Introduce el boton en la variable casillaBoton
+                    casillaBoton.Text = "O";
+
+                    turno = 1; //Pasa el turno al jugador
                 }
             }
-            else
-            {
-                MessageBox.Show("Casilla ocupada");
-            }
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
