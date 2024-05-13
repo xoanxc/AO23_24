@@ -183,11 +183,13 @@ namespace AppGraficas_II
                     int casilla;
                     do
                     {
+                        //Introduzco en casilla un numero aleatorio y compruebo que este disponible
                         casilla = Gen1.Next(1, 10);
                     } while (Controls["button" + casilla].Text != ""); //Controla que la casilla esta vacia y añade button + el numero de la casilla
 
-                    Button casillaBoton = (Button)Controls["button" + casilla]; //Introduce el boton en la variable casillaBoton
-                    casillaBoton.Text = "O";
+                    //Introduce el boton en la variable casillaBoton
+                    Button casillaBoton = (Button)Controls["button" + casilla];
+                    casillaBoton.Text = "O"; //La ponre maquina solo puede poner O
 
                     //********************************************************************************************************
                     //****************************************SOBRE CONTROLS****************************************************

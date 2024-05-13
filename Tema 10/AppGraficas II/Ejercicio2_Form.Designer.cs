@@ -39,8 +39,9 @@
             // 
             this.txtProfesor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtProfesor.Location = new System.Drawing.Point(35, 62);
-            this.txtProfesor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtProfesor.Margin = new System.Windows.Forms.Padding(4);
             this.txtProfesor.Name = "txtProfesor";
+            this.txtProfesor.ReadOnly = true;
             this.txtProfesor.Size = new System.Drawing.Size(379, 26);
             this.txtProfesor.TabIndex = 0;
             // 
@@ -50,7 +51,7 @@
             this.lbMaterias.FormattingEnabled = true;
             this.lbMaterias.ItemHeight = 20;
             this.lbMaterias.Location = new System.Drawing.Point(35, 137);
-            this.lbMaterias.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lbMaterias.Margin = new System.Windows.Forms.Padding(4);
             this.lbMaterias.Name = "lbMaterias";
             this.lbMaterias.Size = new System.Drawing.Size(379, 244);
             this.lbMaterias.TabIndex = 1;
@@ -87,7 +88,7 @@
             this.Controls.Add(this.lbMaterias);
             this.Controls.Add(this.txtProfesor);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(467, 469);
             this.MinimumSize = new System.Drawing.Size(467, 469);
             this.Name = "Ejercicio2_Form";

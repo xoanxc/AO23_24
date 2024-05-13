@@ -118,7 +118,7 @@ namespace AppGraficas_II
                     ej2.Show();
 
                     //Añadir el nombre del profesor
-                    ej2.AñadirNombreProfesor("Enrique Prieto Magá");
+                    ej2.AñadirNombreProfesor("Enrique Prieto Magán");
 
                     //Añado el temario con el metodo creado en el form Ejercicio2_Form
                     ej2.AgregarElementoAlListBox("Sistemas Operativos");
