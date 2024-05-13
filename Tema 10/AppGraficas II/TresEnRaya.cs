@@ -167,6 +167,8 @@ namespace AppGraficas_II
                     MessageBox.Show("Casilla ocupada");
                 }
             }
+
+            //Un jugador
             else if (rd2JUGADORES.Checked)
             {
                 if (turno == 1)
@@ -186,6 +188,12 @@ namespace AppGraficas_II
 
                     Button casillaBoton = (Button)Controls["button" + casilla]; //Introduce el boton en la variable casillaBoton
                     casillaBoton.Text = "O";
+
+                    //********************************************************************************************************
+                    //****************************************SOBRE CONTROLS****************************************************
+                    //https://learn.microsoft.com/es-es/dotnet/api/system.windows.forms.control.controls?view=windowsdesktop-8.0
+                    //**********************************************************************************************************
+                    //********************************************************************************************************
 
                     turno = 1; //Pasa el turno al jugador
                 }
@@ -245,6 +253,18 @@ namespace AppGraficas_II
         {
             cambiarTexto(button9);
             comprobarGanador();
+        }
+
+        private void rd1JUGADOR_CheckedChanged(object sender, EventArgs e)
+        {
+            //Reiniciar el juego
+            reiniciarJuego();
+        }
+
+        private void rd2JUGADORES_CheckedChanged(object sender, EventArgs e)
+        {
+            //Reiniciar el juego
+            reiniciarJuego();
         }
     }
 }
