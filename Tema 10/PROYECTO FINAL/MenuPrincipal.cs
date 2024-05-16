@@ -16,5 +16,23 @@ namespace PROYECTO_FINAL
         {
             InitializeComponent();
         }
+
+
+        private void registrarUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Abro el formulario de registro de usuarios
+            RegistrarUsuario registrarUsuarios = new RegistrarUsuario();
+            registrarUsuarios.Show();
+        }
+
+        private void cerarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Cerrar el formulario actual
+            this.Close();
+
+            //Abro el formulario de inicio de sesión
+            PanelUsuarios panelUsuarios = new PanelUsuarios();
+            panelUsuarios.Show();
+        }
     }
 }
