@@ -1,0 +1,10 @@
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\bin\Debug\PROYECTO FINAL.exe.config
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\bin\Debug\PROYECTO FINAL.exe
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\bin\Debug\PROYECTO FINAL.pdb
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csproj.AssemblyReference.cache
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Form1.resources
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Properties.Resources.resources
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csproj.GenerateResource.cache
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csproj.CoreCompileInputs.cache
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.exe
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.pdb
