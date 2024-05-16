@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:panelusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|f:\\users\\xoana\\documents\\github\\ao23_24\\tema 10\\proyecto final\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|f:\\users\\xoana\\documents\\github\\ao23_24\\tema 10\\proyecto final\\registrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\registrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:registrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -41,8 +41,7 @@
               "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\RegistrarUsuario.cs [Dise\u00F1o]",
               "RelativeToolTip": "RegistrarUsuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:55:30.993Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-16T17:55:30.993Z"
             },
             {
               "$type": "Document",
@@ -54,8 +53,7 @@
               "RelativeToolTip": "MenuPrincipal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:54:45.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T17:54:45.749Z"
             },
             {
               "$type": "Document",
@@ -66,8 +64,7 @@
               "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\MenuPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "MenuPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:30:19.473Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-16T17:30:19.473Z"
             },
             {
               "$type": "Document",
@@ -91,8 +88,7 @@
               "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\PanelUsuarios.cs [Dise\u00F1o]",
               "RelativeToolTip": "PanelUsuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T10:07:50.388Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-13T10:07:50.388Z"
             }
           ]
         }
