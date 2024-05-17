@@ -19,3 +19,5 @@ F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECT
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csproj.CoreCompileInputs.cache
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.exe
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.pdb
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Configurador.resources
+F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.GestionDeUsuarios.resources

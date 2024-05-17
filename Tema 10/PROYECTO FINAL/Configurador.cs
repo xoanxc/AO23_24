@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PROYECTO_FINAL
 {
-    public partial class RegistrarUsuario : Form
+    public partial class Configurador : Form
     {
-        public RegistrarUsuario()
+        public Configurador()
         {
             InitializeComponent();
         }

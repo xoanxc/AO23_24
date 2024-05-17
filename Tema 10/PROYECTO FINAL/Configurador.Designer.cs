@@ -1,6 +1,6 @@
 ﻿namespace PROYECTO_FINAL
 {
-    partial class RegistrarUsuario
+    partial class Configurador
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Configurador));
+            this.SuspendLayout();
+            // 
+            // Configurador
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "RegistrarUsuario";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Configurador";
+            this.Text = "Configurador";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

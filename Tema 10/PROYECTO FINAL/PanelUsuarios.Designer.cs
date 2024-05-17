@@ -40,7 +40,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(160, 47);
+            this.txtUsuario.Location = new System.Drawing.Point(84, 47);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(134, 24);
@@ -49,7 +49,7 @@
             // txtContraseña
             // 
             this.txtContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContraseña.Location = new System.Drawing.Point(160, 111);
+            this.txtContraseña.Location = new System.Drawing.Point(84, 111);
             this.txtContraseña.Margin = new System.Windows.Forms.Padding(2);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(134, 24);
@@ -58,7 +58,7 @@
             // btnAcceder
             // 
             this.btnAcceder.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAcceder.Location = new System.Drawing.Point(109, 156);
+            this.btnAcceder.Location = new System.Drawing.Point(84, 156);
             this.btnAcceder.Margin = new System.Windows.Forms.Padding(2);
             this.btnAcceder.Name = "btnAcceder";
             this.btnAcceder.Size = new System.Drawing.Size(92, 37);
@@ -69,17 +69,23 @@
             // 
             // pbUsuario
             // 
-            this.pbUsuario.Location = new System.Drawing.Point(37, 35);
+            this.pbUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.pbUsuario.Image = global::PROYECTO_FINAL.Properties.Resources.user_0;
+            this.pbUsuario.Location = new System.Drawing.Point(41, 37);
             this.pbUsuario.Name = "pbUsuario";
-            this.pbUsuario.Size = new System.Drawing.Size(100, 50);
+            this.pbUsuario.Size = new System.Drawing.Size(38, 34);
+            this.pbUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbUsuario.TabIndex = 6;
             this.pbUsuario.TabStop = false;
             // 
             // pbContraseña
             // 
-            this.pbContraseña.Location = new System.Drawing.Point(37, 101);
+            this.pbContraseña.BackColor = System.Drawing.Color.Transparent;
+            this.pbContraseña.Image = global::PROYECTO_FINAL.Properties.Resources.lock_0;
+            this.pbContraseña.Location = new System.Drawing.Point(41, 101);
             this.pbContraseña.Name = "pbContraseña";
-            this.pbContraseña.Size = new System.Drawing.Size(100, 50);
+            this.pbContraseña.Size = new System.Drawing.Size(38, 34);
+            this.pbContraseña.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbContraseña.TabIndex = 7;
             this.pbContraseña.TabStop = false;
             // 
@@ -89,7 +95,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PROYECTO_FINAL.Properties.Resources.Background_0;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(328, 204);
+            this.ClientSize = new System.Drawing.Size(256, 210);
             this.Controls.Add(this.pbContraseña);
             this.Controls.Add(this.pbUsuario);
             this.Controls.Add(this.btnAcceder);

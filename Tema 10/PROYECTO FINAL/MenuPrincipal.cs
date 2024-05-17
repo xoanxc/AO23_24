@@ -21,8 +21,8 @@ namespace PROYECTO_FINAL
         private void registrarUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //Abro el formulario de registro de usuarios
-            RegistrarUsuario registrarUsuarios = new RegistrarUsuario();
-            registrarUsuarios.Show();
+            GestionDeUsuarios gestionUsuarios = new GestionDeUsuarios();
+            gestionUsuarios.Show();
         }
 
         private void cerarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
@@ -33,6 +33,13 @@ namespace PROYECTO_FINAL
             //Abro el formulario de inicio de sesión
             PanelUsuarios panelUsuarios = new PanelUsuarios();
             panelUsuarios.Show();
+        }
+
+        private void configuradorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Abro el configurador
+            Configurador configurador = new Configurador();
+            configurador.Show();
         }
     }
 }

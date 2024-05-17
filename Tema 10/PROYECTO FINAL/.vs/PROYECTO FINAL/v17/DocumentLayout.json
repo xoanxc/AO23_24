@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|f:\\users\\xoana\\documents\\github\\ao23_24\\tema 10\\proyecto final\\panelusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:panelusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|f:\\users\\xoana\\documents\\github\\ao23_24\\tema 10\\proyecto final\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\panelusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:panelusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|f:\\users\\xoana\\documents\\github\\ao23_24\\tema 10\\proyecto final\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|f:\\users\\xoana\\documents\\github\\ao23_24\\tema 10\\proyecto final\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\registrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:registrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|f:\\users\\xoana\\documents\\github\\ao23_24\\tema 10\\proyecto final\\panelusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:panelusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\panelusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:panelusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\configurador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:configurador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,18 +38,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RegistrarUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\RegistrarUsuario.cs",
-              "RelativeDocumentMoniker": "RegistrarUsuario.cs",
-              "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\RegistrarUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "RegistrarUsuario.cs [Dise\u00F1o]",
+              "Title": "PanelUsuarios.cs",
+              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\PanelUsuarios.cs",
+              "RelativeDocumentMoniker": "PanelUsuarios.cs",
+              "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\PanelUsuarios.cs",
+              "RelativeToolTip": "PanelUsuarios.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAtwEUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:55:30.993Z"
+              "WhenOpened": "2024-05-17T17:03:33.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestionDeUsuarios.cs",
+              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\GestionDeUsuarios.cs",
+              "RelativeDocumentMoniker": "GestionDeUsuarios.cs",
+              "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\GestionDeUsuarios.cs",
+              "RelativeToolTip": "GestionDeUsuarios.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAkwEcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:49:36.347Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -51,9 +74,10 @@
               "RelativeDocumentMoniker": "MenuPrincipal.cs",
               "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\MenuPrincipal.cs",
               "RelativeToolTip": "MenuPrincipal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAhAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:54:45.749Z"
+              "WhenOpened": "2024-05-17T16:40:31.118Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -64,24 +88,36 @@
               "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\MenuPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "MenuPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:30:19.473Z"
+              "WhenOpened": "2024-05-17T16:35:01.497Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PanelUsuarios.cs",
-              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\PanelUsuarios.cs",
-              "RelativeDocumentMoniker": "PanelUsuarios.cs",
-              "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\PanelUsuarios.cs",
-              "RelativeToolTip": "PanelUsuarios.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAD4v0kAAAARAAAA",
+              "Title": "GestionDeUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\GestionDeUsuarios.cs",
+              "RelativeDocumentMoniker": "GestionDeUsuarios.cs",
+              "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\GestionDeUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GestionDeUsuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T10:19:20.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T16:34:54.512Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Configurador.cs [Dise\u00F1o]",
+              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\Configurador.cs",
+              "RelativeDocumentMoniker": "Configurador.cs",
+              "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\Configurador.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Configurador.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:18:37.165Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PanelUsuarios.cs [Dise\u00F1o]",
               "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\PanelUsuarios.cs",
               "RelativeDocumentMoniker": "PanelUsuarios.cs",

@@ -24,8 +24,10 @@ namespace PROYECTO_FINAL
         string contraseña = "";
         bool registrado = false;
 
-        string[] usuarios = new string[1];
-        string[] inventario = new string[1];
+        //Listas de usuarios e inventario para todos los formularios
+        public static List<string> usuarios = new List<string>();
+        public static List<string> inventario = new List<string>();
+
 
 
         private void Form1_Load(object sender, EventArgs e)
@@ -48,8 +50,26 @@ namespace PROYECTO_FINAL
             }
 
             //Lectura de ficheros
-            usuarios = File.ReadAllLines("usuarios.txt");
-            inventario = File.ReadAllLines("inventario.txt");
+            StreamReader sr = new StreamReader("usuarios.txt");
+            string linea = "";
+            while ((linea = sr.ReadLine()) != null)
+            {
+                usuarios.Add(linea);
+            }
+            sr.Close();
+
+            sr = new StreamReader("inventario.txt");
+            linea = "";
+            while ((linea = sr.ReadLine()) != null)
+            {
+                inventario.Add(linea);
+            }
+            sr.Close();
+            
+
+            //Ocultar el campo de contraseña
+            txtContraseña.PasswordChar = '*';
+            //https://learn.microsoft.com/es-es/dotnet/api/system.windows.forms.textbox.passwordchar?view=windowsdesktop-8.0
         }
 
         
@@ -60,7 +80,7 @@ namespace PROYECTO_FINAL
             string usuarioAcceso = txtUsuario.Text + "," + txtContraseña.Text;
             
             //Recorro el fichero de usuarios
-            for (int i = 0; i < usuarios.Length; i++)
+            for (int i = 0; i < usuarios.Count; i++)
             {
                 if (usuarios[i] == usuarioAcceso)
                 {                    

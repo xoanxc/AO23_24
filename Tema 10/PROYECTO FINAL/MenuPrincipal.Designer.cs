@@ -33,15 +33,17 @@
             this.opción1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrarUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.cerarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.configuradorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.opción1ToolStripMenuItem});
+            this.opción1ToolStripMenuItem,
+            this.configuradorToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -62,7 +64,7 @@
             // 
             this.registrarUsuariosToolStripMenuItem.Name = "registrarUsuariosToolStripMenuItem";
             this.registrarUsuariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.registrarUsuariosToolStripMenuItem.Text = "Registrar usuarios";
+            this.registrarUsuariosToolStripMenuItem.Text = "Gestión de usuarios";
             this.registrarUsuariosToolStripMenuItem.Click += new System.EventHandler(this.registrarUsuariosToolStripMenuItem_Click);
             // 
             // acercaDeToolStripMenuItem
@@ -71,17 +73,24 @@
             this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de...";
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // cerarSesiónToolStripMenuItem
             // 
             this.cerarSesiónToolStripMenuItem.Name = "cerarSesiónToolStripMenuItem";
             this.cerarSesiónToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cerarSesiónToolStripMenuItem.Text = "Cerar sesión";
             this.cerarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerarSesiónToolStripMenuItem_Click);
+            // 
+            // configuradorToolStripMenuItem
+            // 
+            this.configuradorToolStripMenuItem.Name = "configuradorToolStripMenuItem";
+            this.configuradorToolStripMenuItem.Size = new System.Drawing.Size(90, 20);
+            this.configuradorToolStripMenuItem.Text = "Configurador";
+            this.configuradorToolStripMenuItem.Click += new System.EventHandler(this.configuradorToolStripMenuItem_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // MenuPrincipal
             // 
@@ -107,5 +116,6 @@
         private System.Windows.Forms.ToolStripMenuItem registrarUsuariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerarSesiónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem configuradorToolStripMenuItem;
     }
 }
