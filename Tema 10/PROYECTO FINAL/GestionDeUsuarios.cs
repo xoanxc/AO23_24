@@ -18,18 +18,35 @@ namespace PROYECTO_FINAL
             InitializeComponent();
         }
 
-        private void GestionDeUsuarios_Load(object sender, EventArgs e)
+
+        //Metodo para cargar los usuarios en el ListBox
+        public void CargarUsuarios()
         {
-            //Añadir los usuarios al ListBox (desde el array de usuarios de PanelUsuarios) y luego split para mostrar solo el nombre
             for (int i = 0; i < PanelUsuarios.usuarios.Count; i++)
             {
                 string[] usuario = PanelUsuarios.usuarios[i].Split(',');
                 lbUsuarios.Items.Add(usuario[0]);
             }
+        }
 
-            //Ocultar el campo de contraseña
-            txtContraseña.PasswordChar = '*';
-            //https://learn.microsoft.com/es-es/dotnet/api/system.windows.forms.textbox.passwordchar?view=windowsdesktop-8.0
+        //Metodo para sobreescrbir el fichero de usuarios
+        public void SobreescribirFichero()
+        {
+            StreamWriter sw = new StreamWriter("usuarios.txt");
+            for (int i = 0; i < PanelUsuarios.usuarios.Count; i++)
+            {
+                sw.WriteLine(PanelUsuarios.usuarios[i]);
+            }
+            sw.Close();
+        }
+
+
+            
+
+        private void GestionDeUsuarios_Load(object sender, EventArgs e)
+        {
+            //Cargar los usuarios en el ListBox
+            CargarUsuarios();
         }
 
         private void lbUsuarios_SelectedIndexChanged(object sender, EventArgs e)
@@ -40,13 +57,7 @@ namespace PROYECTO_FINAL
                 PanelUsuarios.usuarios.RemoveAt(lbUsuarios.SelectedIndex);
                 lbUsuarios.Items.RemoveAt(lbUsuarios.SelectedIndex);
 
-                //Sobreescribir el fichero de usuarios
-                StreamWriter sw = new StreamWriter("usuarios.txt");
-                for (int i = 0; i < PanelUsuarios.usuarios.Count; i++)
-                {
-                    sw.WriteLine(PanelUsuarios.usuarios[i]);
-                }
-                sw.Close();             
+                SobreescribirFichero();           
             }
         }
 
@@ -58,13 +69,7 @@ namespace PROYECTO_FINAL
                 PanelUsuarios.usuarios.Add(txtUsuario.Text + "," + txtContraseña.Text);
                 lbUsuarios.Items.Add(txtUsuario.Text);
 
-                //Sobreescribir el fichero de usuarios
-                StreamWriter sw = new StreamWriter("usuarios.txt");
-                for (int i = 0; i < PanelUsuarios.usuarios.Count; i++)
-                {
-                    sw.WriteLine(PanelUsuarios.usuarios[i]);
-                }
-                sw.Close();
+                SobreescribirFichero();
 
                 //Limpiar los campos
                 txtUsuario.Text = "";
