@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace PROYECTO_FINAL
 {
@@ -16,6 +17,43 @@ namespace PROYECTO_FINAL
         {
             InitializeComponent();
         }
+
+        public void CargarComponentes()
+        {
+            //Cargar los componentes
+            
+            //Si el fichero no esta creado lo creo
+            if (!File.Exists("Componentes.txt"))
+            {
+                File.Create("Componentes.txt").Close();
+                return; //Vuelvo atras para que cargue los componentes
+            }
+            else
+            {
+                //Si el fichero esta creado lo copio a un array [LOS ARRAY VAN A ACABAR SIENDO MEJOR IDEA QUE LAS LISTAS] (Al menos para esto)
+                string[] componentes = File.ReadAllLines("Componentes.txt");             
+            }
+            
+            
+        }
+
+        public void CargarEquipos()
+        {
+            //Cargar los equipos
+
+            //Si el fichero no esta creado lo creo
+            if (!File.Exists("Equipos.txt"))
+            {
+                File.Create("Equipos.txt").Close();
+                return; //Vuelvo atras para que cargue los equipos
+            }
+            else
+            {
+                //Si el fichero esta creado lo copio a un array [Mismo codigo que el anterior]
+                string[] equipos = File.ReadAllLines("Equipos.txt");
+            }
+        }
+
 
 
         private void registrarUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -40,6 +78,13 @@ namespace PROYECTO_FINAL
             //Abro el configurador
             Configurador configurador = new Configurador();
             configurador.Show();
+        }
+
+        private void MenuPrincipal_Load(object sender, EventArgs e)
+        {
+            //Cargar las funciones
+            CargarComponentes();
+            CargarEquipos();
         }
     }
 }

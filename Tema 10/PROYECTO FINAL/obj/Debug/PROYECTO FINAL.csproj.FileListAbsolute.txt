@@ -2,7 +2,6 @@ C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\bin\Debug\PROYECTO
 C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\bin\Debug\PROYECTO FINAL.exe
 C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\bin\Debug\PROYECTO FINAL.pdb
 C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csproj.AssemblyReference.cache
-C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Form1.resources
 C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Properties.Resources.resources
 C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csproj.GenerateResource.cache
 C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csproj.CoreCompileInputs.cache
@@ -21,3 +20,7 @@ F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECT
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.pdb
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Configurador.resources
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.GestionDeUsuarios.resources
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Configurador.resources
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.GestionDeUsuarios.resources
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MenuPrincipal.resources
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.PanelUsuarios.resources
