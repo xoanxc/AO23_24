@@ -42,11 +42,19 @@ namespace PROYECTO_FINAL
                 sw.WriteLine("admin,admin");
                 sw.Close();
             }
+            else
+            {
+                //No hago nada
+            }
 
             //Creo el fichero de inventario
             if (!File.Exists("inventario.txt"))
             {
                 File.Create("inventario.txt").Close();
+            }
+            else 
+            { 
+                //No hago nada
             }
 
             //Lectura de ficheros

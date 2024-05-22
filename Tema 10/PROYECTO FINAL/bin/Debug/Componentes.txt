@@ -1,1 +1,2 @@
 procesador,intel,i5-10400F
+procesador,intel,i3-10100F

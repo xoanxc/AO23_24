@@ -17,7 +17,8 @@ namespace PROYECTO_FINAL
         {
             InitializeComponent();
         }
-
+        public List<string> componentes = new List<string>(); //Ventaja de las listas, tamaño dinamico
+        public List<string> equipos = new List<string>();
         public void CargarComponentes()
         {
             //Cargar los componentes
@@ -30,8 +31,8 @@ namespace PROYECTO_FINAL
             }
             else
             {
-                //Si el fichero esta creado lo copio a un array [LOS ARRAY VAN A ACABAR SIENDO MEJOR IDEA QUE LAS LISTAS] (Al menos para esto)
-                string[] componentes = File.ReadAllLines("Componentes.txt");             
+                //Si el fichero esta creado lo copio a una lista [LOS ARRAY VAN A ACABAR SIENDO MEJOR IDEA QUE LAS LISTAS] (Al menos para esto)
+                componentes = File.ReadAllLines("Componentes.txt").ToList();
             }
             
             
@@ -50,7 +51,7 @@ namespace PROYECTO_FINAL
             else
             {
                 //Si el fichero esta creado lo copio a un array [Mismo codigo que el anterior]
-                string[] equipos = File.ReadAllLines("Equipos.txt");
+                equipos = File.ReadAllLines("Equipos.txt").ToList();
             }
         }
 

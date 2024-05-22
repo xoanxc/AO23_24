@@ -77,6 +77,7 @@
             this.rdIntel.TabStop = true;
             this.rdIntel.Text = "Intel";
             this.rdIntel.UseVisualStyleBackColor = true;
+            this.rdIntel.CheckedChanged += new System.EventHandler(this.rdIntel_CheckedChanged);
             // 
             // rdAMD
             // 
@@ -90,6 +91,7 @@
             this.rdAMD.TabStop = true;
             this.rdAMD.Text = "AMD";
             this.rdAMD.UseVisualStyleBackColor = true;
+            this.rdAMD.CheckedChanged += new System.EventHandler(this.rdAMD_CheckedChanged);
             // 
             // groupBox2
             // 
