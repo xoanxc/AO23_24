@@ -63,7 +63,6 @@
             this.cbProcesadores.Name = "cbProcesadores";
             this.cbProcesadores.Size = new System.Drawing.Size(249, 33);
             this.cbProcesadores.TabIndex = 2;
-            this.cbProcesadores.SelectedIndexChanged += new System.EventHandler(this.cbProcesadores_SelectedIndexChanged);
             // 
             // rdIntel
             // 
