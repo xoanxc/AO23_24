@@ -72,6 +72,12 @@
     <Compile Include="GestionDeUsuarios.Designer.cs">
       <DependentUpon>GestionDeUsuarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="VistaDetallada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistaDetallada.Designer.cs">
+      <DependentUpon>VistaDetallada.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Configurador.resx">
       <DependentUpon>Configurador.cs</DependentUpon>
     </EmbeddedResource>

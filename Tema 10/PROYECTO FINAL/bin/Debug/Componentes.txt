@@ -1,2 +1,7 @@
-procesador,intel,i5-10400F
-procesador,intel,i3-10100F
+procesador,intel,i5 10400F,160
+procesador,intel,i3 10100,120
+placa_base,intel,MSI B560M PRO WIFI,90
+grafica,amd,RX6600,220
+grafica,amd,RX6750XT,430
+grafica,nvidia,RTX3060,310
+grafica,nvidia,RTX3090,1800

@@ -86,6 +86,9 @@ namespace PROYECTO_FINAL
             //Cargar las funciones
             CargarComponentes();
             CargarEquipos();
+
+            //Cargar los componentes equipos en el combobox
+
         }
     }
 }
