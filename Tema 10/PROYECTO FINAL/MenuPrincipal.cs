@@ -55,6 +55,18 @@ namespace PROYECTO_FINAL
             }
         }
 
+        public void GuardarComponentes()
+        {
+            //Guardar los componentes
+            File.WriteAllLines("Componentes.txt", componentes);
+        }
+
+        public void GuardarEquipos()
+        {
+            //Guardar los equipos
+            File.WriteAllLines("Equipos.txt", equipos);
+        }
+
 
 
         private void registrarUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -87,8 +99,12 @@ namespace PROYECTO_FINAL
             CargarComponentes();
             CargarEquipos();
 
-            //Cargar los componentes equipos en el combobox
-
+            //Cargar los equipos en el listbox
+            for (int i = 0; i < equipos.Count; i++)
+            {
+                string[] equipo = equipos[i].Split(',');
+                lbOrdenadores.Items.Add(equipo[0]);
+            }
         }
 
         private void finalizarToolStripMenuItem_Click(object sender, EventArgs e)

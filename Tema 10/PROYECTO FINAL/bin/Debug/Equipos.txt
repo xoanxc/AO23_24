@@ -1,0 +1,1 @@
+OtraPrueba,amd,Ryzen 5 5500,MSI B450M PRO VDH MAX,amd,RX6600,8GB,240GB,Windows 11 Pro,0

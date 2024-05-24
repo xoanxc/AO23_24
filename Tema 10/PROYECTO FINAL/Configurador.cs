@@ -24,12 +24,20 @@ namespace PROYECTO_FINAL
         int precioPlacaBase = 0;
         int precioGrafica = 0;
 
+        //Componentes simples
+        string memoriaRAM = "";
+        string almacenamiento = "";
+        string sistemaOperativo = "";
+        string marcaProcesador = "";
+        string marcaGrafica = "";
+
         //Tengo que llamarlo porque no es estatico (Si fuese estatico no podria utilziar la lista de componentes)
         MenuPrincipal menu = new MenuPrincipal();
 
         private void Configurador_Load(object sender, EventArgs e)
         {
-            menu.CargarComponentes();
+            menu.CargarComponentes(); //IMPORTANTISIMO ESTA PARTE, ES NECESARIO CARGARLOS.
+            menu.CargarEquipos();
             rdAMD.Checked = true;
             rdAMDG.Checked = true;
         }
@@ -45,6 +53,7 @@ namespace PROYECTO_FINAL
                     string[] procesadoresIntel = menu.componentes[i].Split(',');
                     cbProcesadores.Items.Add(procesadoresIntel[2]);
                     precioProcesador = Convert.ToInt32(procesadoresIntel[3]);
+                    marcaProcesador = "intel";
                 }
                 else
                 {
@@ -80,6 +89,7 @@ namespace PROYECTO_FINAL
                     string[] procesadoresAMD = menu.componentes[i].Split(',');
                     cbProcesadores.Items.Add(procesadoresAMD[2]);
                     precioProcesador = Convert.ToInt32(procesadoresAMD[3]);
+                    marcaProcesador = "amd";
                 }
                 else
                 {
@@ -115,6 +125,7 @@ namespace PROYECTO_FINAL
                     string[] graficasAMD = menu.componentes[i].Split(',');
                     cbGraficas.Items.Add(graficasAMD[2]);
                     precioGrafica = Convert.ToInt32(graficasAMD[3]);
+                    marcaGrafica = "amd";
                 }
                 else
                 {
@@ -134,6 +145,7 @@ namespace PROYECTO_FINAL
                     string[] graficasNvidia = menu.componentes[i].Split(',');
                     cbGraficas.Items.Add(graficasNvidia[2]);
                     precioGrafica = Convert.ToInt32(graficasNvidia[3]);
+                    marcaGrafica = "nvidia";
                 }
                 else
                 {
@@ -146,6 +158,7 @@ namespace PROYECTO_FINAL
         {
             //Limpiar y cargar la lista de AMD en el combobox
             cbProcesadores.Items.Clear();
+            cbPlacaBase.Items.Clear();
             procesadoresAMD();
         }
 
@@ -153,6 +166,7 @@ namespace PROYECTO_FINAL
         {
             //Limpiar y cargar la lista de Intel en el combobox
             cbProcesadores.Items.Clear();
+            cbPlacaBase.Items.Clear();
             procesadoresIntel();
         }
 
@@ -169,6 +183,87 @@ namespace PROYECTO_FINAL
             cbGraficas.Items.Clear();
             graficasNvidia();
 
+        }
+
+        
+        //Zona de selección de componentes simples (Duele no poder optimizarlo)
+        private void rd8GB_CheckedChanged(object sender, EventArgs e)
+        {
+            memoriaRAM = "8GB";
+        }
+        private void rd16GB_CheckedChanged(object sender, EventArgs e)
+        {
+            memoriaRAM = "16GB";
+        }
+        private void rd32GB_CheckedChanged(object sender, EventArgs e)
+        {
+            memoriaRAM = "32GB";
+        }
+        private void rd240GB_CheckedChanged(object sender, EventArgs e)
+        {
+            almacenamiento = "240GB";
+        }
+        private void rd500GB_CheckedChanged(object sender, EventArgs e)
+        {
+            almacenamiento = "500GB";
+        }
+        private void rd1TB_CheckedChanged(object sender, EventArgs e)
+        {
+            almacenamiento = "1TB";
+        }
+        private void rd2TB_CheckedChanged(object sender, EventArgs e)
+        {
+            almacenamiento = "2TB";
+        }
+        private void rdWindowsHome_CheckedChanged(object sender, EventArgs e)
+        {
+            sistemaOperativo = "Windows 11 Home";
+        }
+        private void rdWindowsPro_CheckedChanged(object sender, EventArgs e)
+        {
+            sistemaOperativo = "Windows 11 Pro";
+        }
+        private void rdUbuntu_CheckedChanged(object sender, EventArgs e)
+        {
+            sistemaOperativo = "Ubuntu";
+        }
+        private void rdFedora_CheckedChanged(object sender, EventArgs e)
+        {
+            sistemaOperativo = "Fedora";
+        }
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            if (txtPrecioTotal.Text == "" || cbProcesadores.Text == "" || cbPlacaBase.Text == "" || cbGraficas.Text == "" || memoriaRAM == "" || almacenamiento == "" || sistemaOperativo == "")
+            {
+                MessageBox.Show("Por favor, rellene todos los campos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            else
+            {
+                //Guardar el equipo en la Lista de MenuPrincipal
+                menu.equipos.Add(txtNombreOrdenador.Text + "," + marcaProcesador + "," + cbProcesadores.Text + "," + cbPlacaBase.Text + "," + marcaGrafica + "," + cbGraficas.Text + "," + memoriaRAM + "," + almacenamiento + "," + sistemaOperativo + "," + precioTotal);
+                menu.GuardarEquipos();
+                MessageBox.Show("Equipo guardado correctamente", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                //Limpiar los campos (NO PUEDO OPTIMIZARLO)
+                txtNombreOrdenador.Text = "";
+                txtPrecioTotal.Text = "";
+                cbProcesadores.Text = "";
+                cbPlacaBase.Text = "";
+                cbGraficas.Text = "";
+                rd8GB.Checked = false;
+                rd16GB.Checked = false;
+                rd32GB.Checked = false;
+                rd240GB.Checked = false;
+                rd500GB.Checked = false;
+                rd1TB.Checked = false;
+                rd2TB.Checked = false;
+                rdWindowsHome.Checked = false;
+                rdWindowsPro.Checked = false;
+                rdUbuntu.Checked = false;
+                rdFedora.Checked = false;
+            }
+            
         }
     }
 }
