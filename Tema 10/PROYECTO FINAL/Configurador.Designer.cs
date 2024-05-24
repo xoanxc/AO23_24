@@ -44,7 +44,7 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtPrecioTotal = new System.Windows.Forms.TextBox();
             this.lblTOTAL = new System.Windows.Forms.Label();
             this.lblEURO = new System.Windows.Forms.Label();
             this.gbRAM = new System.Windows.Forms.GroupBox();
@@ -255,14 +255,14 @@
             this.radioButton2.Text = "500GB";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtPrecioTotal
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(166, 531);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(132, 34);
-            this.textBox1.TabIndex = 4;
+            this.txtPrecioTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrecioTotal.Location = new System.Drawing.Point(166, 531);
+            this.txtPrecioTotal.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPrecioTotal.Name = "txtPrecioTotal";
+            this.txtPrecioTotal.Size = new System.Drawing.Size(132, 34);
+            this.txtPrecioTotal.TabIndex = 4;
             // 
             // lblTOTAL
             // 
@@ -426,7 +426,7 @@
             this.Controls.Add(this.gbRAM);
             this.Controls.Add(this.lblEURO);
             this.Controls.Add(this.lblTOTAL);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPrecioTotal);
             this.Controls.Add(this.gbAlmacenamiento);
             this.Controls.Add(this.gbTarjetaGrafica);
             this.Controls.Add(this.gbPlacaBase);
@@ -465,7 +465,7 @@
         private System.Windows.Forms.ComboBox cbGraficas;
         private System.Windows.Forms.RadioButton rdAMDG;
         private System.Windows.Forms.RadioButton rdNvidia;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtPrecioTotal;
         private System.Windows.Forms.Label lblTOTAL;
         private System.Windows.Forms.Label lblEURO;
         private System.Windows.Forms.GroupBox gbRAM;

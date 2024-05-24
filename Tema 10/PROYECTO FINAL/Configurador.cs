@@ -18,6 +18,12 @@ namespace PROYECTO_FINAL
             InitializeComponent();
         }
 
+        //Variables globales
+        int precioTotal = 0;
+        int precioProcesador = 0;
+        int precioPlacaBase = 0;
+        int precioGrafica = 0;
+
         //Tengo que llamarlo porque no es estatico (Si fuese estatico no podria utilziar la lista de componentes)
         MenuPrincipal menu = new MenuPrincipal();
 
@@ -38,6 +44,7 @@ namespace PROYECTO_FINAL
                     //Hacer un split para separar por comas
                     string[] procesadoresIntel = menu.componentes[i].Split(',');
                     cbProcesadores.Items.Add(procesadoresIntel[2]);
+                    precioProcesador = Convert.ToInt32(procesadoresIntel[3]);
                 }
                 else
                 {
@@ -53,6 +60,7 @@ namespace PROYECTO_FINAL
                     //Hacer un split para separar por comas
                     string[] placasBaseIntel = menu.componentes[i].Split(',');
                     cbPlacaBase.Items.Add(placasBaseIntel[2]);
+                    precioPlacaBase = Convert.ToInt32(placasBaseIntel[3]);
                 }
                 else
                 {
@@ -71,6 +79,7 @@ namespace PROYECTO_FINAL
                     //Hacer un split para separar por comas
                     string[] procesadoresAMD = menu.componentes[i].Split(',');
                     cbProcesadores.Items.Add(procesadoresAMD[2]);
+                    precioProcesador = Convert.ToInt32(procesadoresAMD[3]);
                 }
                 else
                 {
@@ -86,6 +95,7 @@ namespace PROYECTO_FINAL
                     //Hacer un split para separar por comas
                     string[] placasBaseAMD = menu.componentes[i].Split(',');
                     cbPlacaBase.Items.Add(placasBaseAMD[2]);
+                    precioPlacaBase = Convert.ToInt32(placasBaseAMD[3]);
                 }
                 else
                 {
@@ -104,6 +114,7 @@ namespace PROYECTO_FINAL
                     //Hacer un split para separar por comas
                     string[] graficasAMD = menu.componentes[i].Split(',');
                     cbGraficas.Items.Add(graficasAMD[2]);
+                    precioGrafica = Convert.ToInt32(graficasAMD[3]);
                 }
                 else
                 {
@@ -122,6 +133,7 @@ namespace PROYECTO_FINAL
                     //Hacer un split para separar por comas
                     string[] graficasNvidia = menu.componentes[i].Split(',');
                     cbGraficas.Items.Add(graficasNvidia[2]);
+                    precioGrafica = Convert.ToInt32(graficasNvidia[3]);
                 }
                 else
                 {
@@ -129,8 +141,6 @@ namespace PROYECTO_FINAL
                 }
             }
         }
-
-
 
         private void rdAMD_CheckedChanged(object sender, EventArgs e)
         {
