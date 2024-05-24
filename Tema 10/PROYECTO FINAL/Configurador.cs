@@ -148,9 +148,17 @@ namespace PROYECTO_FINAL
 
         private void rdAMDG_CheckedChanged(object sender, EventArgs e)
         {
-
+            //Limpiar y cargar la lista de AMD en el combobox
+            cbGraficas.Items.Clear();
+            graficasAMD();
         }
 
-        
+        private void rdNvidia_CheckedChanged(object sender, EventArgs e)
+        {
+            //Limpiar y cargar la lista de Nvidia en el combobox
+            cbGraficas.Items.Clear();
+            graficasNvidia();
+
+        }
     }
 }

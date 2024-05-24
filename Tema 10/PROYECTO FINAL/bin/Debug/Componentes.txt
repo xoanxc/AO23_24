@@ -5,3 +5,5 @@ grafica,amd,RX6600,220
 grafica,amd,RX6750XT,430
 grafica,nvidia,RTX3060,310
 grafica,nvidia,RTX3090,1800
+procesador,amd,Ryzen 5 5500,90
+placa_base,amd,MSI B450M PRO VDH MAX,70
