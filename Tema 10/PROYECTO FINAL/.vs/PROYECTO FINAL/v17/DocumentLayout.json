@@ -3,35 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|c:\\users\\xoan\\documents\\github\\ao23_24\\tema 10\\proyecto final\\configurador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:configurador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\vistadetallada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:vistadetallada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\configurador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:configurador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|PROYECTO FINAL||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|c:\\users\\xoan\\documents\\github\\ao23_24\\tema 10\\proyecto final\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\vistadetallada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:vistadetallada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\configurador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:configurador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|c:\\users\\xoan\\documents\\github\\ao23_24\\tema 10\\proyecto final\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|c:\\users\\xoan\\documents\\github\\ao23_24\\tema 10\\proyecto final\\configurador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:configurador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\configurador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:configurador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,36 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MenuPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\MenuPrincipal.cs",
               "RelativeDocumentMoniker": "MenuPrincipal.cs",
               "ToolTip": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\MenuPrincipal.cs",
               "RelativeToolTip": "MenuPrincipal.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAtwEkAAAAhAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAlwF8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T07:35:59.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PROYECTO FINAL",
-              "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\PROYECTO FINAL.csproj",
-              "RelativeDocumentMoniker": "PROYECTO FINAL.csproj",
-              "ToolTip": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\PROYECTO FINAL.csproj",
-              "RelativeToolTip": "PROYECTO FINAL.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-24T07:30:37.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "VistaDetallada.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\VistaDetallada.cs",
               "RelativeDocumentMoniker": "VistaDetallada.cs",
@@ -82,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MenuPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\MenuPrincipal.cs",
               "RelativeDocumentMoniker": "MenuPrincipal.cs",
@@ -94,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Configurador.cs",
               "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\Configurador.cs",
               "RelativeDocumentMoniker": "Configurador.cs",
@@ -107,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Configurador.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\Configurador.cs",
               "RelativeDocumentMoniker": "Configurador.cs",
@@ -119,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Configurador.Designer.cs",
               "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\Configurador.Designer.cs",
               "RelativeDocumentMoniker": "Configurador.Designer.cs",

@@ -90,5 +90,11 @@ namespace PROYECTO_FINAL
             //Cargar los componentes equipos en el combobox
 
         }
+
+        private void finalizarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Cerrar todo el programa
+            Application.Exit();
+        }
     }
 }
