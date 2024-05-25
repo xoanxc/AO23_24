@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.IO;
 
 namespace PROYECTO_FINAL
 {
@@ -23,6 +22,9 @@ namespace PROYECTO_FINAL
         int precioProcesador = 0;
         int precioPlacaBase = 0;
         int precioGrafica = 0;
+        int precioMemoriaRAM = 0;
+        int precioAlmacenamiento = 0;
+        int precioSistemaOperativo = 0;
 
         //Componentes simples
         string memoriaRAM = "";
@@ -44,6 +46,8 @@ namespace PROYECTO_FINAL
 
         public void procesadoresIntel() //***INTEL***
         {
+            cbProcesadores.Items.Clear();
+            cbPlacaBase.Items.Clear();
             //Recorrer la lista de componentes y añadir los procesadores al combobox
             for (int i = 0; i < menu.componentes.Count; i++)
             {
@@ -51,13 +55,8 @@ namespace PROYECTO_FINAL
                 {
                     //Hacer un split para separar por comas
                     string[] procesadoresIntel = menu.componentes[i].Split(',');
-                    cbProcesadores.Items.Add(procesadoresIntel[2]);
-                    precioProcesador = Convert.ToInt32(procesadoresIntel[3]);
-                    marcaProcesador = "intel";
-                }
-                else
-                {
-                    continue; //No es realmente necesario, pero queda curioso (pasa a la siguiente iteracion)
+                    cbProcesadores.Items.Add(procesadoresIntel[2]);                  
+                    marcaProcesador = procesadoresIntel[1];           
                 }
             }
 
@@ -68,18 +67,15 @@ namespace PROYECTO_FINAL
                 {
                     //Hacer un split para separar por comas
                     string[] placasBaseIntel = menu.componentes[i].Split(',');
-                    cbPlacaBase.Items.Add(placasBaseIntel[2]);
-                    precioPlacaBase = Convert.ToInt32(placasBaseIntel[3]);
-                }
-                else
-                {
-                    continue;
+                    cbPlacaBase.Items.Add(placasBaseIntel[2]);    
                 }
             }
         }
 
         public void procesadoresAMD() //***AMD***
         {
+            cbProcesadores.Items.Clear();
+            cbPlacaBase.Items.Clear();
             //Recorrer la lista de componentes y añadir los procesadores al combobox
             for (int i = 0; i < menu.componentes.Count; i++)
             {
@@ -87,13 +83,8 @@ namespace PROYECTO_FINAL
                 {
                     //Hacer un split para separar por comas
                     string[] procesadoresAMD = menu.componentes[i].Split(',');
-                    cbProcesadores.Items.Add(procesadoresAMD[2]);
-                    precioProcesador = Convert.ToInt32(procesadoresAMD[3]);
-                    marcaProcesador = "amd";
-                }
-                else
-                {
-                    continue; //No es realmente necesario, pero queda curioso (pasa a la siguiente iteracion)
+                    cbProcesadores.Items.Add(procesadoresAMD[2]);     
+                    marcaProcesador = procesadoresAMD[1];
                 }
             }
 
@@ -104,18 +95,14 @@ namespace PROYECTO_FINAL
                 {
                     //Hacer un split para separar por comas
                     string[] placasBaseAMD = menu.componentes[i].Split(',');
-                    cbPlacaBase.Items.Add(placasBaseAMD[2]);
-                    precioPlacaBase = Convert.ToInt32(placasBaseAMD[3]);
-                }
-                else
-                {
-                    continue;
+                    cbPlacaBase.Items.Add(placasBaseAMD[2]);          
                 }
             }
         }
 
         public void graficasAMD() //***AMDG***
         {
+            cbGraficas.Items.Clear();
             //Recorrer la lista de componentes y añadir las graficas al combobox
             for (int i = 0; i < menu.componentes.Count; i++)
             {
@@ -123,113 +110,174 @@ namespace PROYECTO_FINAL
                 {
                     //Hacer un split para separar por comas
                     string[] graficasAMD = menu.componentes[i].Split(',');
-                    cbGraficas.Items.Add(graficasAMD[2]);
-                    precioGrafica = Convert.ToInt32(graficasAMD[3]);
-                    marcaGrafica = "amd";
-                }
-                else
-                {
-                    continue;
+                    cbGraficas.Items.Add(graficasAMD[2]);           
+                    marcaGrafica = graficasAMD[1];
                 }
             }
         }
 
         public void graficasNvidia() //***NVIDIA***
         {
+            cbGraficas.Items.Clear();
             //Recorrer la lista de componentes y añadir las graficas al combobox
             for (int i = 0; i < menu.componentes.Count; i++)
             {
                 if (menu.componentes[i].Contains("grafica,nvidia"))
-                {
+                {          
                     //Hacer un split para separar por comas
                     string[] graficasNvidia = menu.componentes[i].Split(',');
                     cbGraficas.Items.Add(graficasNvidia[2]);
-                    precioGrafica = Convert.ToInt32(graficasNvidia[3]);
-                    marcaGrafica = "nvidia";
-                }
-                else
-                {
-                    continue;
+                    marcaGrafica = graficasNvidia[1];
                 }
             }
         }
 
-        private void rdAMD_CheckedChanged(object sender, EventArgs e)
+        public void actualizarPrecioProcesador() //Actualizar el precio del procesador y placa base
         {
-            //Limpiar y cargar la lista de AMD en el combobox
-            cbProcesadores.Items.Clear();
-            cbPlacaBase.Items.Clear();
-            procesadoresAMD();
+            for (int i = 0; i < menu.componentes.Count; i++)
+            {
+                if (menu.componentes[i].Contains("procesador"))
+                {
+                    string[] procesador = menu.componentes[i].Split(',');
+                    if (cbProcesadores.Text == procesador[2])
+                    {
+                        precioProcesador = Convert.ToInt32(procesador[3]);
+                    }
+                }
+            }
+            for (int i = 0; i < menu.componentes.Count; i++)
+            {
+                if (menu.componentes[i].Contains("placa_base"))
+                {
+                    string[] placaBase = menu.componentes[i].Split(',');
+                    if (cbPlacaBase.Text == placaBase[2])
+                    {
+                        precioPlacaBase = Convert.ToInt32(placaBase[3]);
+                    }
+                }
+            }
+        }
+        public void actualizarPrecioGrafica() //Actualizar el precio de la gráfica
+        {
+            for (int i = 0; i < menu.componentes.Count; i++)
+            {
+                if (menu.componentes[i].Contains("grafica"))
+                {
+                    string[] grafica = menu.componentes[i].Split(',');
+                    if (cbGraficas.Text == grafica[2])
+                    {
+                        precioGrafica = Convert.ToInt32(grafica[3]);
+                    }
+                }
+            }
         }
 
+        public void calcularPrecioTotal() //Calcular el precio total cada vez que se realiza una selección
+        {
+            precioTotal = precioProcesador + precioPlacaBase + precioGrafica + precioMemoriaRAM + precioAlmacenamiento + precioSistemaOperativo;
+            txtPrecioTotal.Text = precioTotal.ToString();
+        }
+
+        private void rdAMD_CheckedChanged(object sender, EventArgs e)
+        {   
+            procesadoresAMD();
+            
+        }
         private void rdIntel_CheckedChanged(object sender, EventArgs e)
         {
-            //Limpiar y cargar la lista de Intel en el combobox
-            cbProcesadores.Items.Clear();
-            cbPlacaBase.Items.Clear();
             procesadoresIntel();
         }
-
-        private void rdAMDG_CheckedChanged(object sender, EventArgs e)
+        private void cbProcesadores_SelectedIndexChanged(object sender, EventArgs e)
+        {      
+            actualizarPrecioProcesador();
+            calcularPrecioTotal();
+        }
+        private void cbPlacaBase_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //Limpiar y cargar la lista de AMD en el combobox
-            cbGraficas.Items.Clear();
+            actualizarPrecioProcesador();
+            calcularPrecioTotal();
+        }
+        private void rdAMDG_CheckedChanged(object sender, EventArgs e)
+        {       
             graficasAMD();
         }
-
         private void rdNvidia_CheckedChanged(object sender, EventArgs e)
-        {
-            //Limpiar y cargar la lista de Nvidia en el combobox
-            cbGraficas.Items.Clear();
+        {       
             graficasNvidia();
-
+        }
+        private void cbGraficas_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            actualizarPrecioGrafica();
+            calcularPrecioTotal();
         }
 
-        
+
         //Zona de selección de componentes simples (Duele no poder optimizarlo)
         private void rd8GB_CheckedChanged(object sender, EventArgs e)
         {
-            memoriaRAM = "8GB";
+            memoriaRAM = rd8GB.Text;
+            precioMemoriaRAM = 21;
+            calcularPrecioTotal();
         }
         private void rd16GB_CheckedChanged(object sender, EventArgs e)
         {
-            memoriaRAM = "16GB";
+            memoriaRAM = rd16GB.Text;
+            precioMemoriaRAM = 42;
+            calcularPrecioTotal();
         }
         private void rd32GB_CheckedChanged(object sender, EventArgs e)
         {
-            memoriaRAM = "32GB";
+            memoriaRAM = rd32GB.Text;
+            precioMemoriaRAM = 84;
+            calcularPrecioTotal();
         }
         private void rd240GB_CheckedChanged(object sender, EventArgs e)
         {
-            almacenamiento = "240GB";
+            almacenamiento = rd240GB.Text;
+            precioAlmacenamiento = 30;
+            calcularPrecioTotal();
         }
         private void rd500GB_CheckedChanged(object sender, EventArgs e)
         {
-            almacenamiento = "500GB";
+            almacenamiento = rd500GB.Text;
+            precioAlmacenamiento = 50;
+            calcularPrecioTotal();
         }
         private void rd1TB_CheckedChanged(object sender, EventArgs e)
         {
-            almacenamiento = "1TB";
+            almacenamiento = rd1TB.Text;
+            precioAlmacenamiento = 80;
+            calcularPrecioTotal();         
         }
         private void rd2TB_CheckedChanged(object sender, EventArgs e)
         {
-            almacenamiento = "2TB";
+            almacenamiento = rd2TB.Text;
+            precioAlmacenamiento = 140;
+            calcularPrecioTotal();
         }
         private void rdWindowsHome_CheckedChanged(object sender, EventArgs e)
         {
-            sistemaOperativo = "Windows 11 Home";
+            sistemaOperativo = rdWindowsHome.Text;
+            precioSistemaOperativo = 145;
+            calcularPrecioTotal();
         }
         private void rdWindowsPro_CheckedChanged(object sender, EventArgs e)
         {
-            sistemaOperativo = "Windows 11 Pro";
+            sistemaOperativo = rdWindowsPro.Text;
+            precioSistemaOperativo = 259;
+            calcularPrecioTotal();
         }
         private void rdUbuntu_CheckedChanged(object sender, EventArgs e)
         {
-            sistemaOperativo = "Ubuntu";
+            sistemaOperativo = rdUbuntu.Text;
+            precioSistemaOperativo = 0;
+            calcularPrecioTotal();
         }
         private void rdFedora_CheckedChanged(object sender, EventArgs e)
         {
-            sistemaOperativo = "Fedora";
+            sistemaOperativo = rdFedora.Text;
+            precioSistemaOperativo = 0;
+            calcularPrecioTotal();
         }
         private void btnGuardar_Click(object sender, EventArgs e)
         {
@@ -262,8 +310,22 @@ namespace PROYECTO_FINAL
                 rdWindowsPro.Checked = false;
                 rdUbuntu.Checked = false;
                 rdFedora.Checked = false;
+                precioPlacaBase = 0;
+                precioProcesador = 0;
+                precioGrafica = 0;
+                precioMemoriaRAM = 0;
+                precioAlmacenamiento = 0;
+                precioSistemaOperativo = 0;
+                memoriaRAM = "";
+                almacenamiento = "";
+                sistemaOperativo = "";
+                marcaProcesador = "";
+                marcaGrafica = "";
+                precioTotal = 0;            
             }
             
         }
+
+        
     }
 }

@@ -104,6 +104,7 @@
             this.cbProcesadores.Name = "cbProcesadores";
             this.cbProcesadores.Size = new System.Drawing.Size(188, 28);
             this.cbProcesadores.TabIndex = 2;
+            this.cbProcesadores.SelectedIndexChanged += new System.EventHandler(this.cbProcesadores_SelectedIndexChanged);
             // 
             // rdIntel
             // 
@@ -160,6 +161,7 @@
             this.cbPlacaBase.Name = "cbPlacaBase";
             this.cbPlacaBase.Size = new System.Drawing.Size(188, 28);
             this.cbPlacaBase.TabIndex = 3;
+            this.cbPlacaBase.SelectedIndexChanged += new System.EventHandler(this.cbPlacaBase_SelectedIndexChanged);
             // 
             // gbTarjetaGrafica
             // 
@@ -192,6 +194,7 @@
             this.cbGraficas.Name = "cbGraficas";
             this.cbGraficas.Size = new System.Drawing.Size(188, 28);
             this.cbGraficas.TabIndex = 5;
+            this.cbGraficas.SelectedIndexChanged += new System.EventHandler(this.cbGraficas_SelectedIndexChanged);
             // 
             // rdAMDG
             // 
