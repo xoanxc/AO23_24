@@ -19,9 +19,7 @@ namespace PROYECTO_FINAL
         }
 
 
-        //Variables globales
-        string usuario = "";
-        string contraseña = "";
+        //Variables globales       
         bool registrado = false;
 
         //Listas de usuarios e inventario para todos los formularios

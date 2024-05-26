@@ -55,8 +55,8 @@ namespace PROYECTO_FINAL
                 {
                     //Hacer un split para separar por comas
                     string[] procesadoresIntel = menu.componentes[i].Split(',');
-                    cbProcesadores.Items.Add(procesadoresIntel[2]);                  
-                    marcaProcesador = procesadoresIntel[1];           
+                    cbProcesadores.Items.Add(procesadoresIntel[2]);           
+                    marcaProcesador = procesadoresIntel[1];
                 }
             }
 
@@ -288,9 +288,21 @@ namespace PROYECTO_FINAL
             }
             else
             {
+                //Comprobar si el nombre del ordenador ya existe
+                for (int i = 0; i < menu.equipos.Count; i++)
+                {
+                    string[] equipoNombre = menu.equipos[i].Split(',');
+                    if (txtNombreOrdenador.Text == equipoNombre[0])
+                    {
+                        MessageBox.Show("El nombre introducido ya esta en uso", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                }
+
                 //Guardar el equipo en la Lista de MenuPrincipal
                 menu.equipos.Add(txtNombreOrdenador.Text + "," + marcaProcesador + "," + cbProcesadores.Text + "," + cbPlacaBase.Text + "," + marcaGrafica + "," + cbGraficas.Text + "," + memoriaRAM + "," + almacenamiento + "," + sistemaOperativo + "," + precioTotal);
                 menu.GuardarEquipos();
+                menu.ActualizarLista();
                 MessageBox.Show("Equipo guardado correctamente", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 //Limpiar los campos (NO PUEDO OPTIMIZARLO)
@@ -321,7 +333,7 @@ namespace PROYECTO_FINAL
                 sistemaOperativo = "";
                 marcaProcesador = "";
                 marcaGrafica = "";
-                precioTotal = 0;            
+                precioTotal = 0;
             }
             
         }

@@ -143,5 +143,44 @@
   <ItemGroup>
     <None Include="Resources\users_0.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nvidia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RADEON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WindowsHome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WindowsPro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ubuntu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fedora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5000.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Collections;
+using System.Security.Cryptography;
 
 namespace PROYECTO_FINAL
 {
@@ -33,9 +35,7 @@ namespace PROYECTO_FINAL
             {
                 //Si el fichero esta creado lo copio a una lista [LOS ARRAY VAN A ACABAR SIENDO MEJOR IDEA QUE LAS LISTAS] (Al menos para esto)
                 componentes = File.ReadAllLines("Componentes.txt").ToList();
-            }
-            
-            
+            }         
         }
 
         public void CargarEquipos()
@@ -93,12 +93,10 @@ namespace PROYECTO_FINAL
             configurador.Show();
         }
 
-        private void MenuPrincipal_Load(object sender, EventArgs e)
+        public void ActualizarLista()
         {
-            //Cargar las funciones
-            CargarComponentes();
-            CargarEquipos();
-
+            //Limpiar la lista
+            lbOrdenadores.Items.Clear();
             //Cargar los equipos en el listbox
             for (int i = 0; i < equipos.Count; i++)
             {
@@ -107,10 +105,29 @@ namespace PROYECTO_FINAL
             }
         }
 
+        private void MenuPrincipal_Load(object sender, EventArgs e)
+        {
+            //Cargar las funciones
+            CargarComponentes();
+            CargarEquipos();
+            ActualizarLista();
+        }
+
         private void finalizarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //Cerrar todo el programa
             Application.Exit();
+        }
+
+        public string nombreEquipo = "";
+        private void lbOrdenadores_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Identificar el nombre del equipo con el de la Lista Equipos
+            nombreEquipo = lbOrdenadores.SelectedItem.ToString();
+
+            //Mostrar el formulario de vista detallada
+            VistaDetallada vistaDetallada = new VistaDetallada();   
+            vistaDetallada.Show();
         }
     }
 }

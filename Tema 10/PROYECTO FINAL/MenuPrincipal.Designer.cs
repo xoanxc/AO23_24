@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.configuradorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inventarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opción1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrarUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,12 +47,11 @@
             this.rd1000 = new System.Windows.Forms.RadioButton();
             this.rd1500 = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rd5000 = new System.Windows.Forms.RadioButton();
             this.rd3000 = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rd32GB = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
-            this.rd4000 = new System.Windows.Forms.RadioButton();
-            this.inventarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.gbProcesador.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -80,6 +80,12 @@
             this.configuradorToolStripMenuItem.Size = new System.Drawing.Size(104, 23);
             this.configuradorToolStripMenuItem.Text = "Configurador";
             this.configuradorToolStripMenuItem.Click += new System.EventHandler(this.configuradorToolStripMenuItem_Click);
+            // 
+            // inventarioToolStripMenuItem
+            // 
+            this.inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
+            this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(84, 23);
+            this.inventarioToolStripMenuItem.Text = "Inventario";
             // 
             // opción1ToolStripMenuItem
             // 
@@ -127,6 +133,7 @@
             this.lbOrdenadores.Name = "lbOrdenadores";
             this.lbOrdenadores.Size = new System.Drawing.Size(227, 274);
             this.lbOrdenadores.TabIndex = 2;
+            this.lbOrdenadores.SelectedIndexChanged += new System.EventHandler(this.lbOrdenadores_SelectedIndexChanged);
             // 
             // gbProcesador
             // 
@@ -228,7 +235,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.groupBox1.Controls.Add(this.rd4000);
+            this.groupBox1.Controls.Add(this.rd5000);
             this.groupBox1.Controls.Add(this.rd3000);
             this.groupBox1.Controls.Add(this.rd500);
             this.groupBox1.Controls.Add(this.rd1500);
@@ -240,6 +247,17 @@
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Precio Maximo";
+            // 
+            // rd5000
+            // 
+            this.rd5000.AutoSize = true;
+            this.rd5000.Location = new System.Drawing.Point(22, 153);
+            this.rd5000.Name = "rd5000";
+            this.rd5000.Size = new System.Drawing.Size(77, 24);
+            this.rd5000.TabIndex = 8;
+            this.rd5000.TabStop = true;
+            this.rd5000.Text = "5000€";
+            this.rd5000.UseVisualStyleBackColor = true;
             // 
             // rd3000
             // 
@@ -287,23 +305,6 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "Limpiar Filtros";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // rd4000
-            // 
-            this.rd4000.AutoSize = true;
-            this.rd4000.Location = new System.Drawing.Point(22, 153);
-            this.rd4000.Name = "rd4000";
-            this.rd4000.Size = new System.Drawing.Size(77, 24);
-            this.rd4000.TabIndex = 8;
-            this.rd4000.TabStop = true;
-            this.rd4000.Text = "4000€";
-            this.rd4000.UseVisualStyleBackColor = true;
-            // 
-            // inventarioToolStripMenuItem
-            // 
-            this.inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
-            this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(84, 23);
-            this.inventarioToolStripMenuItem.Text = "Inventario";
             // 
             // MenuPrincipal
             // 
@@ -357,7 +358,7 @@
         private System.Windows.Forms.RadioButton rd32GB;
         private System.Windows.Forms.RadioButton rd3000;
         private System.Windows.Forms.ToolStripMenuItem finalizarToolStripMenuItem;
-        private System.Windows.Forms.RadioButton rd4000;
+        private System.Windows.Forms.RadioButton rd5000;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ToolStripMenuItem inventarioToolStripMenuItem;
     }
