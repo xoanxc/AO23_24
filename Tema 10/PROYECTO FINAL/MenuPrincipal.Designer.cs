@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.configuradorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inventarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -39,10 +40,8 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.lbOrdenadores = new System.Windows.Forms.ListBox();
             this.gbProcesador = new System.Windows.Forms.GroupBox();
-            this.rdIntel = new System.Windows.Forms.RadioButton();
-            this.rdAMD = new System.Windows.Forms.RadioButton();
-            this.rd8GB = new System.Windows.Forms.RadioButton();
-            this.rd16GB = new System.Windows.Forms.RadioButton();
+            this.ckIntel = new System.Windows.Forms.CheckBox();
+            this.ckAMD = new System.Windows.Forms.CheckBox();
             this.rd500 = new System.Windows.Forms.RadioButton();
             this.rd1000 = new System.Windows.Forms.RadioButton();
             this.rd1500 = new System.Windows.Forms.RadioButton();
@@ -50,8 +49,11 @@
             this.rd5000 = new System.Windows.Forms.RadioButton();
             this.rd3000 = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.rd32GB = new System.Windows.Forms.RadioButton();
+            this.ck32GB = new System.Windows.Forms.CheckBox();
+            this.ck16GB = new System.Windows.Forms.CheckBox();
+            this.ck8GB = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnActualizar = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.gbProcesador.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -86,6 +88,7 @@
             this.inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
             this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(84, 23);
             this.inventarioToolStripMenuItem.Text = "Inventario";
+            this.inventarioToolStripMenuItem.Click += new System.EventHandler(this.inventarioToolStripMenuItem_Click);
             // 
             // opción1ToolStripMenuItem
             // 
@@ -138,8 +141,8 @@
             // gbProcesador
             // 
             this.gbProcesador.BackColor = System.Drawing.SystemColors.Control;
-            this.gbProcesador.Controls.Add(this.rdIntel);
-            this.gbProcesador.Controls.Add(this.rdAMD);
+            this.gbProcesador.Controls.Add(this.ckIntel);
+            this.gbProcesador.Controls.Add(this.ckAMD);
             this.gbProcesador.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbProcesador.Location = new System.Drawing.Point(27, 57);
             this.gbProcesador.Name = "gbProcesador";
@@ -148,53 +151,25 @@
             this.gbProcesador.TabStop = false;
             this.gbProcesador.Text = "Procesador";
             // 
-            // rdIntel
+            // ckIntel
             // 
-            this.rdIntel.AutoSize = true;
-            this.rdIntel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdIntel.Location = new System.Drawing.Point(12, 67);
-            this.rdIntel.Name = "rdIntel";
-            this.rdIntel.Size = new System.Drawing.Size(57, 22);
-            this.rdIntel.TabIndex = 1;
-            this.rdIntel.TabStop = true;
-            this.rdIntel.Text = "Intel";
-            this.rdIntel.UseVisualStyleBackColor = true;
+            this.ckIntel.AutoSize = true;
+            this.ckIntel.Location = new System.Drawing.Point(15, 69);
+            this.ckIntel.Name = "ckIntel";
+            this.ckIntel.Size = new System.Drawing.Size(64, 24);
+            this.ckIntel.TabIndex = 3;
+            this.ckIntel.Text = "Intel";
+            this.ckIntel.UseVisualStyleBackColor = true;
             // 
-            // rdAMD
+            // ckAMD
             // 
-            this.rdAMD.AutoSize = true;
-            this.rdAMD.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdAMD.Location = new System.Drawing.Point(12, 39);
-            this.rdAMD.Name = "rdAMD";
-            this.rdAMD.Size = new System.Drawing.Size(62, 22);
-            this.rdAMD.TabIndex = 0;
-            this.rdAMD.TabStop = true;
-            this.rdAMD.Text = "AMD";
-            this.rdAMD.UseVisualStyleBackColor = true;
-            // 
-            // rd8GB
-            // 
-            this.rd8GB.AutoSize = true;
-            this.rd8GB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rd8GB.Location = new System.Drawing.Point(6, 42);
-            this.rd8GB.Name = "rd8GB";
-            this.rd8GB.Size = new System.Drawing.Size(59, 22);
-            this.rd8GB.TabIndex = 2;
-            this.rd8GB.TabStop = true;
-            this.rd8GB.Text = "8GB";
-            this.rd8GB.UseVisualStyleBackColor = true;
-            // 
-            // rd16GB
-            // 
-            this.rd16GB.AutoSize = true;
-            this.rd16GB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rd16GB.Location = new System.Drawing.Point(6, 61);
-            this.rd16GB.Name = "rd16GB";
-            this.rd16GB.Size = new System.Drawing.Size(68, 22);
-            this.rd16GB.TabIndex = 3;
-            this.rd16GB.TabStop = true;
-            this.rd16GB.Text = "16GB";
-            this.rd16GB.UseVisualStyleBackColor = true;
+            this.ckAMD.AutoSize = true;
+            this.ckAMD.Location = new System.Drawing.Point(15, 39);
+            this.ckAMD.Name = "ckAMD";
+            this.ckAMD.Size = new System.Drawing.Size(67, 24);
+            this.ckAMD.TabIndex = 2;
+            this.ckAMD.Text = "AMD";
+            this.ckAMD.UseVisualStyleBackColor = true;
             // 
             // rd500
             // 
@@ -273,9 +248,9 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.groupBox2.Controls.Add(this.rd32GB);
-            this.groupBox2.Controls.Add(this.rd8GB);
-            this.groupBox2.Controls.Add(this.rd16GB);
+            this.groupBox2.Controls.Add(this.ck32GB);
+            this.groupBox2.Controls.Add(this.ck16GB);
+            this.groupBox2.Controls.Add(this.ck8GB);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(27, 193);
             this.groupBox2.Name = "groupBox2";
@@ -284,44 +259,76 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Memoria RAM";
             // 
-            // rd32GB
+            // ck32GB
             // 
-            this.rd32GB.AutoSize = true;
-            this.rd32GB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rd32GB.Location = new System.Drawing.Point(6, 81);
-            this.rd32GB.Name = "rd32GB";
-            this.rd32GB.Size = new System.Drawing.Size(68, 22);
-            this.rd32GB.TabIndex = 4;
-            this.rd32GB.TabStop = true;
-            this.rd32GB.Text = "32GB";
-            this.rd32GB.UseVisualStyleBackColor = true;
+            this.ck32GB.AutoSize = true;
+            this.ck32GB.Location = new System.Drawing.Point(15, 89);
+            this.ck32GB.Name = "ck32GB";
+            this.ck32GB.Size = new System.Drawing.Size(74, 24);
+            this.ck32GB.TabIndex = 4;
+            this.ck32GB.Text = "32GB";
+            this.ck32GB.UseVisualStyleBackColor = true;
+            // 
+            // ck16GB
+            // 
+            this.ck16GB.AutoSize = true;
+            this.ck16GB.Location = new System.Drawing.Point(15, 59);
+            this.ck16GB.Name = "ck16GB";
+            this.ck16GB.Size = new System.Drawing.Size(74, 24);
+            this.ck16GB.TabIndex = 5;
+            this.ck16GB.Text = "16GB";
+            this.ck16GB.UseVisualStyleBackColor = true;
+            // 
+            // ck8GB
+            // 
+            this.ck8GB.AutoSize = true;
+            this.ck8GB.Location = new System.Drawing.Point(15, 30);
+            this.ck8GB.Name = "ck8GB";
+            this.ck8GB.Size = new System.Drawing.Size(64, 24);
+            this.ck8GB.TabIndex = 4;
+            this.ck8GB.Text = "8GB";
+            this.ck8GB.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(486, 261);
+            this.button1.Location = new System.Drawing.Point(486, 252);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(218, 44);
             this.button1.TabIndex = 9;
             this.button1.Text = "Limpiar Filtros";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizar.Location = new System.Drawing.Point(486, 302);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(218, 44);
+            this.btnActualizar.TabIndex = 10;
+            this.btnActualizar.Text = "Actualizar Lista";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::PROYECTO_FINAL.Properties.Resources.Background_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(742, 367);
+            this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbProcesador);
             this.Controls.Add(this.lbOrdenadores);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MenuPrincipal";
             this.Text = "MenuPrincipal";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MenuPrincipal_FormClosed);
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -346,20 +353,21 @@
         private System.Windows.Forms.ToolStripMenuItem configuradorToolStripMenuItem;
         private System.Windows.Forms.ListBox lbOrdenadores;
         private System.Windows.Forms.GroupBox gbProcesador;
-        private System.Windows.Forms.RadioButton rd16GB;
-        private System.Windows.Forms.RadioButton rd8GB;
-        private System.Windows.Forms.RadioButton rdIntel;
-        private System.Windows.Forms.RadioButton rdAMD;
         private System.Windows.Forms.RadioButton rd500;
         private System.Windows.Forms.RadioButton rd1000;
         private System.Windows.Forms.RadioButton rd1500;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton rd32GB;
         private System.Windows.Forms.RadioButton rd3000;
         private System.Windows.Forms.ToolStripMenuItem finalizarToolStripMenuItem;
         private System.Windows.Forms.RadioButton rd5000;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ToolStripMenuItem inventarioToolStripMenuItem;
+        private System.Windows.Forms.Button btnActualizar;
+        private System.Windows.Forms.CheckBox ckIntel;
+        private System.Windows.Forms.CheckBox ckAMD;
+        private System.Windows.Forms.CheckBox ck32GB;
+        private System.Windows.Forms.CheckBox ck16GB;
+        private System.Windows.Forms.CheckBox ck8GB;
     }
 }

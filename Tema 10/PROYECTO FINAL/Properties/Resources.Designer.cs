@@ -173,9 +173,19 @@ namespace PROYECTO_FINAL.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PC3000 {
+        internal static System.Drawing.Bitmap PC2500 {
             get {
-                object obj = ResourceManager.GetObject("PC3000", resourceCulture);
+                object obj = ResourceManager.GetObject("PC2500", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PC3500 {
+            get {
+                object obj = ResourceManager.GetObject("PC3500", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,16 +196,6 @@ namespace PROYECTO_FINAL.Properties {
         internal static System.Drawing.Bitmap PC500 {
             get {
                 object obj = ResourceManager.GetObject("PC500", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap PC5000 {
-            get {
-                object obj = ResourceManager.GetObject("PC5000", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

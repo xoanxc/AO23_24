@@ -12,7 +12,7 @@ namespace PROYECTO_FINAL
 {
     public partial class VistaDetallada : Form
     {
-        //Creo una varuiable para pasarle desde la otra variable el nombre del equipo
+        //Creo una variable para pasarle desde la otra variable el nombre del equipo
         public string NombreEquipo;
         public VistaDetallada()
         {
@@ -98,8 +98,7 @@ namespace PROYECTO_FINAL
                     {
                         pbSistemaOperativo.Image = Properties.Resources.search_0;
                     }
-                    
-                    
+                                        
                     //Imagenes del equipo
                     if (Convert.ToInt32(componentes[9]) <= 500)
                     {
@@ -109,17 +108,21 @@ namespace PROYECTO_FINAL
                     {
                         pbEquipo.Image = Properties.Resources.PC1000;
                     }
-                    else if (Convert.ToInt32(componentes[9]) <= 3000)
+                    else if (Convert.ToInt32(componentes[9]) <= 1500)
                     {
-                        pbEquipo.Image = Properties.Resources.PC3000;
+                        pbEquipo.Image = Properties.Resources.PC1500;
                     }
-                    else if (Convert.ToInt32(componentes[9]) <= 5000)
+                    else if (Convert.ToInt32(componentes[9]) <= 2500)
                     {
-                        pbEquipo.Image = Properties.Resources.PC5000;
+                        pbEquipo.Image = Properties.Resources.PC2500;
+                    }
+                    else if (Convert.ToInt32(componentes[9]) <= 3500)
+                    {
+                        pbEquipo.Image = Properties.Resources.PC3500;
                     }
                     else
                     {
-                        pbEquipo.Image = Properties.Resources.PC1000;
+                        pbEquipo.Image = Properties.Resources.PC3500;
                     }
                 }
             }         

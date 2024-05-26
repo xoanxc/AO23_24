@@ -131,7 +131,39 @@ namespace PROYECTO_FINAL
             //Mostrar el formulario de vista detallada
             VistaDetallada vistaDetallada = new VistaDetallada();
             vistaDetallada.NombreEquipo = nombreEquipo; //Le paso el nombre del equipo a la variable del form VistaDetallada
-            vistaDetallada.Show();      
+            vistaDetallada.Show();
+        }
+
+        private void MenuPrincipal_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Eliminar la seleccion de los radiobuttons
+            ckAMD.Checked = false;
+            ckIntel.Checked = false;
+            ck8GB.Checked = false;
+            ck16GB.Checked = false;
+            ck32GB.Checked = false;
+            rd500.Checked = false;
+            rd1000.Checked = false;
+            rd1500.Checked = false;
+            rd3000.Checked = false;
+            rd5000.Checked = false;
+        }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            ActualizarLista();
+        }
+
+        private void inventarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Mostar el formulario de inventario
+            Inventario inventario = new Inventario();
+            inventario.Show();
         }
     }
 }

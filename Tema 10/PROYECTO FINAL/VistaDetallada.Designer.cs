@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VistaDetallada));
             this.lblProcesador = new System.Windows.Forms.Label();
             this.txtProcesador = new System.Windows.Forms.TextBox();
             this.txtTarjetaGrafica = new System.Windows.Forms.TextBox();
@@ -242,6 +243,7 @@
             this.Controls.Add(this.lblProcesador);
             this.Controls.Add(this.pbSistemaOperativo);
             this.Controls.Add(this.pbEquipo);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "VistaDetallada";
             this.Text = "VistaDetallada";
             this.Load += new System.EventHandler(this.VistaDetallada_Load);

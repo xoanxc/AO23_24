@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PanelUsuarios));
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.btnAcceder = new System.Windows.Forms.Button();
@@ -40,7 +41,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(84, 47);
+            this.txtUsuario.Location = new System.Drawing.Point(109, 46);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(134, 24);
@@ -49,7 +50,7 @@
             // txtContraseña
             // 
             this.txtContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContraseña.Location = new System.Drawing.Point(84, 111);
+            this.txtContraseña.Location = new System.Drawing.Point(109, 110);
             this.txtContraseña.Margin = new System.Windows.Forms.Padding(2);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(134, 24);
@@ -58,7 +59,7 @@
             // btnAcceder
             // 
             this.btnAcceder.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAcceder.Location = new System.Drawing.Point(84, 156);
+            this.btnAcceder.Location = new System.Drawing.Point(109, 155);
             this.btnAcceder.Margin = new System.Windows.Forms.Padding(2);
             this.btnAcceder.Name = "btnAcceder";
             this.btnAcceder.Size = new System.Drawing.Size(92, 37);
@@ -71,7 +72,7 @@
             // 
             this.pbUsuario.BackColor = System.Drawing.Color.Transparent;
             this.pbUsuario.Image = global::PROYECTO_FINAL.Properties.Resources.user_0;
-            this.pbUsuario.Location = new System.Drawing.Point(41, 37);
+            this.pbUsuario.Location = new System.Drawing.Point(66, 36);
             this.pbUsuario.Name = "pbUsuario";
             this.pbUsuario.Size = new System.Drawing.Size(38, 34);
             this.pbUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -82,7 +83,7 @@
             // 
             this.pbContraseña.BackColor = System.Drawing.Color.Transparent;
             this.pbContraseña.Image = global::PROYECTO_FINAL.Properties.Resources.lock_0;
-            this.pbContraseña.Location = new System.Drawing.Point(41, 101);
+            this.pbContraseña.Location = new System.Drawing.Point(66, 100);
             this.pbContraseña.Name = "pbContraseña";
             this.pbContraseña.Size = new System.Drawing.Size(38, 34);
             this.pbContraseña.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -95,15 +96,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PROYECTO_FINAL.Properties.Resources.Background_0;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(256, 210);
+            this.ClientSize = new System.Drawing.Size(305, 210);
             this.Controls.Add(this.pbContraseña);
             this.Controls.Add(this.pbUsuario);
             this.Controls.Add(this.btnAcceder);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.txtUsuario);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "PanelUsuarios";
             this.Text = "Acceso de usuarios";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PanelUsuarios_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbUsuario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContraseña)).EndInit();

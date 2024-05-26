@@ -315,9 +315,9 @@ namespace PROYECTO_FINAL
                 //Guardar el equipo en la Lista de MenuPrincipal
                 menu.equipos.Add(txtNombreOrdenador.Text + "," + marcaProcesador + "," + cbProcesadores.Text + "," + cbPlacaBase.Text + "," + marcaGrafica + "," + cbGraficas.Text + "," + memoriaRAM + "," + almacenamiento + "," + sistemaOperativo + "," + precioTotal);
                 menu.GuardarEquipos();
-                menu.ActualizarLista();
                 MessageBox.Show("Equipo guardado correctamente", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+                
                 //Limpiar los campos (NO PUEDO OPTIMIZARLO)
                 txtNombreOrdenador.Text = "";
                 txtPrecioTotal.Text = "";
@@ -341,16 +341,13 @@ namespace PROYECTO_FINAL
                 precioMemoriaRAM = 0;
                 precioAlmacenamiento = 0;
                 precioSistemaOperativo = 0;
+                precioTotal = 0;
                 memoriaRAM = "";
                 almacenamiento = "";
                 sistemaOperativo = "";
                 marcaProcesador = "";
-                marcaGrafica = "";
-                precioTotal = 0;
+                marcaGrafica = "";             
             }
-            
         }
-
-        
     }
 }

@@ -78,8 +78,6 @@ namespace PROYECTO_FINAL
             //https://learn.microsoft.com/es-es/dotnet/api/system.windows.forms.textbox.passwordchar?view=windowsdesktop-8.0
         }
 
-        
-
         private void btnAcceder_Click(object sender, EventArgs e)
         {
             //Verifico si el usuario y contraseña son correctos
@@ -109,7 +107,9 @@ namespace PROYECTO_FINAL
             }
             
         }
-
-        
+        private void PanelUsuarios_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();        
+        }
     }
 }
