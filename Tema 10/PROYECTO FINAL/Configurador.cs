@@ -142,6 +142,7 @@ namespace PROYECTO_FINAL
                     if (cbProcesadores.Text == procesador[2])
                     {
                         precioProcesador = Convert.ToInt32(procesador[3]);
+                        lblPrecioProcesador.Text = precioProcesador.ToString() + "€";
                     }
                 }
             }
@@ -153,6 +154,7 @@ namespace PROYECTO_FINAL
                     if (cbPlacaBase.Text == placaBase[2])
                     {
                         precioPlacaBase = Convert.ToInt32(placaBase[3]);
+                        lblPrecioPlacaBase.Text = precioPlacaBase.ToString() + "€";
                     }
                 }
             }
@@ -167,6 +169,7 @@ namespace PROYECTO_FINAL
                     if (cbGraficas.Text == grafica[2])
                     {
                         precioGrafica = Convert.ToInt32(grafica[3]);
+                        lblPrecioTarjetaGrafica.Text = precioGrafica.ToString() + "€";
                     }
                 }
             }
@@ -181,7 +184,6 @@ namespace PROYECTO_FINAL
         private void rdAMD_CheckedChanged(object sender, EventArgs e)
         {   
             procesadoresAMD();
-            
         }
         private void rdIntel_CheckedChanged(object sender, EventArgs e)
         {
@@ -215,68 +217,79 @@ namespace PROYECTO_FINAL
         //Zona de selección de componentes simples (Duele no poder optimizarlo)
         private void rd8GB_CheckedChanged(object sender, EventArgs e)
         {
-            memoriaRAM = rd8GB.Text;
+            memoriaRAM = rd8GB.Text;      
             precioMemoriaRAM = 21;
+            lblPrecioRAM.Text = precioMemoriaRAM.ToString() + "€";
             calcularPrecioTotal();
         }
         private void rd16GB_CheckedChanged(object sender, EventArgs e)
         {
             memoriaRAM = rd16GB.Text;
             precioMemoriaRAM = 42;
+            lblPrecioRAM.Text = precioMemoriaRAM.ToString() + "€";
             calcularPrecioTotal();
         }
         private void rd32GB_CheckedChanged(object sender, EventArgs e)
         {
             memoriaRAM = rd32GB.Text;
             precioMemoriaRAM = 84;
+            lblPrecioRAM.Text = precioMemoriaRAM.ToString() + "€";
             calcularPrecioTotal();
         }
         private void rd240GB_CheckedChanged(object sender, EventArgs e)
         {
             almacenamiento = rd240GB.Text;
             precioAlmacenamiento = 30;
+            lblPrecioAlmacenamiento.Text = precioAlmacenamiento.ToString() + "€";
             calcularPrecioTotal();
         }
         private void rd500GB_CheckedChanged(object sender, EventArgs e)
         {
             almacenamiento = rd500GB.Text;
             precioAlmacenamiento = 50;
+            lblPrecioAlmacenamiento.Text = precioAlmacenamiento.ToString() + "€";
             calcularPrecioTotal();
         }
         private void rd1TB_CheckedChanged(object sender, EventArgs e)
         {
             almacenamiento = rd1TB.Text;
             precioAlmacenamiento = 80;
+            lblPrecioAlmacenamiento.Text = precioAlmacenamiento.ToString() + "€";
             calcularPrecioTotal();         
         }
         private void rd2TB_CheckedChanged(object sender, EventArgs e)
         {
             almacenamiento = rd2TB.Text;
             precioAlmacenamiento = 140;
+            lblPrecioAlmacenamiento.Text = precioAlmacenamiento.ToString() + "€";
             calcularPrecioTotal();
         }
         private void rdWindowsHome_CheckedChanged(object sender, EventArgs e)
         {
             sistemaOperativo = rdWindowsHome.Text;
             precioSistemaOperativo = 145;
+            lblSistemaOperativo.Text = precioSistemaOperativo.ToString() + "€";
             calcularPrecioTotal();
         }
         private void rdWindowsPro_CheckedChanged(object sender, EventArgs e)
         {
             sistemaOperativo = rdWindowsPro.Text;
             precioSistemaOperativo = 259;
+            lblSistemaOperativo.Text = precioSistemaOperativo.ToString() + "€";
             calcularPrecioTotal();
         }
         private void rdUbuntu_CheckedChanged(object sender, EventArgs e)
         {
             sistemaOperativo = rdUbuntu.Text;
             precioSistemaOperativo = 0;
+            lblSistemaOperativo.Text = precioSistemaOperativo.ToString() + "€";
             calcularPrecioTotal();
         }
         private void rdFedora_CheckedChanged(object sender, EventArgs e)
         {
             sistemaOperativo = rdFedora.Text;
             precioSistemaOperativo = 0;
+            lblSistemaOperativo.Text = precioSistemaOperativo.ToString() + "€";
             calcularPrecioTotal();
         }
         private void btnGuardar_Click(object sender, EventArgs e)

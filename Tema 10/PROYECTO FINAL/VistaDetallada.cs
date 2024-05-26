@@ -12,12 +12,15 @@ namespace PROYECTO_FINAL
 {
     public partial class VistaDetallada : Form
     {
+        //Creo una varuiable para pasarle desde la otra variable el nombre del equipo
+        public string NombreEquipo;
         public VistaDetallada()
         {
             InitializeComponent();
         }
 
-        private void VistaDetallada_Load(object sender, EventArgs e)
+
+        public void VistaDetallada_Load(object sender, EventArgs e)
         {
             MenuPrincipal menu = new MenuPrincipal();
             menu.CargarEquipos();
@@ -26,7 +29,7 @@ namespace PROYECTO_FINAL
             for (int i = 0; i < menu.equipos.Count; i++)
             {
                 //Encontrar el equipo
-                if (menu.equipos[i].Contains(menu.nombreEquipo))
+                if (menu.equipos[i].Contains(NombreEquipo)) //Utilizo la variable
                 {
                     //Dividir la Lista en componentes
                     string[] componentes = menu.equipos[i].Split(',');

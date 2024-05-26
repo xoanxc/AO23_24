@@ -35,7 +35,7 @@
             this.rdIntel = new System.Windows.Forms.RadioButton();
             this.rdAMD = new System.Windows.Forms.RadioButton();
             this.gbPlacaBase = new System.Windows.Forms.GroupBox();
-            this.v = new System.Windows.Forms.Label();
+            this.lblPrecioPlacaBase = new System.Windows.Forms.Label();
             this.cbPlacaBase = new System.Windows.Forms.ComboBox();
             this.gbTarjetaGrafica = new System.Windows.Forms.GroupBox();
             this.lblPrecioTarjetaGrafica = new System.Windows.Forms.Label();
@@ -57,7 +57,7 @@
             this.rd16GB = new System.Windows.Forms.RadioButton();
             this.rd8GB = new System.Windows.Forms.RadioButton();
             this.gbSistemaOperativo = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblSistemaOperativo = new System.Windows.Forms.Label();
             this.rdWindowsPro = new System.Windows.Forms.RadioButton();
             this.rdUbuntu = new System.Windows.Forms.RadioButton();
             this.rdWindowsHome = new System.Windows.Forms.RadioButton();
@@ -134,7 +134,7 @@
             // 
             // gbPlacaBase
             // 
-            this.gbPlacaBase.Controls.Add(this.v);
+            this.gbPlacaBase.Controls.Add(this.lblPrecioPlacaBase);
             this.gbPlacaBase.Controls.Add(this.cbPlacaBase);
             this.gbPlacaBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbPlacaBase.Location = new System.Drawing.Point(218, 12);
@@ -144,14 +144,14 @@
             this.gbPlacaBase.TabStop = false;
             this.gbPlacaBase.Text = "Placa Base";
             // 
-            // v
+            // lblPrecioPlacaBase
             // 
-            this.v.AutoSize = true;
-            this.v.Location = new System.Drawing.Point(6, 160);
-            this.v.Name = "v";
-            this.v.Size = new System.Drawing.Size(32, 24);
-            this.v.TabIndex = 4;
-            this.v.Text = "0€";
+            this.lblPrecioPlacaBase.AutoSize = true;
+            this.lblPrecioPlacaBase.Location = new System.Drawing.Point(6, 160);
+            this.lblPrecioPlacaBase.Name = "lblPrecioPlacaBase";
+            this.lblPrecioPlacaBase.Size = new System.Drawing.Size(32, 24);
+            this.lblPrecioPlacaBase.TabIndex = 4;
+            this.lblPrecioPlacaBase.Text = "0€";
             // 
             // cbPlacaBase
             // 
@@ -400,7 +400,7 @@
             // gbSistemaOperativo
             // 
             this.gbSistemaOperativo.BackColor = System.Drawing.SystemColors.Control;
-            this.gbSistemaOperativo.Controls.Add(this.label1);
+            this.gbSistemaOperativo.Controls.Add(this.lblSistemaOperativo);
             this.gbSistemaOperativo.Controls.Add(this.rdWindowsPro);
             this.gbSistemaOperativo.Controls.Add(this.rdUbuntu);
             this.gbSistemaOperativo.Controls.Add(this.rdWindowsHome);
@@ -413,15 +413,15 @@
             this.gbSistemaOperativo.TabStop = false;
             this.gbSistemaOperativo.Text = "Sistema Operativo";
             // 
-            // label1
+            // lblSistemaOperativo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 183);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 24);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "0€";
+            this.lblSistemaOperativo.AutoSize = true;
+            this.lblSistemaOperativo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSistemaOperativo.Location = new System.Drawing.Point(6, 183);
+            this.lblSistemaOperativo.Name = "lblSistemaOperativo";
+            this.lblSistemaOperativo.Size = new System.Drawing.Size(32, 24);
+            this.lblSistemaOperativo.TabIndex = 7;
+            this.lblSistemaOperativo.Text = "0€";
             // 
             // rdWindowsPro
             // 
@@ -564,11 +564,11 @@
         private System.Windows.Forms.RadioButton rdFedora;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Label lblPrecioProcesador;
-        private System.Windows.Forms.Label v;
+        private System.Windows.Forms.Label lblPrecioPlacaBase;
         private System.Windows.Forms.Label lblPrecioTarjetaGrafica;
         private System.Windows.Forms.Label lblPrecioAlmacenamiento;
         private System.Windows.Forms.Label lblPrecioRAM;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblSistemaOperativo;
         private System.Windows.Forms.TextBox txtNombreOrdenador;
     }
 }

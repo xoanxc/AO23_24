@@ -119,15 +119,19 @@ namespace PROYECTO_FINAL
             Application.Exit();
         }
 
-        public string nombreEquipo = "";
-        private void lbOrdenadores_SelectedIndexChanged(object sender, EventArgs e)
+
+        public string nombreEquipo;
+        
+        public void lbOrdenadores_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Identificar el nombre del equipo con el de la Lista Equipos
+
+            //Obtener el nombre del equipo
             nombreEquipo = lbOrdenadores.SelectedItem.ToString();
 
             //Mostrar el formulario de vista detallada
-            VistaDetallada vistaDetallada = new VistaDetallada();   
-            vistaDetallada.Show();
+            VistaDetallada vistaDetallada = new VistaDetallada();
+            vistaDetallada.NombreEquipo = nombreEquipo; //Le paso el nombre del equipo a la variable del form VistaDetallada
+            vistaDetallada.Show();      
         }
     }
 }
