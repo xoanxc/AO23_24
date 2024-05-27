@@ -52,11 +52,17 @@
     <Compile Include="Configurador.Designer.cs">
       <DependentUpon>Configurador.cs</DependentUpon>
     </Compile>
-    <Compile Include="Inventario.cs">
+    <Compile Include="Componentes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Inventario.Designer.cs">
-      <DependentUpon>Inventario.cs</DependentUpon>
+    <Compile Include="Componentes.Designer.cs">
+      <DependentUpon>Componentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipos.Designer.cs">
+      <DependentUpon>Equipos.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -87,11 +93,14 @@
     <EmbeddedResource Include="Configurador.resx">
       <DependentUpon>Configurador.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Equipos.resx">
+      <DependentUpon>Equipos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GestionDeUsuarios.resx">
       <DependentUpon>GestionDeUsuarios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Inventario.resx">
-      <DependentUpon>Inventario.cs</DependentUpon>
+    <EmbeddedResource Include="Componentes.resx">
+      <DependentUpon>Componentes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>

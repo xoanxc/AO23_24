@@ -43,15 +43,6 @@ namespace PROYECTO_FINAL
                 //No hago nada
             }
 
-            //Creo el fichero de inventario
-            if (!File.Exists("inventario.txt"))
-            {
-                File.Create("inventario.txt").Close();
-            }
-            else 
-            { 
-                //No hago nada
-            }
 
             //Lectura de ficheros
             StreamReader sr = new StreamReader("usuarios.txt");
@@ -59,14 +50,6 @@ namespace PROYECTO_FINAL
             while ((linea = sr.ReadLine()) != null)
             {
                 usuarios.Add(linea);
-            }
-            sr.Close();
-
-            sr = new StreamReader("inventario.txt");
-            linea = "";
-            while ((linea = sr.ReadLine()) != null)
-            {
-                inventario.Add(linea);
             }
             sr.Close();
             

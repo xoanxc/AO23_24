@@ -55,6 +55,7 @@
             // lblProcesador
             // 
             this.lblProcesador.AutoSize = true;
+            this.lblProcesador.BackColor = System.Drawing.Color.Transparent;
             this.lblProcesador.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProcesador.Location = new System.Drawing.Point(509, 35);
             this.lblProcesador.Name = "lblProcesador";
@@ -83,6 +84,7 @@
             // lblTarjetaGrafica
             // 
             this.lblTarjetaGrafica.AutoSize = true;
+            this.lblTarjetaGrafica.BackColor = System.Drawing.Color.Transparent;
             this.lblTarjetaGrafica.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTarjetaGrafica.Location = new System.Drawing.Point(509, 147);
             this.lblTarjetaGrafica.Name = "lblTarjetaGrafica";
@@ -93,6 +95,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(509, 91);
             this.label1.Name = "label1";
@@ -103,6 +106,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(509, 259);
             this.label2.Name = "label2";
@@ -113,6 +117,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(509, 203);
             this.label3.Name = "label3";
@@ -123,6 +128,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(509, 315);
             this.label4.Name = "label4";
@@ -169,6 +175,7 @@
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
+            this.lblTotal.BackColor = System.Drawing.Color.Transparent;
             this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotal.Location = new System.Drawing.Point(508, 392);
             this.lblTotal.Name = "lblTotal";
@@ -225,6 +232,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::PROYECTO_FINAL.Properties.Resources.Background_1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(739, 434);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.pbTarjetaGrafica);

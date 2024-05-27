@@ -74,7 +74,7 @@
             // 
             // gbProcesador
             // 
-            this.gbProcesador.BackColor = System.Drawing.SystemColors.Control;
+            this.gbProcesador.BackColor = System.Drawing.Color.Transparent;
             this.gbProcesador.Controls.Add(this.lblPrecioProcesador);
             this.gbProcesador.Controls.Add(this.cbProcesadores);
             this.gbProcesador.Controls.Add(this.rdIntel);
@@ -134,6 +134,7 @@
             // 
             // gbPlacaBase
             // 
+            this.gbPlacaBase.BackColor = System.Drawing.Color.Transparent;
             this.gbPlacaBase.Controls.Add(this.lblPrecioPlacaBase);
             this.gbPlacaBase.Controls.Add(this.cbPlacaBase);
             this.gbPlacaBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -165,6 +166,7 @@
             // 
             // gbTarjetaGrafica
             // 
+            this.gbTarjetaGrafica.BackColor = System.Drawing.Color.Transparent;
             this.gbTarjetaGrafica.Controls.Add(this.lblPrecioTarjetaGrafica);
             this.gbTarjetaGrafica.Controls.Add(this.cbGraficas);
             this.gbTarjetaGrafica.Controls.Add(this.rdAMDG);
@@ -224,6 +226,7 @@
             // 
             // gbAlmacenamiento
             // 
+            this.gbAlmacenamiento.BackColor = System.Drawing.Color.Transparent;
             this.gbAlmacenamiento.Controls.Add(this.lblPrecioAlmacenamiento);
             this.gbAlmacenamiento.Controls.Add(this.rd2TB);
             this.gbAlmacenamiento.Controls.Add(this.rd1TB);
@@ -334,6 +337,7 @@
             // 
             // gbRAM
             // 
+            this.gbRAM.BackColor = System.Drawing.Color.Transparent;
             this.gbRAM.Controls.Add(this.lblPrecioRAM);
             this.gbRAM.Controls.Add(this.rd32GB);
             this.gbRAM.Controls.Add(this.rd16GB);
@@ -399,7 +403,7 @@
             // 
             // gbSistemaOperativo
             // 
-            this.gbSistemaOperativo.BackColor = System.Drawing.SystemColors.Control;
+            this.gbSistemaOperativo.BackColor = System.Drawing.Color.Transparent;
             this.gbSistemaOperativo.Controls.Add(this.lblSistemaOperativo);
             this.gbSistemaOperativo.Controls.Add(this.rdWindowsPro);
             this.gbSistemaOperativo.Controls.Add(this.rdUbuntu);
@@ -499,6 +503,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::PROYECTO_FINAL.Properties.Resources.Background_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(638, 508);
             this.Controls.Add(this.txtNombreOrdenador);

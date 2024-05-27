@@ -30,15 +30,11 @@ namespace PROYECTO_FINAL
         }
 
         //Metodo para sobreescrbir el fichero de usuarios
-        public void SobreescribirFichero()
+        public void SobreescribirFicheroUsuarios()
         {
-            StreamWriter sw = new StreamWriter("usuarios.txt");
-            for (int i = 0; i < PanelUsuarios.usuarios.Count; i++)
-            {
-                sw.WriteLine(PanelUsuarios.usuarios[i]);
-            }
-            sw.Close();
+            File.WriteAllLines("Usuarios.txt", PanelUsuarios.usuarios);
         }
+        
 
 
             
@@ -51,13 +47,17 @@ namespace PROYECTO_FINAL
 
         private void lbUsuarios_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //Eliminar el usuario seleccionado
+            //Eliminar el usuario seleccionado pero primero se le dice al usuario si esta seguro con un YesNo
             if (lbUsuarios.SelectedIndex != -1)
             {
-                PanelUsuarios.usuarios.RemoveAt(lbUsuarios.SelectedIndex);
-                lbUsuarios.Items.RemoveAt(lbUsuarios.SelectedIndex);
+                DialogResult dialogResult = MessageBox.Show("¿Estas seguro de que quieres eliminar este usuario?", "Eliminar usuario", MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    PanelUsuarios.usuarios.RemoveAt(lbUsuarios.SelectedIndex);
+                    lbUsuarios.Items.RemoveAt(lbUsuarios.SelectedIndex);
 
-                SobreescribirFichero();           
+                    SobreescribirFicheroUsuarios();
+                }
             }
         }
 
@@ -69,7 +69,7 @@ namespace PROYECTO_FINAL
                 PanelUsuarios.usuarios.Add(txtUsuario.Text + "," + txtContraseña.Text);
                 lbUsuarios.Items.Add(txtUsuario.Text);
 
-                SobreescribirFichero();
+                SobreescribirFicheroUsuarios();
 
                 //Limpiar los campos
                 txtUsuario.Text = "";

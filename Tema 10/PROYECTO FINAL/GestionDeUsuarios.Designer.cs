@@ -67,6 +67,7 @@
             // 
             // gbAñadirUsuario
             // 
+            this.gbAñadirUsuario.BackColor = System.Drawing.Color.Transparent;
             this.gbAñadirUsuario.Controls.Add(this.pbContraseña);
             this.gbAñadirUsuario.Controls.Add(this.pbUsuario);
             this.gbAñadirUsuario.Controls.Add(this.txtContraseña);
@@ -122,6 +123,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.lbUsuarios);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(290, 12);
@@ -135,6 +137,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::PROYECTO_FINAL.Properties.Resources.Background_0;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(556, 266);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbAñadirUsuario);
