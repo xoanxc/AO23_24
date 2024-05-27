@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\",
+  "WorkspaceRootPath": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|f:\\users\\xoana\\documents\\github\\ao23_24\\tema 10\\proyecto final\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|c:\\users\\xoan\\documents\\github\\ao23_24\\tema 10\\proyecto final\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|c:\\users\\xoan\\documents\\github\\ao23_24\\tema 10\\proyecto final\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|c:\\users\\xoan\\documents\\github\\ao23_24\\tema 10\\proyecto final\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -19,10 +27,35 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MenuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\MenuPrincipal.cs",
+              "RelativeToolTip": "MenuPrincipal.cs",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAuwKgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:14:56.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\MenuPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MenuPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:14:54.464Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Inventario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\Inventario.cs",
+              "DocumentMoniker": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\Inventario.cs",
               "RelativeDocumentMoniker": "Inventario.cs",
-              "ToolTip": "F:\\Users\\xoana\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\Inventario.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\xoan\\Documents\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\Inventario.cs [Dise\u00F1o]",
               "RelativeToolTip": "Inventario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T22:07:17.27Z",

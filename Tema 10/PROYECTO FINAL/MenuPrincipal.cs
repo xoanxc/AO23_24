@@ -1,15 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.IO;
-using System.Collections;
-using System.Security.Cryptography;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace PROYECTO_FINAL
 {
@@ -24,7 +17,7 @@ namespace PROYECTO_FINAL
         public void CargarComponentes()
         {
             //Cargar los componentes
-            
+
             //Si el fichero no esta creado lo creo
             if (!File.Exists("Componentes.txt"))
             {
@@ -35,7 +28,7 @@ namespace PROYECTO_FINAL
             {
                 //Si el fichero esta creado lo copio a una lista [LOS ARRAY VAN A ACABAR SIENDO MEJOR IDEA QUE LAS LISTAS] (Al menos para esto)
                 componentes = File.ReadAllLines("Componentes.txt").ToList();
-            }         
+            }
         }
 
         public void CargarEquipos()
@@ -121,7 +114,7 @@ namespace PROYECTO_FINAL
 
 
         public string nombreEquipo;
-        
+
         public void lbOrdenadores_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -142,16 +135,17 @@ namespace PROYECTO_FINAL
         private void button1_Click(object sender, EventArgs e)
         {
             //Eliminar la seleccion de los radiobuttons
-            ckAMD.Checked = false;
-            ckIntel.Checked = false;
-            ck8GB.Checked = false;
-            ck16GB.Checked = false;
-            ck32GB.Checked = false;
+            rdAMD.Checked = false;
+            rdIntel.Checked = false;
+            rd8GB.Checked = false;
+            rd16GB.Checked = false;
+            rd32GB.Checked = false;
             rd500.Checked = false;
             rd1000.Checked = false;
             rd1500.Checked = false;
             rd3000.Checked = false;
             rd5000.Checked = false;
+            ActualizarLista();
         }
 
         private void btnActualizar_Click(object sender, EventArgs e)
@@ -165,5 +159,64 @@ namespace PROYECTO_FINAL
             Inventario inventario = new Inventario();
             inventario.Show();
         }
+
+        //Funcion del filtro de los componentes
+        private void AplicarFiltro()
+        {
+            //Esto se aplica cada vez que se selecciona un checkbuton o radio buton
+            //Se limpia la lista
+            lbOrdenadores.Items.Clear();
+
+        }
+        private void rdAMD_CheckedChanged(object sender, EventArgs e)
+        {
+            AplicarFiltro();
+        }
+
+        private void rdIntel_CheckedChanged(object sender, EventArgs e)
+        {
+            AplicarFiltro();
+        }
+
+        private void rd8GB_CheckedChanged(object sender, EventArgs e)
+        {
+            AplicarFiltro();
+        }
+
+        private void rd16GB_CheckedChanged(object sender, EventArgs e)
+        {
+            AplicarFiltro();
+        }
+
+        private void rd32GB_CheckedChanged(object sender, EventArgs e)
+        {
+            AplicarFiltro();
+        }
+
+        private void rd500_CheckedChanged(object sender, EventArgs e)
+        {
+            AplicarFiltro();
+        }
+
+        private void rd1000_CheckedChanged(object sender, EventArgs e)
+        {
+            AplicarFiltro();
+        }
+
+        private void rd1500_CheckedChanged(object sender, EventArgs e)
+        {
+            AplicarFiltro();
+        }
+
+        private void rd3000_CheckedChanged(object sender, EventArgs e)
+        {
+            AplicarFiltro();
+        }
+
+        private void rd5000_CheckedChanged(object sender, EventArgs e)
+        {
+            AplicarFiltro();
+        }
     }
 }
+

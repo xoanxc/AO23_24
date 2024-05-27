@@ -35,10 +35,8 @@ namespace PROYECTO_FINAL
             {
                 File.Create("usuarios.txt").Close();
 
-                //Añado un usuario por defecto
-                StreamWriter sw = new StreamWriter("usuarios.txt");
-                sw.WriteLine("admin,admin");
-                sw.Close();
+                //añado un usuario por defecto  con file.writealltext
+                File.WriteAllText("usuarios.txt", "admin,admin"); //Tambien se puede con StreamWriter, pero esto es mas corto
             }
             else
             {

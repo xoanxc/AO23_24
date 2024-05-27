@@ -10,7 +10,6 @@ placa_base,amd,MSI B450M PRO VDH MAX,70
 procesador,amd,Ryzen 9 7950X3D,790
 placa_base,amd,Placa Base MSI MAG X670E TOMAHAWK WIFI,349
 grafica,nvidia,RTX 4090 FE,2200
-Aquí tienes más componentes modernos en el mismo formato:
 procesador,intel,i9 13900K,600
 procesador,intel,i7 13700K,420
 procesador,intel,i5 13600K,320
