@@ -1,0 +1,7 @@
+Hay varios usuarios añadidos por defecto (desde la app se pueden añadir y eliminar mas)
+
+Por defecto se crea el usuario
+Usuario: admin
+Contraseña: admin
+
+Todos los ficheros de guardado se encontran en la ubicacion por defecto con nombres intuitivos.

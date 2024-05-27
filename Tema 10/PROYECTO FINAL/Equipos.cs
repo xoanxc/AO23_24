@@ -48,6 +48,16 @@ namespace PROYECTO_FINAL
 
                     //Guardar los cambios
                     menu.GuardarEquipos();
+
+                    //Actualizar el listbox de MenuPrincipal
+                    MenuPrincipal menuPrincipal = new MenuPrincipal();
+                    menuPrincipal.CargarEquipos();
+
+                    //Actualizar el listbox de MenuPrincipal
+                    menuPrincipal.ActualizarLista();
+
+
+
                 }
             }
 

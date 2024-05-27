@@ -169,12 +169,15 @@ namespace PROYECTO_FINAL
                     MenuPrincipal menu = new MenuPrincipal();
                     menu.CargarComponentes();
 
+                    //Guardar los cambios
+                    menu.GuardarComponentes();
+
                     //Eliminar el componente seleccionado
                     menu.componentes.RemoveAt(lbComponentes.SelectedIndex);
                     lbComponentes.Items.RemoveAt(lbComponentes.SelectedIndex);
 
-                    //Guardar los cambios
-                    menu.GuardarComponentes();
+                    //Actualizar el listbox de MenuPrincipal
+                    menu.ActualizarLista();               
                 }
             }
         }

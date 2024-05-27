@@ -27,7 +27,6 @@ namespace PROYECTO_FINAL
         public static List<string> inventario = new List<string>();
 
 
-
         private void Form1_Load(object sender, EventArgs e)
         {
             //Creo el fichero de usuarios
@@ -40,19 +39,12 @@ namespace PROYECTO_FINAL
             }
             else
             {
-                //No hago nada
+                //No hago nada (Si, muy gracioso)
             }
 
 
-            //Lectura de ficheros
-            StreamReader sr = new StreamReader("usuarios.txt");
-            string linea = "";
-            while ((linea = sr.ReadLine()) != null)
-            {
-                usuarios.Add(linea);
-            }
-            sr.Close();
-            
+            //Leo el fichero de usuarios y lo guardo en la lista de usuarios (local)
+            usuarios = File.ReadAllLines("usuarios.txt").ToList();      
 
             //Ocultar el campo de contraseña
             txtContraseña.PasswordChar = '*';
@@ -90,7 +82,7 @@ namespace PROYECTO_FINAL
         }
         private void PanelUsuarios_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();        
+            Application.Exit();
         }
     }
 }
