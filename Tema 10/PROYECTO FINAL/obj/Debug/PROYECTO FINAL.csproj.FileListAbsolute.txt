@@ -25,7 +25,8 @@ C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO
 C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MenuPrincipal.resources
 C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.PanelUsuarios.resources
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.VistaDetallada.resources
-C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Inventario.resources
 C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.VistaDetallada.resources
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Componentes.resources
 F:\Users\xoana\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Equipos.resources
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Equipos.resources
+C:\Users\xoan\Documents\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Componentes.resources
