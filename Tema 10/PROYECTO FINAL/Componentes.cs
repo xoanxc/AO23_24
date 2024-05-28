@@ -52,15 +52,31 @@ namespace PROYECTO_FINAL
                 if (txtProcesador.Text.Contains(","))
                 {
                     MessageBox.Show("No se pueden introducir comas en el nombre del procesador");
+                    txtProcesador.Text = "";
                     return;
                 }
                 else if (!txtPrecioProcesador.Text.All(char.IsDigit))
                 {
                     MessageBox.Show("No se pueden introducir digitos en el precio");
+                    txtPrecioProcesador.Text = "";
                     return;
                 }
                 else
                 {
+
+                    //Compruebo si hay un producto con ese nombre
+                    for (int i = 0; i < menu.componentes.Count; i++)
+                    {
+                        string[] datos = menu.componentes[i].Split(',');
+                        if (datos[2] == txtProcesador.Text)
+                        {
+                            MessageBox.Show("Ya existe un componente con ese nombre");
+                            txtProcesador.Text = "";
+                            txtPrecioProcesador.Text = "";
+                            return;
+                        }
+                    }
+
                     if (rdAMD.Checked)
                     {
                         MessageBox.Show("Componente añadido correctamente");
@@ -89,18 +105,34 @@ namespace PROYECTO_FINAL
             }
             else
             {
+                
+
                 if (txtPlacaBase.Text.Contains(","))
                 {
                     MessageBox.Show("No se pueden introducir comas en el nombre de la placa base");
+                    txtPlacaBase.Text = "";
                     return;
                 }
                 else if (!txtPrecioPlaca.Text.All(char.IsDigit))
                 {
                     MessageBox.Show("No se pueden introducir digitos en el precio");
+                    txtPrecioPlaca.Text = "";
                     return;
                 }
                 else
                 {
+                    //Comprobar si ya existe un componente con ese nombre
+                    for (int i = 0; i < menu.componentes.Count; i++)
+                    {
+                        string[] datos = menu.componentes[i].Split(',');
+                        if (datos[2] == txtPlacaBase.Text)
+                        {
+                            MessageBox.Show("Ya existe un componente con ese nombre");
+                            txtPlacaBase.Text = "";
+                            txtPrecioPlaca.Text = "";
+                            return;
+                        }
+                    }
                     if (rdAMDP.Checked)
                     {
                         MessageBox.Show("Componente añadido correctamente");
@@ -132,15 +164,30 @@ namespace PROYECTO_FINAL
                 if (txtGrafica.Text.Contains(","))
                 {
                     MessageBox.Show("No se pueden introducir comas en el nombre de la tarjeta grafica");
+                    txtGrafica.Text = "";
                     return;
                 }
                 else if (!txtPrecioGrafica.Text.All(char.IsDigit))
                 {
                     MessageBox.Show("No se pueden introducir digitos en el precio");
+                    txtPrecioGrafica.Text = "";
                     return;
                 }
                 else
                 {
+                    //Comprobar si ya existe un componente con ese nombre
+                    for (int i = 0; i < menu.componentes.Count; i++)
+                    {
+                        string[] datos = menu.componentes[i].Split(',');
+                        if (datos[2] == txtGrafica.Text)
+                        {
+                            MessageBox.Show("Ya existe un componente con ese nombre");
+                            txtGrafica.Text = "";
+                            txtPrecioGrafica.Text = "";
+                            return;
+                        }
+                    }
+
                     if (rdAMDG.Checked)
                     {
                         MessageBox.Show("Componente añadido correctamente");

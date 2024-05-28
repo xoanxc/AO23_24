@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PROYECTO_FINAL
@@ -55,7 +48,7 @@ namespace PROYECTO_FINAL
                 {
                     //Hacer un split para separar por comas
                     string[] procesadoresIntel = menu.componentes[i].Split(',');
-                    cbProcesadores.Items.Add(procesadoresIntel[2]);           
+                    cbProcesadores.Items.Add(procesadoresIntel[2]);
                     marcaProcesador = procesadoresIntel[1];
                 }
             }
@@ -67,7 +60,7 @@ namespace PROYECTO_FINAL
                 {
                     //Hacer un split para separar por comas
                     string[] placasBaseIntel = menu.componentes[i].Split(',');
-                    cbPlacaBase.Items.Add(placasBaseIntel[2]);    
+                    cbPlacaBase.Items.Add(placasBaseIntel[2]);
                 }
             }
         }
@@ -83,7 +76,7 @@ namespace PROYECTO_FINAL
                 {
                     //Hacer un split para separar por comas
                     string[] procesadoresAMD = menu.componentes[i].Split(',');
-                    cbProcesadores.Items.Add(procesadoresAMD[2]);     
+                    cbProcesadores.Items.Add(procesadoresAMD[2]);
                     marcaProcesador = procesadoresAMD[1];
                 }
             }
@@ -95,7 +88,7 @@ namespace PROYECTO_FINAL
                 {
                     //Hacer un split para separar por comas
                     string[] placasBaseAMD = menu.componentes[i].Split(',');
-                    cbPlacaBase.Items.Add(placasBaseAMD[2]);          
+                    cbPlacaBase.Items.Add(placasBaseAMD[2]);
                 }
             }
         }
@@ -110,7 +103,7 @@ namespace PROYECTO_FINAL
                 {
                     //Hacer un split para separar por comas
                     string[] graficasAMD = menu.componentes[i].Split(',');
-                    cbGraficas.Items.Add(graficasAMD[2]);           
+                    cbGraficas.Items.Add(graficasAMD[2]);
                     marcaGrafica = graficasAMD[1];
                 }
             }
@@ -123,7 +116,7 @@ namespace PROYECTO_FINAL
             for (int i = 0; i < menu.componentes.Count; i++)
             {
                 if (menu.componentes[i].Contains("grafica,nvidia"))
-                {          
+                {
                     //Hacer un split para separar por comas
                     string[] graficasNvidia = menu.componentes[i].Split(',');
                     cbGraficas.Items.Add(graficasNvidia[2]);
@@ -182,7 +175,7 @@ namespace PROYECTO_FINAL
         }
 
         private void rdAMD_CheckedChanged(object sender, EventArgs e)
-        {   
+        {
             procesadoresAMD();
         }
         private void rdIntel_CheckedChanged(object sender, EventArgs e)
@@ -190,7 +183,7 @@ namespace PROYECTO_FINAL
             procesadoresIntel();
         }
         private void cbProcesadores_SelectedIndexChanged(object sender, EventArgs e)
-        {      
+        {
             actualizarPrecioProcesador();
             calcularPrecioTotal();
         }
@@ -200,11 +193,11 @@ namespace PROYECTO_FINAL
             calcularPrecioTotal();
         }
         private void rdAMDG_CheckedChanged(object sender, EventArgs e)
-        {       
+        {
             graficasAMD();
         }
         private void rdNvidia_CheckedChanged(object sender, EventArgs e)
-        {       
+        {
             graficasNvidia();
         }
         private void cbGraficas_SelectedIndexChanged(object sender, EventArgs e)
@@ -217,7 +210,7 @@ namespace PROYECTO_FINAL
         //Zona de selección de componentes simples (Duele no poder optimizarlo)
         private void rd8GB_CheckedChanged(object sender, EventArgs e)
         {
-            memoriaRAM = rd8GB.Text;      
+            memoriaRAM = rd8GB.Text;
             precioMemoriaRAM = 21;
             lblPrecioRAM.Text = precioMemoriaRAM.ToString() + "€";
             calcularPrecioTotal();
@@ -255,7 +248,7 @@ namespace PROYECTO_FINAL
             almacenamiento = rd1TB.Text;
             precioAlmacenamiento = 80;
             lblPrecioAlmacenamiento.Text = precioAlmacenamiento.ToString() + "€";
-            calcularPrecioTotal();         
+            calcularPrecioTotal();
         }
         private void rd2TB_CheckedChanged(object sender, EventArgs e)
         {
@@ -292,6 +285,37 @@ namespace PROYECTO_FINAL
             lblSistemaOperativo.Text = precioSistemaOperativo.ToString() + "€";
             calcularPrecioTotal();
         }
+        private void LimpiarCampos()
+        {
+            txtNombreOrdenador.Text = "";
+            txtPrecioTotal.Text = "";
+            cbProcesadores.Text = "";
+            cbPlacaBase.Text = "";
+            cbGraficas.Text = "";
+            rd8GB.Checked = false;
+            rd16GB.Checked = false;
+            rd32GB.Checked = false;
+            rd240GB.Checked = false;
+            rd500GB.Checked = false;
+            rd1TB.Checked = false;
+            rd2TB.Checked = false;
+            rdWindowsHome.Checked = false;
+            rdWindowsPro.Checked = false;
+            rdUbuntu.Checked = false;
+            rdFedora.Checked = false;
+            precioPlacaBase = 0;
+            precioProcesador = 0;
+            precioGrafica = 0;
+            precioMemoriaRAM = 0;
+            precioAlmacenamiento = 0;
+            precioSistemaOperativo = 0;
+            precioTotal = 0;
+            memoriaRAM = "";
+            almacenamiento = "";
+            sistemaOperativo = "";
+            marcaProcesador = "";
+            marcaGrafica = "";
+        }
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             if (txtPrecioTotal.Text == "" || cbProcesadores.Text == "" || cbPlacaBase.Text == "" || cbGraficas.Text == "" || memoriaRAM == "" || almacenamiento == "" || sistemaOperativo == "")
@@ -301,52 +325,31 @@ namespace PROYECTO_FINAL
             }
             else
             {
-                //Comprobar si el nombre del ordenador ya existe
-                for (int i = 0; i < menu.equipos.Count; i++)
+                if (txtNombreOrdenador.Text.Contains(","))
                 {
-                    string[] equipoNombre = menu.equipos[i].Split(',');
-                    if (txtNombreOrdenador.Text == equipoNombre[0])
-                    {
-                        MessageBox.Show("El nombre introducido ya esta en uso", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        return;
-                    }
+                    MessageBox.Show("No se pueden introducir comas en el nombre del ordenador", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtNombreOrdenador.Text = "";
+                    return;
                 }
+                else
+                {
+                    //Comprobar si el nombre del ordenador ya existe
+                    for (int i = 0; i < menu.equipos.Count; i++)
+                    {
+                        string[] equipoNombre = menu.equipos[i].Split(',');
+                        if (txtNombreOrdenador.Text == equipoNombre[0])
+                        {
+                            MessageBox.Show("El nombre introducido ya esta en uso", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
+                    }
 
-                //Guardar el equipo en la Lista de MenuPrincipal
-                menu.equipos.Add(txtNombreOrdenador.Text + "," + marcaProcesador + "," + cbProcesadores.Text + "," + cbPlacaBase.Text + "," + marcaGrafica + "," + cbGraficas.Text + "," + memoriaRAM + "," + almacenamiento + "," + sistemaOperativo + "," + precioTotal);
-                menu.GuardarEquipos();
-                MessageBox.Show("Equipo guardado correctamente", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                
-                //Limpiar los campos (NO PUEDO OPTIMIZARLO)
-                txtNombreOrdenador.Text = "";
-                txtPrecioTotal.Text = "";
-                cbProcesadores.Text = "";
-                cbPlacaBase.Text = "";
-                cbGraficas.Text = "";
-                rd8GB.Checked = false;
-                rd16GB.Checked = false;
-                rd32GB.Checked = false;
-                rd240GB.Checked = false;
-                rd500GB.Checked = false;
-                rd1TB.Checked = false;
-                rd2TB.Checked = false;
-                rdWindowsHome.Checked = false;
-                rdWindowsPro.Checked = false;
-                rdUbuntu.Checked = false;
-                rdFedora.Checked = false;
-                precioPlacaBase = 0;
-                precioProcesador = 0;
-                precioGrafica = 0;
-                precioMemoriaRAM = 0;
-                precioAlmacenamiento = 0;
-                precioSistemaOperativo = 0;
-                precioTotal = 0;
-                memoriaRAM = "";
-                almacenamiento = "";
-                sistemaOperativo = "";
-                marcaProcesador = "";
-                marcaGrafica = "";             
+                    //Guardar el equipo en la Lista de MenuPrincipal
+                    menu.equipos.Add(txtNombreOrdenador.Text + "," + marcaProcesador + "," + cbProcesadores.Text + "," + cbPlacaBase.Text + "," + marcaGrafica + "," + cbGraficas.Text + "," + memoriaRAM + "," + almacenamiento + "," + sistemaOperativo + "," + precioTotal);
+                    menu.GuardarEquipos();
+                    MessageBox.Show("Equipo guardado correctamente", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LimpiarCampos(); //Función EXCLUSIVA solo para esta ocasión
+                }
             }
         }
     }

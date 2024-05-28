@@ -66,14 +66,40 @@ namespace PROYECTO_FINAL
             //Añadir un usuario
             if (txtUsuario.Text != "" && txtContraseña.Text != "")
             {
-                PanelUsuarios.usuarios.Add(txtUsuario.Text + "," + txtContraseña.Text);
-                lbUsuarios.Items.Add(txtUsuario.Text);
+                //Comprobar si el usuario ya existe
+                for (int i = 0; i < PanelUsuarios.usuarios.Count; i++)
+                {
+                    string[] usuario = PanelUsuarios.usuarios[i].Split(',');
+                    if (usuario[0] == txtUsuario.Text)
+                    {
+                        MessageBox.Show("El usuario ya existe");
+                        txtUsuario.Text = "";
+                        txtContraseña.Text = "";
+                        return;
+                    }
+                }
 
-                SobreescribirFicheroUsuarios();
+                if (txtUsuario.Text.Contains(","))
+                {
+                    MessageBox.Show("No se pueden introducir comas en el nombre de usuario");
+                    //Limpiar los campos
+                    txtUsuario.Text = "";
+                    txtContraseña.Text = "";
+                    return;
+                }
+                else
+                {
+                    MessageBox.Show("Usuario añadido correctamente");
+                    PanelUsuarios.usuarios.Add(txtUsuario.Text + "," + txtContraseña.Text);
+                    lbUsuarios.Items.Add(txtUsuario.Text);
 
-                //Limpiar los campos
-                txtUsuario.Text = "";
-                txtContraseña.Text = "";
+                    SobreescribirFicheroUsuarios();
+
+                    //Limpiar los campos
+                    txtUsuario.Text = "";
+                    txtContraseña.Text = "";
+                }
+                
             }
         }
     }

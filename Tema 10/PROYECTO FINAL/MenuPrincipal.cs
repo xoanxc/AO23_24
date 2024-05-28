@@ -112,14 +112,36 @@ namespace PROYECTO_FINAL
 
         public void lbOrdenadores_SelectedIndexChanged(object sender, EventArgs e)
         {
+            try
+            {
+                // Verificar si hay un elemento seleccionado en el ListBox
+                if (lbOrdenadores.SelectedItem != null)
+                {
+                    // Obtener el nombre del equipo
+                    string nombreEquipo = lbOrdenadores.SelectedItem.ToString();
 
-            //Obtener el nombre del equipo
-            nombreEquipo = lbOrdenadores.SelectedItem.ToString();
+                    // Mostrar el formulario de vista detallada
+                    VistaDetallada vistaDetallada = new VistaDetallada();
+                    vistaDetallada.NombreEquipo = nombreEquipo; // Pasar el nombre del equipo a la variable del form VistaDetallada
+                    vistaDetallada.Show();
+                }
+                else
+                {
+                    // Manejar el caso en que no haya ningún elemento seleccionado
+                    MessageBox.Show("Por favor, seleccione un equipo de la lista.");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Opción: mostrar el mensaje de error para depuración
+                MessageBox.Show("Se produjo un error: " + ex.Message); //Muestra el error (IRROMPIBLE, ROBUSTO)
 
-            //Mostrar el formulario de vista detallada
-            VistaDetallada vistaDetallada = new VistaDetallada();
-            vistaDetallada.NombreEquipo = nombreEquipo; //Le paso el nombre del equipo a la variable del form VistaDetallada
-            vistaDetallada.Show();
+                // Recargar los equipos
+                CargarEquipos();
+                ActualizarLista();
+                return;
+            }
+
         }
 
         private void button1_Click(object sender, EventArgs e)
