@@ -41,6 +41,8 @@ namespace PROYECTO_FINAL
         {
             cbProcesadores.Items.Clear();
             cbPlacaBase.Items.Clear();
+            cbProcesadores.Text == ""; //Corrección 09/09/2024 a las 5:45 (que se note el trabajo duro)
+            cbPlacaBase.Text == ""; //Esto tambien
             //Recorrer la lista de componentes y añadir los procesadores al combobox
             for (int i = 0; i < menu.componentes.Count; i++)
             {
@@ -69,6 +71,8 @@ namespace PROYECTO_FINAL
         {
             cbProcesadores.Items.Clear();
             cbPlacaBase.Items.Clear();
+            cbProcesadores.Text == ""; //Aquí lo mismo
+            cbPlacaBase.Text == ""; //Hace falta decirlo?
             //Recorrer la lista de componentes y añadir los procesadores al combobox
             for (int i = 0; i < menu.componentes.Count; i++)
             {
@@ -176,7 +180,7 @@ namespace PROYECTO_FINAL
 
         private void rdAMD_CheckedChanged(object sender, EventArgs e)
         {
-            procesadoresAMD();
+            procesadoresAMD();       
         }
         private void rdIntel_CheckedChanged(object sender, EventArgs e)
         {
