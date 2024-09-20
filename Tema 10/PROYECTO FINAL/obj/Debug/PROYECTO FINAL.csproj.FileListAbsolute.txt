@@ -46,3 +46,16 @@ F:\Users\xoana\Downloads\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csproj.Generate
 F:\Users\xoana\Downloads\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csproj.CoreCompileInputs.cache
 F:\Users\xoana\Downloads\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.exe
 F:\Users\xoana\Downloads\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.pdb
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csproj.AssemblyReference.cache
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Configurador.resources
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Equipos.resources
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.GestionDeUsuarios.resources
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Componentes.resources
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MenuPrincipal.resources
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.PanelUsuarios.resources
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Properties.Resources.resources
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.VistaDetallada.resources
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csproj.GenerateResource.cache
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csproj.CoreCompileInputs.cache
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.exe
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.pdb
