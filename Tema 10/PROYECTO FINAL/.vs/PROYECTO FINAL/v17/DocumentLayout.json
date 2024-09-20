@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:configurador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|c:\\users\\xoana\\documentos\\github\\ao23_24\\tema 10\\proyecto final\\componentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|C:\\Users\\xoana\\Documentos\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\configurador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:configurador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|C:\\Users\\xoana\\Documentos\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\componentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:componentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|C:\\Users\\xoana\\Documentos\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\componentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:componentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|C:\\Users\\xoana\\Documentos\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\configurador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|solutionrelative:configurador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{390123B9-71A8-49B8-A754-3715738FD112}|PROYECTO FINAL.csproj|C:\\Users\\xoana\\Documentos\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\panelusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -52,14 +52,14 @@
               "RelativeDocumentMoniker": "Configurador.cs",
               "ToolTip": "C:\\Users\\xoana\\Documentos\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\Configurador.cs",
               "RelativeToolTip": "Configurador.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAA9wCsAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowCsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T10:54:58.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Componentes.cs",
               "DocumentMoniker": "C:\\Users\\xoana\\Documentos\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\Componentes.cs",
               "RelativeDocumentMoniker": "Componentes.cs",
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Configurador.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\xoana\\Documentos\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\Configurador.cs",
               "RelativeDocumentMoniker": "Configurador.cs",
@@ -108,13 +108,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Componentes.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\xoana\\Documentos\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\Componentes.cs",
               "RelativeDocumentMoniker": "Componentes.cs",
-              "ToolTip": "F:\\Users\\xoana\\Downloads\\PROYECTO FINAL\\Componentes.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\xoana\\Documentos\\GitHub\\AO23_24\\Tema 10\\PROYECTO FINAL\\Componentes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Componentes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T18:14:42.705Z"
+              "WhenOpened": "2024-05-27T18:14:42.705Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",

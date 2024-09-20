@@ -59,3 +59,6 @@ C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYEC
 C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csproj.CoreCompileInputs.cache
 C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.exe
 C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.pdb
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\bin\Debug\PROYECTO FINAL.exe.config
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\bin\Debug\PROYECTO FINAL.exe
+C:\Users\xoana\Documentos\GitHub\AO23_24\Tema 10\PROYECTO FINAL\bin\Debug\PROYECTO FINAL.pdb
