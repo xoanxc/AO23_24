@@ -9,9 +9,9 @@ Tema 2: Introducción a .Net
 
 Tema 3: Variables
 
-Tema 4: Operadores y Sentencias de selección I
+Tema 4: Operadores y Sentencias de selección
 
-Tema 5: Sentencias de repetición II
+Tema 5: Sentencias de repetición
 
 Tema 6: Arrays
 
